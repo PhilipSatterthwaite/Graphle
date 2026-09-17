@@ -6,7 +6,6 @@ const tooltip = $("tooltip");
 
 let data, definitions;
 let peaks = {};       // word -> peak uses per billion words, kept for the minimum-peak rule
-let shapes = {};      // word -> curve shape key (see SHAPES)
 let rules = rulesFromQuery(location.search);
 let roundIndex = 0;   // rounds started under the current rules; hand-picked words only apply to the first
 let round;            // { words: graph order, shuffled: bank order }
@@ -59,26 +58,20 @@ function correlation(x, y) {
   return num / (Math.sqrt(dx * dy) || 1);
 }
 
-// Sort a curve into one of the SHAPES buckets from its normalized profile.
-function classifyShape(values) {
-  const peak = Math.max(...values);
-  if (!peak) return "flat";
-  const p = values.map((v) => v / peak);
-  const n = p.length;
-  const avg = (arr) => arr.reduce((a, b) => a + b, 0) / arr.length;
-  const peakAt = p.indexOf(1) / (n - 1);
-  const start = avg(p.slice(0, 15));
-  const end = avg(p.slice(-15));
-  const middleLow = Math.min(...p.slice(Math.round(n * 0.25), Math.round(n * 0.75)));
-  const yearsNearPeak = p.filter((v) => v >= 0.5).length;
-
-  if (avg(p) > 0.55) return "flat";
-  if (peakAt > 0.85 && start < 0.3) return "ascending";
-  if (peakAt < 0.15 && end < 0.3) return "descending";
-  if (start > 0.55 && end > 0.55 && middleLow < 0.55) return "bowl";
-  if (peakAt > 0.15 && peakAt < 0.85 && start < 0.5 && end < 0.5) return yearsNearPeak < 25 ? "spike" : "dome";
-  return "irregular";
+// Shape similarity between two words, as R². Correlation ignores height, so this
+// compares shapes only. Mirror-image curves (one rising, one falling) are as
+// different as curves get, so negative correlation counts as no similarity.
+function shapeR2(a, b) {
+  const c = correlation(data.series[a], data.series[b]);
+  return c > 0 ? c * c : 0;
 }
+
+const worstR2 = (words) => {
+  let worst = 0;
+  for (let i = 0; i < words.length; i++)
+    for (let j = i + 1; j < words.length; j++) worst = Math.max(worst, shapeR2(words[i], words[j]));
+  return worst;
+};
 
 // How far apart the round's peak magnitudes are — bigger is more varied.
 function magnitudeSpread(words) {
@@ -92,38 +85,35 @@ function wordPool() {
   return pool.length >= 20 ? pool : all;
 }
 
-// One word per shape, so every graph in the round looks different.
-function pickWordsByShape(n) {
-  const pool = wordPool();
-  const byShape = {};
-  for (const w of pool) (byShape[shapes[w]] ||= []).push(w);
-  const usable = SHAPES.map((s) => s.key).filter((k) => byShape[k]?.length);
-  if (usable.length < n) return null;
-  let best = null;
-  for (let attempt = 0; attempt < 40; attempt++) {
-    const words = shuffle(usable).slice(0, n).map((k) => byShape[k][Math.floor(Math.random() * byShape[k].length)]);
-    const spread = magnitudeSpread(words);
-    if (!best || spread > best.spread) best = { words, spread };
-    if (spread >= 10) break;   // clearly different heights; good enough
+// Build a round by repeatedly adding the sampled word that is least like the
+// words chosen so far (farthest-point selection on shape similarity).
+function pickSpreadOut(n, pool, sample = 250) {
+  const words = [pool[Math.floor(Math.random() * pool.length)]];
+  while (words.length < n) {
+    let best = null;
+    for (let i = 0; i < sample; i++) {
+      const candidate = pool[Math.floor(Math.random() * pool.length)];
+      if (words.includes(candidate)) continue;
+      const worst = Math.max(...words.map((w) => shapeR2(w, candidate)));
+      if (!best || worst < best.worst) best = { candidate, worst };
+    }
+    if (!best) break;
+    words.push(best.candidate);
   }
-  return best.words;
+  return words;
 }
 
 function pickWords(n) {
-  if (rules.distinctShapes) {
-    const picked = pickWordsByShape(n);
-    if (picked) return picked;
-  }
-  const all = wordPool();
-  let best;
-  for (let attempt = 0; attempt < 200; attempt++) {
-    const words = shuffle(all).slice(0, n);
-    const s = words.map((w) => data.series[w]);
-    let maxCorr = -1;
-    for (let i = 0; i < s.length; i++)
-      for (let j = i + 1; j < s.length; j++) maxCorr = Math.max(maxCorr, correlation(s[i], s[j]));
-    if (!best || maxCorr < best.maxCorr) best = { words, maxCorr };
-    if (maxCorr < 0.85) break;
+  const pool = wordPool();
+  if (rules.maxR2 >= 1) return shuffle(pool).slice(0, n);   // no limit: plain random
+  let best = null;
+  // A handful of attempts: keep the first round that meets the similarity cap
+  // with varied peak heights, else the least similar round seen.
+  for (let attempt = 0; attempt < 12; attempt++) {
+    const words = pickSpreadOut(n, pool);
+    const r2 = worstR2(words);
+    if (!best || r2 < best.r2) best = { words, r2 };
+    if (r2 <= rules.maxR2 && magnitudeSpread(words) >= 3) return words;
   }
   return best.words;
 }
@@ -403,7 +393,7 @@ function renderRulesSummary() {
   ];
   if (rules.logic) parts.push("logic helper on");
   if (rules.minPeak !== DEFAULT_RULES.minPeak) parts.push(`peak ≥ ${formatPeak(rules.minPeak)}`);
-  if (rules.distinctShapes) parts.push("different shapes");
+  if (rules.maxR2 !== DEFAULT_RULES.maxR2) parts.push(`graphs ≤ R² ${formatR2(rules.maxR2)}`);
   if (rules.words) parts.push(roundIndex <= 1 ? "custom puzzle" : "custom puzzle done, now random");
   $("rules-summary").textContent = parts.join(" · ");
 }
@@ -654,13 +644,12 @@ $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=21").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=23").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {
       peaks[w] = max;
       ngrams.series[w] = q.map((p) => (p * max) / 100);
-      shapes[w] = classifyShape(ngrams.series[w]);
     }
     data = ngrams;
     definitions = defs;

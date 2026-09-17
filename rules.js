@@ -15,7 +15,7 @@ const DEFAULT_RULES = {
   // Wrong guesses needed to unlock each hint (0 = from the start), or null for off.
   hints: { definitions: 1, magnitude: 2, reveal: 3, check: null },
   minPeak: 50,        // random rounds only use words peaking at least this high (per billion words)
-  distinctShapes: false, // give every graph in a round a different curve shape
+  maxR2: 0.3,         // cap on how similar any two graphs in a round may be (R², shape only)
   words: null,        // hand-picked words for the first round, or null for random
 };
 
@@ -24,16 +24,13 @@ const MAX_GUESS_SETTING = 10;
 // already excludes anything below 50.
 const MIN_PEAK_STEPS = [50, 75, 100, 150, 250, 400, 600, 1000, 1500, 2500, 4000, 6000, 10000, 20000];
 
-// Curve shapes a word's graph can take, used by the "different shapes" rule.
-const SHAPES = [
-  { key: "ascending", label: "Rising", desc: "Low for most of history, high at the end." },
-  { key: "descending", label: "Falling", desc: "High early, fading away." },
-  { key: "dome", label: "Dome", desc: "Rises to a peak in the middle, then falls." },
-  { key: "spike", label: "Spike", desc: "A short, sharp burst." },
-  { key: "bowl", label: "Bowl", desc: "High at both ends, a dip in the middle." },
-  { key: "flat", label: "Steady", desc: "Roughly level throughout." },
-  { key: "irregular", label: "Wavy", desc: "Several ups and downs." },
-];
+// Similarity caps for a round's graphs, as R² between curve shapes.
+// 1 means no cap; smaller numbers force more clearly different curves.
+const R2_STEPS = [1, 0.7, 0.5, 0.3, 0.2, 0.1, 0.05, 0.02];
+
+function formatR2(v) {
+  return v === 1 ? "no limit" : v.toFixed(2).replace(/0$/, "");
+}
 
 function formatPeak(v) {
   return v >= 1000 ? (v / 1000) + "k" : String(v);
@@ -61,7 +58,8 @@ function rulesFromQuery(search) {
   if (Number.isInteger(g) && g >= 1 && g <= MAX_GUESS_SETTING) r.guesses = g;
   if (p.get("fb") === "exact") r.feedback = "exact";
   if (p.get("lg") === "1") r.logic = true;
-  if (p.get("sh") === "1") r.distinctShapes = true;
+  const r2 = Number(p.get("r2"));
+  if (R2_STEPS.includes(r2)) r.maxR2 = r2;
   const mp = Number(p.get("mp"));
   if (Number.isFinite(mp) && mp >= MIN_PEAK_STEPS[0]) r.minPeak = mp;
   if (p.has("h")) {
@@ -88,7 +86,7 @@ function rulesToQuery(r) {
   p.set("fb", r.feedback);
   if (r.logic) p.set("lg", "1");
   if (r.minPeak !== DEFAULT_RULES.minPeak) p.set("mp", r.minPeak);
-  if (r.distinctShapes) p.set("sh", "1");
+  if (r.maxR2 !== DEFAULT_RULES.maxR2) p.set("r2", r.maxR2);
   p.set("h", HINT_TYPES.filter((h) => r.hints[h.key] !== null).map((h) => h.code + r.hints[h.key]).join(","));
   if (r.words) p.set("p", encodeWords(r.words));
   return "?" + p.toString().replace(/%2C/g, ",");

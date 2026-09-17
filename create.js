@@ -88,16 +88,7 @@ function renderCreator() {
           renderCreator();
         }))),
     section("Word frequency", "Random rounds only draw words whose graph peaks at least this high (uses per billion words). Higher means more familiar words.", renderPeakSlider()),
-    section("Graph shapes", null,
-      segmented([[false, "Any mix"], [true, "All different"]], draft.distinctShapes, (on) => {
-        draft.distinctShapes = on;
-        renderCreator();
-      }),
-      el("p", { className: "panel-hint" },
-        draft.distinctShapes
-          ? "Every graph in a round gets a different curve shape, and the game favours rounds whose peaks differ in size too."
-          : "Rounds are drawn at random, so two graphs can have similar shapes."),
-      renderShapeKey()),
+    section("Graph variety", "How alike two graphs in a round may look, measured as R² between their curve shapes (height ignored). Lower means more obviously different curves.", renderR2Slider()),
     section("Feedback after each guess", null,
       segmented([["count", "How many are right"], ["exact", "Which ones are right"]], draft.feedback, (fb) => {
         draft.feedback = fb;
@@ -124,13 +115,30 @@ function renderCreator() {
   );
 }
 
-function renderShapeKey() {
-  const list = el("div", { className: "shape-key" });
-  for (const s of SHAPES) {
-    const count = Object.keys(data.series).filter((w) => shapes[w] === s.key && peaks[w] >= draft.minPeak).length;
-    list.append(el("span", { className: "shape-chip", title: s.desc, textContent: `${s.label} · ${count}` }));
-  }
-  return list;
+function renderR2Slider() {
+  const index = Math.max(0, R2_STEPS.indexOf(draft.maxR2));
+  const slider = el("input", { type: "range", className: "peak-slider", min: 0, max: R2_STEPS.length - 1, step: 1, value: index });
+  const label = el("span", { className: "peak-value" });
+  const sample = el("p", { className: "panel-hint" });
+  const update = () => {
+    label.textContent = draft.maxR2 === 1 ? "No limit — any graphs" : `Max R² ${formatR2(draft.maxR2)}`;
+    // Show what a few rounds actually achieve under this setting.
+    const saved = rules.maxR2, savedMin = rules.minPeak;
+    rules.maxR2 = draft.maxR2;
+    rules.minPeak = draft.minPeak;
+    const runs = Array.from({ length: 5 }, () => worstR2(pickWords(draft.n)));
+    rules.maxR2 = saved;
+    rules.minPeak = savedMin;
+    const worst = Math.max(...runs).toFixed(3);
+    sample.textContent = `Sample of 5 rounds: worst pair R² up to ${worst}.`;
+  };
+  slider.addEventListener("input", () => {
+    draft.maxR2 = R2_STEPS[Number(slider.value)];
+    update();
+    renderActions(true);
+  });
+  update();
+  return el("div", {}, el("div", { className: "field" }, slider, label), sample);
 }
 
 function renderPeakSlider() {
