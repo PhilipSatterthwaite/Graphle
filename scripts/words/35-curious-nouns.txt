@@ -2,10 +2,8 @@
 # word | part of speech | definition
 aftermath | noun | The consequences or aftereffects of a significant unpleasant event.
 airhead | noun | A silly or foolish person.
-ampersand | noun | The sign &, standing for "and."
 apocrypha | noun | Writings or statements of doubtful authenticity.
 armageddon | noun | A final battle between good and evil; a catastrophic conflict.
-asterisk | noun | A symbol (*) used as a pointer to an annotation.
 backlash | noun | A strong negative reaction by a large number of people.
 backwater | noun | A place or condition in which no development or progress is occurring.
 bagatelle | noun | A game of rolling balls on a board; a thing of little importance.
