@@ -6,7 +6,7 @@ const HINTS = [
   { key: "magnitude", label: "Y-axis scale", after: 2 },
 ];
 const LETTERS = "ABCDE";
-const W = 340, H = 190, PAD = { l: 40, r: 10, t: 10, b: 24 };
+const W = 240, H = 200, PAD = { l: 34, r: 8, t: 10, b: 24 };
 
 const $ = (id) => document.getElementById(id);
 const tooltip = $("tooltip");
@@ -231,7 +231,7 @@ function renderCharts() {
 
     const slot = el("div", { className: "slot" + (assignments[gi] ? " filled" : "") });
     if (status === "lost" && !locked[gi]) slot.textContent = `It was: ${word}`;
-    else slot.textContent = assignments[gi] ? (locked[gi] ? "✓ " : "") + assignments[gi] : "tap to place a word";
+    else slot.textContent = assignments[gi] ? (locked[gi] ? "✓ " : "") + assignments[gi] : "tap to place";
     if (assignments[gi] && !locked[gi] && status === "playing") {
       slot.draggable = true;
       slot.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", assignments[gi]));
@@ -328,7 +328,7 @@ function submit() {
 $("submit").addEventListener("click", submit);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=2").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=3").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     data = ngrams;
     definitions = defs;

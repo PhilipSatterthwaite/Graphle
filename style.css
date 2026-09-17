@@ -39,7 +39,7 @@ body {
   color: var(--text);
   font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
 }
-header, main, footer { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+header, main, footer { max-width: 1500px; margin: 0 auto; padding: 0 16px; }
 header { padding-top: 28px; text-align: center; }
 h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
 .tagline { margin: 2px 0 10px; color: var(--text-2); }
@@ -93,7 +93,12 @@ h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
   .definitions dd { margin-bottom: 6px; }
 }
 
-.charts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 14px; }
+/* All graphs sit in one row; on narrow screens the row scrolls sideways. */
+.charts {
+  display: grid; grid-template-columns: repeat(5, minmax(180px, 1fr)); gap: 12px;
+  overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px;
+}
+.charts > .card { scroll-snap-align: start; }
 .card {
   background: var(--surface); border: 2px solid var(--border); border-radius: 12px;
   padding: 10px 10px 10px; cursor: pointer; transition: border-color .15s;
