@@ -192,6 +192,26 @@ function logicCheck(past) {
   return assignments.every(Boolean) ? "fits" : "open";
 }
 
+// Take every word off the graphs except ones known to be correct.
+function clearBoard() {
+  if (status !== "playing") return;
+  assignments = assignments.map((a, gi) => (locked[gi] ? a : null));
+  lastWrong.clear();
+  selectedWord = null;
+  render();
+}
+
+// Refill the graphs from a past guess. Locked graphs keep their known word, and a
+// word already locked elsewhere is left off rather than duplicated.
+function loadGuess(index) {
+  if (status !== "playing") return;
+  const lockedWords = round.words.filter((w, gi) => locked[gi]);
+  assignments = guesses[index].guess.map((w, gi) => (locked[gi] ? round.words[gi] : lockedWords.includes(w) ? null : w));
+  lastWrong.clear();
+  selectedWord = null;
+  render();
+}
+
 const sameAsPastGuess = () => guesses.some((h) => h.guess.every((w, gi) => w === assignments[gi]));
 
 // ---- Hints --------------------------------------------------------------
@@ -270,6 +290,9 @@ function renderBank() {
     b.disabled = status !== "playing" || isLocked;
     b.draggable = !b.disabled;
     b.addEventListener("click", () => {
+      // With only one open graph left, tapping an unplaced word drops it straight in.
+      const open = assignments.map((a, gi) => gi).filter((gi) => !assignments[gi] && !locked[gi]);
+      if (at < 0 && open.length === 1) return place(open[0], w);
       selectedWord = selectedWord === w ? null : w;
       render();
     });
@@ -320,6 +343,11 @@ function renderStatus() {
     const row = el("tr", {}, el("td", { className: "n", textContent: i + 1 }));
     const logic = showLogic ? logicCheck(h) : null;
     if (logic) row.className = "logic-" + logic;
+    if (status === "playing") {
+      row.classList.add("loadable");
+      row.title = "Click to put this guess back on the graphs";
+      row.addEventListener("click", () => loadGuess(i));
+    }
     h.guess.forEach((w, gi) => {
       const cell = el("td", { textContent: w });
       if (rules.feedback === "exact") cell.className = w === round.words[gi] ? "ok" : "bad";
@@ -398,6 +426,8 @@ function render() {
   const full = assignments.every(Boolean);
   const repeat = status === "playing" && full && sameAsPastGuess();
   $("submit").hidden = status !== "playing";
+  $("clear").hidden = status !== "playing";
+  $("clear").disabled = !assignments.some((a, gi) => a && !locked[gi]);
   $("submit").disabled = !full || repeat;
   const conflicts = rules.logic && status === "playing" ? guesses.map((h, i) => (logicCheck(h) === "conflicts" ? "#" + (i + 1) : null)).filter(Boolean) : [];
   $("submit-note").textContent = repeat
@@ -493,6 +523,7 @@ function showTab(name) {
 for (const b of document.querySelectorAll(".tab")) b.addEventListener("click", () => showTab(b.dataset.tab));
 $("edit-rules").addEventListener("click", () => showTab("create"));
 $("submit").addEventListener("click", submit);
+$("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 // Dropping a placed word back on the word bank takes it off its graph.
 $("words").addEventListener("dragover", (e) => e.preventDefault());
