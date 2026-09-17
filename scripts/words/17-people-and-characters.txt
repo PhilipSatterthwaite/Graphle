@@ -9,7 +9,6 @@ archbishop | noun | The chief bishop responsible for an archdiocese.
 aviator | noun | A pilot, especially in the early days of aviation.
 aviatrix | noun | A female pilot.
 bachelor | noun | An unmarried man; a person holding a first university degree.
-bandleader | noun | A person who leads a musical band.
 bandit | noun | A robber or outlaw belonging to a gang.
 bartender | noun | A person who mixes and serves drinks at a bar.
 beachcomber | noun | A person who searches beaches for articles of value.
@@ -164,3 +163,4 @@ whiz | noun | A person who is extremely clever at something.
 windbag | noun | A person who talks at length but says little of value.
 wiseacre | noun | A person with an affectation of wisdom or knowledge.
 wrangler | noun | A person in charge of horses or other livestock on a ranch.
+

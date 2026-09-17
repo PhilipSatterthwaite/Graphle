@@ -36,7 +36,6 @@ ethics | noun | Moral principles that govern a person's behavior.
 etymology | noun | The study of the origin of words.
 exorcist | noun | A person who expels evil spirits.
 fatalism | noun | The belief that all events are predetermined and inevitable.
-flatearther | noun | A person who believes the earth is flat (usually "flat-earther").
 freshman | noun | A first-year student at a university, college, or high school.
 genealogy | noun | A line of descent traced from an ancestor; the study of family histories.
 geometry | noun | The branch of mathematics concerned with shapes and space.
@@ -51,7 +50,6 @@ horoscope | noun | A forecast of a person's future based on the positions of the
 hymn | noun | A religious song of praise.
 idolatry | noun | The worship of idols; extreme admiration.
 inquisition | noun | A period of prolonged and intensive questioning; the Catholic tribunal for suppressing heresy.
-karmic | adjective | Relating to or characteristic of karma.
 latin | noun | The language of ancient Rome.
 lexicon | noun | The vocabulary of a person, language, or branch of knowledge.
 logic | noun | Reasoning conducted according to strict principles of validity.
@@ -115,7 +113,7 @@ tutor | noun | A private teacher.
 utilitarianism | noun | The doctrine that actions are right if they are useful or benefit a majority.
 valedictorian | noun | A student who delivers the farewell speech at a graduation ceremony.
 vicar | noun | A priest in charge of a parish.
-witchhunt | noun | A campaign directed against a person or group holding unorthodox views (usually "witch hunt").
 worship | noun | The feeling or expression of reverence and adoration for a deity.
 zen | noun | A school of Buddhism emphasizing meditation; calm and relaxed.
 zodiac | noun | A belt of the heavens divided into twelve astrological signs.
+

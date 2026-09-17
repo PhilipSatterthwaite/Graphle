@@ -154,3 +154,4 @@ wormwood | noun | A woody shrub with a bitter aromatic taste, used in absinthe.
 yam | noun | The starchy tuber of a tropical climbing plant.
 yucca | noun | A plant with stiff sword-like leaves.
 zinnia | noun | A plant with bright showy flowers.
+

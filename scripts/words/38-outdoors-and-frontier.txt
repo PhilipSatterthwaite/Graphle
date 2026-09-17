@@ -1,0 +1,84 @@
+# The outdoors, the Wild West, camping, hunting, and the frontier
+# word | part of speech | definition
+bandolier | noun | A shoulder belt with loops for cartridges.
+bedroll | noun | A portable roll of bedding.
+blowgun | noun | A tube through which darts are blown.
+boomtown | noun | A town undergoing rapid growth due to sudden prosperity.
+branding | noun | Marking livestock with a hot iron.
+bronco | noun | A wild or half-tamed horse.
+buckaroo | noun | A cowboy.
+buckshot | noun | Coarse lead shot used in shotgun shells.
+buffalo | noun | A bison; a heavily built wild ox.
+bushcraft | noun | Skill in living in the bush or wilderness.
+cabin | noun | A small wooden shelter or house in a wild area; a private room on a ship.
+campsite | noun | A place used for camping.
+canteen | noun | A small water bottle; a restaurant in a workplace.
+canoe | noun | A narrow keelless boat propelled with paddles.
+cattleman | noun | A person who tends or rears cattle.
+chaps | noun | Leather leggings worn by cowboys; men or boys.
+chuckwagon | noun | A wagon carrying cooking supplies on a ranch or trail.
+compass | noun | An instrument showing magnetic north.
+corral | noun | A pen for livestock on a farm or ranch.
+cowpoke | noun | A cowboy.
+cowhand | noun | A cowboy.
+deputy | noun | A person appointed to act for another, especially a sheriff's assistant.
+derringer | noun | A small pistol with a large bore.
+dogsled | noun | A sled pulled by dogs.
+driftwood | noun | Pieces of wood washed ashore by the sea.
+dynamite | noun | A high explosive; something extremely impressive.
+firewood | noun | Wood burned as fuel.
+fishhook | noun | A barbed hook for catching fish.
+frontiersman | noun | A man living in the region of a frontier.
+gallows | noun | A structure for hanging a person.
+greenhorn | noun | An inexperienced or naive person.
+gunfight | noun | A fight involving an exchange of gunfire.
+gunpowder | noun | An explosive consisting of saltpeter, sulfur, and charcoal.
+hiking | noun | The activity of going for long walks in the country.
+homestead | noun | A house with outbuildings; land granted to a settler.
+horseshoe | noun | A U-shaped iron plate nailed to a horse's hoof.
+hunter | noun | A person who hunts.
+knapsack | noun | A bag with shoulder straps carried on the back.
+lariat | noun | A rope used as a lasso or for tethering.
+lasso | noun | A rope with a noose at one end, used for catching cattle.
+lawman | noun | A law enforcement officer, especially a sheriff.
+longhorn | noun | An animal of a breed of cattle with very long horns.
+lynching | noun | The killing of someone by a mob without legal trial.
+mountaineer | noun | A person who climbs mountains.
+mule | noun | The offspring of a donkey and a horse; a person who smuggles drugs.
+mustang | noun | A small, lightly built feral horse.
+outpost | noun | A small military camp or remote settlement.
+packhorse | noun | A horse used to carry loads.
+panhandler | noun | A person who begs in the street.
+pioneer | noun | A person among the first to explore or settle a new region.
+pistol | noun | A small firearm designed to be held in one hand.
+poncho | noun | A garment made of a thick piece of woolen cloth with a slit for the head.
+posse | noun | A body of men summoned by a sheriff to enforce the law.
+prairie | noun | A large open area of grassland.
+quarry | noun | A place where stone is extracted; an animal being hunted.
+quicksilver | noun | Liquid mercury; moving or changing rapidly.
+ranch | noun | A large farm for raising livestock.
+rancher | noun | A person who owns or runs a ranch.
+rawhide | noun | Stiff untanned leather.
+rifle | noun | A gun with a long rifled barrel; to search through something hurriedly.
+saddlebag | noun | A bag attached to a saddle.
+saddle | noun | A seat fastened on the back of a horse.
+sagebrush | noun | An aromatic shrub of arid regions of western North America.
+settler | noun | A person who settles in a new area.
+sharpshooter | noun | A person skilled in shooting.
+sheriff | noun | An elected officer in a county responsible for keeping the peace.
+shotgun | noun | A smoothbore gun for firing small shot.
+snowshoe | noun | A flat device attached to a boot for walking on snow.
+spurs | noun | Devices with a small spike worn on a rider's heel.
+stampede | noun | A sudden panicked rush of a number of horses or cattle.
+tenderfoot | noun | A newcomer or novice.
+tent | noun | A portable shelter made of cloth supported by poles.
+trailhead | noun | The beginning of a trail.
+trapper | noun | A person who traps wild animals for their fur.
+trekking | noun | Going on a long arduous journey on foot.
+tumbleweed | noun | A plant that breaks off and is blown about by the wind.
+varmint | noun | A troublesome wild animal; a troublesome person.
+wagon | noun | A four-wheeled vehicle for carrying goods.
+whittling | noun | Carving wood with a knife.
+wilderness | noun | An uncultivated, uninhabited region.
+winchester | noun | A trademarked breech-loading lever-action rifle.
+woodsman | noun | A forester, hunter, or woodcutter.

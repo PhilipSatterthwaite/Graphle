@@ -113,3 +113,4 @@ wigwam | noun | A dome-shaped hut or tent used by some Indigenous North American
 windmill | noun | A building with sails or vanes that turn in the wind to generate power.
 yurt | noun | A circular tent of felt or skins used by nomads in Central Asia.
 ziggurat | noun | A rectangular stepped tower in ancient Mesopotamia.
+

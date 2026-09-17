@@ -1,0 +1,100 @@
+# Travel, transport, circus, fairs, holidays, and celebrations
+# word | part of speech | definition
+aerodrome | noun | A small airport or airfield (British, dated).
+airline | noun | An organization providing a regular public service of air transport.
+airmail | noun | A system of transporting mail by aircraft.
+airport | noun | A complex of runways and buildings for aircraft.
+anniversary | noun | The date on which an event took place in a previous year.
+autobahn | noun | A German, Austrian, or Swiss expressway.
+backpacker | noun | A person who travels with a backpack, typically on a low budget.
+baggage | noun | Personal belongings packed for traveling; past experiences perceived as a burden.
+balloon | noun | A small inflatable rubber bag; a large bag of hot air or gas for flight.
+banquet | noun | An elaborate and formal meal for many people.
+barnstorming | noun | Touring rural areas giving shows or making political speeches.
+bicycle | noun | A vehicle with two wheels propelled by pedals.
+birthday | noun | The anniversary of the day on which a person was born.
+boarding | noun | Getting on a ship, aircraft, or train.
+bobsleigh | noun | A bobsled (British).
+busker | noun | A person who performs music in the street for donations.
+calliope | noun | A keyboard instrument with steam whistles, used on showboats and carousels.
+campfire | noun | An open-air fire in a camp.
+camper | noun | A person who camps; a vehicle for camping.
+caravan | noun | A vehicle equipped for living in; a group traveling together through a desert.
+carnival | noun | A festival with processions and music; a traveling funfair.
+carpool | noun | An arrangement among people to share car journeys.
+celebration | noun | The action of marking an important day with festivities.
+checkpoint | noun | A barrier where travelers are inspected.
+christening | noun | The ceremony of baptizing and naming a child.
+circus | noun | A traveling company of acrobats, clowns, and animals.
+coach | noun | A comfortably equipped bus; a trainer; a horse-drawn carriage.
+commute | noun | A journey made regularly to and from work.
+commuter | noun | A person who travels some distance to work regularly.
+contortionist | noun | An entertainer who twists and bends their body into unusual positions.
+convertible | noun | A car with a folding or detachable roof.
+cotillion | noun | A formal ball, especially one for debutantes.
+cruise | noun | A voyage on a ship for pleasure.
+customs | noun | The official department that administers duties on imported goods.
+detour | noun | A long or roundabout route taken to avoid something.
+fairway | noun | The part of a golf course between tee and green; a navigable channel.
+ferry | noun | A boat for conveying passengers and goods across water.
+festival | noun | A day or period of celebration; an organized series of performances.
+festivity | noun | Joyful and exuberant celebration.
+fireworks | noun | Devices containing explosives that make displays of light and noise.
+funfair | noun | A fair with rides and games (British).
+gala | noun | A social occasion with special entertainments.
+grandstand | noun | The main seating area at a racecourse or stadium.
+halloween | noun | The night of October 31, celebrated with costumes and trick-or-treating.
+hayride | noun | A ride in a wagon full of hay for entertainment.
+hitchhiking | noun | Traveling by getting free lifts in passing vehicles.
+holiday | noun | A day of festivity or recreation; a vacation.
+homecoming | noun | An instance of returning home; an annual school celebration.
+honeymoon | noun | A holiday taken by a newly married couple.
+hotelier | noun | A person who owns or manages a hotel.
+housewarming | noun | A party celebrating a move to a new home.
+itinerary | noun | A planned route or journey.
+jetliner | noun | A large jet aircraft carrying passengers.
+jubilee | noun | A special anniversary, especially of a reign.
+juggler | noun | A person who juggles.
+layover | noun | A period of rest or waiting before a further stage in a journey.
+limo | noun | A limousine.
+luggage | noun | Suitcases or other bags for a traveler's belongings.
+masquerade | noun | A ball at which participants wear masks; a false show or pretense.
+menagerie | noun | A collection of wild animals kept in captivity for exhibition.
+merrymaking | noun | Fun; festivity.
+monorail | noun | A railway in which the track consists of a single rail.
+motorcade | noun | A procession of motor vehicles.
+motorcycle | noun | A two-wheeled motor vehicle.
+nightclub | noun | A club open at night for drinking and dancing.
+odyssey | noun | A long and eventful or adventurous journey.
+parade | noun | A public procession celebrating a special day or event.
+passport | noun | An official document certifying identity and citizenship for foreign travel.
+picnic | noun | An outing that includes a packed meal eaten outdoors.
+pinata | noun | A decorated container filled with sweets, broken open with a stick.
+postcard | noun | A card for sending a message by mail without an envelope.
+prom | noun | A formal dance at a high school; a promenade concert.
+propeller | noun | A mechanical device for propelling a boat or aircraft.
+railcar | noun | A self-propelled railway passenger vehicle.
+reunion | noun | An instance of people coming together after a period of separation.
+runway | noun | A strip of hard ground for aircraft to take off and land.
+sabbath | noun | A day of religious observance and abstinence from work.
+sideshow | noun | A small show at a fair or circus; a minor event.
+sightseeing | noun | Visiting places of interest.
+skycap | noun | A porter at an airport.
+slumber | noun | Sleep.
+souvenir | noun | A thing kept as a reminder of a place, person, or event.
+spaceport | noun | A base from which spacecraft are launched.
+stopover | noun | A break in a journey.
+suitcase | noun | A case with a handle for carrying clothes when traveling.
+taxicab | noun | A taxi.
+thanksgiving | noun | The expression of gratitude; a national holiday in North America.
+tightrope | noun | A rope stretched tightly high above the ground, on which acrobats perform.
+tourism | noun | The commercial organization of holidays and visits to places of interest.
+tourist | noun | A person who travels for pleasure.
+trapeze | noun | A horizontal bar hung by ropes, used by acrobats.
+travelogue | noun | A film, book, or illustrated lecture about travel.
+turnstile | noun | A mechanical gate allowing one person at a time to pass.
+vacation | noun | An extended period of recreation away from home.
+voyage | noun | A long journey by sea or in space.
+wedding | noun | A marriage ceremony.
+yuletide | noun | The Christmas season.
+

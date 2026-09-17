@@ -130,3 +130,4 @@ tuberculosis | noun | An infectious bacterial disease affecting the lungs.
 typhoid | noun | A bacterial infection spread through contaminated food or water.
 vaccine | noun | A substance used to stimulate immunity to a disease.
 vitamin | noun | An organic compound essential for normal nutrition.
+

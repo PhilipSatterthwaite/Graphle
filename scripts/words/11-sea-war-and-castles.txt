@@ -120,3 +120,4 @@ warhorse | noun | A horse ridden in battle; a veteran soldier or politician.
 warship | noun | A ship equipped with weapons for war.
 whaler | noun | A whaling ship; a seaman engaged in whaling.
 yardarm | noun | The outer extremity of a ship's yard.
+

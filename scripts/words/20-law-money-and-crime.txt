@@ -117,3 +117,4 @@ usury | noun | The action of lending money at unreasonably high rates of interes
 vandalism | noun | Deliberate destruction of or damage to property.
 verdict | noun | A decision on an issue of fact in a civil or criminal case.
 wiretap | noun | A concealed device connected to a telephone for listening in.
+

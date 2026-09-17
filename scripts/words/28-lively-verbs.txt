@@ -3,7 +3,6 @@
 abdicate | verb | To renounce one's throne; to fail to fulfill a duty.
 amble | verb | To walk or move at a slow, relaxed pace.
 badger | verb | To repeatedly and annoyingly ask someone to do something.
-bamboozling | verb | Fooling or cheating someone.
 barge | verb | To move forcefully or roughly.
 bedazzle | verb | To greatly impress with brilliance or skill.
 belch | verb | To emit wind noisily from the stomach through the mouth.
@@ -22,14 +21,12 @@ cackle | verb | To laugh in a loud, harsh way.
 careen | verb | To move swiftly and in an uncontrolled way.
 cavort | verb | To jump or dance around excitedly.
 clamber | verb | To climb, move, or get in or out of something awkwardly.
-clobbered | verb | Hit hard; defeated heavily.
 coddle | verb | To treat in an indulgent or overprotective way.
 commandeer | verb | To take possession of something by force.
 conk | verb | To hit someone on the head; to break down.
 cower | verb | To crouch down in fear.
 dabble | verb | To take part in an activity in a casual way.
 dally | verb | To act or move slowly.
-dawdling | verb | Wasting time; moving slowly.
 defenestrate | verb | To throw someone out of a window.
 dither | verb | To be indecisive.
 doze | verb | To sleep lightly.
@@ -47,7 +44,6 @@ frolic | verb | To play and move about cheerfully.
 gallivant | verb | To go around from one place to another in pursuit of pleasure.
 gawk | verb | To stare openly and stupidly.
 gesticulate | verb | To use dramatic gestures instead of or in addition to speech.
-giggled | verb | Laughed lightly and nervously.
 gobble | verb | To eat hurriedly and noisily; to make the sound of a turkey.
 goof | verb | To make a mistake; to spend time idly.
 gorge | verb | To eat a large amount greedily.
@@ -58,7 +54,6 @@ guzzle | verb | To eat or drink greedily.
 haggle | verb | To dispute or bargain persistently, especially over a price.
 harrumph | verb | To clear the throat noisily; to grumpily express dissatisfaction.
 hobble | verb | To walk in an awkward way, typically because of pain.
-hoodwinked | verb | Deceived or tricked.
 hurtle | verb | To move at great speed, typically in a wildly uncontrolled manner.
 jabber | verb | To talk rapidly and excitedly but with little sense.
 jiggle | verb | To move lightly and quickly from side to side or up and down.
@@ -77,7 +72,6 @@ muse | verb | To be absorbed in thought.
 mutter | verb | To say something in a low or barely audible voice.
 nab | verb | To catch someone doing something wrong.
 nibble | verb | To take small bites out of something.
-noodling | verb | Improvising or playing casually on a musical instrument.
 nuzzle | verb | To rub or push against gently with the nose.
 obliterate | verb | To destroy utterly; to wipe out.
 ogle | verb | To stare at in a lecherous manner.
@@ -98,12 +92,10 @@ romp | verb | To play roughly and energetically.
 rummage | verb | To search unsystematically and untidily through something.
 saunter | verb | To walk in a slow, relaxed manner.
 scamper | verb | To run with quick light steps, especially through fear or excitement.
-schmoozing | verb | Chatting in a friendly way to gain favor.
 scoff | verb | To speak about something in a scornfully derisive way; to eat greedily.
 scramble | verb | To make one's way quickly or awkwardly; to mix up.
 scrounge | verb | To seek to obtain something at the expense or through the generosity of others.
 scurry | verb | To move hurriedly with short quick steps.
-scuttled | verb | Ran hurriedly with short quick steps; deliberately sank.
 shimmy | verb | To move swiftly and effortlessly; to shake the body.
 shirk | verb | To avoid or neglect a duty or responsibility.
 skulk | verb | To keep out of sight, typically with a sinister motive.
@@ -117,15 +109,12 @@ snooze | verb | To have a short, light sleep.
 snoop | verb | To investigate or look around furtively.
 snuggle | verb | To settle into a warm, comfortable position.
 splurge | verb | To spend money freely or extravagantly.
-squabbling | verb | Quarreling noisily over a trivial matter.
 squander | verb | To waste something in a reckless and foolish manner.
 squelch | verb | To make a soft sucking sound; to forcefully silence or suppress.
 stagger | verb | To walk or move unsteadily; to astonish.
 swagger | verb | To walk or behave in a very confident and arrogant way.
 swaddle | verb | To wrap in garments or cloth.
 swig | verb | To drink in large gulps.
-swindled | verb | Cheated out of money or possessions.
-tinkering | verb | Attempting to repair or improve something in a casual manner.
 titter | verb | To give a short, half-suppressed laugh.
 toddle | verb | To move with short unsteady steps, as a young child does.
 traipse | verb | To walk or move wearily or reluctantly.
@@ -133,7 +122,6 @@ trounce | verb | To defeat heavily in a contest.
 trudge | verb | To walk slowly with heavy steps.
 twiddle | verb | To twist, move, or fiddle with something idly.
 waddle | verb | To walk with short steps and a clumsy swaying motion.
-waffling | verb | Speaking or writing at length in a vague or trivial manner.
 wheedle | verb | To use flattery or coaxing to persuade someone.
 whimper | verb | To make a series of low, feeble sounds expressing fear or pain.
 whittle | verb | To carve wood into an object by repeatedly cutting small slices.
@@ -141,3 +129,4 @@ wiggle | verb | To move with short quick irregular movements.
 wrangle | verb | To have a long, complicated dispute; to herd livestock.
 yank | verb | To pull with a jerk.
 yelp | verb | To utter a short sharp cry, especially of pain or alarm.
+

@@ -1,0 +1,114 @@
+# Fields of study, -isms, and more trades and professions
+# word | part of speech | definition
+accountant | noun | A person who keeps or inspects financial accounts.
+acupuncture | noun | A system of medicine involving inserting fine needles into the skin.
+aeronautics | noun | The science or practice of travel through the air.
+anesthesiologist | noun | A physician specializing in anesthesia.
+anthropology | noun | The study of human societies and cultures.
+arborist | noun | A tree surgeon.
+archaeologist | noun | A person who studies human history through excavation.
+architect | noun | A person who designs buildings.
+astrophysics | noun | The branch of astronomy concerned with the physical nature of stars.
+auctioneer | noun | A person who conducts auctions.
+bacteriology | noun | The study of bacteria.
+baker | noun | A person who makes bread and cakes.
+beekeeper | noun | A person who keeps bees.
+biochemistry | noun | The branch of science concerned with the chemical processes of living organisms.
+bookbinder | noun | A person who binds books.
+bookkeeper | noun | A person who keeps records of financial transactions.
+botany | noun | The scientific study of plants.
+bricklayer | noun | A person whose job is to build walls with bricks.
+butcher | noun | A person who cuts up and sells meat.
+carpenter | noun | A person who makes and repairs wooden structures.
+cartographer | noun | A person who draws or produces maps.
+cartoonist | noun | A person who draws cartoons.
+chiropractor | noun | A practitioner who treats disorders by manipulating the spine.
+clockmaker | noun | A person who makes and repairs clocks.
+confectioner | noun | A person who makes or sells sweets.
+cosmetologist | noun | A person skilled in cosmetic treatments.
+criminology | noun | The scientific study of crime and criminals.
+cryptography | noun | The art of writing or solving codes.
+cybernetics | noun | The science of communications and automatic control systems.
+dentist | noun | A person qualified to treat diseases of the teeth.
+dermatology | noun | The branch of medicine concerned with the skin.
+dietitian | noun | An expert on diet and nutrition.
+ecology | noun | The study of organisms and their environment.
+economics | noun | The study of production, consumption, and wealth.
+egyptology | noun | The study of ancient Egypt.
+electrician | noun | A person who installs and repairs electrical equipment.
+entomology | noun | The study of insects.
+ergonomics | noun | The study of people's efficiency in their working environment.
+farmhand | noun | A worker on a farm.
+fishmonger | noun | A person who sells fish.
+florist | noun | A person who sells cut flowers.
+forensics | noun | Scientific tests used in the investigation of crime.
+gastronomy | noun | The practice or art of choosing, cooking, and eating good food.
+genetics | noun | The study of heredity.
+geology | noun | The science of the earth's physical structure and substance.
+gerontology | noun | The study of old age.
+glazier | noun | A person who fits glass into windows and doors.
+gravedigger | noun | A person who digs graves.
+greengrocer | noun | A retailer of fruit and vegetables (British).
+gunsmith | noun | A person who makes and repairs guns.
+gynecology | noun | The branch of medicine dealing with women's reproductive health.
+hairdresser | noun | A person who cuts and styles hair.
+herpetology | noun | The study of reptiles and amphibians.
+hydraulics | noun | The science of the conveyance of liquids through pipes.
+ichthyology | noun | The study of fishes.
+ironmonger | noun | A retailer of hardware (British).
+jeweler | noun | A person who makes or sells jewelry.
+journalism | noun | The activity of writing for newspapers, magazines, or news websites.
+lexicographer | noun | A person who compiles dictionaries.
+librarian | noun | A person in charge of or assisting in a library.
+lithography | noun | Printing from a flat surface treated to repel ink except where required.
+machinist | noun | A person who operates a machine.
+mason | noun | A builder and worker in stone.
+meteorology | noun | The study of the atmosphere and weather.
+midwife | noun | A person trained to assist women in childbirth.
+mineralogy | noun | The study of minerals.
+mortician | noun | An undertaker.
+mycology | noun | The study of fungi.
+neurology | noun | The branch of medicine dealing with the nervous system.
+numismatics | noun | The study or collection of coins and banknotes.
+nutritionist | noun | A person who studies or is an expert in nutrition.
+obstetrics | noun | The branch of medicine concerned with childbirth.
+oceanography | noun | The study of the sea.
+ophthalmology | noun | The study of the eye and its diseases.
+optician | noun | A person qualified to make and supply eyeglasses and contact lenses.
+optometrist | noun | A person who examines eyes for vision defects.
+orthodontist | noun | A dentist specializing in the correction of irregular teeth.
+ornithology | noun | The study of birds.
+paleontology | noun | The study of fossils.
+paramedic | noun | A health-care worker trained for emergency medical care.
+pathology | noun | The study of diseases.
+pediatrician | noun | A doctor specializing in children's medicine.
+pharmacist | noun | A person qualified to prepare and dispense drugs.
+philately | noun | The collection and study of postage stamps.
+photographer | noun | A person who takes photographs.
+physiotherapy | noun | The treatment of injury by physical methods such as massage.
+plumber | noun | A person who fits and repairs pipes and fixtures.
+podiatrist | noun | A medical specialist in care of the feet.
+psychiatry | noun | The study and treatment of mental illness.
+psychology | noun | The scientific study of the human mind and behavior.
+radiology | noun | The science dealing with X-rays and other high-energy radiation.
+receptionist | noun | A person who greets and deals with clients and visitors.
+robotics | noun | The branch of technology dealing with robots.
+seismology | noun | The study of earthquakes.
+shepherd | noun | A person who tends sheep.
+shoemaker | noun | A person who makes shoes.
+sociology | noun | The study of society.
+statistician | noun | An expert in statistics.
+surgeon | noun | A medical practitioner qualified to practice surgery.
+surveyor | noun | A person who surveys land.
+taxidermy | noun | The art of preparing and stuffing the skins of animals.
+telemarketer | noun | A person who markets goods by telephone.
+toxicology | noun | The study of poisons.
+translator | noun | A person who translates from one language into another.
+undertaker | noun | A person whose business is preparing the dead for burial.
+upholstery | noun | Soft padding and fabric covering furniture.
+veterinarian | noun | A person qualified to treat diseased or injured animals.
+vintner | noun | A wine merchant.
+watchmaker | noun | A person who makes and repairs watches.
+welder | noun | A person who welds metal.
+zoology | noun | The scientific study of animals.
+

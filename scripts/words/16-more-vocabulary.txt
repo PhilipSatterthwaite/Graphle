@@ -191,3 +191,4 @@ wily | adjective | Skilled at gaining an advantage, especially deceitfully.
 wretched | adjective | In a very unhappy or unfortunate state.
 zealous | adjective | Having or showing great energy or enthusiasm.
 zestful | adjective | Characterized by great enthusiasm and energy.
+

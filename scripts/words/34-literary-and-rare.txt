@@ -1,0 +1,145 @@
+# Literary, rare, and old-fashioned words
+# word | part of speech | definition
+abeyance | noun | A state of temporary disuse or suspension.
+accoutrements | noun | Additional items of dress or equipment.
+adamant | adjective | Refusing to be persuaded or change one's mind.
+afoot | adverb | In preparation or progress; happening.
+agley | adverb | Askew; awry (Scottish).
+alight | adjective | On fire; verb: to descend from a vehicle.
+amok | adverb | In a frenzied, uncontrolled state.
+anodyne | adjective | Not likely to cause offense; bland.
+apropos | adverb | By the way; incidentally.
+arrant | adjective | Complete, utter.
+ashore | adverb | To or on the shore.
+aslant | adverb | At a slant.
+asunder | adverb | Apart; into pieces.
+athwart | preposition | From side to side of; in opposition to.
+bedlamite | noun | A madman or lunatic.
+bedizen | verb | To dress up or decorate gaudily.
+bestrew | verb | To scatter or lie scattered over.
+betoken | verb | To be a sign of; to indicate.
+bewitched | adjective | Enchanted; under a spell.
+bibulous | adjective | Excessively fond of drinking alcohol.
+bilious | adjective | Affected by nausea; spiteful; of an unpleasant color.
+blandish | verb | To coax with flattery.
+bosky | adjective | Covered by trees or bushes; wooded.
+brabble | verb | To quarrel about trifles.
+bumbledom | noun | Petty officialdom.
+cacoethes | noun | An urge to do something inadvisable.
+callow | adjective | Inexperienced and immature.
+carousal | noun | A drinking party.
+chapfallen | adjective | Dispirited; dejected.
+cozen | verb | To trick or deceive.
+crapulous | adjective | Relating to drunkenness; suffering from overindulgence.
+defalcation | noun | Misappropriation of funds by a person trusted with them.
+deliquesce | verb | To become liquid; to melt away.
+dudgeon | noun | A feeling of offense or deep resentment.
+dulcify | verb | To sweeten; to make gentle.
+effulgent | adjective | Shining brightly; radiant.
+eftsoons | adverb | Soon afterward (archaic).
+eleemosynary | adjective | Relating to or dependent on charity.
+emolument | noun | A salary, fee, or profit from employment or office.
+encomium | noun | A speech or piece of writing that praises someone highly.
+enervate | verb | To cause someone to feel drained of energy.
+ensorcell | verb | To enchant; to fascinate.
+epicurean | adjective | Devoted to sensual enjoyment, especially of food and drink.
+eructation | noun | A belch.
+evanescent | adjective | Soon passing out of sight or existence.
+exsanguinate | verb | To drain of blood.
+fardel | noun | A bundle; a burden.
+farrago | noun | A confused mixture.
+fatuous | adjective | Silly and pointless.
+febrile | adjective | Having symptoms of a fever; tense and nervous.
+flagitious | adjective | Criminal; villainous.
+frangible | adjective | Fragile; brittle.
+fulminate | verb | To express vehement protest.
+fuliginous | adjective | Sooty; dusky.
+galligaskins | noun | Breeches or leggings.
+gasconade | noun | Extravagant boasting.
+glabrous | adjective | Free from hair or down; smooth.
+gormandize | verb | To eat good food greedily.
+gramarye | noun | Magic; necromancy (archaic).
+grandiloquence | noun | Pompous or extravagant language.
+gudgeon | noun | A small freshwater fish; a credulous person.
+hebetude | noun | Dullness; lethargy.
+hierophant | noun | A person who interprets sacred mysteries.
+hoyden | noun | A boisterous girl.
+imbibe | verb | To drink, especially alcohol; to absorb ideas.
+impuissant | adjective | Powerless; weak.
+inchoate | adjective | Just begun and so not fully formed.
+inglenook | noun | A space on either side of a large fireplace.
+jentacular | adjective | Relating to breakfast.
+jocular | adjective | Fond of or characterized by joking; humorous.
+kakistocracy | noun | Government by the least suitable or competent citizens.
+lachrymose | adjective | Tearful or given to weeping.
+lambent | adjective | Softly bright or radiant; playing lightly on a surface.
+leman | noun | A lover or sweetheart (archaic).
+louche | adjective | Disreputable or sordid in an attractive way.
+lubricious | adjective | Offensively displaying sexual interest; oily or slippery.
+lucre | noun | Money, especially when gained dishonestly.
+macerate | verb | To soften by soaking in a liquid.
+maladroit | adjective | Ineffective or bungling; clumsy.
+mammon | noun | Wealth regarded as an evil influence.
+mephitic | adjective | Foul-smelling; noxious.
+mirthful | adjective | Full of amusement and laughter.
+misprision | noun | The deliberate concealment of knowledge of a treasonable act.
+mizzle | noun | Light rain; drizzle.
+mollycoddle | verb | To treat someone very indulgently or protectively.
+muliebrity | noun | Womanly qualities.
+nepenthe | noun | A drug or drink bringing forgetfulness of grief.
+nidificate | verb | To build a nest.
+noctivagant | adjective | Wandering in the night.
+nugatory | adjective | Of no value or importance.
+obloquy | noun | Strong public criticism or verbal abuse.
+oleaginous | adjective | Oily; exaggeratedly and distastefully complimentary.
+omphaloskepsis | noun | Contemplation of one's navel as an aid to meditation.
+orotund | adjective | Resonant and imposing, of a voice; pompous.
+otiose | adjective | Serving no practical purpose; futile.
+paladin | noun | A knightly hero renowned for chivalry.
+panjandrum | noun | A person who has or claims a great deal of authority.
+pellucid | adjective | Translucently clear.
+perspicacious | adjective | Having a ready insight into things; shrewd.
+pettifog | verb | To quibble over trivial details.
+philippic | noun | A bitter attack or denunciation.
+plangent | adjective | Loud and resonant with a mournful tone.
+pococurante | adjective | Careless or nonchalant.
+prolix | adjective | Tediously lengthy.
+pulchritudinous | adjective | Beautiful.
+quidnunc | noun | An inquisitive and gossipy person.
+quisling | noun | A traitor who collaborates with an occupying force.
+quotidian | adjective | Of or occurring every day; ordinary.
+rapacious | adjective | Aggressively greedy or grasping.
+recrudescence | noun | A recurrence of an undesirable condition.
+refulgent | adjective | Shining very brightly.
+rodomontade | noun | Boastful or inflated talk or behavior.
+rumbustious | adjective | Boisterous or unruly.
+saturnine | adjective | Slow and gloomy.
+scapegrace | noun | A mischievous or wayward person.
+sciolist | noun | A person who pretends to be knowledgeable.
+scrofulous | adjective | Having scrofula; morally degenerate.
+sempiternal | adjective | Eternal and unchanging.
+slubberdegullion | noun | A slovenly or worthless person.
+snickersnee | noun | A large knife.
+somnambulist | noun | A sleepwalker.
+spondulicks | noun | Money (humorous).
+sprezzatura | noun | Studied carelessness; effortless grace.
+susurrus | noun | Whispering, murmuring, or rustling.
+tatterdemalion | adjective | In tattered clothes; ragged.
+tergiversate | verb | To make conflicting or evasive statements.
+thaumaturgy | noun | The working of wonders or miracles; magic.
+threnody | noun | A song or poem of lamentation for the dead.
+tittle | noun | A tiny amount or part of something.
+toothsome | adjective | Temptingly tasty; attractive.
+turpitude | noun | Depravity; wickedness.
+ululate | verb | To howl or wail as an expression of strong emotion.
+vainglory | noun | Inordinate pride in oneself.
+velleity | noun | A wish or inclination not strong enough to lead to action.
+verdigris | noun | A bright bluish-green coating on copper or brass.
+vermiculate | adjective | Marked with sinuous or wavy lines.
+vituperation | noun | Bitter and abusive language.
+welkin | noun | The sky; heaven.
+whilst | conjunction | While (chiefly British).
+winsome | adjective | Attractive or appealing in a fresh, innocent way.
+xanthic | adjective | Yellowish.
+zephyr | noun | A soft gentle breeze.
+

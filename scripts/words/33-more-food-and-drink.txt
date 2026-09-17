@@ -1,0 +1,118 @@
+# More food, drink, candy, and cocktails
+# word | part of speech | definition
+aperitif | noun | An alcoholic drink taken before a meal.
+bacon | noun | Cured meat from the back or sides of a pig.
+bearnaise | noun | A rich sauce thickened with egg yolks and flavored with tarragon.
+beignet | noun | A square of fried dough dusted with sugar.
+bitters | noun | Alcohol flavored with bitter plant extracts, used in cocktails.
+blueberry | noun | A small sweet blue-black edible berry.
+bourbon | noun | A kind of American whiskey distilled from corn and rye.
+brandy | noun | A strong alcoholic spirit distilled from wine or fruit juice.
+burrito | noun | A tortilla rolled around a filling.
+butterscotch | noun | A brittle yellow-brown candy made with butter and brown sugar.
+buttercream | noun | A soft mixture of butter and sugar used as a filling or topping.
+caramel | noun | Sugar or syrup heated until it turns brown.
+carrot | noun | A tapering orange root vegetable.
+cashew | noun | An edible kidney-shaped nut.
+cheesecake | noun | A rich sweet tart made with cream and soft cheese.
+chili | noun | A small hot-tasting pepper; a stew of meat and beans.
+chocolate | noun | A food made from roasted and ground cacao seeds.
+chopsticks | noun | A pair of thin sticks used as eating utensils.
+cider | noun | A drink made from fermented apple juice.
+cocktail | noun | An alcoholic drink of a spirit mixed with other ingredients.
+cocoa | noun | A powder made from roasted cacao seeds; a hot drink made from it.
+coleslaw | noun | A salad of shredded raw cabbage and carrots.
+compote | noun | Fruit preserved or cooked in syrup.
+consomme | noun | A clear soup made with concentrated stock.
+cordial | noun | A sweet fruit-flavored drink; adjective: warm and friendly.
+cornbread | noun | Bread made from cornmeal.
+croutons | noun | Small pieces of fried or toasted bread served with soup or salad.
+cruller | noun | A small cake of twisted fried dough.
+crumble | noun | A dish of cooked fruit with a crumbly topping.
+doughnut | noun | A small fried cake of sweetened dough, typically ring-shaped.
+entree | noun | The main course of a meal; the right to enter.
+feta | noun | A white salty Greek cheese made from sheep's or goat's milk.
+flan | noun | A baked dish with an open-topped pastry case; caramel custard.
+focaccia | noun | A flat Italian bread made with yeast and olive oil.
+frankfurter | noun | A seasoned smoked sausage.
+frosting | noun | A sweet creamy topping for cakes.
+fruitcake | noun | A cake containing dried fruit; an eccentric or crazy person.
+gherkin | noun | A small pickled cucumber.
+gingersnap | noun | A thin brittle ginger-flavored cookie.
+gobstopper | noun | A large, hard, spherical candy.
+gorgonzola | noun | A rich, strong-flavored Italian blue cheese.
+granita | noun | A coarse Italian water ice.
+gravy | noun | A sauce made from the fat and juices of cooked meat.
+halva | noun | A Middle Eastern sweet made from sesame paste or semolina.
+hamburger | noun | A round patty of ground beef in a bun.
+hash | noun | A dish of diced cooked meat and potatoes; a jumble.
+hazelnut | noun | A round brown hard-shelled nut.
+hollandaise | noun | A creamy sauce of melted butter, egg yolks, and lemon juice.
+honeydew | noun | A variety of melon with pale flesh; a sticky secretion of aphids.
+horchata | noun | A sweet drink made from rice or tiger nuts.
+jellybean | noun | A bean-shaped candy with a hard sugar coating.
+julep | noun | A sweet drink, especially a mint julep made with bourbon.
+kefir | noun | A sour-tasting fermented milk drink.
+kielbasa | noun | A type of highly seasoned Polish sausage.
+kirsch | noun | Brandy distilled from the juice of wild cherries.
+lager | noun | A light effervescent beer.
+lemon | noun | A yellow oval citrus fruit with acidic juice; a defective product.
+limoncello | noun | An Italian lemon liqueur.
+liverwurst | noun | A sausage of seasoned liver.
+lox | noun | Smoked salmon.
+malt | noun | Barley or other grain that has been steeped, germinated, and dried.
+manhattan | noun | A cocktail of whiskey and vermouth.
+maple | noun | A tree whose sap is used to make syrup.
+marinara | noun | A sauce made from tomatoes, onions, and herbs.
+martini | noun | A cocktail of gin and dry vermouth.
+matzo | noun | Unleavened bread in the form of a large crisp cracker.
+meatball | noun | A ball of minced meat.
+milkshake | noun | A cold drink of milk whisked with ice cream and flavoring.
+minestrone | noun | A thick Italian soup of vegetables and pasta.
+mojito | noun | A cocktail of rum, lime, sugar, mint, and soda water.
+mozzarella | noun | A firm white Italian cheese.
+mushroom | noun | A fungal growth with a domed cap; to increase rapidly.
+nutella | noun | A trademarked sweetened hazelnut cocoa spread.
+parmesan | noun | A hard, dry Italian cheese.
+pasta | noun | A dish made from dough of durum wheat and water.
+pastry | noun | Dough of flour, fat, and water, used as a base for baked goods.
+patty | noun | A small flat cake of minced food.
+peanut | noun | An oval seed of a South American plant, eaten as a snack.
+pecan | noun | A smooth pinkish-brown nut.
+pepperoni | noun | Beef and pork sausage seasoned with pepper.
+pilsner | noun | A lager beer with a strong hop flavor.
+pinot | noun | Any of several varieties of wine grape.
+popover | noun | A light puffy hollow muffin.
+potpie | noun | A savory pie baked in a deep dish.
+praline | noun | A smooth sweet substance made by boiling nuts in sugar.
+punch | noun | A blow with the fist; a drink made with fruit juice and often alcohol.
+relish | noun | Great enjoyment; a condiment of chopped pickled vegetables.
+rotisserie | noun | A rotating spit for roasting meat.
+rum | noun | An alcoholic spirit distilled from sugarcane.
+salami | noun | A type of highly seasoned sausage.
+sangria | noun | A Spanish drink of red wine, fruit, and soda water.
+sauerbraten | noun | A German dish of beef marinated in vinegar before cooking.
+schnapps | noun | A strong alcoholic drink resembling gin.
+schnitzel | noun | A thin slice of veal or other meat, coated and fried.
+scotch | noun | Whisky distilled in Scotland.
+shortbread | noun | A crisp, rich crumbly type of cookie.
+shortcake | noun | A cake made with shortening, served with fruit and cream.
+sirloin | noun | The choicer part of a loin of beef.
+sorbet | noun | A water ice.
+spareribs | noun | Closely trimmed ribs of pork.
+sprinkles | noun | Tiny sugar strands used to decorate cakes and ice cream.
+stroganoff | noun | A dish of meat cooked in a sour cream sauce.
+tabasco | noun | A trademarked pungent sauce made from hot peppers.
+taffy | noun | A candy similar to toffee.
+tangelo | noun | A hybrid of the tangerine and grapefruit.
+tartare | noun | A dish of raw minced meat or fish.
+tequila | noun | A Mexican liquor made from agave.
+turnover | noun | A pastry with a folded filling; the amount of money a business takes.
+twinkie | noun | A trademarked cream-filled snack cake.
+vermouth | noun | A red or white wine flavored with aromatic herbs.
+vichyssoise | noun | A soup of leeks, potatoes, and cream, served chilled.
+vinaigrette | noun | A salad dressing of oil, vinegar, and seasoning.
+whiskey | noun | A spirit distilled from malted grain.
+wiener | noun | A frankfurter or similar sausage.
+zinfandel | noun | A variety of wine grape grown in California.
+

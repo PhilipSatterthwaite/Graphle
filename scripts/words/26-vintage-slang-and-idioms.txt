@@ -3,7 +3,6 @@
 applejack | noun | Brandy distilled from cider.
 baloney | noun | Foolish or deceptive talk; nonsense.
 beanpole | noun | A tall, thin person.
-bees | noun | Part of "the bee's knees": an outstandingly good person or thing.
 bippy | noun | The buttocks, as in "you bet your sweet bippy" (1960s).
 bitchin | adjective | Excellent (1960s–80s slang).
 blotto | adjective | Extremely drunk.
@@ -14,14 +13,12 @@ boffin | noun | A person engaged in scientific research (British).
 bogart | verb | To keep something selfishly to oneself.
 bollocks | noun | Nonsense; rubbish (British, vulgar).
 bonzer | adjective | Excellent (Australian).
-boondoggles | noun | Wasteful or pointless projects.
 boozehound | noun | A heavy drinker.
 bruiser | noun | A tough, aggressive person.
 bubbly | noun | Champagne; adjective: full of cheerful high spirits.
 bupkis | noun | Nothing at all.
 bushwhacked | adjective | Ambushed; exhausted.
 cheesy | adjective | Like cheese; cheap, unsophisticated, or corny.
-chinwags | noun | Chats.
 chuffed | adjective | Very pleased (British).
 clobber | verb | To hit someone hard; noun: clothing and belongings (British).
 cockney | noun | A native of East London; the dialect spoken there.
@@ -39,31 +36,25 @@ dope | noun | A drug; a stupid person; information.
 dough | noun | A thick mixture of flour and liquid; money (slang).
 duds | noun | Clothes.
 dullsville | noun | A dull place or situation.
-far | adverb | Part of "far out": unconventional or excellent (1960s).
 fink | noun | An informer; an unpleasant person.
-flapdoodles | noun | Nonsense.
 flivver | noun | A cheap car or aircraft, especially an old one.
 fogey | noun | A person with old-fashioned attitudes.
 fubar | adjective | Ruined or hopelessly messed up (military slang).
 gangbusters | noun | Great vigor or success, as in "like gangbusters."
 gams | noun | A person's legs, especially a woman's.
 geezer | noun | An old man; a man (British).
-gnarlier | adjective | More extreme or excellent.
 gobsmack | verb | To astonish utterly.
 goldbrick | noun | A person who shirks work.
 goner | noun | A person or thing that is doomed.
 goofus | noun | A foolish or stupid person.
 grody | adjective | Disgusting; revolting (1960s–80s slang).
-groovier | adjective | More fashionable and exciting.
 gussied | adjective | Dressed up elaborately, as in "gussied up."
 hepcat | noun | A stylish or fashionable person, especially in jazz circles.
 hinky | adjective | Dishonest, suspect, or unreliable.
-hippy | noun | Variant of hippie.
 hokey | adjective | Excessively sentimental or contrived.
 hooch | noun | Alcoholic liquor, especially inferior or illicit whiskey.
 hoodoo | noun | A run of bad luck; folk magic.
 hornswoggled | adjective | Swindled or cheated.
-hunkydory | adjective | Fine; going well (usually "hunky-dory").
 jake | adjective | All right; satisfactory (dated slang).
 jalopy | noun | An old car in a dilapidated condition.
 jeepers | exclamation | Expressing surprise or alarm.
@@ -74,7 +65,6 @@ kibosh | noun | Part of "put the kibosh on": to put an end to.
 knackers | noun | Testicles (British slang); people who buy old horses.
 lame | adjective | Unable to walk normally; uncool or unconvincing (slang).
 lingo | noun | A foreign language or specialized jargon.
-malarky | noun | Variant of malarkey: nonsense.
 mitts | noun | Hands (slang); fingerless gloves.
 moll | noun | A gangster's female companion.
 mooching | noun | Borrowing or obtaining without paying.
@@ -85,7 +75,6 @@ necking | noun | Kissing and caressing amorously.
 nifty | adjective | Particularly good, skillful, or effective.
 nosh | noun | Food (informal).
 oomph | noun | The quality of being exciting, energetic, or sexually attractive.
-palookas | noun | Stupid or clumsy people.
 patsy | noun | A person who is easily taken advantage of.
 peachy | adjective | Very fine; excellent.
 phat | adjective | Excellent (1990s slang).
@@ -96,7 +85,6 @@ posse | noun | A group of people summoned by a sheriff; a group of friends.
 psyched | adjective | Excited and full of anticipation.
 queer | adjective | Strange; odd (dated).
 rad | adjective | Excellent; impressive (1980s slang).
-ratfink | noun | A contemptible or undesirable person (usually "rat fink").
 rube | noun | A country bumpkin.
 rumrunner | noun | A person who smuggles alcohol.
 sawbuck | noun | A ten-dollar bill; a sawhorse.
@@ -112,16 +100,14 @@ snafu | noun | A confused or chaotic state; a mess.
 sockdolager | noun | A decisive blow; an exceptional person or thing.
 spiv | noun | A petty criminal who deals in black-market goods (British).
 squaresville | noun | A conventional or boring place or situation.
-stonkered | adjective | Exhausted; drunk (Australian).
 swell | adjective | Excellent; very good (dated).
-swizzled | adjective | Drunk (dated slang).
 tanked | adjective | Drunk.
 tizzy | noun | A state of nervous excitement or agitation.
 toots | noun | Used as an affectionate form of address.
 totes | adverb | Totally (2000s slang).
-twerpy | adjective | Silly or annoying.
 twitterpated | adjective | Infatuated or obsessed.
 wicked | adjective | Evil; excellent (slang).
 wiseguy | noun | A person who makes sarcastic remarks; a member of the Mafia.
 yegg | noun | A burglar or safecracker.
 zoot | noun | Part of "zoot suit": a man's suit with high-waisted trousers and a long coat.
+

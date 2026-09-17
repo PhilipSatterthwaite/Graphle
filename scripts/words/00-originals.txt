@@ -8,7 +8,6 @@ gobbledygook | noun | Language that is meaningless or hard to understand, especi
 cattywampus | adjective | Askew, awry, or positioned diagonally.
 lollygag | verb | To spend time aimlessly; to dawdle.
 skedaddle | verb | To leave or run away quickly.
-brouhaha | noun | A noisy and overexcited reaction or fuss.
 kerfuffle | noun | A commotion or fuss, especially one caused by conflicting views.
 shenanigans | noun | Secret or dishonest activity; silly or high-spirited behavior.
 malarkey | noun | Meaningless talk; nonsense.
@@ -160,3 +159,4 @@ workaholic | noun | A person who compulsively works excessively hard and long ho
 babysitter | noun | A person who looks after a child or children while the parents are out.
 cheeseburger | noun | A hamburger with a slice of cheese on it.
 supermarket | noun | A large self-service store selling foods and household goods.
+

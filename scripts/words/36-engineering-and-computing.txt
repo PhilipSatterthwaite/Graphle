@@ -1,0 +1,110 @@
+# Engineering, computing, energy, and industry
+# word | part of speech | definition
+accelerometer | noun | An instrument for measuring acceleration.
+adapter | noun | A device for connecting pieces of equipment.
+aerosol | noun | A substance enclosed under pressure and released as a fine spray.
+ammeter | noun | An instrument for measuring electric current.
+analog | adjective | Relating to information represented by a continuously variable quantity.
+backup | noun | A copy of computer data taken and stored elsewhere.
+bandwagon | noun | An activity or cause that has suddenly become fashionable.
+barcode | noun | A machine-readable code of numbers and parallel lines.
+battery | noun | A container of cells in which chemical energy is converted into electricity.
+biofuel | noun | A fuel derived from living matter.
+bitmap | noun | A representation of an image as an array of pixels.
+blacksmithing | noun | The work of a blacksmith.
+boiler | noun | A fuel-burning apparatus for heating water.
+bootstrap | noun | A loop at the back of a boot; a technique of loading a program into a computer.
+broadband | noun | A high-capacity transmission technique.
+capacitor | noun | A device used to store electric charge.
+cathode | noun | The negatively charged electrode of an electrical device.
+chipset | noun | A set of integrated circuits designed to function together.
+circuitry | noun | Electric circuits collectively.
+cogwheel | noun | A wheel with teeth around its edge.
+coke | noun | A solid fuel made by heating coal; a cola drink.
+combustion | noun | The process of burning something.
+compiler | noun | A program that converts instructions into machine code.
+conveyor | noun | A person or thing that transports something; a conveyor belt.
+crankshaft | noun | A shaft driven by a crank.
+cursor | noun | A movable indicator on a computer screen.
+cyberattack | noun | An attempt by hackers to damage or destroy a computer network.
+database | noun | A structured set of data held in a computer.
+debugging | noun | Identifying and removing errors from computer hardware or software.
+desktop | noun | The working surface of a desk; a computer suitable for use at a desk.
+diesel | noun | A heavy petroleum fraction used as fuel in diesel engines.
+digital | adjective | Relating to or using signals or information represented by digits.
+diode | noun | A semiconductor device with two terminals, allowing current in one direction.
+domain | noun | An area of territory; a distinct subset of the internet.
+dongle | noun | A small device plugged into a computer.
+electrode | noun | A conductor through which electricity enters or leaves an object.
+electromagnet | noun | A soft metal core made into a magnet by passing electric current through a coil.
+emulator | noun | Hardware or software that enables one computer system to behave like another.
+encryption | noun | The process of converting information into a code.
+ethernet | noun | A system for connecting computers within a local area network.
+exabyte | noun | A unit of information equal to one quintillion bytes.
+filament | noun | A slender threadlike object, such as the wire in a light bulb.
+firmware | noun | Permanent software programmed into read-only memory.
+flywheel | noun | A heavy revolving wheel in a machine used to increase momentum.
+foundry | noun | A workshop or factory for casting metal.
+fracking | noun | Injecting liquid at high pressure into rock to extract oil or gas.
+gadgetry | noun | Gadgets collectively.
+gasoline | noun | A refined petroleum used as fuel for internal combustion engines.
+gearbox | noun | A set of gears with its casing, especially in a motor vehicle.
+generator | noun | A thing that generates something; a dynamo.
+geothermal | adjective | Relating to or produced by the internal heat of the earth.
+girder | noun | A large iron or steel beam.
+hardware | noun | Tools and household implements; the physical parts of a computer.
+homepage | noun | The introductory page of a website.
+hydroelectric | adjective | Relating to the generation of electricity using flowing water.
+interface | noun | A point where two systems meet and interact.
+joystick | noun | A lever controlling the direction of an aircraft or a video game character.
+kerosene | noun | A light fuel oil.
+keyboard | noun | A panel of keys operating a computer or typewriter; a musical instrument.
+lathe | noun | A machine for shaping wood or metal by rotating it against a tool.
+lever | noun | A rigid bar resting on a pivot, used to move a heavy load.
+login | noun | The process of logging in to a computer system.
+lubricant | noun | A substance for minimizing friction.
+magnet | noun | A piece of iron that attracts iron objects.
+megawatt | noun | A unit of power equal to one million watts.
+microprocessor | noun | An integrated circuit containing the functions of a central processing unit.
+microscope | noun | An optical instrument for viewing very small objects.
+motherboard | noun | A printed circuit board containing the principal components of a computer.
+motor | noun | A machine that supplies motive power.
+multimedia | noun | Using more than one medium of expression or communication.
+nanobot | noun | A microscopic robot.
+nuclear | adjective | Relating to the nucleus of an atom; relating to nuclear weapons.
+offline | adjective | Not connected to a computer network.
+password | noun | A secret word or phrase that must be used to gain admission.
+petabyte | noun | A unit of information equal to one quadrillion bytes.
+petroleum | noun | A liquid mixture of hydrocarbons present in rock strata.
+piston | noun | A disc or cylinder moving within a tube as part of an engine.
+pneumatic | adjective | Containing or operated by air or gas under pressure.
+processor | noun | A machine that processes something; a central processing unit.
+programmer | noun | A person who writes computer programs.
+pulley | noun | A wheel with a grooved rim around which a cord passes, used to lift loads.
+radiator | noun | A device for heating a room; an engine-cooling device.
+reactor | noun | An apparatus in which nuclear fission is sustained.
+refinery | noun | An industrial installation where a substance is refined.
+resistor | noun | A device having resistance to the passage of electric current.
+rivet | noun | A short metal pin for holding together two plates of metal.
+semiconductor | noun | A solid substance with conductivity between an insulator and a metal.
+server | noun | A person who serves; a computer that provides data to other computers.
+smelter | noun | An installation in which ore is smelted.
+solar | adjective | Relating to or determined by the sun.
+spambot | noun | A program that sends spam.
+sprocket | noun | Each of several projections on the rim of a wheel that engage with a chain.
+startup | noun | A newly established business.
+superconductor | noun | A substance that conducts electricity without resistance at low temperatures.
+switchgear | noun | Switching equipment used in the transmission of electricity.
+terabyte | noun | A unit of information equal to one trillion bytes.
+thermometer | noun | An instrument for measuring temperature.
+toolbar | noun | A strip of icons used to perform certain functions on a computer.
+transformer | noun | An apparatus for reducing or increasing the voltage of an alternating current.
+transmitter | noun | A set of equipment used to generate and transmit radio waves.
+turbocharger | noun | A supercharger driven by a turbine powered by engine exhaust.
+username | noun | An identification used by a person with access to a computer network.
+voltmeter | noun | An instrument for measuring electric potential in volts.
+wattage | noun | An amount of electrical power expressed in watts.
+wavelength | noun | The distance between successive crests of a wave; a person's way of thinking.
+widget | noun | A small gadget or mechanical device; a component of a user interface.
+workbench | noun | A bench at which carpentry or other mechanical work is done.
+

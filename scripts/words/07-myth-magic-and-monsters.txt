@@ -103,3 +103,4 @@ wizard | noun | A man with magical powers.
 wizardry | noun | The art or practice of magic; great skill.
 wraith | noun | A ghost or ghostlike image of someone.
 wyvern | noun | A winged two-legged dragon.
+

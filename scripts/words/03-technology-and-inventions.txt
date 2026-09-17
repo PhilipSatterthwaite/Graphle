@@ -145,3 +145,4 @@ wireless | noun | A radio (dated); using radio or microwaves rather than wires.
 wristwatch | noun | A watch worn on a strap around the wrist.
 xerox | verb | To photocopy.
 zoetrope | noun | A cylindrical toy that creates an illusion of motion from a sequence of pictures.
+
