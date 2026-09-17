@@ -1,0 +1,93 @@
+# Games, sports, toys, hobbies, and entertainment
+# word | part of speech | definition
+aerobics | noun | Vigorous exercises designed to strengthen the heart and lungs.
+anime | noun | A style of Japanese animation.
+archery | noun | The sport of shooting arrows with a bow.
+backgammon | noun | A board game for two players with pieces moved by dice throws.
+badminton | noun | A game played with rackets and a shuttlecock over a high net.
+baseball | noun | A ball game played between two teams of nine on a diamond-shaped field.
+basketball | noun | A game in which points are scored by throwing a ball through a hoop.
+bingo | noun | A game in which players mark off numbers called at random.
+blackjack | noun | A gambling card game in which players try to get close to 21.
+bobsled | noun | A mechanically steered sled used for racing down an ice track.
+bocce | noun | An Italian game similar to bowls.
+bodybuilding | noun | Strenuous exercise to enlarge and strengthen the muscles.
+boomerang | noun | A curved flat piece of wood that returns to the thrower.
+bowling | noun | The game of knocking down pins by rolling a ball.
+bungee | noun | A long elastic cord used for bungee jumping.
+calisthenics | noun | Gymnastic exercises to achieve fitness and grace of movement.
+canasta | noun | A card game resembling rummy, using two packs.
+charades | noun | A game of guessing a word or phrase from a mimed clue.
+checkers | noun | A board game for two players; draughts.
+cosplay | noun | The practice of dressing up as a character from a movie, book, or video game.
+cribbage | noun | A card game for two players, scored with a pegboard.
+croquet | noun | A lawn game of hitting wooden balls through hoops with mallets.
+crossword | noun | A puzzle of words fitted into a grid of squares.
+curling | noun | A game played on ice by sliding stones toward a target.
+diabolo | noun | A juggling toy spun on a string between two sticks.
+dodgeball | noun | A game in which players try to hit opponents with a ball.
+dominoes | noun | A game played with small rectangular blocks marked with dots.
+esports | noun | Multiplayer video games played competitively.
+fencing | noun | The sport of fighting with swords; fences collectively.
+fishing | noun | The activity of catching fish.
+frisbee | noun | A trademarked plastic disc thrown for recreation.
+gin | noun | A clear spirit flavored with juniper; a card game.
+golf | noun | A game of hitting a small ball into holes on a course.
+gymnastics | noun | Exercises developing strength and agility, often performed competitively.
+handball | noun | A team game in which the ball is thrown by hand into a goal.
+hopscotch | noun | A children's game of hopping into and over squares marked on the ground.
+jacks | noun | A game of tossing and picking up small metal pieces.
+jigsaw | noun | A puzzle of irregular interlocking pieces; a narrow-bladed saw.
+juggling | noun | Continuously tossing and catching objects.
+kaleidoscope | noun | A tube of mirrors and colored glass producing changing patterns.
+karaoke | noun | Singing along to recorded music using a microphone.
+karate | noun | A Japanese martial art using hands and feet.
+kayak | noun | A narrow canoe propelled with a double-bladed paddle.
+kickball | noun | A game similar to baseball in which the ball is kicked.
+kite | noun | A frame covered with material, flown in the wind on a string.
+lacrosse | noun | A team game using long-handled sticks with nets.
+limerick | noun | A humorous five-line poem.
+mahjong | noun | A Chinese game played with tiles.
+marbles | noun | A game played with small glass balls; one's mental faculties.
+marathon | noun | A long-distance running race of about 26 miles.
+monopoly | noun | Exclusive control of a trade; a trademarked property board game.
+netball | noun | A team game in which goals are scored by throwing a ball through a hoop.
+origami | noun | The Japanese art of folding paper into decorative shapes.
+paintball | noun | A game in which participants shoot capsules of paint at each other.
+parkour | noun | The activity of moving rapidly through urban areas by jumping and climbing.
+pickleball | noun | A paddle sport combining elements of tennis, badminton, and table tennis.
+pinball | noun | A game played on a sloping table with flippers.
+pinochle | noun | A card game played with a 48-card deck.
+pogo | noun | A pogo stick, a toy for jumping.
+poker | noun | A card game played by betting on the value of hands; a fireplace rod.
+polo | noun | A game played on horseback with mallets.
+racquetball | noun | A game played with a small hollow ball and short rackets in a four-walled court.
+rollerblading | noun | Skating on inline skates.
+roulette | noun | A gambling game using a revolving wheel with numbered compartments.
+rugby | noun | A team game played with an oval ball that may be kicked or carried.
+rummy | noun | A card game in which players try to form sets and sequences.
+scrabble | noun | A trademarked word board game; to scratch or grope about.
+scrapbooking | noun | The activity of assembling scrapbooks.
+shuffleboard | noun | A game of pushing disks with a long cue onto a scoring area.
+skateboard | noun | A short narrow board with wheels for riding while standing.
+skydiving | noun | The sport of jumping from an aircraft and freefalling before opening a parachute.
+slinky | noun | A trademarked toy consisting of a flexible helical spring.
+snooker | noun | A game played on a billiard table with fifteen red balls and six colored balls.
+snorkel | noun | A tube for breathing while swimming face down.
+snowboarding | noun | The sport of descending snow slopes on a single board.
+solitaire | noun | A card game for one player; a single gem in a setting.
+sudoku | noun | A number puzzle on a nine-by-nine grid.
+surfing | noun | The sport of riding waves on a board.
+tiddlywinks | noun | A game of flicking small plastic counters into a cup.
+toboggan | noun | A long, light, narrow sledge.
+trampoline | noun | A strong fabric sheet connected by springs to a frame, used for jumping.
+triathlon | noun | An athletic contest of swimming, cycling, and running.
+trivia | noun | Details or information of little importance.
+ukulele | noun | A small four-stringed guitar of Hawaiian origin.
+unicycle | noun | A cycle with a single wheel.
+ventriloquist | noun | A person who can make their voice appear to come from elsewhere.
+volleyball | noun | A game in which a ball is hit by hand over a high net.
+windsurfing | noun | The sport of riding on water on a board with a sail.
+yoga | noun | A Hindu spiritual discipline including breath control and body postures.
+zorbing | noun | Rolling downhill inside a large transparent ball.
+zumba | noun | A trademarked fitness program combining dance and aerobics.

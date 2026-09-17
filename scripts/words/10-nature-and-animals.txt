@@ -1,0 +1,143 @@
+# Animals, plants, nature, and weather
+# word | part of speech | definition
+aardvark | noun | A nocturnal burrowing African mammal that eats ants and termites.
+albatross | noun | A very large oceanic bird; a burden or encumbrance.
+alligator | noun | A large semiaquatic reptile similar to a crocodile.
+alpaca | noun | A long-haired domesticated South American mammal related to the llama.
+anaconda | noun | A very large snake of the boa family, native to South America.
+anteater | noun | A mammal that feeds on ants and termites with a long sticky tongue.
+armadillo | noun | A burrowing mammal with a body covered in bony plates.
+avalanche | noun | A mass of snow falling rapidly down a mountainside.
+axolotl | noun | A Mexican salamander that retains its larval form throughout life.
+baboon | noun | A large Old World monkey with a long doglike snout.
+badger | noun | A heavily built burrowing mammal with a black-and-white striped head.
+barnacle | noun | A marine crustacean that attaches itself permanently to surfaces.
+barracuda | noun | A large, predatory tropical marine fish.
+bison | noun | A wild ox with a humped back and shaggy hair.
+blizzard | noun | A severe snowstorm with high winds.
+blobfish | noun | A deep-sea fish with a gelatinous body.
+bobcat | noun | A small North American wild cat with a short tail.
+bonobo | noun | A chimpanzee-like ape native to the Congo.
+buzzard | noun | A large bird of prey.
+capybara | noun | The largest rodent, native to South America.
+caribou | noun | The North American reindeer.
+cassowary | noun | A very large flightless bird native to New Guinea and Australia.
+centipede | noun | An arthropod with a long body and many pairs of legs.
+chameleon | noun | A lizard that can change color; a person who changes opinions to suit.
+cheetah | noun | A large, slender, spotted wild cat, the fastest land animal.
+chickadee | noun | A small North American songbird.
+chinchilla | noun | A small South American rodent with soft gray fur.
+chipmunk | noun | A burrowing ground squirrel with light and dark stripes.
+cicada | noun | An insect known for the loud shrill sound the males make.
+cockroach | noun | A beetle-like scavenging insect, often a household pest.
+condor | noun | A very large vulture of the Americas.
+cormorant | noun | A large diving seabird with a long neck and hooked bill.
+coyote | noun | A wild dog native to North America.
+crocodile | noun | A large predatory semiaquatic reptile.
+cuckoo | noun | A bird known for laying eggs in other birds' nests; a crazy person.
+cyclone | noun | A system of winds rotating inward to an area of low pressure.
+dandelion | noun | A weed with bright yellow flowers followed by fluffy seed heads.
+dingo | noun | A wild dog of Australia.
+dodo | noun | An extinct flightless bird of Mauritius; an old-fashioned person.
+dolphin | noun | A small gregarious toothed whale with a beaklike snout.
+dragonfly | noun | A fast-flying insect with a long body and two pairs of wings.
+dromedary | noun | A one-humped camel.
+dugong | noun | A large marine mammal related to the manatee.
+earthworm | noun | A burrowing annelid worm living in soil.
+earwig | noun | A small insect with pincers at the end of its abdomen.
+echidna | noun | A spiny egg-laying mammal of Australia and New Guinea.
+eel | noun | A snakelike fish.
+emu | noun | A large flightless Australian bird.
+ferret | noun | A domesticated polecat used for catching rabbits.
+firefly | noun | A beetle that emits light.
+flamingo | noun | A wading bird with pink plumage and long legs.
+gazelle | noun | A small, graceful antelope.
+gecko | noun | A nocturnal lizard with adhesive feet.
+gerbil | noun | A small burrowing rodent often kept as a pet.
+gibbon | noun | A small, slender tree-dwelling ape.
+gnu | noun | A large African antelope; a wildebeest.
+gopher | noun | A burrowing rodent with fur-lined cheek pouches.
+gorilla | noun | The largest of the great apes.
+grizzly | noun | A large brown bear of North America.
+hailstorm | noun | A storm with hail.
+hamster | noun | A small burrowing rodent often kept as a pet.
+hedgehog | noun | A small nocturnal mammal with a spiny coat.
+hippopotamus | noun | A large African mammal with a thick skin, living near water.
+hummingbird | noun | A tiny nectar-feeding bird that can hover.
+hurricane | noun | A storm with a violent wind, especially a tropical cyclone.
+hyena | noun | A doglike carnivorous mammal known for its howling laugh.
+ibis | noun | A large wading bird with a long downward-curved bill.
+iguana | noun | A large tropical American lizard.
+impala | noun | An African antelope known for its leaping.
+jackal | noun | A slender wild dog that often scavenges.
+jaguar | noun | A large, heavily built cat of the Americas.
+jellyfish | noun | A free-swimming marine animal with a gelatinous bell.
+kangaroo | noun | A large Australian marsupial that moves by hopping.
+kiwi | noun | A flightless New Zealand bird; a fuzzy fruit.
+koala | noun | A bearlike Australian marsupial that feeds on eucalyptus leaves.
+kookaburra | noun | A large Australian kingfisher known for its laughing call.
+ladybug | noun | A small beetle with a red back and black spots.
+lemming | noun | A small Arctic rodent known for periodic population surges.
+lemur | noun | A tree-dwelling primate of Madagascar.
+llama | noun | A domesticated South American camelid used as a pack animal.
+lobster | noun | A large marine crustacean with stalked eyes and large claws.
+locust | noun | A grasshopper that migrates in vast swarms.
+macaw | noun | A large, brightly colored long-tailed parrot.
+manatee | noun | A large aquatic plant-eating mammal; a sea cow.
+mandrill | noun | A large West African baboon with a colorful face.
+marmot | noun | A heavily built burrowing rodent.
+meerkat | noun | A small southern African mongoose.
+mongoose | noun | A small carnivorous mammal known for killing snakes.
+monsoon | noun | A seasonal prevailing wind bringing heavy rains in South Asia.
+moose | noun | A large deer with palmate antlers.
+narwhal | noun | An Arctic whale with a long spiral tusk.
+nightingale | noun | A small bird known for its melodious song.
+ocelot | noun | A medium-sized wild cat of the Americas.
+octopus | noun | A cephalopod mollusk with eight arms.
+okapi | noun | A giraffe-like African mammal with striped legs.
+opossum | noun | An American marsupial that plays dead when threatened.
+orangutan | noun | A large, red-haired ape of Borneo and Sumatra.
+ostrich | noun | A very large flightless African bird.
+otter | noun | A semiaquatic fish-eating mammal of the weasel family.
+pangolin | noun | A scaly anteater of Africa and Asia.
+panther | noun | A leopard, especially a black one; a cougar.
+parakeet | noun | A small parrot with a long tail.
+peacock | noun | A male peafowl with a spectacular tail.
+pelican | noun | A large water bird with a pouch under its bill.
+penguin | noun | A flightless seabird of the Southern Hemisphere.
+platypus | noun | An egg-laying Australian mammal with a duck-like bill.
+porcupine | noun | A rodent with protective spines.
+possum | noun | An opossum; an Australian marsupial.
+puffin | noun | A seabird with a large, brightly colored bill.
+python | noun | A large constricting snake.
+quetzal | noun | A brightly colored bird of Central America.
+quokka | noun | A small wallaby of southwestern Australia known for its smile.
+raccoon | noun | A North American mammal with a masked face and ringed tail.
+rattlesnake | noun | A venomous American snake with a rattle on its tail.
+reindeer | noun | A deer of the Arctic with large antlers.
+rhinoceros | noun | A large, heavy mammal with one or two horns on its snout.
+salamander | noun | An amphibian resembling a newt; a mythical lizard that could live in fire.
+scorpion | noun | An arachnid with pincers and a venomous stinging tail.
+seahorse | noun | A small marine fish with an upright posture and a horse-like head.
+skunk | noun | A North American mammal able to spray a foul-smelling liquid.
+sloth | noun | A slow-moving tropical mammal; laziness.
+snowflake | noun | A flake of snow; an overly sensitive person (slang).
+stingray | noun | A flat fish with a venomous spine on its tail.
+tapir | noun | A hoofed mammal with a short flexible snout.
+tarantula | noun | A large hairy spider.
+termite | noun | A small insect that feeds on wood.
+thunderstorm | noun | A storm with thunder and lightning.
+tornado | noun | A violently rotating column of air.
+toucan | noun | A tropical American bird with a huge colorful bill.
+tsunami | noun | A long high sea wave caused by an earthquake.
+tumbleweed | noun | A plant that breaks off and is blown about by the wind.
+typhoon | noun | A tropical storm in the Indian or western Pacific oceans.
+vulture | noun | A large bird of prey that feeds on carrion.
+walrus | noun | A large marine mammal with tusks and whiskers.
+warthog | noun | An African wild pig with warty lumps on its face.
+wildebeest | noun | A large African antelope; a gnu.
+wolverine | noun | A heavily built carnivorous mammal of northern forests.
+wombat | noun | A burrowing Australian marsupial.
+woodpecker | noun | A bird that pecks at tree trunks to find insects.
+yak | noun | A large domesticated wild ox with shaggy hair.
+zebra | noun | An African wild horse with black-and-white stripes.

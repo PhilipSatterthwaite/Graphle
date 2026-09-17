@@ -15,7 +15,6 @@ let data, definitions;
 let round;            // { words: graph order, shuffled: bank order }
 let assignments;      // graph index -> word | null
 let history;          // [{ guess: [word by graph index], correct: number }]
-let consistent;       // answer permutations still possible given history
 let wrongGuesses;
 let status;           // "playing" | "won" | "lost"
 let selectedWord = null;
@@ -148,16 +147,6 @@ function drawChart(series, showValues) {
   return svg;
 }
 
-function permutations(items) {
-  if (items.length <= 1) return [items];
-  return items.flatMap((item, i) =>
-    permutations([...items.slice(0, i), ...items.slice(i + 1)]).map((rest) => [item, ...rest]));
-}
-
-// A placement is ruled out when no arrangement consistent with every past
-// guess's correct-count puts that word on that graph.
-const ruledOut = (gi, word) => status === "playing" && !consistent.some((perm) => perm[gi] === word);
-
 const sameAsPastGuess = () => history.some((h) => h.guess.every((w, gi) => w === assignments[gi]));
 
 function place(gi, word) {
@@ -250,7 +239,6 @@ function renderCharts() {
     const placed = assignments[gi];
     const card = el("div", { className: "card" });
     const slot = el("div", { className: "slot" + (placed ? " filled" : "") });
-    const note = el("div", { className: "note" });
 
     if (status === "won") {
       card.classList.add("correct");
@@ -261,17 +249,13 @@ function renderCharts() {
     } else {
       if (selectedWord) card.classList.add("target");
       slot.textContent = placed || "tap to place";
-      if (placed && ruledOut(gi, placed)) {
-        slot.classList.add("ruled-out");
-        note.textContent = "✗ Ruled out by earlier guesses";
-      }
       if (placed) {
         slot.draggable = true;
         slot.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", placed));
       }
     }
 
-    card.append(el("div", { className: "letter", textContent: `Graph ${LETTERS[gi]}` }), drawChart(data.series[word], showValues), slot, note);
+    card.append(el("div", { className: "letter", textContent: `Graph ${LETTERS[gi]}` }), drawChart(data.series[word], showValues), slot);
     card.addEventListener("click", () => {
       if (status !== "playing") return;
       if (selectedWord) place(gi, selectedWord);
@@ -308,7 +292,6 @@ function newRound() {
   round = { words, shuffled: shuffle(words) };
   assignments = words.map(() => null);
   history = [];
-  consistent = permutations(words);
   wrongGuesses = 0;
   status = "playing";
   selectedWord = null;
@@ -320,7 +303,6 @@ function submit() {
   const guess = [...assignments];
   const correct = guess.filter((w, gi) => w === round.words[gi]).length;
   history.push({ guess, correct });
-  consistent = consistent.filter((perm) => guess.filter((w, gi) => w === perm[gi]).length === correct);
   selectedWord = null;
   tooltip.hidden = true;
 
@@ -348,8 +330,10 @@ function submit() {
 $("submit").addEventListener("click", submit);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=4").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=6").then((r) => r.json())))
   .then(([ngrams, defs]) => {
+    // Series are stored as a peak plus percentages of it; expand to values.
+    for (const [w, { max, q }] of Object.entries(ngrams.series)) ngrams.series[w] = q.map((p) => (p * max) / 100);
     data = ngrams;
     definitions = defs;
     newRound();

@@ -1,0 +1,99 @@
+# Words borrowed from other languages
+# word | part of speech | definition
+aficionado | noun | A person who is very knowledgeable and enthusiastic about an activity.
+angst | noun | A feeling of deep anxiety or dread.
+apropos | preposition | With reference to; concerning.
+ballerina | noun | A female ballet dancer.
+bazaar | noun | A market in a Middle Eastern country; a fundraising sale.
+bonanza | noun | A situation creating a sudden increase in wealth or luck.
+bravura | noun | Great technical skill and brilliance shown in a performance.
+cabal | noun | A secret political clique or faction.
+cachet | noun | The state of being respected or admired; prestige.
+cafeteria | noun | A restaurant in which customers serve themselves.
+carafe | noun | An open-topped glass flask for serving wine or water.
+chagrin | noun | Distress or embarrassment at having failed or been humiliated.
+cliche | noun | A phrase or opinion that is overused and betrays a lack of original thought.
+connoisseur | noun | An expert judge in matters of taste.
+coup | noun | A sudden, violent seizure of power; a notable achievement.
+crescendo | noun | A gradual increase in loudness; the most intense point.
+decor | noun | The furnishing and decoration of a room.
+diva | noun | A celebrated female opera singer; a self-important person.
+dossier | noun | A collection of documents about a particular person or subject.
+elan | noun | Energy, style, and enthusiasm.
+emigre | noun | A person who has left their own country, typically for political reasons.
+ennui | noun | Listlessness and dissatisfaction arising from boredom.
+entourage | noun | A group of people attending or surrounding an important person.
+entrepreneur | noun | A person who sets up a business, taking on financial risks.
+faux | adjective | Made in imitation; artificial.
+fiesta | noun | A religious festival in Spanish-speaking regions; a festive occasion.
+finesse | noun | Impressive delicacy and skill.
+fjord | noun | A long, narrow, deep inlet of the sea between high cliffs.
+foyer | noun | An entrance hall or other open area in a building.
+gesundheit | exclamation | Said to someone who has sneezed.
+glitch | noun | A sudden malfunction or irregularity.
+gourmet | noun | A connoisseur of good food.
+graffiti | noun | Writing or drawings scribbled on a wall in a public place.
+gusto | noun | Enjoyment or vigor in doing something; zest.
+haiku | noun | A Japanese poem of seventeen syllables in three lines.
+hinterland | noun | The remote areas of a country away from the coast or cities.
+igloo | noun | A dome-shaped Inuit house built from blocks of solid snow.
+incognito | adjective | Having one's true identity concealed.
+intelligentsia | noun | Intellectuals or highly educated people as a group.
+junta | noun | A military group ruling a country after taking power by force.
+karma | noun | The sum of a person's actions regarded as deciding their fate.
+kibbutz | noun | A communal settlement in Israel.
+kindergarten | noun | A school or class for young children.
+kitschy | adjective | Characterized by kitsch; garish or tacky.
+klaxon | noun | A loud electric horn.
+kudos | noun | Praise and honor received for an achievement.
+leitmotif | noun | A recurrent theme in a musical or literary composition.
+lingerie | noun | Women's underwear and nightclothes.
+loot | noun | Goods stolen in war or by thieves.
+macho | adjective | Showing aggressive pride in one's masculinity.
+malaprop | noun | The mistaken use of a word in place of a similar-sounding one.
+mantra | noun | A word or sound repeated to aid concentration; a frequently repeated slogan.
+matinee | noun | An afternoon performance in a theater or cinema.
+melange | noun | A varied mixture.
+memoir | noun | A historical account or biography written from personal knowledge.
+mensch | noun | A person of integrity and honor.
+milieu | noun | A person's social environment.
+motif | noun | A decorative design or pattern; a dominant theme.
+naive | adjective | Showing a lack of experience, wisdom, or judgment.
+negligee | noun | A woman's light, filmy dressing gown.
+nirvana | noun | A transcendent state of perfect happiness.
+nouveau | adjective | Newly or recently created or developed.
+oeuvre | noun | The body of work of an artist, composer, or author.
+pajamas | noun | Loose-fitting sleepwear.
+panorama | noun | An unbroken view of a whole region.
+patio | noun | A paved outdoor area adjoining a house.
+persona | noun | The aspect of someone's character presented to others.
+piazza | noun | A public square or marketplace, especially in an Italian town.
+plaza | noun | A public square or open space in a built-up area.
+potpourri | noun | A mixture of dried petals and spices; a mixture of things.
+protege | noun | A person guided and supported by an older, more experienced person.
+pundit | noun | An expert who frequently gives opinions to the public.
+rapport | noun | A close and harmonious relationship.
+rendezvous | noun | A meeting at an agreed time and place.
+repartee | noun | Conversation marked by quick, witty comments or replies.
+risque | adjective | Slightly indecent or liable to shock.
+robot | noun | A machine capable of carrying out complex actions automatically.
+rodeo | noun | An exhibition of cowboys' skills in riding and roping.
+sabotage | verb | To deliberately destroy or obstruct something.
+safari | noun | An expedition to observe or hunt animals in their natural habitat.
+saga | noun | A long story of heroic achievement, especially a medieval Norse one.
+sauna | noun | A small room used as a hot-air or steam bath.
+savant | noun | A learned person; a person with an exceptional specific ability.
+schadenfreude | noun | Pleasure derived from another person's misfortune.
+siesta | noun | An afternoon rest or nap.
+soiree | noun | An evening party or gathering.
+spiel | noun | A long or glib speech intended to persuade.
+sputnik | noun | Each of a series of Soviet artificial satellites.
+tableau | noun | A group of models or motionless figures representing a scene.
+taboo | noun | A social or religious custom prohibiting a practice.
+tycoon | noun | A wealthy, powerful person in business or industry.
+umami | noun | A category of taste corresponding to the flavor of glutamates.
+verboten | adjective | Forbidden, especially by an authority.
+vigilante | noun | A member of a self-appointed group of citizens who punish crime.
+virtuoso | noun | A person highly skilled in music or another artistic pursuit.
+vodka | noun | A clear alcoholic spirit of Russian origin.
+wunderkind | noun | A person who achieves great success when relatively young.

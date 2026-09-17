@@ -1,0 +1,211 @@
+# Whimsical words, slang, insults, and nonsense
+# word | part of speech | definition
+absquatulate | verb | To leave abruptly; to abscond.
+alack | exclamation | An expression of regret or dismay.
+ballyhoo | noun | Extravagant publicity or fuss.
+barmy | adjective | Mad or crazy (British).
+bedlam | noun | A scene of uproar and confusion.
+befuddled | adjective | Unable to think clearly; confused.
+bejeezus | noun | Used for emphasis, as in "scared the bejeezus out of me."
+bigwig | noun | An important person, especially in a particular sphere.
+blatherskite | noun | A person who talks at great length without making much sense.
+blighter | noun | A contemptible or unfortunate person (British).
+blimey | exclamation | An expression of surprise or alarm (British).
+blithering | adjective | Senselessly talkative; utter, as in "blithering idiot."
+bloviate | verb | To talk at length in an inflated or empty way.
+bluster | noun | Loud, aggressive, or indignant talk with little effect.
+bogus | adjective | Not genuine or true; fake.
+bonkers | adjective | Mad; crazy.
+boob | noun | A foolish or stupid person; a blunder.
+boondocks | noun | Rough or isolated country.
+brainiac | noun | A very intelligent person.
+bubkes | noun | Nothing at all; very little.
+buffoon | noun | A ridiculous but amusing person; a clown.
+bumpkin | noun | An unsophisticated person from the countryside.
+bunkum | noun | Nonsense.
+caboodle | noun | The whole lot, as in "the whole kit and caboodle."
+cahoots | noun | Colluding or conspiring together.
+canoodle | verb | To kiss and cuddle amorously.
+catawampus | adjective | Askew; not properly lined up.
+chicanery | noun | The use of trickery to achieve a purpose.
+chinwag | noun | A chat.
+chortle | verb | To laugh in a breathy, gleeful way.
+chutzpah | noun | Shameless audacity; impudence.
+claptrap | noun | Absurd or nonsensical talk or ideas.
+clodhopper | noun | A large, heavy shoe; a clumsy person.
+clunker | noun | A dilapidated old car or machine.
+codger | noun | An elderly man, especially one who is eccentric.
+comeuppance | noun | A punishment or fate that someone deserves.
+conniption | noun | A fit of rage or hysterics.
+copacetic | adjective | In excellent order; very satisfactory.
+crackerjack | adjective | Exceptionally good.
+crikey | exclamation | An expression of surprise.
+crumbum | noun | A worthless or contemptible person.
+dilly | noun | An excellent example of a particular type of person or thing.
+dillydally | verb | To waste time through indecision.
+dingbat | noun | A stupid or eccentric person; a typographical ornament.
+dingus | noun | A thing whose name one cannot recall.
+dipstick | noun | A rod for measuring fluid depth; a stupid person.
+ditzy | adjective | Silly or scatterbrained.
+doddering | adjective | Slow, shaky, and unsteady, typically because of old age.
+dollop | noun | A shapeless mass of soft food.
+doozy | noun | Something outstanding or unique of its kind.
+dork | noun | A dull, socially inept person.
+dorky | adjective | Socially inept or unfashionable.
+drivel | noun | Silly nonsense.
+dunderhead | noun | A stupid person.
+dweeb | noun | A boring, studious, or socially inept person.
+egghead | noun | An intellectual or academic, often used disparagingly.
+eejit | noun | An idiot (Irish and Scottish).
+fandangle | noun | A useless or purely ornamental thing.
+fiddlesticks | exclamation | Nonsense.
+finagle | verb | To obtain something by devious or dishonest methods.
+flabbergasted | adjective | Greatly surprised or astonished.
+flapdoodle | noun | Nonsense.
+flimflam | noun | Nonsensical or insincere talk; a confidence trick.
+floozy | noun | A girl or woman with a disreputable reputation.
+fopdoodle | noun | A foolish or insignificant person.
+frazzled | adjective | Completely exhausted.
+fussbudget | noun | A person who fusses over trivial things.
+galoot | noun | A clumsy, oafish person.
+gewgaw | noun | A showy thing, especially one that is useless or worthless.
+gimcrack | adjective | Showy but flimsy or poorly made.
+gizzard | noun | A muscular part of a bird's stomach; a person's throat or stomach.
+glitzy | adjective | Extravagantly showy.
+goober | noun | A peanut; a silly or goofy person.
+goofball | noun | A silly or foolish person.
+goofy | adjective | Mildly eccentric and silly.
+goon | noun | A thug hired to intimidate; a silly person.
+gormless | adjective | Lacking sense; foolish.
+grinch | noun | A spoilsport or killjoy.
+grouch | noun | A habitually grumpy person.
+grumpy | adjective | Bad-tempered and irritable.
+guff | noun | Trivial, worthless, or insolent talk.
+hanky | noun | A handkerchief.
+harebrained | adjective | Rash; ill-judged.
+hayseed | noun | An unsophisticated person from the countryside.
+highfalutin | adjective | Pompous or pretentious.
+hijinks | noun | Boisterous fun.
+hobnob | verb | To mix socially, especially with those of higher status.
+hokum | noun | Nonsense; trite or sentimental material.
+honcho | noun | A leader or manager; the person in charge.
+hooey | noun | Nonsense.
+hooligan | noun | A violent young troublemaker.
+hotshot | noun | An important or exceptionally able person.
+humbug | noun | Deceptive or false talk; a hypocrite; a boiled peppermint sweet.
+hunky | adjective | (Of a man) ruggedly attractive.
+huzzah | exclamation | An expression of approval or delight.
+jabberwocky | noun | Invented or meaningless language; nonsense.
+jackanapes | noun | An impertinent person.
+jamboree | noun | A large celebration or party; a gathering of scouts.
+jinx | noun | A person or thing that brings bad luck.
+kablooey | adverb | Into a state of sudden collapse or explosion.
+kaput | adjective | Broken and useless; no longer working.
+killjoy | noun | A person who deliberately spoils the enjoyment of others.
+klutz | noun | A clumsy, awkward person.
+knucklehead | noun | A stupid person.
+kooky | adjective | Strange or eccentric.
+lallygag | verb | To spend time aimlessly; to dawdle.
+lickspittle | noun | A person who behaves obsequiously to those in power.
+loony | adjective | Crazy or silly.
+loopy | adjective | Crazy or silly; having many loops.
+lummox | noun | A clumsy, stupid person.
+lunkhead | noun | A slow-witted person.
+meathead | noun | A stupid person.
+mishmash | noun | A confused mixture.
+moolah | noun | Money.
+mooch | verb | To ask for or obtain something without paying for it.
+mugwump | noun | A person who remains aloof or independent, especially in politics.
+nerd | noun | A foolish or contemptible person who lacks social skills; an enthusiast.
+nerdy | adjective | Foolish and socially inept; intensely interested in a subject.
+nitwit | noun | A silly or foolish person.
+noggin | noun | A person's head; a small quantity of alcohol.
+nonplussed | adjective | So surprised and confused that one is unsure how to react.
+noodle | noun | A strip of pasta; a person's head.
+numbskull | noun | A stupid or foolish person.
+nutjob | noun | A crazy person.
+nutty | adjective | Tasting like nuts; mad.
+oaf | noun | A stupid, uncultured, or clumsy man.
+oddball | noun | A strange or eccentric person.
+oodles | noun | A very great number or amount.
+palooka | noun | A stupid or clumsy person; a mediocre boxer.
+pantywaist | noun | A feeble or effeminate man.
+piffle | noun | Nonsense.
+pipsqueak | noun | A person considered unimportant, especially because small or young.
+pishposh | exclamation | Nonsense.
+pooh | exclamation | Expressing impatience or contempt.
+popinjay | noun | A vain or conceited person, especially one who dresses showily.
+potty | adjective | Foolish; crazy (British); a child's chamber pot.
+pratfall | noun | A fall onto one's buttocks; a humiliating blunder.
+prattle | verb | To talk at length in a foolish or inconsequential way.
+pshaw | exclamation | Expressing contempt or impatience.
+puffery | noun | Exaggerated or false praise.
+putz | noun | A stupid or worthless person.
+rascal | noun | A mischievous or cheeky person, especially a child.
+razzle | noun | Part of "razzle-dazzle": noisy, showy fuss or activity.
+razzmatazz | noun | Noisy, showy, and exciting activity designed to attract attention.
+rhubarb | noun | A plant with edible stalks; noisy nonsense; a heated dispute.
+ribald | adjective | Referring to sexual matters in an amusingly rude way.
+riffraff | noun | Disreputable or undesirable people.
+roustabout | noun | An unskilled or casual laborer.
+ruckus | noun | A row or commotion.
+rumpus | noun | A noisy disturbance; a commotion.
+sassy | adjective | Lively, bold, and full of spirit; cheeky.
+schlemiel | noun | A stupid, awkward, or unlucky person.
+schlep | verb | To haul or carry something heavy or awkward.
+schlock | noun | Cheap or inferior goods; trash.
+schmaltz | noun | Excessive sentimentality; rendered chicken fat.
+schmooze | verb | To talk intimately and cozily to gain favor.
+schmuck | noun | A foolish or contemptible person.
+schnook | noun | A stupid or easily deceived person.
+scofflaw | noun | A person who flouts the law, especially in minor ways.
+scuttlebutt | noun | Rumor; gossip.
+shebang | noun | A matter, operation, or set of circumstances, as in "the whole shebang."
+shindig | noun | A large, lively party.
+shlub | noun | A talentless, unattractive, or boorish person.
+shyster | noun | A person, especially a lawyer, who uses unscrupulous methods.
+skunked | adjective | Defeated overwhelmingly; spoiled (of beer).
+slapdash | adjective | Done too hurriedly and carelessly.
+slapstick | noun | Comedy based on deliberately clumsy actions.
+slowpoke | noun | A person who acts or moves slowly.
+smarmy | adjective | Ingratiating and wheedling in a way perceived as insincere.
+snarky | adjective | Sharply critical; cutting; snide.
+snoot | noun | A person's nose; a snob.
+snooty | adjective | Showing disapproval or contempt toward others; snobbish.
+snootful | noun | Enough alcohol to make one drunk.
+sourpuss | noun | A bad-tempered or habitually sullen person.
+spiffy | adjective | Smart in appearance.
+squabble | noun | A noisy quarrel about something trivial.
+squeegee | noun | A scraping implement with a rubber-edged blade.
+squiffy | adjective | Slightly drunk (British).
+stinker | noun | A person or thing that is very unpleasant or difficult.
+stooge | noun | A performer who serves as a butt for a comedian; a subordinate used by another.
+swanky | adjective | Stylishly luxurious and expensive.
+swindle | verb | To use deception to deprive someone of money or possessions.
+thingummy | noun | A thing whose name one has forgotten.
+toady | noun | A person who behaves obsequiously to others.
+toodles | exclamation | Goodbye.
+twaddle | noun | Trivial or foolish speech or writing; nonsense.
+twerp | noun | A silly or annoying person.
+twit | noun | A silly or foolish person.
+uppity | adjective | Arrogantly self-assertive; putting on airs.
+vamoose | verb | To depart hurriedly.
+wacko | noun | A crazy person.
+wacky | adjective | Funny or amusing in a slightly odd way.
+wallop | verb | To strike or hit very hard.
+wazoo | noun | The buttocks, as in "up the wazoo" (in great quantity).
+whatchamacallit | noun | A thing whose name one cannot recall.
+whippet | noun | A small, slender dog bred for racing.
+whoopee | exclamation | An expression of wild excitement or joy.
+wimp | noun | A weak and cowardly or unadventurous person.
+wingding | noun | A lively party or celebration.
+wisenheimer | noun | A person who behaves in an irritatingly smug or clever way.
+wonky | adjective | Crooked; off-center; unsteady.
+wussy | adjective | Weak or ineffectual.
+yahoo | noun | A rude, noisy, or violent person.
+yammer | verb | To talk loudly and incessantly.
+yokel | noun | An uneducated and unsophisticated person from the countryside.
+zany | adjective | Amusingly unconventional and idiosyncratic.
+zilch | noun | Nothing.
+zinger | noun | A striking or amusing remark.
+zonked | adjective | Exhausted; under the influence of drugs or alcohol.

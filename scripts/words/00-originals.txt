@@ -1,0 +1,162 @@
+# word | part of speech | definition
+penumbra | noun | The partially shaded outer region of a shadow, as during an eclipse.
+dysentery | noun | An intestinal infection causing severe diarrhea with blood.
+hornswoggle | verb | To swindle, cheat, or hoax someone.
+bamboozle | verb | To fool or trick someone, often by confusing them.
+flibbertigibbet | noun | A frivolous, flighty, or excessively talkative person.
+gobbledygook | noun | Language that is meaningless or hard to understand, especially official jargon.
+cattywampus | adjective | Askew, awry, or positioned diagonally.
+lollygag | verb | To spend time aimlessly; to dawdle.
+skedaddle | verb | To leave or run away quickly.
+brouhaha | noun | A noisy and overexcited reaction or fuss.
+kerfuffle | noun | A commotion or fuss, especially one caused by conflicting views.
+shenanigans | noun | Secret or dishonest activity; silly or high-spirited behavior.
+malarkey | noun | Meaningless talk; nonsense.
+balderdash | noun | Senseless talk or writing; nonsense.
+codswallop | noun | Nonsense (chiefly British).
+poppycock | noun | Empty or foolish talk; nonsense.
+rigmarole | noun | A lengthy and complicated procedure.
+hullabaloo | noun | A commotion; a fuss.
+widdershins | adverb | In a direction contrary to the sun's course; counterclockwise.
+collywobbles | noun | Stomach pain or queasiness; intense anxiety or nervousness.
+curmudgeon | noun | A bad-tempered or surly person.
+discombobulated | adjective | Confused and disconcerted.
+zeitgeist | noun | The defining spirit or mood of a particular period of history.
+serendipity | noun | The occurrence of events by chance in a happy or beneficial way.
+petrichor | noun | The pleasant, earthy smell after rain falls on dry ground.
+defenestration | noun | The action of throwing someone out of a window.
+sesquipedalian | adjective | Given to using long words; (of a word) having many syllables.
+pandemonium | noun | Wild and noisy disorder or confusion; uproar.
+quagmire | noun | A soft boggy area of land; an awkward, complex, or hazardous situation.
+nincompoop | noun | A foolish or stupid person.
+snollygoster | noun | A shrewd, unprincipled person, especially a politician.
+taradiddle | noun | A petty lie; pretentious nonsense.
+gallimaufry | noun | A confused jumble or medley of things.
+lugubrious | adjective | Looking or sounding sad and dismal.
+cantankerous | adjective | Bad-tempered, argumentative, and uncooperative.
+persnickety | adjective | Placing too much emphasis on trivial or minor details; fussy.
+rambunctious | adjective | Uncontrollably exuberant; boisterous.
+flummoxed | adjective | Bewildered; perplexed.
+bodacious | adjective | Excellent, admirable, or attractive; audacious.
+gobsmacked | adjective | Utterly astonished; astounded.
+hootenanny | noun | An informal gathering with folk music and sometimes dancing.
+doohickey | noun | A small object or gadget whose name one doesn't know or has forgotten.
+thingamajig | noun | A thing whose name one has forgotten, doesn't know, or doesn't want to mention.
+whippersnapper | noun | A young and inexperienced person considered presumptuous or overconfident.
+scallywag | noun | A person, especially a child, who behaves badly but in an amusing way.
+rapscallion | noun | A mischievous person.
+ragamuffin | noun | A person, typically a child, in ragged, dirty clothes.
+tomfoolery | noun | Foolish or silly behavior.
+skullduggery | noun | Underhanded or unscrupulous behavior; trickery.
+hogwash | noun | Nonsense; originally, kitchen swill fed to pigs.
+gibberish | noun | Unintelligible or meaningless speech or writing.
+blunderbuss | noun | A short, large-bored gun firing balls or slugs; an unsubtle and imprecise action.
+cummerbund | noun | A pleated sash worn around the waist, especially with a dinner jacket.
+bumbershoot | noun | An umbrella.
+galoshes | noun | Waterproof rubber overshoes.
+pumpernickel | noun | Dark, dense, slightly sweet German bread made from coarsely ground rye.
+rutabaga | noun | A large, round, yellow-fleshed root vegetable; a swede.
+kumquat | noun | A small orange-like fruit with an edible sweet rind and acidic pulp.
+zucchini | noun | A green variety of smooth-skinned summer squash.
+quinoa | noun | A grain-like seed from a South American plant, eaten as a staple food.
+emoji | noun | A small digital image or icon used to express an idea or emotion.
+podcast | noun | A digital audio series that can be downloaded or streamed.
+cyberspace | noun | The notional environment in which communication over computer networks occurs.
+selfie | noun | A photograph one has taken of oneself, typically with a phone.
+telegraph | noun | A system for sending messages over a distance along a wire using coded signals.
+zeppelin | noun | A large rigid airship with a cylindrical body.
+phonograph | noun | An early device for recording and reproducing sound from cylinders or discs.
+gramophone | noun | A record player, especially an old hand-cranked one with a horn.
+typewriter | noun | A machine with keys for producing print-like characters on paper.
+dirigible | noun | An airship that can be steered.
+velocipede | noun | An early form of bicycle propelled by pushing along the ground or by pedals.
+hovercraft | noun | A vehicle that travels over land or water on a cushion of air.
+spaceship | noun | A spacecraft, especially one controlled by a crew.
+robot | noun | A machine capable of carrying out a complex series of actions automatically.
+laser | noun | A device that emits an intense, narrow beam of coherent light.
+transistor | noun | A semiconductor device used to amplify or switch electronic signals.
+cholera | noun | A bacterial infection of the small intestine, spread by contaminated water.
+scurvy | noun | A disease caused by a lack of vitamin C, historically common among sailors.
+smallpox | noun | A contagious viral disease with fever and pustules, now eradicated.
+apothecary | noun | A person who prepared and sold medicines and drugs.
+phrenology | noun | The discredited study of skull shape as supposedly indicative of character and ability.
+mesmerism | noun | A therapeutic system of hypnotic induction believed to involve animal magnetism.
+alchemy | noun | The medieval forerunner of chemistry, seeking to turn base metals into gold.
+psychedelic | adjective | Relating to drugs that produce hallucinations; having vivid colors and swirling patterns.
+groovy | adjective | Fashionable and exciting.
+cowabunga | exclamation | Used to express delight or satisfaction; a surfer's cry.
+tubular | adjective | Long, round, and hollow like a tube; (slang) excellent.
+bling | noun | Expensive, ostentatious clothing and jewelry.
+yuppie | noun | A well-paid young middle-class professional with an affluent lifestyle.
+beatnik | noun | A young person associated with the countercultural Beat Generation.
+hippie | noun | A person of unconventional appearance associated with a subculture rejecting traditional values.
+flapper | noun | A fashionable young woman who flouted conventional standards of behavior.
+bootlegger | noun | A person who makes or sells alcohol illegally.
+speakeasy | noun | An illicit liquor store or bar during Prohibition.
+gumshoe | noun | A detective.
+hoodlum | noun | A person who engages in crime and violence; a gangster.
+cravat | noun | A short, wide strip of fabric worn by men around the neck and tucked inside an open collar.
+snazzy | adjective | Stylish and attractive.
+jalopy | noun | An old car in a dilapidated condition.
+gizmo | noun | A gadget, especially one whose name is unknown.
+blimp | noun | A small airship without a rigid internal framework.
+nylon | noun | A tough, lightweight, elastic synthetic polymer used for fabrics.
+bungalow | noun | A low house with a single story.
+suburbia | noun | The suburbs and their inhabitants, viewed collectively.
+chivalry | noun | The medieval knightly system; courteous behavior, especially toward women.
+knave | noun | A dishonest or unscrupulous man.
+scoundrel | noun | A dishonest or unscrupulous person; a rogue.
+dastardly | adjective | Wicked and cruel.
+nefarious | adjective | Wicked or criminal.
+sorcery | noun | The use of magic, especially black magic.
+unicorn | noun | A mythical horse with a single horn; a startup company valued at over a billion dollars.
+vampire | noun | A corpse supposed to leave its grave at night to drink the blood of the living.
+zombie | noun | A corpse said to be revived by witchcraft; a person who is lifeless and apathetic.
+werewolf | noun | A person who changes into a wolf, typically at the full moon.
+goblin | noun | A mischievous, ugly, dwarf-like creature of folklore.
+mermaid | noun | A mythical sea creature with the head and upper body of a woman and the tail of a fish.
+buccaneer | noun | A pirate, originally one operating in the Caribbean.
+cutlass | noun | A short sword with a slightly curved blade, formerly used by sailors.
+musket | noun | An infantryman's light, long-barreled gun, typically smoothbore.
+trebuchet | noun | A medieval siege engine that hurls stones using a counterweight.
+quixotic | adjective | Exceedingly idealistic; unrealistic and impractical.
+whimsical | adjective | Playfully quaint or fanciful, especially in an appealing way.
+ephemeral | adjective | Lasting for a very short time.
+mellifluous | adjective | (Of a voice or words) sweet or musical; pleasant to hear.
+onomatopoeia | noun | The formation of a word from a sound associated with what it names.
+juggernaut | noun | A huge, powerful, and overwhelming force or institution.
+behemoth | noun | A huge or monstrous creature; something enormous.
+leviathan | noun | A biblical sea monster; a very large aquatic creature or powerful state.
+kraken | noun | An enormous mythical sea monster said to appear off the coast of Norway.
+yeti | noun | A large, hairy creature said to live in the highest part of the Himalayas.
+sasquatch | noun | A large, hairy, humanlike creature reputed to live in North American forests; Bigfoot.
+chupacabra | noun | A legendary creature said to attack livestock and drink their blood.
+dinosaur | noun | A prehistoric reptile of the Mesozoic era; something outdated or obsolete.
+pterodactyl | noun | A prehistoric flying reptile with membranous wings.
+doodle | verb | To scribble absentmindedly.
+hubbub | noun | A chaotic din caused by a crowd of people.
+humdinger | noun | A remarkable or outstanding person or thing of its kind.
+smithereens | noun | Small pieces.
+bugaboo | noun | An object of fear or alarm; a bugbear.
+boondoggle | noun | Work or activity that is wasteful or pointless but gives the appearance of value.
+wanderlust | noun | A strong desire to travel.
+hygge | noun | A quality of coziness and comfortable conviviality (a Danish concept).
+sriracha | noun | A spicy sauce made from chili peppers, vinegar, garlic, sugar, and salt.
+kombucha | noun | A fermented, lightly effervescent sweetened tea drink.
+turducken | noun | A dish of a deboned chicken stuffed inside a duck stuffed inside a turkey.
+flapjack | noun | A pancake; (British) a sweet oat bar.
+crumpet | noun | A thick, flat, savory cake with a soft porous texture, eaten toasted.
+marzipan | noun | A sweet paste of ground almonds, sugar, and egg whites.
+jambalaya | noun | A Cajun dish of rice with shrimp, chicken, and spices.
+sushi | noun | A Japanese dish of vinegared rice with raw fish or other toppings.
+tofu | noun | Curd made from mashed soybeans.
+ketchup | noun | A spicy sauce made chiefly from tomatoes and vinegar.
+mayonnaise | noun | A thick, creamy dressing made from egg yolks, oil, and vinegar.
+spam | noun | Canned pork luncheon meat; irrelevant or unsolicited messages sent over the internet.
+software | noun | The programs and other operating information used by a computer.
+hashtag | noun | A word or phrase preceded by a hash sign, used on social media to identify a topic.
+steampunk | noun | A genre of fiction with advanced machines powered by steam, often in a Victorian setting.
+workaholic | noun | A person who compulsively works excessively hard and long hours.
+babysitter | noun | A person who looks after a child or children while the parents are out.
+cheeseburger | noun | A hamburger with a slice of cheese on it.
+supermarket | noun | A large self-service store selling foods and household goods.

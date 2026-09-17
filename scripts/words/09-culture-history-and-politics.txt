@@ -1,0 +1,117 @@
+# Culture, history, politics, music, dance, and eras
+# word | part of speech | definition
+abolitionist | noun | A person who favored the abolition of slavery.
+anarchist | noun | A person who believes in the abolition of all government.
+apartheid | noun | The former policy of racial segregation in South Africa.
+aristocrat | noun | A member of the nobility.
+armistice | noun | An agreement to stop fighting; a truce.
+baroque | adjective | Relating to an ornate style of European art and music of the 17th and 18th centuries.
+bebop | noun | A type of jazz with complex harmony and rhythm, developed in the 1940s.
+bluegrass | noun | A kind of country music influenced by jazz and blues.
+bohemian | noun | A socially unconventional person, especially an artist or writer.
+bolshevik | noun | A member of the Russian faction that seized power in 1917.
+boogie | noun | A lively style of dancing to pop music; boogie-woogie.
+bourgeois | adjective | Characteristic of the middle class, typically materialistic values.
+bourgeoisie | noun | The middle class, typically with reference to its perceived materialistic values.
+boycott | verb | To withdraw from commercial or social relations as a protest.
+breakdancing | noun | An energetic style of street dance with acrobatic moves.
+bureaucrat | noun | An official perceived as concerned with procedural correctness.
+cakewalk | noun | An absurdly easy task; a dance originating among Black Americans.
+calypso | noun | A kind of West Indian music in syncopated rhythm.
+capitalism | noun | An economic system in which trade and industry are privately owned.
+carpetbagger | noun | A political candidate who seeks election in an area where they have no local connections.
+charleston | noun | A lively ballroom dance of the 1920s.
+colonialism | noun | The policy of acquiring control over another country and exploiting it.
+communism | noun | A political theory advocating class war and common ownership.
+conga | noun | A Latin American dance performed in a line; a tall narrow drum.
+counterculture | noun | A way of life and set of attitudes opposed to the social norm.
+crusade | noun | A medieval military expedition to the Holy Land; a vigorous campaign.
+cubism | noun | An early 20th-century style of painting using geometric shapes.
+dadaism | noun | An early 20th-century art movement that mocked artistic conventions.
+democracy | noun | A system of government by the whole population through elected representatives.
+despot | noun | A ruler who holds absolute power, typically exercising it cruelly.
+detente | noun | The easing of hostility between countries.
+dictator | noun | A ruler with total power over a country.
+disco | noun | A club for dancing to pop music; pop music for dancing, popular in the 1970s.
+dixieland | noun | A kind of jazz with a strong two-beat rhythm.
+dreadlocks | noun | A hairstyle of hair twisted into tight braids or ringlets.
+emo | noun | A style of rock music with emotional lyrics; a fan of it.
+existentialism | noun | A philosophy emphasizing individual existence and freedom of choice.
+fascism | noun | An authoritarian and nationalistic right-wing system of government.
+feminism | noun | The advocacy of women's rights on the basis of equality of the sexes.
+feudalism | noun | The medieval social system in which vassals held land from lords.
+foxtrot | noun | A ballroom dance with slow and quick steps.
+fundamentalism | noun | A form of religion upholding belief in the strict interpretation of scripture.
+funk | noun | A style of popular dance music with a strong rhythm; a state of depression.
+gentrification | noun | The renovation of a poor district to conform to middle-class taste.
+gerrymander | verb | To manipulate electoral boundaries to favor one party.
+glasnost | noun | The Soviet policy of more open government in the late 1980s.
+globalization | noun | The process by which businesses develop international influence.
+goth | noun | A style of rock music and fashion with dark clothing and makeup.
+grunge | noun | Grime; a style of rock music of the late 1980s and early 1990s.
+guillotine | noun | A machine with a heavy blade for beheading people.
+hipster | noun | A person who follows the latest trends outside the mainstream.
+impeachment | noun | The charging of a public official with misconduct.
+impressionism | noun | A 19th-century style of painting capturing the effects of light.
+imperialism | noun | A policy of extending a country's power through colonization or force.
+jazz | noun | A type of music of Black American origin characterized by improvisation.
+jitterbug | noun | A fast dance performed to swing music, popular in the 1940s.
+kaiser | noun | The title of the German emperors.
+kitsch | noun | Art or objects considered to be in poor taste but appreciated ironically.
+liberalism | noun | A political philosophy favoring individual liberty and free markets.
+limbo | noun | An uncertain period of awaiting a decision; a West Indian dance.
+luddite | noun | A person opposed to new technology; a 19th-century machine-breaking worker.
+macarena | noun | A Latin dance with arm movements, popular in the mid-1990s.
+mambo | noun | A Latin American dance similar to the rumba.
+metrosexual | noun | A heterosexual urban man who enjoys fashion and grooming.
+millennial | noun | A person reaching young adulthood in the early 21st century.
+minstrel | noun | A medieval singer or musician; a performer in blackface shows.
+modernism | noun | A style or movement in the arts that aims to break with classical forms.
+monarchy | noun | A form of government with a king or queen at its head.
+muckraker | noun | A person who searches out and publicizes scandal.
+nihilism | noun | The rejection of all religious and moral principles.
+oligarch | noun | A ruler in an oligarchy; a very rich business leader with political influence.
+pacifist | noun | A person who believes that war and violence are unjustifiable.
+perestroika | noun | The restructuring of the Soviet economic and political system in the 1980s.
+pharaoh | noun | A ruler in ancient Egypt.
+polka | noun | A lively dance of Bohemian origin.
+populism | noun | A political approach that appeals to ordinary people against elites.
+postmodernism | noun | A late 20th-century movement characterized by skepticism and irony.
+prohibition | noun | The prevention by law of the manufacture and sale of alcohol.
+proletariat | noun | Workers or working-class people.
+propaganda | noun | Biased or misleading information used to promote a political cause.
+punk | noun | A loud, fast rock music genre of the 1970s; a worthless person.
+quadrille | noun | A square dance performed typically by four couples.
+ragtime | noun | Music characterized by a syncopated melodic line, popular around 1900.
+rap | noun | A type of popular music in which words are recited rhythmically.
+reggae | noun | A style of popular music originating in Jamaica.
+renaissance | noun | The revival of European art and literature in the 14th–16th centuries.
+rococo | adjective | Relating to an elaborately ornamental 18th-century style.
+rockabilly | noun | A type of popular music combining rock and roll and country music.
+romanticism | noun | A movement in the arts emphasizing inspiration and the individual.
+rumba | noun | A rhythmic dance with Spanish and African elements.
+salsa | noun | A type of Latin American dance music; a spicy sauce.
+samba | noun | A Brazilian dance of African origin.
+secession | noun | The action of withdrawing formally from a political union.
+serf | noun | An agricultural laborer bound to work on a lord's estate.
+shimmy | noun | A kind of ragtime dance involving shaking the body.
+skiffle | noun | A kind of folk music with a jazz or blues flavor, played with improvised instruments.
+socialism | noun | A political theory advocating collective ownership of the means of production.
+suffragette | noun | A woman seeking the right to vote through organized protest.
+suffrage | noun | The right to vote in political elections.
+surrealism | noun | A 20th-century movement in art and literature exploring the unconscious mind.
+swing | noun | A style of jazz music popular in the 1930s and 1940s.
+tango | noun | A ballroom dance originating in Buenos Aires.
+techno | noun | A style of fast electronic dance music.
+teetotaler | noun | A person who never drinks alcohol.
+temperance | noun | Abstinence from alcoholic drink.
+totalitarian | adjective | Relating to a centralized, dictatorial system of government.
+tsar | noun | An emperor of Russia before 1917; a person with great authority.
+twerking | noun | Dancing in a sexually provocative manner with hip movements.
+tyrant | noun | A cruel and oppressive ruler.
+utopia | noun | An imagined place in which everything is perfect.
+vaudeville | noun | A type of entertainment popular in the early 20th century, featuring mixed acts.
+waltz | noun | A ballroom dance in triple time.
+woke | adjective | Alert to injustice in society, especially racism.
+yodel | verb | To sing with rapid alternation between chest voice and falsetto.
+zydeco | noun | A kind of Black American dance music from Louisiana.

@@ -1,0 +1,105 @@
+# Mythology, folklore, magic, and monsters
+# word | part of speech | definition
+abracadabra | exclamation | A word said by magicians when performing a trick.
+alchemist | noun | A person who practiced alchemy.
+amulet | noun | An ornament worn as a charm against evil or danger.
+apparition | noun | A ghost or ghostlike image of a person.
+banshee | noun | A female spirit in Irish legend whose wailing warns of a death.
+basilisk | noun | A mythical reptile whose gaze could kill.
+bogeyman | noun | An imaginary evil being used to frighten children.
+boggart | noun | A mischievous or malevolent household spirit in English folklore.
+broomstick | noun | The handle of a broom, on which witches are said to fly.
+bugbear | noun | A cause of obsessive fear or irritation.
+cauldron | noun | A large metal pot for cooking over an open fire.
+centaur | noun | A creature with the head, arms, and torso of a man and the body of a horse.
+cerberus | noun | The three-headed dog guarding the entrance to Hades.
+changeling | noun | A child believed to have been secretly substituted by fairies.
+chimera | noun | A mythical fire-breathing monster; a thing hoped for but illusory.
+clairvoyant | noun | A person claiming the ability to perceive events beyond normal senses.
+cockatrice | noun | A mythical serpent hatched from a cock's egg, able to kill with a glance.
+conjurer | noun | A performer of magic tricks.
+cyclops | noun | A member of a race of one-eyed giants.
+demigod | noun | A being with partial divine status.
+djinn | noun | A spirit in Arabian mythology; a genie.
+doppelganger | noun | An apparition or double of a living person.
+dryad | noun | A tree nymph.
+dwarf | noun | A member of a mythical race of short, stocky beings.
+elf | noun | A supernatural creature of folklore, typically with pointed ears.
+elixir | noun | A magical or medicinal potion.
+enchantress | noun | A woman who uses magic or sorcery.
+exorcism | noun | The expulsion of an evil spirit from a person or place.
+fairy | noun | A small imaginary being with magical powers.
+familiar | noun | A spirit, often in animal form, believed to attend a witch.
+faun | noun | A Roman deity with a goat's horns, ears, legs, and tail.
+gargoyle | noun | A grotesque carved creature on a building, often a waterspout.
+genie | noun | A spirit of Arabian folklore who can grant wishes.
+ghoul | noun | An evil spirit said to rob graves and feed on corpses.
+golem | noun | A clay figure brought to life by magic in Jewish folklore.
+gorgon | noun | Any of three sisters with snakes for hair who turned onlookers to stone.
+gremlin | noun | An imaginary mischievous sprite blamed for mechanical problems.
+griffin | noun | A mythical creature with an eagle's head and wings and a lion's body.
+grimoire | noun | A book of magic spells.
+hag | noun | An ugly old woman; a witch.
+harpy | noun | A mythical monster with a woman's head and a bird's body.
+hexes | noun | Magic spells; curses.
+hobbit | noun | A member of a fictional race of small humanlike creatures from Tolkien.
+hobgoblin | noun | A mischievous imp or sprite.
+horcrux | noun | An object in which a dark wizard has hidden part of their soul (Harry Potter).
+hydra | noun | A many-headed snake whose heads regrew when cut off.
+imp | noun | A small, mischievous devil or sprite.
+incantation | noun | A series of words said as a magic spell.
+incubus | noun | A male demon believed to have sex with sleeping women; a nightmare.
+jackalope | noun | A mythical animal of American folklore, a jackrabbit with antlers.
+juju | noun | A charm or fetish; supernatural power attributed to it.
+kelpie | noun | A water spirit of Scottish folklore, typically in horse form.
+leprechaun | noun | A small, mischievous sprite in Irish folklore.
+lich | noun | An undead creature, typically a sorcerer who has cheated death.
+lycanthrope | noun | A werewolf.
+manticore | noun | A mythical monster with a lion's body, a man's head, and a scorpion's tail.
+medusa | noun | The Gorgon whose gaze turned people to stone; a jellyfish.
+merlin | noun | A small falcon; the wizard of Arthurian legend.
+minotaur | noun | A creature with a bull's head and a man's body.
+mummy | noun | An embalmed and wrapped body.
+muggle | noun | A person without magical powers (Harry Potter); a person lacking a skill.
+naiad | noun | A water nymph.
+necromancer | noun | A person who practices necromancy; a wizard.
+necromancy | noun | Communication with the dead to predict the future.
+nixie | noun | A water sprite of Germanic folklore.
+nymph | noun | A mythological spirit of nature imagined as a beautiful maiden.
+occult | noun | Supernatural, mystical, or magical beliefs and practices.
+ogre | noun | A man-eating giant in folklore; a cruel or terrifying person.
+oracle | noun | A priest or priestess through whom a god gave advice or prophecy.
+orc | noun | A member of an ugly, warlike race of fantasy creatures.
+ouija | noun | A board with letters used in séances to spell messages from spirits.
+pegasus | noun | A winged horse of Greek mythology.
+phantasm | noun | An illusion or apparition.
+phoenix | noun | A mythical bird that regenerates from its own ashes.
+pixie | noun | A small supernatural being with pointed ears.
+poltergeist | noun | A ghost that makes loud noises and moves objects.
+potion | noun | A liquid with healing, magical, or poisonous properties.
+sabbat | noun | A midnight meeting of witches.
+satyr | noun | A lustful woodland god with a horse's ears and tail or goat's legs.
+seance | noun | A meeting at which people attempt to contact the dead.
+selkie | noun | A mythical creature that can shed its seal skin to become human.
+shaman | noun | A person believed to access the world of spirits.
+siren | noun | A mythical creature whose singing lured sailors to their destruction; a warning device.
+soothsayer | noun | A person supposed to be able to foresee the future.
+specter | noun | A ghost.
+sphinx | noun | A mythical creature with a lion's body and a human head.
+spook | noun | A ghost; a spy.
+succubus | noun | A female demon believed to seduce sleeping men.
+talisman | noun | An object thought to have magic powers and bring good luck.
+tarot | noun | Playing cards used in fortune-telling.
+thunderbird | noun | A mythical bird of North American Indigenous lore that brings thunder.
+titan | noun | A member of a family of giant gods; a person of great strength or importance.
+troll | noun | An ugly giant or dwarf of folklore; a person who posts inflammatory messages online.
+undead | adjective | Technically dead but still animate.
+valkyrie | noun | A Norse maiden who chose which warriors would die in battle.
+voodoo | noun | A religious cult of African origin practiced chiefly in Haiti.
+warlock | noun | A man who practices witchcraft.
+wendigo | noun | A cannibalistic monster of Algonquian folklore.
+witchcraft | noun | The practice of magic, especially black magic.
+wizard | noun | A man with magical powers.
+wizardry | noun | The art or practice of magic; great skill.
+wraith | noun | A ghost or ghostlike image of someone.
+wyvern | noun | A winged two-legged dragon.

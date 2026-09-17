@@ -1,0 +1,121 @@
+# Ideas, belief, philosophy, school, and academia
+# word | part of speech | definition
+aesthetics | noun | A set of principles concerned with beauty and artistic taste.
+agnostic | noun | A person who believes nothing is known of the existence of God.
+almanac | noun | An annual calendar containing important dates and information.
+altruism | noun | Selfless concern for the well-being of others.
+anarchy | noun | A state of disorder due to absence of authority.
+apocalypse | noun | The complete final destruction of the world.
+archaeology | noun | The study of human history through excavation of sites and artifacts.
+astrology | noun | The study of the movements of celestial bodies as supposedly influencing human affairs.
+atheist | noun | A person who disbelieves in the existence of God or gods.
+blasphemy | noun | The act of speaking sacrilegiously about God or sacred things.
+bookish | adjective | Devoted to reading and studying.
+cabala | noun | An ancient Jewish tradition of mystical interpretation; a secret doctrine.
+calculus | noun | A branch of mathematics dealing with rates of change; a hard deposit in the body.
+catechism | noun | A summary of the principles of Christian religion in question-and-answer form.
+chalkboard | noun | A blackboard.
+chivalric | adjective | Relating to the medieval institution of knighthood.
+clergyman | noun | A male priest, minister, or religious leader.
+conspiracy | noun | A secret plan by a group to do something unlawful or harmful.
+cosmology | noun | The science of the origin and development of the universe.
+creationism | noun | The belief that the universe and living organisms originate from specific acts of divine creation.
+cult | noun | A system of religious veneration; a small religious group regarded as strange.
+curriculum | noun | The subjects comprising a course of study.
+cynicism | noun | An inclination to believe that people are motivated purely by self-interest.
+deism | noun | Belief in a supreme being who does not intervene in the universe.
+demonology | noun | The study of demons or demonic belief.
+dialectic | noun | The art of investigating the truth of opinions through discussion.
+dogma | noun | A set of principles laid down by an authority as incontrovertibly true.
+doomsday | noun | The last day of the world's existence.
+dunce | noun | A person who is slow at learning.
+encyclopedia | noun | A book or set of books giving information on many subjects.
+enlightenment | noun | The state of having knowledge or understanding; a European intellectual movement.
+epistemology | noun | The theory of knowledge.
+ethics | noun | Moral principles that govern a person's behavior.
+etymology | noun | The study of the origin of words.
+exorcist | noun | A person who expels evil spirits.
+fatalism | noun | The belief that all events are predetermined and inevitable.
+flatearther | noun | A person who believes the earth is flat (usually "flat-earther").
+freshman | noun | A first-year student at a university, college, or high school.
+genealogy | noun | A line of descent traced from an ancestor; the study of family histories.
+geometry | noun | The branch of mathematics concerned with shapes and space.
+gospel | noun | The teaching of Christ; something absolutely true.
+grammar | noun | The whole system and structure of a language.
+hedonism | noun | The pursuit of pleasure; sensual self-indulgence.
+heresy | noun | Belief or opinion contrary to orthodox religious doctrine.
+heretic | noun | A person believing in or practicing religious heresy.
+hermit | noun | A person living in solitude as a religious discipline.
+homework | noun | Schoolwork that a student is required to do at home.
+horoscope | noun | A forecast of a person's future based on the positions of the stars.
+hymn | noun | A religious song of praise.
+idolatry | noun | The worship of idols; extreme admiration.
+inquisition | noun | A period of prolonged and intensive questioning; the Catholic tribunal for suppressing heresy.
+karmic | adjective | Relating to or characteristic of karma.
+latin | noun | The language of ancient Rome.
+lexicon | noun | The vocabulary of a person, language, or branch of knowledge.
+logic | noun | Reasoning conducted according to strict principles of validity.
+martyr | noun | A person killed because of their religious or other beliefs.
+materialism | noun | A tendency to consider material possessions more important than spiritual values.
+meditation | noun | The action of focusing one's mind for a period of time.
+messiah | noun | The promised deliverer; a leader regarded as a savior.
+metaphysics | noun | The branch of philosophy dealing with the first principles of things.
+millennium | noun | A period of a thousand years.
+missionary | noun | A person sent on a religious mission.
+monk | noun | A member of a religious community of men.
+mysticism | noun | Belief that union with the divine may be attained through contemplation.
+mythology | noun | A collection of myths.
+numerology | noun | The study of the supposed mystical significance of numbers.
+nun | noun | A member of a religious community of women.
+optimism | noun | Hopefulness and confidence about the future.
+orthodoxy | noun | Authorized or generally accepted theory, doctrine, or practice.
+paganism | noun | A religion other than one of the main world religions; polytheistic beliefs.
+palmistry | noun | The art of telling fortunes from the lines on a person's palm.
+pantheism | noun | A doctrine that identifies God with the universe.
+paradox | noun | A seemingly absurd statement that may prove to be true.
+parapsychology | noun | The study of mental phenomena outside normal scientific explanation.
+pedagogy | noun | The method and practice of teaching.
+pessimism | noun | A tendency to see the worst aspect of things.
+phrenologist | noun | A person who practiced phrenology.
+pilgrimage | noun | A journey to a sacred place.
+plagiarism | noun | Taking someone else's work and passing it off as one's own.
+polymath | noun | A person of wide knowledge or learning.
+pragmatism | noun | A practical approach to problems and affairs.
+predestination | noun | The doctrine that all events have been willed by God.
+prophecy | noun | A prediction of what will happen in the future.
+prophet | noun | A person regarded as an inspired teacher or proclaimer of the will of God.
+psychoanalysis | noun | A therapy treating mental disorders by investigating the unconscious mind.
+purgatory | noun | A place or state of suffering inhabited by the souls of sinners expiating their sins.
+rationalism | noun | The practice of basing opinions on reason rather than emotion or religion.
+recess | noun | A break between sessions; a small space set back in a wall.
+reincarnation | noun | The rebirth of a soul in a new body.
+relativity | noun | Einstein's theory of the relationship of space, time, and motion.
+rhetoric | noun | The art of effective or persuasive speaking or writing.
+sabbatical | noun | A period of paid leave granted for study or travel.
+sacrilege | noun | Violation or misuse of what is regarded as sacred.
+salvation | noun | Deliverance from sin and its consequences.
+scholasticism | noun | The system of theology and philosophy taught in medieval universities.
+scripture | noun | The sacred writings of a religion.
+semester | noun | A half-year term in a school or college.
+sermon | noun | A talk on a religious or moral subject, especially during a church service.
+skepticism | noun | A doubting attitude.
+sophomore | noun | A second-year student.
+spiritualism | noun | A system of belief that the spirits of the dead communicate with the living.
+stoicism | noun | The endurance of pain or hardship without complaint.
+superstition | noun | Excessively credulous belief in supernatural influence.
+syllabus | noun | An outline of the subjects in a course of study.
+taoism | noun | A Chinese philosophy based on the writings of Lao-tzu.
+theocracy | noun | A system of government in which priests rule in the name of God.
+theology | noun | The study of the nature of God and religious belief.
+theosophy | noun | Any of a number of philosophies maintaining that knowledge of God may be achieved through spiritual ecstasy.
+thesaurus | noun | A book listing words in groups of synonyms.
+transcendentalism | noun | A 19th-century idealistic philosophical and social movement.
+truant | noun | A pupil who stays away from school without permission.
+tutor | noun | A private teacher.
+utilitarianism | noun | The doctrine that actions are right if they are useful or benefit a majority.
+valedictorian | noun | A student who delivers the farewell speech at a graduation ceremony.
+vicar | noun | A priest in charge of a parish.
+witchhunt | noun | A campaign directed against a person or group holding unorthodox views (usually "witch hunt").
+worship | noun | The feeling or expression of reverence and adoration for a deity.
+zen | noun | A school of Buddhism emphasizing meditation; calm and relaxed.
+zodiac | noun | A belt of the heavens divided into twelve astrological signs.

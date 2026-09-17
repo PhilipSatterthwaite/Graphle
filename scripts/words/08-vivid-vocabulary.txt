@@ -1,0 +1,250 @@
+# Vivid and distinctive vocabulary
+# word | part of speech | definition
+aberration | noun | A departure from what is normal or expected.
+abscond | verb | To leave hurriedly and secretly, typically to avoid arrest.
+acumen | noun | The ability to make good judgments and quick decisions.
+adroit | adjective | Clever or skillful.
+alacrity | noun | Brisk and cheerful readiness.
+ambivalent | adjective | Having mixed feelings or contradictory ideas about something.
+amorphous | adjective | Without a clearly defined shape or form.
+anachronism | noun | A thing belonging to a period other than the one in which it exists.
+anathema | noun | Something or someone one vehemently dislikes.
+antediluvian | adjective | Belonging to the time before the biblical Flood; ridiculously old-fashioned.
+aplomb | noun | Self-confidence or assurance, especially in a demanding situation.
+apocryphal | adjective | Of doubtful authenticity, although widely circulated as true.
+arcane | adjective | Understood by few; mysterious or secret.
+ardent | adjective | Enthusiastic or passionate.
+assuage | verb | To make an unpleasant feeling less intense.
+audacious | adjective | Showing a willingness to take surprisingly bold risks.
+avuncular | adjective | Kind and friendly toward a younger or less experienced person.
+bamboozled | adjective | Tricked or confused.
+beguile | verb | To charm or enchant, sometimes in a deceptive way.
+bellicose | adjective | Demonstrating aggression and willingness to fight.
+bibliophile | noun | A person who collects or has a great love of books.
+blandishments | noun | Flattering statements used to persuade.
+blithe | adjective | Showing a casual and cheerful indifference.
+bombastic | adjective | High-sounding but with little meaning; inflated.
+braggadocio | noun | Boastful or arrogant behavior.
+bravado | noun | A bold manner intended to impress or intimidate.
+brusque | adjective | Abrupt or offhand in speech or manner.
+bucolic | adjective | Relating to the pleasant aspects of the countryside.
+cacophony | noun | A harsh, discordant mixture of sounds.
+cajole | verb | To persuade someone by sustained coaxing or flattery.
+callipygian | adjective | Having shapely buttocks.
+callous | adjective | Showing an insensitive disregard for others.
+camaraderie | noun | Mutual trust and friendship among people who spend time together.
+candor | noun | The quality of being open and honest.
+capricious | adjective | Given to sudden and unaccountable changes of mood or behavior.
+catharsis | noun | The process of releasing strong or repressed emotions.
+caustic | adjective | Able to burn through chemical action; sarcastic in a scathing way.
+charlatan | noun | A person falsely claiming special knowledge or skill.
+chimerical | adjective | Existing only as the product of unchecked imagination.
+circumlocution | noun | The use of many words where fewer would do.
+clandestine | adjective | Kept secret or done secretively.
+cognoscenti | noun | People who are especially well informed about a subject.
+collusion | noun | Secret or illegal cooperation to deceive others.
+conflagration | noun | An extensive fire that destroys a great deal.
+conundrum | noun | A confusing and difficult problem or question.
+convivial | adjective | Friendly, lively, and enjoyable.
+copious | adjective | Abundant in supply or quantity.
+coterie | noun | A small group of people with shared interests.
+covfefe | noun | A nonsense word from a 2017 tweet by Donald Trump.
+craven | adjective | Contemptibly lacking in courage; cowardly.
+crepuscular | adjective | Relating to twilight; active at twilight.
+cryptic | adjective | Having a meaning that is mysterious or obscure.
+cynosure | noun | A person or thing that is the center of attention or admiration.
+debacle | noun | A sudden and ignominious failure; a fiasco.
+debonair | adjective | Confident, stylish, and charming.
+decrepit | adjective | Worn out or ruined because of age or neglect.
+deleterious | adjective | Causing harm or damage.
+demagogue | noun | A political leader who appeals to popular prejudices.
+denouement | noun | The final part of a narrative where the strands are drawn together.
+desultory | adjective | Lacking a plan, purpose, or enthusiasm.
+diaphanous | adjective | Light, delicate, and translucent.
+dilettante | noun | A person who cultivates an interest without real commitment or knowledge.
+disheveled | adjective | Untidy; disordered.
+doldrums | noun | A state of stagnation or depression; calm regions near the equator.
+draconian | adjective | Excessively harsh and severe.
+ebullient | adjective | Cheerful and full of energy.
+effervescent | adjective | Giving off bubbles; vivacious and enthusiastic.
+effrontery | noun | Insolent or impertinent behavior.
+egregious | adjective | Outstandingly bad; shocking.
+eldritch | adjective | Weird and sinister or ghostly.
+eloquent | adjective | Fluent or persuasive in speaking or writing.
+emollient | adjective | Soothing to the skin; attempting to avoid confrontation.
+enigma | noun | A person or thing that is mysterious or difficult to understand.
+ennui | noun | A feeling of listlessness and dissatisfaction arising from boredom.
+epiphany | noun | A moment of sudden and great revelation.
+equanimity | noun | Mental calmness and composure, especially in difficult situations.
+esoteric | adjective | Intended for or understood by only a small number of people.
+euphemism | noun | A mild word substituted for one considered too harsh.
+euphoria | noun | A feeling of intense excitement and happiness.
+exacerbate | verb | To make a problem or bad situation worse.
+execrable | adjective | Extremely bad or unpleasant.
+exuberant | adjective | Full of energy, excitement, and cheerfulness.
+facetious | adjective | Treating serious issues with inappropriate humor.
+fastidious | adjective | Very attentive to accuracy and detail; hard to please.
+fiasco | noun | A complete failure, especially a ludicrous or humiliating one.
+filibuster | noun | Prolonged speaking to obstruct progress in a legislative assembly.
+flamboyant | adjective | Tending to attract attention because of exuberance or confidence.
+flippant | adjective | Not showing a serious or respectful attitude.
+flotsam | noun | Floating wreckage of a ship; people or things considered worthless.
+foible | noun | A minor weakness or eccentricity in someone's character.
+forlorn | adjective | Pitifully sad and abandoned or lonely.
+fracas | noun | A noisy disturbance or quarrel.
+frisson | noun | A sudden strong feeling of excitement or fear; a thrill.
+furtive | adjective | Attempting to avoid notice, typically because of guilt.
+garrulous | adjective | Excessively talkative, especially on trivial matters.
+gauche | adjective | Unsophisticated and socially awkward.
+gossamer | noun | A fine, filmy substance of cobwebs; something very light and delicate.
+grandiloquent | adjective | Pompous or extravagant in language, style, or manner.
+gregarious | adjective | Fond of company; sociable.
+halcyon | adjective | Denoting a period of time in the past that was idyllically happy.
+harangue | noun | A lengthy and aggressive speech.
+hegemony | noun | Leadership or dominance, especially by one state or social group.
+histrionic | adjective | Overly theatrical or melodramatic in character or style.
+hubris | noun | Excessive pride or self-confidence.
+hyperbole | noun | Exaggerated statements not meant to be taken literally.
+iconoclast | noun | A person who attacks cherished beliefs or institutions.
+idiosyncrasy | noun | A mode of behavior or way of thought peculiar to an individual.
+ignominious | adjective | Deserving or causing public disgrace or shame.
+imbroglio | noun | An extremely confused, complicated, or embarrassing situation.
+impecunious | adjective | Having little or no money.
+impetuous | adjective | Acting quickly without thought or care.
+incorrigible | adjective | Not able to be corrected, improved, or reformed.
+indefatigable | adjective | Persisting tirelessly.
+ineffable | adjective | Too great or extreme to be expressed in words.
+inscrutable | adjective | Impossible to understand or interpret.
+insouciance | noun | Casual lack of concern; indifference.
+irascible | adjective | Having or showing a tendency to be easily angered.
+jejune | adjective | Naive, simplistic, and superficial; dull.
+jingoism | noun | Extreme patriotism, especially in the form of aggressive foreign policy.
+juxtaposition | noun | The fact of two things being seen or placed close together for contrasting effect.
+kowtow | verb | To act in an excessively subservient manner.
+labyrinthine | adjective | Like a labyrinth; irregular and twisting; intricate.
+lackadaisical | adjective | Lacking enthusiasm and determination; carelessly lazy.
+laconic | adjective | Using very few words.
+languid | adjective | Displaying a disinclination for physical exertion; relaxed.
+largesse | noun | Generosity in bestowing money or gifts.
+lascivious | adjective | Feeling or revealing an overt and often offensive sexual desire.
+lethargic | adjective | Sluggish and apathetic.
+licentious | adjective | Promiscuous and unprincipled in sexual matters.
+lilliputian | adjective | Trivial or very small.
+limerence | noun | The state of being infatuated with another person.
+loquacious | adjective | Tending to talk a great deal; talkative.
+lothario | noun | A man who behaves selfishly and irresponsibly in his sexual relationships.
+lucubration | noun | Study or meditation; a pedantic piece of writing.
+luminous | adjective | Full of or shedding light; bright or shining.
+machination | noun | A plot or scheme.
+magnanimous | adjective | Generous or forgiving, especially toward a rival.
+malaise | noun | A general feeling of discomfort, illness, or unease.
+malevolent | adjective | Having or showing a wish to do evil to others.
+maudlin | adjective | Self-pityingly or tearfully sentimental.
+maverick | noun | An unorthodox or independent-minded person; an unbranded calf.
+mawkish | adjective | Sentimental in a feeble or sickly way.
+melee | noun | A confused fight or scuffle.
+mendacious | adjective | Not telling the truth; lying.
+mercurial | adjective | Subject to sudden or unpredictable changes of mood or mind.
+minutiae | noun | The small, precise, or trivial details of something.
+miscreant | noun | A person who behaves badly or unlawfully.
+misnomer | noun | A wrong or inaccurate name or designation.
+modicum | noun | A small quantity of a particular thing.
+moribund | adjective | At the point of death; in terminal decline.
+munificent | adjective | Larger or more generous than is usual.
+myriad | noun | A countless or extremely great number.
+nadir | noun | The lowest point in the fortunes of a person or organization.
+nebulous | adjective | In the form of a cloud or haze; hazy; vague.
+nemesis | noun | The inescapable agent of someone's downfall; a long-standing rival.
+nonchalant | adjective | Feeling or appearing casually calm and relaxed.
+nostalgia | noun | A sentimental longing for the past.
+obfuscate | verb | To make obscure, unclear, or unintelligible.
+obsequious | adjective | Obedient or attentive to an excessive degree.
+obstreperous | adjective | Noisy and difficult to control.
+ominous | adjective | Giving the impression that something bad is going to happen.
+opprobrium | noun | Harsh criticism or censure; public disgrace.
+opulent | adjective | Ostentatiously rich and luxurious.
+ostentatious | adjective | Characterized by vulgar or pretentious display.
+palaver | noun | Prolonged and idle discussion; fuss.
+panacea | noun | A solution or remedy for all difficulties or diseases.
+panache | noun | Flamboyant confidence of style or manner.
+paradigm | noun | A typical example or pattern; a model.
+paragon | noun | A person or thing regarded as a perfect example of a quality.
+pariah | noun | An outcast.
+parsimonious | adjective | Unwilling to spend money or use resources.
+pastiche | noun | An artistic work imitating the style of another work or period.
+paucity | noun | The presence of something in only small or insufficient quantities.
+pedantic | adjective | Excessively concerned with minor details or rules.
+penchant | noun | A strong or habitual liking for something.
+perfidious | adjective | Deceitful and untrustworthy.
+perfunctory | adjective | Carried out with a minimum of effort or reflection.
+pernicious | adjective | Having a harmful effect, especially in a gradual or subtle way.
+petulant | adjective | Childishly sulky or bad-tempered.
+philistine | noun | A person hostile or indifferent to culture and the arts.
+phlegmatic | adjective | Having an unemotional and stolidly calm disposition.
+platitude | noun | A remark that has been used too often to be interesting.
+plethora | noun | A large or excessive amount of something.
+poignant | adjective | Evoking a keen sense of sadness or regret.
+pompous | adjective | Affectedly grand, solemn, or self-important.
+precocious | adjective | Having developed certain abilities at an earlier age than usual.
+prevaricate | verb | To speak or act in an evasive way.
+proclivity | noun | A tendency to choose or do something regularly.
+profligate | adjective | Recklessly extravagant or wasteful in the use of resources.
+propinquity | noun | The state of being close to someone or something; proximity.
+provenance | noun | The place of origin or earliest known history of something.
+pugnacious | adjective | Eager or quick to argue, quarrel, or fight.
+pulchritude | noun | Beauty.
+punctilious | adjective | Showing great attention to detail or correct behavior.
+pusillanimous | adjective | Showing a lack of courage or determination; timid.
+quibble | noun | A slight objection or criticism about a trivial matter.
+quiescent | adjective | In a state or period of inactivity or dormancy.
+quintessential | adjective | Representing the most perfect or typical example of a quality.
+raconteur | noun | A person who tells anecdotes in a skillful and amusing way.
+rancor | noun | Bitterness or resentfulness, especially long-standing.
+recalcitrant | adjective | Having an obstinately uncooperative attitude.
+redolent | adjective | Strongly reminiscent or suggestive of something; fragrant.
+resplendent | adjective | Attractive and impressive through being richly colorful or sumptuous.
+reticent | adjective | Not revealing one's thoughts or feelings readily.
+ribaldry | noun | Ribald talk or behavior.
+sagacious | adjective | Having or showing keen mental discernment and good judgment.
+salubrious | adjective | Health-giving; healthy; pleasant and respectable.
+sanguine | adjective | Optimistic or positive, especially in a difficult situation.
+sardonic | adjective | Grimly mocking or cynical.
+scintillating | adjective | Sparkling or shining brightly; brilliantly clever.
+scurrilous | adjective | Making scandalous claims about someone to damage their reputation.
+sinecure | noun | A position requiring little or no work but giving status or pay.
+solipsism | noun | The view that the self is all that can be known to exist.
+sonorous | adjective | Imposingly deep and full in sound.
+spurious | adjective | Not being what it purports to be; false or fake.
+squalor | noun | The state of being extremely dirty and unpleasant.
+stentorian | adjective | Loud and powerful.
+stoic | noun | A person who can endure pain or hardship without complaint.
+supercilious | adjective | Behaving as though one thinks one is superior to others.
+surreptitious | adjective | Kept secret, especially because it would not be approved of.
+sybarite | noun | A person who is self-indulgent in their fondness for luxury.
+sycophant | noun | A person who acts obsequiously to gain advantage.
+taciturn | adjective | Reserved or uncommunicative in speech; saying little.
+temerity | noun | Excessive confidence or boldness; audacity.
+tenebrous | adjective | Dark; shadowy or obscure.
+tintinnabulation | noun | A ringing or tinkling sound.
+torpor | noun | A state of physical or mental inactivity; lethargy.
+travesty | noun | A false, absurd, or distorted representation of something.
+trepidation | noun | A feeling of fear or agitation about something that may happen.
+truculent | adjective | Eager or quick to argue or fight; aggressively defiant.
+ubiquitous | adjective | Present, appearing, or found everywhere.
+umbrage | noun | Offense or annoyance.
+unctuous | adjective | Excessively or ingratiatingly flattering; oily.
+usurp | verb | To take a position of power illegally or by force.
+vacuous | adjective | Having or showing a lack of thought or intelligence.
+vainglorious | adjective | Excessively proud of oneself; boastful.
+vehement | adjective | Showing strong feeling; forceful, passionate, or intense.
+verbose | adjective | Using or expressed in more words than are needed.
+vicissitude | noun | A change of circumstances, typically one that is unwelcome.
+vilify | verb | To speak or write about in an abusively disparaging manner.
+vitriol | noun | Cruel and bitter criticism; sulfuric acid.
+vociferous | adjective | Expressing opinions in a loud and forceful way.
+voluptuous | adjective | Curvaceous and sexually attractive; full of sensual pleasure.
+wanton | adjective | Deliberate and unprovoked; sexually immodest.
+wistful | adjective | Having a feeling of vague or regretful longing.
+xenophobia | noun | Dislike of or prejudice against people from other countries.
+zealot | noun | A person who is fanatical in pursuit of their ideals.
+zenith | noun | The time at which something is most powerful or successful.

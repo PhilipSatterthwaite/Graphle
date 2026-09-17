@@ -1,0 +1,143 @@
+# Lively verbs
+# word | part of speech | definition
+abdicate | verb | To renounce one's throne; to fail to fulfill a duty.
+amble | verb | To walk or move at a slow, relaxed pace.
+badger | verb | To repeatedly and annoyingly ask someone to do something.
+bamboozling | verb | Fooling or cheating someone.
+barge | verb | To move forcefully or roughly.
+bedazzle | verb | To greatly impress with brilliance or skill.
+belch | verb | To emit wind noisily from the stomach through the mouth.
+bellow | verb | To emit a deep loud roar.
+bicker | verb | To argue about petty and trivial matters.
+blab | verb | To reveal secrets by indiscreet talk.
+blather | verb | To talk long-windedly without making much sense.
+blurt | verb | To say something suddenly and without careful consideration.
+bodge | verb | To make or repair something badly or clumsily.
+boggle | verb | To be astonished or overwhelmed when trying to imagine something.
+bonk | verb | To hit someone or something.
+bumble | verb | To act or speak in an awkward or confused manner.
+burble | verb | To make a continuous murmuring noise; to speak lengthily.
+burgle | verb | To enter a building illegally with intent to steal.
+cackle | verb | To laugh in a loud, harsh way.
+careen | verb | To move swiftly and in an uncontrolled way.
+cavort | verb | To jump or dance around excitedly.
+clamber | verb | To climb, move, or get in or out of something awkwardly.
+clobbered | verb | Hit hard; defeated heavily.
+coddle | verb | To treat in an indulgent or overprotective way.
+commandeer | verb | To take possession of something by force.
+conk | verb | To hit someone on the head; to break down.
+cower | verb | To crouch down in fear.
+dabble | verb | To take part in an activity in a casual way.
+dally | verb | To act or move slowly.
+dawdling | verb | Wasting time; moving slowly.
+defenestrate | verb | To throw someone out of a window.
+dither | verb | To be indecisive.
+doze | verb | To sleep lightly.
+dredge | verb | To clean out the bed of a harbor or river; to bring up something forgotten.
+dribble | verb | To let saliva trickle from the mouth; to move a ball with slight touches.
+embiggen | verb | To make bigger or more expansive (humorous).
+eschew | verb | To deliberately avoid using; to abstain from.
+fidget | verb | To make small movements through nervousness or impatience.
+filch | verb | To pilfer or steal something of small value.
+flail | verb | To wave or swing wildly.
+flounce | verb | To go or move in an exaggeratedly impatient or angry manner.
+fluster | verb | To make someone agitated or confused.
+fritter | verb | To waste time, money, or energy on trifling matters.
+frolic | verb | To play and move about cheerfully.
+gallivant | verb | To go around from one place to another in pursuit of pleasure.
+gawk | verb | To stare openly and stupidly.
+gesticulate | verb | To use dramatic gestures instead of or in addition to speech.
+giggled | verb | Laughed lightly and nervously.
+gobble | verb | To eat hurriedly and noisily; to make the sound of a turkey.
+goof | verb | To make a mistake; to spend time idly.
+gorge | verb | To eat a large amount greedily.
+grovel | verb | To act obsequiously to obtain forgiveness or favor.
+grumble | verb | To complain in a bad-tempered way.
+guffaw | verb | To laugh loudly and boisterously.
+guzzle | verb | To eat or drink greedily.
+haggle | verb | To dispute or bargain persistently, especially over a price.
+harrumph | verb | To clear the throat noisily; to grumpily express dissatisfaction.
+hobble | verb | To walk in an awkward way, typically because of pain.
+hoodwinked | verb | Deceived or tricked.
+hurtle | verb | To move at great speed, typically in a wildly uncontrolled manner.
+jabber | verb | To talk rapidly and excitedly but with little sense.
+jiggle | verb | To move lightly and quickly from side to side or up and down.
+jostle | verb | To push, elbow, or bump against someone roughly.
+kvetch | verb | To complain persistently.
+lambaste | verb | To criticize someone harshly.
+leapfrog | verb | To surpass or overtake; a children's game of vaulting.
+loiter | verb | To stand or wait around idly without apparent purpose.
+lollop | verb | To move in an ungainly way in a series of clumsy bounds.
+lumber | verb | To move in a slow, heavy, awkward way.
+lurk | verb | To be present in a latent or barely discernible state; to wait in hiding.
+meander | verb | To follow a winding course; to wander at random.
+mosey | verb | To walk or move in a leisurely manner.
+mumble | verb | To say something indistinctly and quietly.
+muse | verb | To be absorbed in thought.
+mutter | verb | To say something in a low or barely audible voice.
+nab | verb | To catch someone doing something wrong.
+nibble | verb | To take small bites out of something.
+noodling | verb | Improvising or playing casually on a musical instrument.
+nuzzle | verb | To rub or push against gently with the nose.
+obliterate | verb | To destroy utterly; to wipe out.
+ogle | verb | To stare at in a lecherous manner.
+pester | verb | To trouble or annoy someone with frequent requests.
+pilfer | verb | To steal things of little value.
+plod | verb | To walk doggedly and slowly with heavy steps.
+plummet | verb | To fall or drop straight down at high speed.
+pounce | verb | To spring or swoop suddenly to catch something.
+procrastinate | verb | To delay or postpone action.
+prowl | verb | To move around restlessly and stealthily, especially in search of prey.
+purloin | verb | To steal.
+putter | verb | To occupy oneself in a desultory but pleasant manner.
+quash | verb | To reject or void; to put an end to.
+rampage | verb | To rush around in a violent and uncontrollable manner.
+ransack | verb | To go hurriedly through a place stealing things and causing damage.
+rebuff | verb | To reject someone or something in an abrupt or ungracious manner.
+romp | verb | To play roughly and energetically.
+rummage | verb | To search unsystematically and untidily through something.
+saunter | verb | To walk in a slow, relaxed manner.
+scamper | verb | To run with quick light steps, especially through fear or excitement.
+schmoozing | verb | Chatting in a friendly way to gain favor.
+scoff | verb | To speak about something in a scornfully derisive way; to eat greedily.
+scramble | verb | To make one's way quickly or awkwardly; to mix up.
+scrounge | verb | To seek to obtain something at the expense or through the generosity of others.
+scurry | verb | To move hurriedly with short quick steps.
+scuttled | verb | Ran hurriedly with short quick steps; deliberately sank.
+shimmy | verb | To move swiftly and effortlessly; to shake the body.
+shirk | verb | To avoid or neglect a duty or responsibility.
+skulk | verb | To keep out of sight, typically with a sinister motive.
+slather | verb | To spread or smear a substance thickly or liberally.
+slink | verb | To move smoothly and quietly with gliding steps in a stealthy manner.
+slither | verb | To move smoothly over a surface with a twisting motion.
+slurp | verb | To eat or drink with a loud sucking noise.
+smooch | verb | To kiss and cuddle amorously.
+snicker | verb | To give a smothered or half-suppressed laugh.
+snooze | verb | To have a short, light sleep.
+snoop | verb | To investigate or look around furtively.
+snuggle | verb | To settle into a warm, comfortable position.
+splurge | verb | To spend money freely or extravagantly.
+squabbling | verb | Quarreling noisily over a trivial matter.
+squander | verb | To waste something in a reckless and foolish manner.
+squelch | verb | To make a soft sucking sound; to forcefully silence or suppress.
+stagger | verb | To walk or move unsteadily; to astonish.
+swagger | verb | To walk or behave in a very confident and arrogant way.
+swaddle | verb | To wrap in garments or cloth.
+swig | verb | To drink in large gulps.
+swindled | verb | Cheated out of money or possessions.
+tinkering | verb | Attempting to repair or improve something in a casual manner.
+titter | verb | To give a short, half-suppressed laugh.
+toddle | verb | To move with short unsteady steps, as a young child does.
+traipse | verb | To walk or move wearily or reluctantly.
+trounce | verb | To defeat heavily in a contest.
+trudge | verb | To walk slowly with heavy steps.
+twiddle | verb | To twist, move, or fiddle with something idly.
+waddle | verb | To walk with short steps and a clumsy swaying motion.
+waffling | verb | Speaking or writing at length in a vague or trivial manner.
+wheedle | verb | To use flattery or coaxing to persuade someone.
+whimper | verb | To make a series of low, feeble sounds expressing fear or pain.
+whittle | verb | To carve wood into an object by repeatedly cutting small slices.
+wiggle | verb | To move with short quick irregular movements.
+wrangle | verb | To have a long, complicated dispute; to herd livestock.
+yank | verb | To pull with a jerk.
+yelp | verb | To utter a short sharp cry, especially of pain or alarm.

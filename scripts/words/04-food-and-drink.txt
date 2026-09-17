@@ -1,0 +1,178 @@
+# Food and drink
+# word | part of speech | definition
+absinthe | noun | A potent green anise-flavored liqueur made with wormwood.
+acai | noun | A small dark purple berry from a South American palm.
+aioli | noun | Mayonnaise seasoned with garlic.
+amaretto | noun | An almond-flavored Italian liqueur.
+ambrosia | noun | The food of the gods; something very pleasing to taste.
+anchovy | noun | A small, strongly flavored fish of the herring family.
+applesauce | noun | A purée of stewed apples; nonsense (dated slang).
+arugula | noun | A peppery salad green; rocket.
+avocado | noun | A pear-shaped fruit with a rough skin and smooth, oily green flesh.
+bagel | noun | A dense bread roll shaped like a ring.
+baguette | noun | A long, narrow French loaf.
+baklava | noun | A dessert of phyllo pastry filled with nuts and soaked in honey.
+bannock | noun | A round, flat loaf, typically unleavened.
+barbecue | noun | A meal or gathering at which food is grilled outdoors.
+biryani | noun | A South Asian dish of spiced rice with meat or vegetables.
+biscotti | noun | Small, crisp, twice-baked Italian biscuits.
+blancmange | noun | A sweet opaque gelatinous dessert made with cornflour and milk.
+blintz | noun | A thin rolled pancake filled with cheese or fruit.
+bologna | noun | A large smoked sausage made of mixed meats.
+bonbon | noun | A piece of candy.
+borscht | noun | A beetroot soup of Eastern European origin.
+bouillabaisse | noun | A rich spicy fish stew from Provence.
+bratwurst | noun | A type of fine German pork sausage.
+brioche | noun | A light, sweet yeast bread rich in butter and eggs.
+brisket | noun | Meat cut from the breast of an animal.
+broccoli | noun | A green vegetable with a thick stalk and dense florets.
+brownie | noun | A small square of rich chocolate cake; a helpful household goblin.
+bruschetta | noun | Toasted Italian bread drizzled with olive oil and toppings.
+buttermilk | noun | The slightly sour liquid left after butter has been churned.
+cannoli | noun | Sicilian pastry tubes filled with sweetened ricotta.
+cappuccino | noun | Espresso coffee topped with steamed milk foam.
+casserole | noun | A dish cooked slowly in an oven in a deep covered dish.
+cassoulet | noun | A French stew of meat and white beans.
+caviar | noun | The pickled roe of sturgeon, eaten as a delicacy.
+ceviche | noun | A dish of raw fish marinated in citrus juice.
+chai | noun | Tea, especially spiced tea made with milk.
+champagne | noun | A sparkling white wine from Champagne, France.
+chardonnay | noun | A variety of white wine grape; wine made from it.
+chowder | noun | A rich soup typically containing fish or clams, milk, and potatoes.
+chutney | noun | A spicy condiment of fruits or vegetables with vinegar and sugar.
+ciabatta | noun | A flat, open-textured Italian bread made with olive oil.
+cobbler | noun | A fruit pie with a rich biscuit crust; a shoe mender.
+couscous | noun | A North African dish of steamed semolina granules.
+crepe | noun | A thin pancake.
+croissant | noun | A flaky, crescent-shaped French roll.
+croquette | noun | A small fried ball or roll of mashed food coated in breadcrumbs.
+crudites | noun | Mixed raw vegetables served as an appetizer with a dip.
+cupcake | noun | A small cake baked in a cup-shaped container.
+curry | noun | A dish of meat or vegetables cooked in a spiced sauce.
+custard | noun | A dessert or sauce made of milk and eggs, thickened with heat.
+daiquiri | noun | A cocktail of rum, lime juice, and sugar.
+dumpling | noun | A small savory ball of dough cooked in stew or soup.
+eclair | noun | A long cake of choux pastry filled with cream and topped with chocolate.
+edamame | noun | Green soybeans in the pod, boiled and salted.
+eggnog | noun | A drink of eggs, milk, sugar, and often spirits.
+empanada | noun | A turnover filled with meat, cheese, or vegetables.
+enchilada | noun | A rolled tortilla with a filling, covered in chili sauce.
+escargot | noun | A snail prepared as food.
+espresso | noun | Strong black coffee made by forcing steam through ground beans.
+falafel | noun | Deep-fried balls of ground chickpeas.
+fajita | noun | Strips of grilled meat served in a tortilla.
+fondue | noun | A dish of melted cheese into which pieces of bread are dipped.
+frappuccino | noun | A trademarked blended iced coffee drink.
+frittata | noun | An Italian dish of fried beaten eggs with other ingredients.
+fudge | noun | A soft crumbly candy made from sugar, butter, and milk.
+gazpacho | noun | A cold Spanish soup made from tomatoes and other vegetables.
+gelato | noun | Italian-style ice cream.
+gingerbread | noun | Cake or cookies flavored with ginger and molasses.
+gnocchi | noun | Small Italian dumplings made from potato or semolina.
+goulash | noun | A rich Hungarian stew of meat and vegetables seasoned with paprika.
+granola | noun | A breakfast food of rolled oats, nuts, and dried fruit.
+grits | noun | Coarsely ground corn boiled with water or milk.
+gruel | noun | A thin liquid food of oatmeal boiled in milk or water.
+guacamole | noun | A dip of mashed avocado with chili peppers and tomatoes.
+gumbo | noun | A spicy chicken or seafood soup thickened with okra.
+gyro | noun | A Greek sandwich of meat roasted on a vertical spit.
+haggis | noun | A Scottish dish of sheep's offal minced with oatmeal and suet.
+hardtack | noun | Hard, dry bread or biscuit, eaten on long voyages.
+hoagie | noun | A long sandwich filled with meat, cheese, and salad.
+hotdog | noun | A hot sausage served in a long, soft roll.
+hummus | noun | A thick paste of chickpeas mashed with tahini, oil, and garlic.
+jello | noun | A trademarked gelatin dessert.
+jerky | noun | Meat cut into strips and dried.
+kale | noun | A hardy cabbage with curly leaves.
+kebab | noun | Pieces of meat and vegetables cooked on a skewer.
+kimchi | noun | A spicy Korean dish of fermented cabbage.
+kippers | noun | Split, salted, and smoked herrings.
+knish | noun | A dumpling of dough stuffed with potato, meat, or cheese.
+lasagna | noun | Wide flat pasta baked in layers with cheese and sauce.
+latte | noun | Espresso with steamed milk.
+lemonade | noun | A drink made from lemon juice and sweetened water.
+licorice | noun | A black chewy candy flavored with the root of a plant.
+linguine | noun | Pasta in the form of narrow flat ribbons.
+lollipop | noun | A large, flat, rounded candy on a stick.
+macaron | noun | A light meringue-based sandwich cookie.
+macaroni | noun | A variety of pasta formed in narrow tubes.
+macaroon | noun | A light cookie made with egg white and ground almonds or coconut.
+margarine | noun | A butter substitute made from vegetable oils.
+margarita | noun | A cocktail of tequila, citrus juice, and orange liqueur.
+marmalade | noun | A preserve made from citrus fruit, especially bitter oranges.
+marshmallow | noun | A spongy confection made from sugar, gelatin, and egg white.
+matcha | noun | Powdered green tea leaves.
+mead | noun | An alcoholic drink of fermented honey and water.
+meatloaf | noun | Minced meat baked in the shape of a loaf.
+meringue | noun | Beaten egg whites and sugar baked until crisp.
+mincemeat | noun | A mixture of dried fruit, spices, and suet used as a pie filling.
+miso | noun | A paste of fermented soybeans used in Japanese cooking.
+mochi | noun | A Japanese rice cake made of glutinous rice.
+molasses | noun | Thick, dark brown syrup obtained from raw sugar.
+moussaka | noun | A Greek dish of layered eggplant and minced meat.
+muesli | noun | A breakfast cereal of oats, dried fruit, and nuts.
+muffin | noun | A small domed cake or quick bread.
+mutton | noun | The flesh of mature sheep used as food.
+nachos | noun | Tortilla chips topped with melted cheese and other toppings.
+nougat | noun | A chewy candy made from sugar or honey, nuts, and egg whites.
+oatmeal | noun | Meal made from ground oats; porridge.
+omelet | noun | A dish of beaten eggs cooked in a frying pan.
+paella | noun | A Spanish dish of rice, saffron, chicken, and seafood.
+pancake | noun | A thin, flat cake of batter fried on both sides.
+panini | noun | A grilled Italian sandwich.
+parfait | noun | A dessert of layered ice cream, fruit, and cream.
+pastrami | noun | Highly seasoned smoked beef.
+pemmican | noun | A paste of dried meat mixed with fat, originally made by Indigenous North Americans.
+pesto | noun | A sauce of crushed basil, pine nuts, garlic, Parmesan, and olive oil.
+pho | noun | A Vietnamese noodle soup.
+pickle | noun | A small cucumber preserved in vinegar or brine; a difficult situation.
+pierogi | noun | Polish dumplings filled with potato, cheese, or meat.
+pizza | noun | A flat round base of dough baked with toppings.
+polenta | noun | Cornmeal boiled into a porridge.
+popcorn | noun | Corn kernels heated until they burst open.
+popsicle | noun | A trademarked frozen flavored ice on a stick.
+porridge | noun | A dish of oats boiled in water or milk.
+pretzel | noun | A crisp or soft bread twisted into a knot.
+prosciutto | noun | Italian cured ham, usually served in thin slices.
+pudding | noun | A cooked sweet dish served after the main course.
+quesadilla | noun | A tortilla filled with cheese and heated.
+quiche | noun | A baked flan with a savory filling thickened with eggs.
+ramen | noun | Japanese wheat noodles in broth.
+ratatouille | noun | A Provençal vegetable stew.
+ravioli | noun | Small pasta envelopes containing ground meat, cheese, or vegetables.
+risotto | noun | An Italian dish of rice cooked in stock.
+sarsaparilla | noun | A soft drink flavored with the root of a tropical plant.
+sashimi | noun | Thinly sliced raw fish.
+sauerkraut | noun | Chopped cabbage fermented in brine.
+sausage | noun | Minced meat enclosed in a casing.
+scone | noun | A small unsweetened or lightly sweetened biscuit-like cake.
+seitan | noun | A meat substitute made from wheat gluten.
+sherbet | noun | A frozen dessert made with fruit juice and milk.
+smoothie | noun | A thick drink of blended fruit with yogurt or milk.
+smorgasbord | noun | A buffet offering a variety of hot and cold dishes.
+souffle | noun | A light, spongy baked dish made with egg whites.
+spaghetti | noun | Pasta made in long, thin strands.
+strudel | noun | A dessert of thin pastry rolled up around a fruit filling.
+succotash | noun | A dish of corn and lima beans.
+sundae | noun | A dish of ice cream with toppings.
+tabbouleh | noun | A Levantine salad of bulgur wheat, parsley, and tomatoes.
+taco | noun | A folded tortilla filled with various mixtures.
+tahini | noun | A paste made from ground sesame seeds.
+tamale | noun | A Mexican dish of seasoned meat wrapped in cornmeal dough and steamed.
+tapas | noun | Small Spanish savory dishes.
+tapioca | noun | A starchy substance from cassava root, used in puddings.
+tempura | noun | A Japanese dish of seafood or vegetables fried in batter.
+teriyaki | noun | A Japanese dish of grilled meat marinated in soy sauce.
+tiramisu | noun | An Italian dessert of coffee-soaked sponge layered with mascarpone.
+toffee | noun | A hard, chewy candy made by boiling sugar with butter.
+tortellini | noun | Small stuffed pasta rings.
+tortilla | noun | A thin, flat Mexican bread made from cornmeal or wheat flour.
+treacle | noun | Molasses or golden syrup; cloying sentimentality.
+trifle | noun | A dessert of sponge cake, fruit, custard, and cream; a thing of little value.
+truffle | noun | An edible underground fungus; a soft chocolate candy.
+vermicelli | noun | Pasta made in long, slender threads.
+vindaloo | noun | A very hot Indian curry.
+waffle | noun | A crisp batter cake with a grid pattern; to speak vaguely at length.
+wasabi | noun | A pungent green Japanese condiment made from a root.
+yogurt | noun | A semi-solid food made from fermented milk.
+zabaglione | noun | An Italian dessert of whipped egg yolks, sugar, and wine.
