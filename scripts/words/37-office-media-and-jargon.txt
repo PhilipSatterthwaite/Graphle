@@ -1,22 +1,106 @@
 # Office life, media, advertising, and business jargon
 # word | part of speech | definition
 advertorial | noun | An advertisement in the form of editorial content.
+agenda | noun | A list of items to be discussed at a meeting; an underlying motive.
+announcer | noun | A person who announces something, especially on radio or television.
+benchmark | noun | A standard or point of reference against which things may be compared.
+boardroom | noun | A room in which a board of directors meets.
+bombardment | noun | A continuous attack with bombs or questions.
+bookmaker | noun | A person whose business is taking bets.
 brainchild | noun | An idea or invention originating with a particular person.
+branding | noun | The promotion of a product through a distinctive design.
+briefcase | noun | A flat rectangular case for carrying documents.
+broadcaster | noun | A person or organization that broadcasts.
+brochure | noun | A small book or magazine containing pictures and information about a product.
+bulletin | noun | A short official statement or broadcast summary of news.
+bureaucracy | noun | A system of government with many state officials; excessive administrative procedure.
+byline | noun | A line naming the writer of a newspaper article.
+cartoon | noun | A simple drawing showing the features of its subjects in a humorously exaggerated way.
+circulation | noun | Movement to and fro; the number of copies of a newspaper sold.
+clipboard | noun | A board with a clip for holding papers; a temporary computer storage area.
+columnist | noun | A journalist who writes a column in a newspaper or magazine.
+commercial | noun | A television or radio advertisement.
+consultant | noun | A person who provides expert advice professionally.
+copyright | noun | The exclusive legal right to publish or record material.
+correspondent | noun | A person who writes letters; a journalist reporting from a particular place.
+coworker | noun | A fellow worker.
 dictaphone | noun | A trademarked machine for recording speech for transcription.
+downsizing | noun | Reducing the number of employees in a company.
+editorial | noun | A newspaper article giving the opinion of the editors.
+expense | noun | The cost required for something.
+feedback | noun | Information about reactions to a product or performance; noise from an amplifier.
+filing | noun | The action of placing documents in a filing system.
+franchise | noun | An authorization to carry out commercial activities under a brand.
+freelance | adjective | Self-employed and hired to work for different companies.
+gazette | noun | A journal or newspaper.
 headhunter | noun | A person who identifies and approaches suitable candidates for jobs; a person who collects heads.
+headline | noun | A heading at the top of a newspaper article.
+hierarchy | noun | A system in which people are ranked one above another.
+hustle | noun | Busy movement and activity; a fraud or swindle.
 infographic | noun | A visual image such as a chart used to represent information.
+intern | noun | A student or trainee who works to gain experience.
+jargon | noun | Special words used by a particular profession that are hard for others to understand.
+layoff | noun | A discharge of workers.
+letterhead | noun | A printed heading on stationery.
+logo | noun | A symbol adopted by an organization to identify its products.
+magazine | noun | A periodical publication; a chamber for holding cartridges in a gun.
+manager | noun | A person responsible for controlling or administering an organization.
+marketing | noun | The action of promoting and selling products or services.
+memo | noun | A written message in business.
+merger | noun | A combination of two things, especially companies, into one.
 micromanage | verb | To control every part of a group's work, however small.
 mogul | noun | An important or powerful person; a bump on a ski slope.
+newscaster | noun | A person who reads the news on television or radio.
+newsletter | noun | A bulletin issued periodically to members of a group.
+newspaper | noun | A printed publication containing news.
+newsroom | noun | The area in a newspaper office where news is prepared.
+newsstand | noun | A stand from which newspapers are sold.
 nitpicker | noun | A person who looks for small errors.
+obituary | noun | A notice of a death in a newspaper.
+outsourcing | noun | Obtaining goods or services from an outside supplier.
+overtime | noun | Time worked in addition to one's normal working hours.
+pamphlet | noun | A small booklet or leaflet containing information about a single subject.
+paperwork | noun | Routine work involving written documents.
+paycheck | noun | A check for salary or wages.
 paperboy | noun | A boy who delivers newspapers.
+periodical | noun | A magazine or newspaper published at regular intervals.
+photocopy | noun | A photographic copy of printed or written material.
 pinstripe | noun | A very narrow stripe in cloth, typical of formal suits.
 pitchman | noun | A person who delivers a sales pitch.
+placard | noun | A printed or handwritten sign for public display.
 potboiler | noun | A book or painting produced merely to make money.
+preview | noun | An inspection or viewing of something before it is available to the public.
+promotion | noun | Activity supporting a venture; the advancement of an employee's rank.
 publicist | noun | A person responsible for publicizing a product or person.
+publicity | noun | Notice or attention given by the media.
+questionnaire | noun | A set of printed questions devised for a survey.
+radio | noun | The transmission of sound by electromagnetic waves.
+ratings | noun | Estimated audience sizes of television or radio programs.
+reporter | noun | A person who reports news.
+resume | noun | A summary of a person's education and employment.
+retiree | noun | A person who has retired from work.
+salesman | noun | A man whose job involves selling or promoting products.
+scoop | noun | A utensil for scooping; a piece of news published before rivals.
+secretary | noun | A person employed to assist with correspondence and records.
+shareholder | noun | An owner of shares in a company.
+shorthand | noun | A method of rapid writing using abbreviations and symbols.
+slogan | noun | A short and striking phrase used in advertising.
+spokesman | noun | A person who makes statements on behalf of a group.
+sponsor | noun | A person or organization that pays for an event in return for advertising.
+stakeholder | noun | A person with an interest or concern in something.
+stationery | noun | Writing and other office materials.
 stenography | noun | The action or process of writing in shorthand.
+supervisor | noun | A person who supervises a person or activity.
 synergy | noun | The interaction of elements that produces a combined effect greater than their sum.
+tabloid | noun | A newspaper having pages half the size of a standard one, typically popular in style.
+teleconference | noun | A conference with participants in different locations linked by telecommunication.
 telegraphist | noun | A person who sends and receives telegraph messages.
 teleprompter | noun | A device that displays text for a speaker.
 timecard | noun | A card recording an employee's working hours.
+typewritten | adjective | Written using a typewriter.
+unemployment | noun | The state of being without paid work.
 webinar | noun | A seminar conducted over the internet.
 whistleblower | noun | A person who exposes illicit activity within an organization.
+workforce | noun | The people engaged in or available for work.
+workplace | noun | A place where people work.
+workshop | noun | A room where goods are made or repaired; a meeting for discussion and activity.

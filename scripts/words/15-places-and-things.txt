@@ -1,15 +1,21 @@
 # Places, buildings, vehicles, and everyday things
 # word | part of speech | definition
 aqueduct | noun | An artificial channel for conveying water, often a bridge across a valley.
+arcade | noun | A covered passage with arches; a place with coin-operated games.
+asylum | noun | Protection granted to a political refugee; a former institution for the mentally ill.
+attic | noun | A space or room just below the roof of a building.
 automat | noun | A cafeteria where food is obtained from coin-operated compartments.
+backpack | noun | A bag with shoulder straps carried on the back.
 bandstand | noun | A covered outdoor platform for a band to play on.
 barnyard | noun | The area of open ground around a barn.
+basement | noun | The floor of a building partly or entirely below ground level.
 belfry | noun | A bell tower, especially one attached to a church.
 billboard | noun | A large outdoor board for displaying advertisements.
 bistro | noun | A small, inexpensive restaurant.
 boardwalk | noun | A wooden walkway, especially along a beach.
 bodega | noun | A small grocery store, especially in a Spanish-speaking neighborhood.
 bordello | noun | A brothel.
+brewery | noun | A place where beer is made commercially.
 bulldozer | noun | A powerful tractor with a broad blade for clearing ground.
 bunkhouse | noun | A building with basic sleeping accommodation for workers.
 cabaret | noun | Entertainment held in a nightclub or restaurant.
@@ -19,29 +25,48 @@ carousel | noun | A merry-go-round; a rotating conveyor for luggage.
 casino | noun | A public room or building where gambling games are played.
 catacomb | noun | An underground cemetery of tunnels with recesses for tombs.
 cathedral | noun | The principal church of a diocese.
+cellar | noun | A room below ground level used for storage.
 chalet | noun | A wooden house with overhanging eaves, typical of the Swiss Alps.
+chapel | noun | A small building for Christian worship.
 cloister | noun | A covered walk in a convent, monastery, or cathedral.
 condominium | noun | A building or complex in which units are individually owned.
+convent | noun | A community of nuns; the building they live in.
+cottage | noun | A small simple house, typically in the country.
+courthouse | noun | A building housing a court of law.
 crematorium | noun | A place where the dead are cremated.
+cubicle | noun | A small partitioned-off area of a room.
 cyclorama | noun | A panoramic picture on the inside of a cylindrical surface.
+diner | noun | A small roadside restaurant; a person eating a meal.
+dormitory | noun | A large bedroom for a number of people; a university residence hall.
+dugout | noun | A shelter dug into the ground; a canoe made from a hollowed tree trunk.
 emporium | noun | A large retail store selling a wide variety of goods.
 fairground | noun | An outdoor area where a fair is held.
+firehouse | noun | A fire station.
 forklift | noun | A vehicle with a pronged device for lifting heavy loads.
 gazebo | noun | A small building, especially in a garden, with a view.
 gondola | noun | A flat-bottomed Venetian boat; a cabin suspended from a cable.
 granary | noun | A storehouse for threshed grain.
+greenhouse | noun | A glass building in which plants are grown.
 hacienda | noun | A large estate with a dwelling house in Spanish-speaking countries.
 hangar | noun | A large building with extensive floor area for housing aircraft.
 hayloft | noun | A loft over a stable used for storing hay.
 hearse | noun | A vehicle for conveying the coffin at a funeral.
 helipad | noun | A landing and takeoff area for helicopters.
+hostel | noun | An establishment providing inexpensive food and lodging.
 jailhouse | noun | A prison.
+jeep | noun | A small, sturdy motor vehicle with four-wheel drive.
+kiosk | noun | A small open-fronted hut or cubicle from which goods are sold.
 laundromat | noun | An establishment with coin-operated washing machines.
 lighthouse | noun | A tower with a bright light to guide ships.
 limousine | noun | A large, luxurious car, typically driven by a chauffeur.
+lobby | noun | A room providing a space out of which other rooms lead.
 mausoleum | noun | A building housing a tomb or tombs.
 megachurch | noun | A church with a very large congregation.
 megamall | noun | A very large shopping mall.
+minivan | noun | A small van designed for passengers.
+monastery | noun | A building occupied by a community of monks.
+moped | noun | A light motorcycle with pedals.
+motel | noun | A roadside hotel designed for motorists.
 motorboat | noun | A boat powered by a motor.
 multiplex | noun | A cinema with several separate screens.
 obelisk | noun | A stone pillar with a pyramidal top, set up as a monument.
@@ -52,6 +77,7 @@ pagoda | noun | A Hindu or Buddhist temple with a tiered tower.
 parsonage | noun | A church house provided for a parson.
 pawnshop | noun | A shop where money is lent against items left as security.
 penthouse | noun | An apartment on the top floor of a tall building.
+pharmacy | noun | A store where medicinal drugs are dispensed and sold.
 planetarium | noun | A building in which images of stars and planets are projected onto a dome.
 pueblo | noun | An Indigenous settlement of the southwestern US.
 pyramid | noun | A monumental structure with a square base and sloping triangular sides.
@@ -59,20 +85,30 @@ rickshaw | noun | A light two-wheeled hooded vehicle drawn by one or more people
 roadster | noun | An open-top car with two seats.
 saloon | noun | A bar, especially in the American West; a car with a closed body.
 schoolhouse | noun | A building used as a school, especially in a rural area.
+scooter | noun | A child's toy with a footboard and handlebar; a light motorcycle.
 shanty | noun | A small, crudely built shack; a sailors' work song.
 skyscraper | noun | A very tall building of many stories.
 sleigh | noun | A sledge drawn by horses or reindeer.
 speedboat | noun | A motorboat designed for high speed.
+stadium | noun | An athletic or sports ground with tiers of seats.
 steamroller | noun | A heavy vehicle with a roller used for flattening road surfaces.
+storefront | noun | The side of a shop facing the street.
+subway | noun | An underground railway.
+suburb | noun | An outlying residential district of a city.
 supercar | noun | A high-performance sports car.
+tavern | noun | An inn or pub.
 tenement | noun | A run-down apartment building, especially in a poor area.
 tepee | noun | A conical tent made of skins or cloth on a frame of poles.
 townhouse | noun | A tall, narrow traditional row house.
+tractor | noun | A powerful motor vehicle for pulling farm equipment.
+trailer | noun | An unpowered vehicle towed by another; a preview of a film.
 treehouse | noun | A structure built in the branches of a tree.
+trolley | noun | A cart; a streetcar.
 tugboat | noun | A powerful boat for towing larger vessels.
 turnpike | noun | A toll road.
 vestibule | noun | An antechamber or hall just inside the outer door of a building.
 viaduct | noun | A long bridge-like structure carrying a road or railroad across a valley.
+warehouse | noun | A large building where goods are stored.
 wigwam | noun | A dome-shaped hut or tent used by some Indigenous North American peoples.
 windmill | noun | A building with sails or vanes that turn in the wind to generate power.
 yurt | noun | A circular tent of felt or skins used by nomads in Central Asia.

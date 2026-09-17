@@ -16,6 +16,7 @@ bloviate | verb | To talk at length in an inflated or empty way.
 bluster | noun | Loud, aggressive, or indignant talk with little effect.
 bogus | adjective | Not genuine or true; fake.
 bonkers | adjective | Mad; crazy.
+boob | noun | A foolish or stupid person; a blunder.
 boondocks | noun | Rough or isolated country.
 brainiac | noun | A very intelligent person.
 bubkes | noun | Nothing at all; very little.
@@ -78,7 +79,9 @@ goon | noun | A thug hired to intimidate; a silly person.
 gormless | adjective | Lacking sense; foolish.
 grinch | noun | A spoilsport or killjoy.
 grouch | noun | A habitually grumpy person.
+grumpy | adjective | Bad-tempered and irritable.
 guff | noun | Trivial, worthless, or insolent talk.
+hanky | noun | A handkerchief.
 harebrained | adjective | Rash; ill-judged.
 hayseed | noun | An unsophisticated person from the countryside.
 highfalutin | adjective | Pompous or pretentious.
@@ -118,6 +121,7 @@ nerdy | adjective | Foolish and socially inept; intensely interested in a subjec
 nitwit | noun | A silly or foolish person.
 noggin | noun | A person's head; a small quantity of alcohol.
 nonplussed | adjective | So surprised and confused that one is unsure how to react.
+noodle | noun | A strip of pasta; a person's head.
 numbskull | noun | A stupid or foolish person.
 nutjob | noun | A crazy person.
 nutty | adjective | Tasting like nuts; mad.
@@ -129,7 +133,9 @@ pantywaist | noun | A feeble or effeminate man.
 piffle | noun | Nonsense.
 pipsqueak | noun | A person considered unimportant, especially because small or young.
 pishposh | exclamation | Nonsense.
+pooh | exclamation | Expressing impatience or contempt.
 popinjay | noun | A vain or conceited person, especially one who dresses showily.
+potty | adjective | Foolish; crazy (British); a child's chamber pot.
 pratfall | noun | A fall onto one's buttocks; a humiliating blunder.
 prattle | verb | To talk at length in a foolish or inconsequential way.
 pshaw | exclamation | Expressing contempt or impatience.
@@ -170,6 +176,7 @@ snootful | noun | Enough alcohol to make one drunk.
 sourpuss | noun | A bad-tempered or habitually sullen person.
 spiffy | adjective | Smart in appearance.
 squabble | noun | A noisy quarrel about something trivial.
+squeegee | noun | A scraping implement with a rubber-edged blade.
 squiffy | adjective | Slightly drunk (British).
 stinker | noun | A person or thing that is very unpleasant or difficult.
 stooge | noun | A performer who serves as a butt for a comedian; a subordinate used by another.

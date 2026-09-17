@@ -1,37 +1,72 @@
 # Childhood, toys, family, and home life
 # word | part of speech | definition
+allowance | noun | An amount of money given regularly, especially to a child.
 babysitting | noun | Looking after a child while the parents are out.
+backyard | noun | A yard at the back of a house.
+bathtub | noun | A tub for bathing in.
+bedtime | noun | The usual time when someone goes to bed.
+bib | noun | A piece of cloth fastened under a child's chin to keep clothes clean.
 bicker | verb | To argue about petty matters.
 bogeyman | noun | An imaginary evil spirit used to frighten children.
 buggy | noun | A small horse-drawn carriage; a pushchair; adjective: full of bugs.
+carriage | noun | A four-wheeled horse-drawn vehicle; a baby buggy.
+chores | noun | Routine tasks, especially household ones.
 clubhouse | noun | A building used by a club; a children's den.
+cradle | noun | An infant's bed on rockers.
+crayon | noun | A pencil or stick of colored chalk or wax.
+cuddle | verb | To hold close in one's arms as a way of showing love.
+curfew | noun | A regulation requiring people to remain indoors between certain hours.
+daycare | noun | Care for young children during the working day.
+diaper | noun | A piece of absorbent material wrapped around a baby's bottom.
 dollhouse | noun | A toy house for dolls.
 dummy | noun | A model of a human being; a pacifier (British); a stupid person.
 firstborn | noun | The first child born to parents.
 godparent | noun | A person who presents a child at baptism.
+grandchild | noun | A child of one's son or daughter.
+grandfather | noun | The father of one's father or mother.
+grandmother | noun | The mother of one's father or mother.
 hobbyhorse | noun | A child's toy of a horse's head on a stick; a preoccupation.
 homeschooling | noun | The education of children at home.
+housekeeping | noun | The management of household affairs.
 kiddo | noun | A friendly or familiar form of address for a child.
 kindergartner | noun | A child who attends kindergarten.
 latchkey | noun | A key to an outer door; describing a child left alone after school.
 lunchbox | noun | A container for carrying a packed lunch.
 matchbox | noun | A small box in which matches are sold.
+motherhood | noun | The state of being a mother.
+naughty | adjective | Badly behaved, especially of children.
+newborn | noun | A recently born child or animal.
+nursery | noun | A room in a house for a young child; a place where plants are grown.
 pacifier | noun | A rubber or plastic nipple for a baby to suck on.
 paddling | noun | Walking with bare feet in shallow water.
+parenting | noun | The activity of bringing up a child as a parent.
 peashooter | noun | A toy weapon consisting of a small tube for blowing peas.
 piggyback | noun | A ride on someone's back and shoulders.
 playdate | noun | A date arranged by parents for children to play together.
 playhouse | noun | A toy house for children to play in; a theater.
+playmate | noun | A friend with whom a child plays.
 playpen | noun | A small portable enclosure in which a baby or small child can play safely.
 pram | noun | A four-wheeled carriage for a baby (British).
+preschool | noun | A nursery school.
 pushchair | noun | A folding chair on wheels in which a young child is pushed along (British).
+rattle | noun | A baby's toy that makes a rattling sound; verb: to make someone nervous.
+rocker | noun | A rocking chair; a rock musician or fan.
 rompers | noun | A one-piece garment for a young child.
 sandbox | noun | A shallow box filled with sand for children to play in.
 sandcastle | noun | A model of a castle built in sand.
+schoolbag | noun | A bag for carrying books and supplies to school.
+schoolchild | noun | A child attending school.
 schoolyard | noun | The grounds of a school, used for play.
 seesaw | noun | A long plank balanced in the middle for children to ride up and down.
+sibling | noun | A brother or sister.
 snowman | noun | A figure resembling a person, made from compressed snow.
+stepmother | noun | A woman who is married to one's father after the divorce of one's parents or death of one's mother.
+stroller | noun | A pushchair; a person taking a leisurely walk.
+teddy | noun | A soft toy bear; a woman's all-in-one undergarment.
 teether | noun | A small ring or toy for a baby to bite on while teething.
 teething | noun | The process of growing one's first teeth.
 tiddler | noun | A small fish; a young child (British).
+toddler | noun | A young child who is just beginning to walk.
 tricycle | noun | A vehicle similar to a bicycle but with three wheels.
+twins | noun | Two children or animals born at the same birth.
+youngster | noun | A child, young person, or young animal.

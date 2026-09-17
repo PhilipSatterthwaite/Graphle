@@ -1,8 +1,13 @@
 # Modern life, pop culture, and internet-era words
 # word | part of speech | definition
 adulting | noun | The practice of behaving in a responsible way typical of an adult.
+airdrop | noun | A drop of supplies from an aircraft; a wireless file transfer.
+alt | adjective | Alternative, especially in music or culture.
 athleisure | noun | Casual clothing designed for exercise and everyday wear.
+avatar | noun | An icon or figure representing a person online; a deity's incarnation.
+awesomeness | noun | The quality of being extremely impressive.
 bestie | noun | A person's best friend.
+binge | verb | To indulge in an activity to excess, such as watching many episodes.
 biohacking | noun | Attempts to improve the body through science or technology.
 blogosphere | noun | Blogs and their writers collectively.
 bromance | noun | A close, nonsexual friendship between men.
@@ -17,6 +22,7 @@ crowdsourcing | noun | Obtaining services or ideas from a large group of people 
 cryptocurrency | noun | A digital currency using cryptography.
 cyberbullying | noun | The use of electronic communication to bully someone.
 deepfake | noun | A video manipulated to show someone doing something they did not do.
+detox | noun | A process of removing toxic substances or abstaining from something.
 doomscrolling | noun | Spending excessive time reading negative news online.
 dotcom | noun | A company that conducts business mainly on the internet.
 ecommerce | noun | Commercial transactions conducted electronically on the internet.
@@ -26,6 +32,7 @@ fangirl | noun | A female fan who is obsessive about a person or thing.
 fashionista | noun | A person devoted to fashion.
 fomo | noun | Fear of missing out.
 foodie | noun | A person with a particular interest in food.
+freelancer | noun | A self-employed person working for different companies.
 frenemy | noun | A person who is friendly despite being a rival.
 gaslighting | noun | Psychological manipulation making someone question their own sanity.
 geocaching | noun | A treasure-hunting game using GPS coordinates.
@@ -35,18 +42,21 @@ glamping | noun | A form of luxurious camping.
 googled | verb | Searched for information on the internet using Google.
 hacktivist | noun | A person who hacks computers for political ends.
 hangry | adjective | Irritable as a result of hunger.
+helicopter | noun | A rotorcraft; describing an overprotective parent.
 hoverboard | noun | A self-balancing two-wheeled board; a fictional flying skateboard.
 infomercial | noun | A television program promoting a product in an informative style.
 influencer | noun | A person who uses social media to affect people's purchasing decisions.
 infotainment | noun | Broadcast material intended to both entertain and inform.
 listicle | noun | An article in the form of a list.
 livestream | noun | A live transmission of an event over the internet.
+lol | exclamation | Laughing out loud.
 malware | noun | Software designed to damage a computer system.
 mansplaining | noun | A man explaining something to a woman in a condescending way.
 meme | noun | A humorous image or video copied and spread online; a cultural element passed by imitation.
 microblogging | noun | Posting very short entries to a blog or social media.
 mixtape | noun | A compilation of songs recorded onto a cassette or disc.
 mocktail | noun | A nonalcoholic cocktail.
+multitasking | noun | Dealing with more than one task at the same time.
 netiquette | noun | The correct or acceptable way of communicating on the internet.
 newbie | noun | An inexperienced newcomer.
 noob | noun | A person who is inexperienced in a particular activity, especially gaming.
@@ -56,6 +66,7 @@ permalink | noun | A permanent link to a specific web page or post.
 phablet | noun | A smartphone with a screen nearly as large as a tablet.
 phishing | noun | Fraudulent emails designed to obtain personal information.
 photobomb | verb | To spoil a photograph by unexpectedly appearing in it.
+playlist | noun | A list of recorded songs or pieces to be played.
 podcaster | noun | A person who makes podcasts.
 ransomware | noun | Malware that locks a victim's data until a ransom is paid.
 retweet | verb | To repost a message from another user on Twitter.
@@ -66,19 +77,26 @@ shopaholic | noun | A compulsive shopper.
 sitcom | noun | A situation comedy.
 smog | noun | Fog or haze intensified by smoke or air pollution.
 spammer | noun | A person who sends unsolicited electronic messages.
+spoiler | noun | A description of a plot development that ruins surprise.
 staycation | noun | A holiday spent at home or nearby.
+streaming | noun | Transmitting audio or video continuously over the internet.
 superfood | noun | A nutrient-rich food considered beneficial to health.
 supersize | verb | To increase the size of something considerably.
+swag | noun | Money or goods taken by a thief; promotional merchandise; stylish confidence.
 technophobe | noun | A person who fears or dislikes new technology.
 telecommuting | noun | Working from home using technology.
 televangelist | noun | An evangelical preacher who appears regularly on television.
 textspeak | noun | Language regarded as characteristic of text messages.
+tweet | noun | A chirping sound; a post on Twitter.
+twitter | noun | A series of short high-pitched sounds; a social media platform.
 unfriend | verb | To remove someone from a list of friends on social media.
 upcycling | noun | Reusing discarded objects to create something of higher value.
 vape | verb | To inhale vapor from an electronic cigarette.
 vegan | noun | A person who does not eat or use animal products.
+viral | adjective | Relating to viruses; spreading rapidly online.
 vlog | noun | A video blog.
 vlogger | noun | A person who makes video blogs.
 wiki | noun | A website that allows collaborative editing of its content.
+workaround | noun | A method for overcoming a problem without eliminating it.
 yolo | exclamation | You only live once.
 

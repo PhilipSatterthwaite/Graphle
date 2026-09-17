@@ -23,11 +23,13 @@ demigod | noun | A being with partial divine status.
 djinn | noun | A spirit in Arabian mythology; a genie.
 doppelganger | noun | An apparition or double of a living person.
 dryad | noun | A tree nymph.
+dwarf | noun | A member of a mythical race of short, stocky beings.
 elf | noun | A supernatural creature of folklore, typically with pointed ears.
 elixir | noun | A magical or medicinal potion.
 enchantress | noun | A woman who uses magic or sorcery.
 exorcism | noun | The expulsion of an evil spirit from a person or place.
 fairy | noun | A small imaginary being with magical powers.
+familiar | noun | A spirit, often in animal form, believed to attend a witch.
 faun | noun | A Roman deity with a goat's horns, ears, legs, and tail.
 gargoyle | noun | A grotesque carved creature on a building, often a waterspout.
 genie | noun | A spirit of Arabian folklore who can grant wishes.
@@ -37,6 +39,7 @@ gorgon | noun | Any of three sisters with snakes for hair who turned onlookers t
 gremlin | noun | An imaginary mischievous sprite blamed for mechanical problems.
 griffin | noun | A mythical creature with an eagle's head and wings and a lion's body.
 grimoire | noun | A book of magic spells.
+hag | noun | An ugly old woman; a witch.
 harpy | noun | A mythical monster with a woman's head and a bird's body.
 hexes | noun | Magic spells; curses.
 hobbit | noun | A member of a fictional race of small humanlike creatures from Tolkien.
@@ -56,6 +59,7 @@ manticore | noun | A mythical monster with a lion's body, a man's head, and a sc
 medusa | noun | The Gorgon whose gaze turned people to stone; a jellyfish.
 merlin | noun | A small falcon; the wizard of Arthurian legend.
 minotaur | noun | A creature with a bull's head and a man's body.
+mummy | noun | An embalmed and wrapped body.
 muggle | noun | A person without magical powers (Harry Potter); a person lacking a skill.
 naiad | noun | A water nymph.
 necromancer | noun | A person who practices necromancy; a wizard.
@@ -78,6 +82,7 @@ satyr | noun | A lustful woodland god with a horse's ears and tail or goat's leg
 seance | noun | A meeting at which people attempt to contact the dead.
 selkie | noun | A mythical creature that can shed its seal skin to become human.
 shaman | noun | A person believed to access the world of spirits.
+siren | noun | A mythical creature whose singing lured sailors to their destruction; a warning device.
 soothsayer | noun | A person supposed to be able to foresee the future.
 specter | noun | A ghost.
 sphinx | noun | A mythical creature with a lion's body and a human head.
@@ -86,6 +91,7 @@ succubus | noun | A female demon believed to seduce sleeping men.
 talisman | noun | An object thought to have magic powers and bring good luck.
 tarot | noun | Playing cards used in fortune-telling.
 thunderbird | noun | A mythical bird of North American Indigenous lore that brings thunder.
+titan | noun | A member of a family of giant gods; a person of great strength or importance.
 troll | noun | An ugly giant or dwarf of folklore; a person who posts inflammatory messages online.
 undead | adjective | Technically dead but still animate.
 valkyrie | noun | A Norse maiden who chose which warriors would die in battle.

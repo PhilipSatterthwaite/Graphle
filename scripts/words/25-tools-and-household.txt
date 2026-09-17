@@ -1,25 +1,102 @@
 # Tools, hardware, kitchenware, and household objects
 # word | part of speech | definition
 anvil | noun | A heavy iron block on which metal is hammered.
+awl | noun | A small pointed tool for piercing holes.
+axe | noun | A tool with a heavy bladed head for chopping wood.
+bellows | noun | A device for blowing air into a fire.
+birdcage | noun | A cage for a pet bird.
+blender | noun | An electric appliance for liquidizing food.
 blowtorch | noun | A portable device producing a hot flame.
+bookend | noun | A support placed at the end of a row of books.
+bookshelf | noun | A shelf on which books can be stored.
+broom | noun | A long-handled brush for sweeping.
+bucket | noun | A roughly cylindrical open container with a handle.
 buttonhook | noun | A small hook used for fastening buttons on shoes or gloves.
+candlestick | noun | A support or holder for a candle.
+chainsaw | noun | A mechanical saw with teeth set on a chain.
+chisel | noun | A long-bladed hand tool with a beveled cutting edge.
 churn | noun | A machine for making butter by shaking milk or cream.
+cleaver | noun | A tool with a heavy broad blade used for chopping meat.
+clothesline | noun | A rope or wire on which washed clothes are hung to dry.
+clothespin | noun | A clip for fastening clothes to a clothesline.
+coaster | noun | A small mat for a glass; a ship trading along a coast.
 corkscrew | noun | A device for pulling corks from bottles.
+crowbar | noun | An iron bar with a flattened end, used as a lever.
+cushion | noun | A bag of cloth stuffed with soft material, used for comfort.
+decanter | noun | A stoppered glass container for serving wine.
+doorknob | noun | A handle on a door that is turned to release the latch.
+doormat | noun | A mat placed at an entrance; a submissive person.
+dustpan | noun | A flat hand-held receptacle into which dust is swept.
 earplug | noun | A plug put into the ear for protection against noise or water.
 eggbeater | noun | A kitchen utensil for beating eggs.
+eyedropper | noun | A dropper for administering drops to the eyes.
+faucet | noun | A tap.
+fireplace | noun | A place for a domestic fire, at the base of a chimney.
+flask | noun | A container for liquids, especially a narrow-necked bottle.
 flyswatter | noun | An implement for killing flies.
+funnel | noun | A tube with a wide top for guiding liquid into a small opening.
+gimlet | noun | A small tool for boring holes; a gin and lime cocktail.
+grater | noun | A device with sharp-edged perforations for grating food.
+griddle | noun | A heavy, flat iron plate heated for cooking.
+hacksaw | noun | A saw with a narrow blade for cutting metal.
+hairbrush | noun | A brush for smoothing one's hair.
+hairdryer | noun | An electrical device for drying hair.
+hatchet | noun | A small axe with a short handle.
 hourglass | noun | An old-fashioned device for measuring time using sand.
+humidifier | noun | A device for keeping the atmosphere moist.
 inkpot | noun | A pot for holding ink.
 jackhammer | noun | A portable pneumatic hammer or drill.
+kettle | noun | A container for boiling water.
+keychain | noun | A chain or ring on which keys are kept.
+ladle | noun | A large long-handled spoon with a cup-shaped bowl.
+lantern | noun | A lamp with a transparent case protecting the flame.
+lawnmower | noun | A machine for cutting grass.
+magnifier | noun | A lens that makes things appear larger.
+mallet | noun | A hammer with a large wooden head.
 mangle | noun | A machine with rollers for wringing wet laundry.
+mattress | noun | A fabric case filled with soft material, used on a bed.
+mothball | noun | A small ball of naphthalene placed with stored clothes to deter moths.
 mousetrap | noun | A trap for catching mice.
 nutcracker | noun | A device for cracking nuts.
+paperclip | noun | A piece of bent wire used for holding sheets of paper together.
+paperweight | noun | A small heavy object for keeping loose papers in place.
 pitchfork | noun | A farm tool with a long handle and prongs for lifting hay.
+plunger | noun | A part that moves up and down; a device for clearing blocked drains.
+pliers | noun | Pincers with parallel flat jaws for gripping small objects.
+pocketknife | noun | A knife with a folding blade.
+potpourri | noun | A mixture of dried petals and spices placed in a bowl to perfume a room.
 quill | noun | A pen made from a main wing or tail feather.
+razor | noun | An instrument with a sharp blade used for shaving.
 saltshaker | noun | A container for salt with a perforated top.
+sandpaper | noun | Paper with sand or another abrasive stuck to it, used for smoothing.
+saucepan | noun | A deep cooking pan with a long handle and a lid.
+scissors | noun | An instrument for cutting with two blades pivoted together.
+screwdriver | noun | A tool for turning screws; a cocktail of vodka and orange juice.
+shovel | noun | A tool with a broad flat blade for moving earth or snow.
+sieve | noun | A utensil with meshed netting for separating solids from liquids.
+skillet | noun | A frying pan.
 sledgehammer | noun | A large heavy hammer.
 spittoon | noun | A metal or earthenware pot for spitting into.
+stapler | noun | A device for fastening papers together with staples.
+stepladder | noun | A short folding ladder with flat steps.
+stopwatch | noun | A special watch that can be started and stopped to time events.
+strainer | noun | A device having holes for separating solids from liquids.
+tablecloth | noun | A cloth spread over a table.
+teacup | noun | A cup from which tea is drunk.
+teaspoon | noun | A small spoon used for stirring hot drinks.
+thermos | noun | A trademarked vacuum flask.
 thimble | noun | A metal or plastic cap worn to protect the finger when sewing.
+toaster | noun | An electrical device for making toast.
+toothbrush | noun | A small brush for cleaning the teeth.
+trowel | noun | A small hand tool with a flat blade for spreading mortar or digging.
+tweezers | noun | A small instrument like a pair of pincers for plucking hairs.
 typewriter | noun | A machine with keys for producing print-like characters.
+vase | noun | A decorative container used as an ornament or for displaying flowers.
+washbasin | noun | A basin used for washing one's hands and face.
+wastebasket | noun | A basket for waste paper.
+wheelbarrow | noun | A small cart with a single wheel and two handles.
 whetstone | noun | A stone used for sharpening blades.
+whisk | noun | A utensil for whipping eggs or cream.
+wok | noun | A bowl-shaped frying pan used in Chinese cooking.
+wrench | noun | A tool for gripping and turning nuts and bolts; a sudden twisting pull.
 

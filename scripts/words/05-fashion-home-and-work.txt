@@ -2,6 +2,7 @@
 # word | part of speech | definition
 accordion | noun | A portable musical instrument with bellows and keys.
 anorak | noun | A waterproof hooded jacket; an obsessive enthusiast (British).
+apron | noun | A protective garment worn over the front of clothes.
 armoire | noun | A wardrobe or movable cabinet.
 ascot | noun | A man's broad silk necktie.
 balaclava | noun | A close-fitting garment covering the whole head and neck except the face.
@@ -15,6 +16,7 @@ bikini | noun | A two-piece swimsuit for women.
 blacksmith | noun | A person who makes and repairs things in iron by hand.
 blazer | noun | A plain jacket, often worn as part of a uniform.
 bloomers | noun | Women's loose-fitting knee-length knickers; a blunder.
+blouse | noun | A woman's loose upper garment resembling a shirt.
 bodice | noun | The part of a dress above the waist.
 bonnet | noun | A women's or child's hat tied under the chin.
 bouffant | adjective | (Of hair) styled so as to stand out from the head in a rounded shape.
@@ -23,6 +25,7 @@ bowler | noun | A man's hard felt hat with a round dome-shaped crown; one who bo
 brassiere | noun | A bra.
 breeches | noun | Short trousers fastened just below the knee.
 brogues | noun | Strong outdoor shoes with ornamental perforated patterns.
+bureau | noun | A writing desk with drawers; an office or department.
 bustier | noun | A close-fitting strapless top for women.
 butler | noun | The chief manservant of a house.
 caftan | noun | A long, loose tunic or dress.
@@ -38,6 +41,7 @@ chiffonier | noun | A tall chest of drawers.
 clogs | noun | Shoes with a thick wooden sole.
 cobbler | noun | A person who mends shoes.
 coiffure | noun | A person's hairstyle, typically an elaborate one.
+colander | noun | A perforated bowl used to strain food.
 concierge | noun | A hotel employee who assists guests; a caretaker of an apartment building.
 cooper | noun | A maker or repairer of casks and barrels.
 corset | noun | A close-fitting undergarment worn to shape the figure.
@@ -45,11 +49,14 @@ cowlick | noun | A lock of hair that sticks up.
 crochet | noun | A handicraft of making fabric by looping yarn with a hooked needle.
 cufflinks | noun | Decorative fasteners for shirt cuffs.
 culottes | noun | Women's knee-length trousers cut to resemble a skirt.
+cupboard | noun | A recess or piece of furniture with a door and shelves.
 davenport | noun | A large upholstered sofa; a small writing desk.
+derby | noun | A bowler hat; a sporting contest.
 dirndl | noun | A traditional Alpine dress with a full skirt and close bodice.
 divan | noun | A long low sofa without a back or arms.
 doily | noun | A small ornamental mat of lace or paper.
 dungarees | noun | Trousers with a bib held up by straps; overalls.
+duster | noun | A cloth for dusting; a woman's light, loose coat.
 duvet | noun | A soft quilt filled with down or synthetic fiber.
 epaulette | noun | An ornamental shoulder piece on a uniform.
 espadrille | noun | A light canvas shoe with a plaited fiber sole.
@@ -66,16 +73,21 @@ gondolier | noun | A person who propels a gondola.
 governess | noun | A woman employed to teach children in a private household.
 hairnet | noun | A fine mesh for holding the hair in place.
 hammock | noun | A bed of canvas or netting suspended by cords at the ends.
+handbag | noun | A small bag used by women to carry everyday items.
 headscarf | noun | A square of fabric worn as a covering for the head.
 hoodie | noun | A hooded sweatshirt.
 hosiery | noun | Stockings, socks, and tights collectively.
 housemaid | noun | A female domestic servant.
 iceman | noun | A person who delivered ice.
+janitor | noun | A caretaker of a building.
+jeans | noun | Hard-wearing casual trousers made of denim.
 jeggings | noun | Tight leggings made to resemble denim jeans.
 jodhpurs | noun | Riding trousers, full above the knee and close-fitting below.
 jumpsuit | noun | A one-piece garment combining trousers and top.
 kilt | noun | A knee-length pleated skirt of tartan cloth, traditionally worn by Scottish men.
 kimono | noun | A long, loose Japanese robe with wide sleeves.
+lampshade | noun | A cover for a lamp to soften its light.
+leggings | noun | Close-fitting stretchy trousers.
 leotard | noun | A close-fitting one-piece garment worn by dancers and gymnasts.
 locksmith | noun | A person who makes and repairs locks.
 loincloth | noun | A single piece of cloth wrapped around the hips.
@@ -91,6 +103,7 @@ muumuu | noun | A loose, brightly colored Hawaiian dress.
 nightcap | noun | A cap worn in bed; an alcoholic drink taken before bed.
 nursemaid | noun | A woman or girl employed to look after young children.
 ottoman | noun | A low upholstered seat without a back or arms.
+overalls | noun | A loose-fitting garment worn over ordinary clothes for protection.
 pantaloons | noun | Baggy trousers gathered at the ankles.
 pantyhose | noun | Women's thin nylon tights.
 parasol | noun | A light umbrella used for shade from the sun.
@@ -99,31 +112,40 @@ pinafore | noun | A collarless sleeveless dress worn over a blouse; an apron.
 pompadour | noun | A hairstyle in which the hair is swept upward from the face.
 poncho | noun | A garment of a thick piece of cloth with a slit in the middle for the head.
 ponytail | noun | A hairstyle in which the hair is drawn back and tied at the back of the head.
+porter | noun | A person employed to carry luggage; a dark brown beer.
+postman | noun | A man employed to deliver the mail.
 potholder | noun | A pad used to handle hot cookware.
 pullover | noun | A knitted garment put on over the head.
 pyjamas | noun | Loose-fitting sleepwear (British spelling).
+quilt | noun | A warm bed covering made of padding between layers of fabric.
 rolodex | noun | A trademarked rotating desk file for contact cards.
 rucksack | noun | A bag carried on the back; a backpack.
 saddler | noun | A person who makes, repairs, or deals in saddles.
 sarong | noun | A garment of a long piece of cloth wrapped around the body.
 seamstress | noun | A woman who sews, especially one who earns a living by sewing.
 settee | noun | A long upholstered seat for more than one person.
+shampoo | noun | A liquid preparation for washing the hair.
 shoeshine | noun | An act of polishing someone's shoes.
 sideburns | noun | Strips of hair grown down the side of a man's face.
 silversmith | noun | A person who makes silver articles.
 skivvy | noun | A low-ranking female domestic servant; a thin high-necked sweater.
+slippers | noun | Comfortable slip-on shoes worn indoors.
 smock | noun | A loose dress or blouse; a protective overgarment.
 snood | noun | An ornamental hairnet or a tubular scarf.
 sombrero | noun | A broad-brimmed felt or straw hat, typically worn in Mexico.
+spatula | noun | An implement with a broad, flat, blunt blade.
 spats | noun | Short cloth gaiters covering the instep and ankle.
 stenographer | noun | A person who transcribes speech in shorthand.
 stetson | noun | A trademarked felt hat with a high crown and wide brim; a cowboy hat.
 stilettos | noun | High, thin heels on women's shoes.
+stockings | noun | Women's close-fitting garments covering the foot and leg.
 suspenders | noun | Straps worn over the shoulders to hold up trousers.
+swimsuit | noun | A garment worn for swimming.
 switchboard | noun | An installation for manually connecting telephone calls.
 tailcoat | noun | A man's formal morning or evening coat with a long skirt divided at the back.
 tanner | noun | A person who tans hides; a former sixpence coin.
 tattoo | noun | A permanent design made on the skin with ink.
+teapot | noun | A pot with a handle and spout, in which tea is brewed.
 thatcher | noun | A person who makes thatched roofs.
 tiara | noun | A jeweled ornamental band worn on the front of a woman's hair.
 toga | noun | A loose flowing outer garment worn by citizens of ancient Rome.
@@ -132,9 +154,15 @@ tracksuit | noun | A loose, warm outfit of a sweatshirt and trousers.
 trousseau | noun | The clothes and linen collected by a bride for her marriage.
 tutu | noun | A ballet dancer's short skirt of layered stiff net.
 tuxedo | noun | A man's dinner jacket.
+undershirt | noun | An undergarment worn under a shirt.
 upholsterer | noun | A person who upholsters furniture.
 valet | noun | A man's personal male attendant; a parking attendant.
+vanity | noun | Excessive pride in one's appearance; a dressing table.
 waistcoat | noun | A close-fitting sleeveless garment worn over a shirt; a vest.
+wardrobe | noun | A large tall cupboard for hanging clothes.
 washboard | noun | A board with a ridged surface for washing clothes.
 wheelwright | noun | A person who makes or repairs wooden wheels.
+wig | noun | A covering for the head made of real or artificial hair.
+windbreaker | noun | A wind-resistant jacket.
+wristband | noun | A band worn around the wrist.
 

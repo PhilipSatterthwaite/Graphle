@@ -8,8 +8,11 @@ adage | noun | A proverb or short statement expressing a general truth.
 adulation | noun | Obsequious flattery; excessive admiration.
 affable | adjective | Friendly, good-natured, or easy to talk to.
 akimbo | adverb | With hands on the hips and elbows turned outward.
+albeit | conjunction | Though.
 allure | noun | The quality of being powerfully and mysteriously attractive.
 amok | adverb | Behaving uncontrollably and disruptively, as in "run amok."
+anomaly | noun | Something that deviates from what is standard or expected.
+antics | noun | Foolish, outrageous, or amusing behavior.
 aplenty | adjective | In abundance.
 askance | adverb | With an attitude or look of suspicion or disapproval.
 askew | adverb | Not in a straight or level position.
@@ -21,6 +24,7 @@ bedraggled | adjective | Dirty and disheveled.
 berserk | adjective | Out of control with anger or excitement; wild or frenzied.
 bespoke | adjective | Made for a particular customer or user.
 bewildered | adjective | Perplexed and confused.
+bigot | noun | A person who is intolerant toward those holding different opinions.
 bluster | verb | To talk in a loud, aggressive, or indignant way with little effect.
 boisterous | adjective | Noisy, energetic, and cheerful; rowdy.
 boorish | adjective | Rough and bad-mannered; coarse.
@@ -31,10 +35,12 @@ burly | adjective | Large and strong; heavily built.
 cagey | adjective | Reluctant to give information owing to caution or suspicion.
 canny | adjective | Having or showing shrewdness and good judgment.
 carousing | noun | Drinking plenty of alcohol and enjoying oneself noisily.
+chaotic | adjective | In a state of complete confusion and disorder.
 cherubic | adjective | Having the plump innocence of a cherub.
 chivalrous | adjective | Courteous and gallant, especially toward women.
 churlish | adjective | Rude in a mean-spirited and surly way.
 clamor | noun | A loud and confused noise.
+clumsy | adjective | Awkward in movement or in handling things.
 cocksure | adjective | Presumptuously or arrogantly confident.
 comely | adjective | Pleasant to look at; attractive.
 contraption | noun | A machine or device that appears strange or unnecessarily complicated.
@@ -42,20 +48,26 @@ cowering | adjective | Crouching down in fear.
 crestfallen | adjective | Sad and disappointed.
 curt | adjective | Rudely brief.
 dapper | adjective | Neat and trim in dress, appearance, or bearing.
+daunting | adjective | Seeming difficult to deal with in anticipation; intimidating.
 dawdle | verb | To waste time; to be slow.
 deadpan | adjective | Deliberately impassive or expressionless.
 deluge | noun | A severe flood; an overwhelming amount of something.
 devious | adjective | Showing a skillful use of underhanded tactics.
 dicey | adjective | Unpredictable and potentially dangerous.
 disgruntled | adjective | Angry or dissatisfied.
+dismal | adjective | Depressing; dreary; pitifully inadequate.
 dour | adjective | Relentlessly severe, stern, or gloomy.
 drab | adjective | Lacking brightness or interest; dreary.
+dubious | adjective | Hesitating or doubting; not to be relied upon.
 dulcet | adjective | Sweet and soothing, especially of sound.
 eccentric | adjective | Unconventional and slightly strange.
 eerie | adjective | Strange and frightening.
 effusive | adjective | Expressing feelings of gratitude or pleasure in an unrestrained way.
 embroiled | adjective | Deeply involved in a conflict or difficult situation.
+epic | noun | A long poem narrating heroic deeds; something grand in scale.
 errant | adjective | Erring from proper standards; traveling in search of adventure.
+exquisite | adjective | Extremely beautiful and delicate.
+fathom | verb | To understand after much thought; a measure of water depth.
 feckless | adjective | Lacking initiative or strength of character; irresponsible.
 feisty | adjective | Lively, determined, and courageous.
 fervent | adjective | Having or displaying a passionate intensity.
@@ -63,6 +75,7 @@ fickle | adjective | Changing frequently, especially regarding loyalties.
 finicky | adjective | Fussy about one's needs or requirements.
 flustered | adjective | Agitated or confused.
 fortuitous | adjective | Happening by accident or chance; lucky.
+frantic | adjective | Wild or distraught with fear, anxiety, or other emotion.
 frivolous | adjective | Not having any serious purpose or value.
 frumpy | adjective | Dowdy and old-fashioned.
 gallant | adjective | Brave, heroic; charmingly attentive.
@@ -103,21 +116,26 @@ lopsided | adjective | With one side lower or smaller than the other.
 lurid | adjective | Very vivid in color; presented in vividly shocking detail.
 luscious | adjective | Having a pleasingly rich, sweet taste; very attractive.
 macabre | adjective | Disturbing because of involvement with death or injury.
+magnificent | adjective | Impressively beautiful, elaborate, or extravagant.
 meager | adjective | Lacking in quantity or quality.
 menacing | adjective | Suggesting the presence of danger; threatening.
 mesmerizing | adjective | Capturing one's complete attention as if by magic.
 mischievous | adjective | Causing or showing a fondness for causing trouble in a playful way.
 miserly | adjective | Of or characteristic of a person who hoards wealth.
 mottled | adjective | Marked with spots or smears of color.
+mundane | adjective | Lacking interest or excitement; dull.
 murky | adjective | Dark and gloomy; obscure.
+nauseous | adjective | Affected with nausea; causing nausea.
 nimble | adjective | Quick and light in movement or action; agile.
 nitpicking | noun | Fussy or pedantic faultfinding.
 noxious | adjective | Harmful, poisonous, or very unpleasant.
 oblivious | adjective | Not aware of or not concerned about what is happening.
+obnoxious | adjective | Extremely unpleasant.
 odious | adjective | Extremely unpleasant; repulsive.
 ornery | adjective | Bad-tempered and combative.
 outlandish | adjective | Looking or sounding bizarre or unfamiliar.
 paltry | adjective | Small or meager; petty or trivial.
+peculiar | adjective | Strange or odd; unusual.
 peevish | adjective | Easily irritated, especially by unimportant things.
 perky | adjective | Cheerful and lively.
 perplexed | adjective | Completely baffled; very puzzled.
@@ -135,8 +153,11 @@ queasy | adjective | Nauseated; feeling sick.
 quirky | adjective | Characterized by peculiar or unexpected traits.
 raucous | adjective | Making a disturbingly harsh and loud noise.
 ravenous | adjective | Extremely hungry.
+reckless | adjective | Heedless of danger or the consequences of one's actions.
 rickety | adjective | Poorly made and likely to collapse.
 rowdy | adjective | Noisy and disorderly.
+rugged | adjective | Having a rocky and uneven surface; strongly built.
+ruthless | adjective | Having or showing no pity or compassion for others.
 scrawny | adjective | Unattractively thin and bony.
 scrumptious | adjective | Extremely tasty; delicious.
 shabby | adjective | In poor condition through long use or lack of care.
@@ -155,6 +176,7 @@ sultry | adjective | Hot and humid; displaying passionate sensuality.
 surly | adjective | Bad-tempered and unfriendly.
 swanky | adjective | Stylishly luxurious and expensive.
 tawdry | adjective | Showy but cheap and of poor quality.
+tedious | adjective | Too long, slow, or dull; tiresome.
 testy | adjective | Easily irritated; impatient.
 tipsy | adjective | Slightly drunk.
 tousled | adjective | Untidy or disheveled, especially of hair.

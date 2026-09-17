@@ -1,10 +1,13 @@
 # Nautical, military, medieval, and travel
 # word | part of speech | definition
+admiral | noun | The commander of a fleet or naval squadron.
 aircraftman | noun | The lowest rank in the Royal Air Force.
 airstrip | noun | A strip of ground for aircraft to take off and land.
+anchor | noun | A heavy object used to moor a ship to the sea bottom.
 archer | noun | A person who shoots with a bow and arrows.
 armada | noun | A fleet of warships.
 arquebus | noun | An early type of portable gun supported on a tripod or forked rest.
+arsenal | noun | A collection of weapons; a place where weapons are made or stored.
 astronaut | noun | A person trained to travel in a spacecraft.
 atoll | noun | A ring-shaped reef, island, or chain of islands formed of coral.
 balustrade | noun | A railing supported by balusters.
@@ -21,6 +24,7 @@ bowsprit | noun | A spar running out from a ship's bow.
 brigantine | noun | A two-masted sailing ship.
 broadsword | noun | A sword with a wide blade for cutting rather than thrusting.
 bulwark | noun | A defensive wall; the extension of a ship's sides above deck.
+bunker | noun | A reinforced underground shelter; a container for fuel.
 caravel | noun | A small, fast Spanish or Portuguese ship of the 15th–17th centuries.
 castaway | noun | A person who has been shipwrecked and stranded.
 cavalry | noun | Soldiers who fought on horseback.
@@ -42,6 +46,7 @@ flintlock | noun | An old-fashioned type of gun fired by a spark from a flint.
 flotilla | noun | A small fleet of ships or boats.
 frigate | noun | A warship with a mixed armament.
 galleon | noun | A large sailing ship with three or more decks and masts.
+galley | noun | A low, flat ship with sails and oars; a ship's kitchen.
 gangplank | noun | A movable plank used as a ramp for boarding a boat.
 garrison | noun | A body of troops stationed in a fortress or town.
 gauntlet | noun | A stout glove with a long loose wrist; a challenge.
@@ -53,16 +58,20 @@ hammock | noun | A bed of canvas or rope netting suspended at both ends.
 harpoon | noun | A barbed spearlike missile used for catching whales.
 helmsman | noun | A person who steers a ship or boat.
 jousting | noun | Combat on horseback between two knights with lances.
+junk | noun | Old or discarded articles; a flat-bottomed Chinese sailing vessel.
 kamikaze | noun | A Japanese aircraft deliberately crashed onto a target in World War II.
 katana | noun | A long curved single-edged Japanese sword.
 keelhaul | verb | To punish by dragging someone through the water under a ship's keel.
 knight | noun | A man awarded a nonhereditary title by a sovereign; a mounted medieval soldier.
+lance | noun | A long weapon for thrusting, used by a horseman.
 landlubber | noun | A person unfamiliar with the sea or sailing.
 larboard | noun | The port side of a ship (archaic).
 longbow | noun | A large bow drawn by hand.
 longship | noun | A long, narrow warship with oars and a sail, used by the Vikings.
+mace | noun | A heavy club with a spiked metal head; a ceremonial staff.
 marauder | noun | A person who raids and plunders.
 mariner | noun | A sailor.
+maroon | verb | To leave someone trapped and isolated in an inaccessible place.
 mercenary | noun | A professional soldier hired to serve in a foreign army.
 midshipman | noun | A naval cadet.
 minesweeper | noun | A warship equipped to detect and destroy mines.
@@ -81,14 +90,18 @@ quartermaster | noun | A military officer responsible for provisions.
 rampart | noun | A defensive wall of a castle or walled city.
 reconnaissance | noun | Military observation of a region to locate an enemy.
 redcoat | noun | A British soldier, especially during the American Revolution.
+regiment | noun | A permanent unit of an army.
+rigging | noun | The system of ropes supporting a ship's masts and sails.
 saber | noun | A heavy cavalry sword with a curved blade.
 samurai | noun | A member of a powerful military caste in feudal Japan.
 schooner | noun | A sailing ship with two or more masts.
 scimitar | noun | A short sword with a curved blade.
+scuttle | verb | To sink one's own ship deliberately; to run hurriedly.
 shipwreck | noun | The destruction of a ship at sea.
 shogun | noun | A hereditary commander-in-chief in feudal Japan.
 skirmish | noun | An episode of irregular or unpremeditated fighting.
 spyglass | noun | A small telescope.
+squire | noun | A young nobleman acting as an attendant to a knight; a country gentleman.
 starboard | noun | The side of a ship on the right when facing forward.
 steamboat | noun | A boat propelled by a steam engine.
 steamship | noun | A ship propelled by a steam engine.
@@ -101,6 +114,7 @@ torpedo | noun | A self-propelled underwater missile.
 trireme | noun | An ancient Greek or Roman warship with three banks of oars.
 turret | noun | A small tower on top of a larger tower; a rotating gun housing.
 vassal | noun | A holder of land by feudal tenure; a subordinate.
+vessel | noun | A ship or large boat; a hollow container.
 viking | noun | A Scandinavian seafaring pirate and trader of the 8th–11th centuries.
 warhorse | noun | A horse ridden in battle; a veteran soldier or politician.
 warship | noun | A ship equipped with weapons for war.

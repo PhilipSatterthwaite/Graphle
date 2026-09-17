@@ -1,34 +1,112 @@
 # The body, health, and feelings
 # word | part of speech | definition
+acne | noun | A skin condition marked by red pimples.
 adenoids | noun | A mass of lymphatic tissue at the back of the nose.
 ague | noun | Malarial fever; a fit of shivering.
+anxiety | noun | A feeling of worry, nervousness, or unease.
+appendix | noun | A tube-shaped sac attached to the large intestine; a section at the end of a book.
+armpit | noun | A hollow under the arm at the shoulder.
+backache | noun | A prolonged pain in one's back.
+bandage | noun | A strip of material used to bind a wound.
+belly | noun | The front part of the body below the ribs.
+bicep | noun | A large muscle in the upper arm (usually "biceps").
+blister | noun | A small bubble on the skin filled with fluid.
+blush | verb | To develop a pink tinge in the face from embarrassment.
+boredom | noun | The state of feeling bored.
+bruise | noun | An injury appearing as an area of discolored skin.
 bunion | noun | A painful swelling on the first joint of the big toe.
+burnout | noun | Physical or mental collapse caused by overwork or stress.
 callus | noun | A thickened and hardened part of the skin.
 carbuncle | noun | A severe abscess or multiple boil; a bright red gem.
+cartilage | noun | Firm, flexible connective tissue.
+cheekbone | noun | The bone below the eye.
 chickenpox | noun | An infectious disease causing a mild fever and a rash of itchy spots.
 colic | noun | Severe abdominal pain, especially in babies.
+constipation | noun | A condition in which there is difficulty in emptying the bowels.
+cramp | noun | A painful involuntary contraction of a muscle.
 dandruff | noun | Small pieces of dead skin in a person's hair.
+delirium | noun | An acutely disturbed state of mind with restlessness and hallucinations.
+depression | noun | Feelings of severe despondency and dejection.
+diarrhea | noun | A condition in which feces are discharged frequently and in liquid form.
+dimple | noun | A small depression in the flesh, especially in the cheeks or chin.
+dizziness | noun | A sensation of spinning around and losing one's balance.
 dyslexia | noun | A learning disorder involving difficulty in reading.
+earache | noun | Pain inside the ear.
+earlobe | noun | The soft, rounded fleshy part at the lower margin of the ear.
 eczema | noun | A condition in which patches of skin become rough and inflamed.
+elbow | noun | The joint between the forearm and the upper arm.
+eyebrow | noun | The strip of hair growing on the ridge above the eye.
+eyelash | noun | Each of the short curved hairs growing on the edges of the eyelids.
+fever | noun | An abnormally high body temperature.
+freckle | noun | A small light brown spot on the skin.
 frostbite | noun | Injury to body tissues caused by exposure to extreme cold.
+gallbladder | noun | A small sac-shaped organ storing bile.
 gallstone | noun | A small hard crystalline mass formed abnormally in the gallbladder.
 goosebumps | noun | A state of the skin caused by cold, fear, or excitement.
 grief | noun | Deep sorrow, especially caused by someone's death.
+gums | noun | The firm areas of flesh around the teeth.
 hangover | noun | A severe headache or other aftereffects caused by drinking alcohol.
 hangnail | noun | A piece of torn skin at the root of a fingernail.
+happiness | noun | The state of being happy.
+headache | noun | A continuous pain in the head.
+heartache | noun | Emotional anguish or grief.
+heartburn | noun | A form of indigestion felt as a burning sensation in the chest.
 hiccups | noun | Involuntary spasms of the diaphragm.
 homesick | adjective | Experiencing a longing for one's home.
 hysteria | noun | Exaggerated or uncontrollable emotion or excitement.
+indigestion | noun | Pain or discomfort in the stomach associated with difficulty in digesting food.
+insomnia | noun | Habitual sleeplessness.
+jealousy | noun | Envy; resentment toward a perceived rival.
 jaundice | noun | A medical condition with yellowing of the skin; bitterness.
+kneecap | noun | The convex bone in front of the knee joint.
+knuckle | noun | A part of a finger at a joint.
 laryngitis | noun | Inflammation of the larynx.
+loneliness | noun | Sadness because one has no friends or company.
+lungs | noun | The pair of organs in the chest used for breathing.
+melancholy | noun | A deep, pensive, and long-lasting sadness.
+mole | noun | A small burrowing mammal; a small dark blemish on the skin; a spy.
+nausea | noun | A feeling of sickness with an inclination to vomit.
+navel | noun | A rounded knotty depression in the center of a person's belly.
+nightmare | noun | A frightening or unpleasant dream.
 nosebleed | noun | An instance of bleeding from the nose.
+nostril | noun | Either of two external openings of the nose.
 palpitations | noun | A noticeably rapid, strong, or irregular heartbeat.
+pancreas | noun | A large gland behind the stomach that secretes digestive enzymes.
+paranoia | noun | Unjustified suspicion and mistrust of other people.
+phobia | noun | An extreme or irrational fear of something.
+pimple | noun | A small hard inflamed spot on the skin.
+posture | noun | The position in which someone holds their body.
+rash | noun | An area of redness and spots on the skin; adjective: acting without careful thought.
+remorse | noun | Deep regret or guilt for a wrong committed.
+sadness | noun | The condition or quality of being sad.
+scab | noun | A dry, rough protective crust over a healing wound; a strikebreaker.
+scar | noun | A mark left on the skin after a wound has healed.
 shinbone | noun | The tibia.
 shingles | noun | An acute painful viral infection causing a rash; roof tiles.
 shyness | noun | The quality of being shy.
+sinus | noun | A cavity within a bone, especially one connecting with the nostrils.
+sneeze | verb | To make a sudden involuntary expulsion of air from the nose and mouth.
+snore | verb | To breathe with a snorting or grunting sound while asleep.
+spleen | noun | An abdominal organ involved in the production and removal of blood cells; bad temper.
+sprain | noun | A wrenching of a joint's ligaments.
 stomachache | noun | A pain in a person's belly.
+stutter | verb | To talk with continued involuntary repetition of sounds.
+sunburn | noun | Inflammation of the skin caused by overexposure to the sun.
 tantrum | noun | An uncontrolled outburst of anger and frustration.
+tearful | adjective | Crying or inclined to cry.
+tendon | noun | A flexible cord of fibrous tissue attaching muscle to bone.
+thumbnail | noun | The nail of the thumb; a small image.
+toenail | noun | The nail at the tip of each toe.
+tonsils | noun | Small masses of lymphoid tissue in the throat.
+toothache | noun | Pain in a tooth or teeth.
+tummy | noun | A person's stomach or abdomen.
 twinge | noun | A sudden, sharp localized pain; a brief pang of emotion.
+ulcer | noun | An open sore on the body.
 vertigo | noun | A sensation of whirling and loss of balance.
+wart | noun | A small, hard, benign growth on the skin.
+wheeze | verb | To breathe with a whistling or rattling sound.
 whiplash | noun | An injury caused by a severe jerk to the head; a lash of a whip.
+wisdom | noun | The quality of having experience, knowledge, and good judgment.
+wrinkle | noun | A slight line or fold in the skin or fabric.
+yawn | verb | To involuntarily open one's mouth wide and inhale deeply from tiredness.
 

@@ -2,6 +2,7 @@
 # word | part of speech | definition
 adrenaline | noun | A hormone released in response to stress.
 aether | noun | A once-hypothesized medium filling space through which light traveled.
+allergy | noun | A damaging immune response to a normally harmless substance.
 amoeba | noun | A single-celled organism that moves by extending projections of its body.
 anesthesia | noun | Insensitivity to pain, especially as induced before surgery.
 antibiotic | noun | A medicine that inhibits the growth of or destroys microorganisms.
@@ -11,11 +12,14 @@ apoplexy | noun | Unconsciousness caused by a stroke; extreme anger.
 asbestos | noun | A heat-resistant fibrous mineral once used in insulation.
 aspirin | noun | A medicine used to relieve pain and reduce fever.
 asteroid | noun | A small rocky body orbiting the sun.
+atom | noun | The smallest particle of a chemical element.
 autism | noun | A developmental condition affecting communication and behavior.
 bacteria | noun | Single-celled microorganisms, some of which cause disease.
 biodiversity | noun | The variety of plant and animal life in a habitat.
 bloodletting | noun | The surgical removal of blood as a former medical treatment.
 bronchitis | noun | Inflammation of the bronchial tubes.
+calorie | noun | A unit of energy, especially of food.
+carbohydrate | noun | A compound such as sugar or starch that is a major food source.
 catalyst | noun | A substance that speeds up a chemical reaction; an agent of change.
 chloroform | noun | A volatile liquid formerly used as an anesthetic.
 cholesterol | noun | A compound found in cells; high levels are linked to heart disease.
@@ -27,6 +31,7 @@ coronavirus | noun | A family of viruses, including the one causing COVID-19.
 croup | noun | Inflammation of the larynx in children, with a hacking cough.
 cryogenics | noun | The branch of physics dealing with very low temperatures.
 dementia | noun | A chronic disorder of mental processes marked by memory loss.
+diabetes | noun | A disorder in which the body cannot properly regulate blood sugar.
 diphtheria | noun | A serious bacterial infection affecting the throat.
 dopamine | noun | A neurotransmitter associated with reward and pleasure.
 ebola | noun | A severe, often fatal viral hemorrhagic fever.
@@ -36,6 +41,7 @@ endorphin | noun | A hormone that relieves pain and produces a feeling of well-b
 entropy | noun | A measure of disorder in a system; gradual decline into disorder.
 enzyme | noun | A protein that acts as a catalyst for biochemical reactions.
 epidemic | noun | A widespread occurrence of an infectious disease.
+ether | noun | A volatile liquid once used as an anesthetic; the upper regions of air.
 eugenics | noun | The discredited study of improving populations by selective breeding.
 evolution | noun | The process by which organisms change over generations.
 exoplanet | noun | A planet orbiting a star outside the solar system.
@@ -45,13 +51,17 @@ fossil | noun | The preserved remains of a prehistoric organism.
 galaxy | noun | A system of millions or billions of stars.
 galvanism | noun | Electricity produced by chemical action; its therapeutic use.
 gangrene | noun | Death of body tissue due to lack of blood supply or infection.
+gene | noun | A unit of heredity transferred from parent to offspring.
 genome | noun | The complete set of genes of an organism.
+germ | noun | A microorganism, especially one that causes disease.
 gonorrhea | noun | A sexually transmitted bacterial infection.
 gout | noun | A disease causing painful inflammation of the joints, especially the big toe.
 hemorrhoids | noun | Swollen veins in the rectal area.
 hepatitis | noun | Inflammation of the liver.
+hormone | noun | A chemical messenger produced by glands.
 humors | noun | The four bodily fluids once thought to determine health and temperament.
 hypochondria | noun | Abnormal chronic anxiety about one's health.
+immunity | noun | The ability to resist a particular infection.
 influenza | noun | A highly contagious viral infection; the flu.
 insulin | noun | A hormone that regulates glucose levels in the blood.
 isotope | noun | Forms of an element with different numbers of neutrons.
@@ -64,11 +74,13 @@ malaria | noun | A mosquito-borne disease causing recurring fever.
 measles | noun | An infectious viral disease causing fever and a red rash.
 melancholia | noun | Deep sadness; a former term for severe depression.
 meningitis | noun | Inflammation of the membranes around the brain and spinal cord.
+metabolism | noun | The chemical processes that maintain life.
 meteorite | noun | A piece of rock from space that has landed on Earth.
 miasma | noun | An unpleasant or unhealthy vapor once believed to cause disease.
 microbe | noun | A microorganism, especially a bacterium causing disease.
 microbiome | noun | The community of microorganisms living in a particular environment.
 migraine | noun | A recurrent throbbing headache, often with nausea.
+molecule | noun | A group of atoms bonded together.
 mumps | noun | A viral disease causing swelling of the salivary glands.
 nanotechnology | noun | Technology on the scale of atoms and molecules.
 nebula | noun | A cloud of gas and dust in outer space.
@@ -76,6 +88,7 @@ neuron | noun | A specialized cell transmitting nerve impulses.
 neutron | noun | A subatomic particle with no electric charge.
 nicotine | noun | A toxic alkaloid found in tobacco.
 nostrum | noun | A quack medicine; a pet scheme for bringing about social reform.
+obesity | noun | The condition of being grossly overweight.
 opioid | noun | A compound with effects like opium.
 osteoporosis | noun | A condition in which bones become brittle and fragile.
 ozone | noun | A form of oxygen; a layer of the atmosphere absorbing ultraviolet radiation.
@@ -89,6 +102,7 @@ pleurisy | noun | Inflammation of the membranes around the lungs.
 pneumonia | noun | Lung inflammation caused by infection.
 polio | noun | An infectious viral disease that can cause paralysis.
 positron | noun | A subatomic particle with the mass of an electron but a positive charge.
+protein | noun | A nitrogenous organic compound essential to living organisms.
 proton | noun | A positively charged subatomic particle.
 pulsar | noun | A rotating neutron star emitting regular pulses of radiation.
 quantum | noun | A discrete quantity of energy.
@@ -106,6 +120,7 @@ sciatica | noun | Pain affecting the back, hip, and leg, caused by nerve compres
 serotonin | noun | A neurotransmitter involved in mood regulation.
 spectroscope | noun | An instrument for producing and recording spectra.
 stethoscope | noun | A medical instrument for listening to the heart and lungs.
+stroke | noun | A sudden disabling attack caused by interruption of blood flow to the brain.
 supernova | noun | A star that suddenly increases greatly in brightness due to an explosion.
 syphilis | noun | A chronic bacterial sexually transmitted disease.
 tetanus | noun | A bacterial disease marked by rigidity and spasms of voluntary muscles.
@@ -114,4 +129,5 @@ tonsillitis | noun | Inflammation of the tonsils.
 tuberculosis | noun | An infectious bacterial disease affecting the lungs.
 typhoid | noun | A bacterial infection spread through contaminated food or water.
 vaccine | noun | A substance used to stimulate immunity to a disease.
+vitamin | noun | An organic compound essential for normal nutrition.
 

@@ -10,6 +10,7 @@ armadillo | noun | A burrowing mammal with a body covered in bony plates.
 avalanche | noun | A mass of snow falling rapidly down a mountainside.
 axolotl | noun | A Mexican salamander that retains its larval form throughout life.
 baboon | noun | A large Old World monkey with a long doglike snout.
+badger | noun | A heavily built burrowing mammal with a black-and-white striped head.
 barnacle | noun | A marine crustacean that attaches itself permanently to surfaces.
 barracuda | noun | A large, predatory tropical marine fish.
 bison | noun | A wild ox with a humped back and shaggy hair.
@@ -45,6 +46,7 @@ dugong | noun | A large marine mammal related to the manatee.
 earthworm | noun | A burrowing annelid worm living in soil.
 earwig | noun | A small insect with pincers at the end of its abdomen.
 echidna | noun | A spiny egg-laying mammal of Australia and New Guinea.
+eel | noun | A snakelike fish.
 emu | noun | A large flightless Australian bird.
 ferret | noun | A domesticated polecat used for catching rabbits.
 firefly | noun | A beetle that emits light.
@@ -57,6 +59,7 @@ gnu | noun | A large African antelope; a wildebeest.
 gopher | noun | A burrowing rodent with fur-lined cheek pouches.
 gorilla | noun | The largest of the great apes.
 grizzly | noun | A large brown bear of North America.
+hailstorm | noun | A storm with hail.
 hamster | noun | A small burrowing rodent often kept as a pet.
 hedgehog | noun | A small nocturnal mammal with a spiny coat.
 hippopotamus | noun | A large African mammal with a thick skin, living near water.
@@ -70,6 +73,7 @@ jackal | noun | A slender wild dog that often scavenges.
 jaguar | noun | A large, heavily built cat of the Americas.
 jellyfish | noun | A free-swimming marine animal with a gelatinous bell.
 kangaroo | noun | A large Australian marsupial that moves by hopping.
+kiwi | noun | A flightless New Zealand bird; a fuzzy fruit.
 koala | noun | A bearlike Australian marsupial that feeds on eucalyptus leaves.
 kookaburra | noun | A large Australian kingfisher known for its laughing call.
 ladybug | noun | A small beetle with a red back and black spots.
@@ -103,7 +107,9 @@ pelican | noun | A large water bird with a pouch under its bill.
 penguin | noun | A flightless seabird of the Southern Hemisphere.
 platypus | noun | An egg-laying Australian mammal with a duck-like bill.
 porcupine | noun | A rodent with protective spines.
+possum | noun | An opossum; an Australian marsupial.
 puffin | noun | A seabird with a large, brightly colored bill.
+python | noun | A large constricting snake.
 quetzal | noun | A brightly colored bird of Central America.
 quokka | noun | A small wallaby of southwestern Australia known for its smile.
 raccoon | noun | A North American mammal with a masked face and ringed tail.
@@ -115,10 +121,12 @@ scorpion | noun | An arachnid with pincers and a venomous stinging tail.
 seahorse | noun | A small marine fish with an upright posture and a horse-like head.
 skunk | noun | A North American mammal able to spray a foul-smelling liquid.
 sloth | noun | A slow-moving tropical mammal; laziness.
+snowflake | noun | A flake of snow; an overly sensitive person (slang).
 stingray | noun | A flat fish with a venomous spine on its tail.
 tapir | noun | A hoofed mammal with a short flexible snout.
 tarantula | noun | A large hairy spider.
 termite | noun | A small insect that feeds on wood.
+thunderstorm | noun | A storm with thunder and lightning.
 tornado | noun | A violently rotating column of air.
 toucan | noun | A tropical American bird with a huge colorful bill.
 tsunami | noun | A long high sea wave caused by an earthquake.
