@@ -1,6 +1,7 @@
 # Graphle
 
-Match three words to their Google Books Ngram graphs.
+Match five words to their Google Books Ngram graphs. Correct matches lock in;
+wrong guesses unlock hints (definitions, then the y-axis scale). Four guesses per round.
 
 ## Run locally
 
@@ -20,8 +21,13 @@ Words live in `scripts/words.txt`. After editing, refresh the data:
 node scripts/fetch-ngrams.mjs
 ```
 
-This writes `data/ngrams.json`. The Ngram endpoint doesn't allow cross-origin
-browser requests, so the data is fetched ahead of time and served as a static file.
+This writes `data/ngrams.json`. Also add a definition for each new word to
+`data/definitions.json` (hand-written; the game shows "No definition available" otherwise).
+
+The Ngram endpoint doesn't allow cross-origin browser requests, so the data is
+fetched ahead of time and served as a static file.
+
+Round size, guess count, and hint thresholds are constants at the top of `game.js`.
 
 ## Deploy to GitHub Pages
 

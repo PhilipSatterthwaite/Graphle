@@ -4,28 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Graphle</title>
-  <meta name="description" content="Match three words to their Google Books Ngram graphs.">
+  <meta name="description" content="Match five words to their Google Books Ngram graphs.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📈%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Graphle</h1>
-    <p class="tagline">Three words. Three graphs. Which is which?</p>
+    <p class="tagline">Five words. Five graphs. Which is which?</p>
     <div class="stats">
-      <span>Score <b id="score">0</b></span>
+      <span>Solved <b id="score">0</b></span>
       <span>Streak <b id="streak">0</b></span>
     </div>
   </header>
 
   <main>
-    <p class="how">Pick a word, then tap the graph you think it belongs to. Graphs show how often each word appeared in English books, 1800–2022.</p>
+    <p class="how">Each graph shows how often a word appeared in English books, 1800–2022. Pick a word, then tap the graph it belongs to. Correct matches lock in; each wrong guess unlocks a hint.</p>
 
-    <div id="words" class="words" aria-label="Words"></div>
+    <div class="bank-bar">
+      <div id="words" class="words" aria-label="Words"></div>
+      <p id="selected-def" class="selected-def"></p>
+    </div>
+
+    <div class="status">
+      <div id="guesses" class="guesses" aria-label="Guesses"></div>
+      <div id="hints" class="hints"></div>
+    </div>
+
+    <dl id="definitions" class="definitions" hidden></dl>
+
     <div id="charts" class="charts"></div>
 
     <div class="actions">
-      <button id="submit" class="primary" disabled>Check answers</button>
+      <button id="submit" class="primary" disabled>Submit</button>
       <button id="next" class="primary" hidden>Next round</button>
     </div>
     <p id="result" class="result" aria-live="polite"></p>

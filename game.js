@@ -1,15 +1,25 @@
-const LETTERS = ["A", "B", "C"];
-const COLORS = ["var(--s-a)", "var(--s-b)", "var(--s-c)"];
-const W = 340, H = 200, PAD = { l: 44, r: 10, t: 10, b: 24 };
+const WORDS_PER_ROUND = 5;
+const MAX_GUESSES = 4;
+// Hints unlock after this many wrong guesses.
+const HINTS = [
+  { key: "definitions", label: "Definitions", after: 1 },
+  { key: "magnitude", label: "Y-axis scale", after: 2 },
+];
+const LETTERS = "ABCDE";
+const W = 340, H = 190, PAD = { l: 40, r: 10, t: 10, b: 24 };
 
 const $ = (id) => document.getElementById(id);
 const tooltip = $("tooltip");
 
-let data;
-let round;            // { words: graph order, shuffled: chip order }
-let assignments;      // graph index -> word
+let data, definitions;
+let round;            // { words: graph order, shuffled: bank order }
+let assignments;      // graph index -> word | null
+let locked;           // graph index -> true once guessed correctly
+let tried;            // graph index -> Set of words guessed wrong there
+let wrongGuesses;
+let flashing;         // graph indices to shake after a submit
+let status;           // "playing" | "won" | "lost"
 let selectedWord = null;
-let checked = false;
 const stats = loadStats();
 
 function loadStats() {
@@ -19,6 +29,8 @@ function loadStats() {
 function saveStats() {
   try { localStorage.setItem("graphle-stats", JSON.stringify(stats)); } catch {}
 }
+
+const hintOn = (key) => status !== "playing" || wrongGuesses >= HINTS.find((h) => h.key === key).after;
 
 function shuffle(arr) {
   const a = [...arr];
@@ -46,10 +58,12 @@ function correlation(x, y) {
 function pickWords() {
   const all = Object.keys(data.series);
   let best;
-  for (let attempt = 0; attempt < 50; attempt++) {
-    const words = shuffle(all).slice(0, 3);
+  for (let attempt = 0; attempt < 200; attempt++) {
+    const words = shuffle(all).slice(0, WORDS_PER_ROUND);
     const s = words.map((w) => data.series[w]);
-    const maxCorr = Math.max(correlation(s[0], s[1]), correlation(s[0], s[2]), correlation(s[1], s[2]));
+    let maxCorr = -1;
+    for (let i = 0; i < s.length; i++)
+      for (let j = i + 1; j < s.length; j++) maxCorr = Math.max(maxCorr, correlation(s[i], s[j]));
     if (!best || maxCorr < best.maxCorr) best = { words, maxCorr };
     if (maxCorr < 0.85) break;
   }
@@ -70,13 +84,19 @@ function fmt(v) {
   return String(+v.toFixed(2));
 }
 
-function svgEl(tag, attrs) {
-  const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
-  for (const k in attrs) el.setAttribute(k, attrs[k]);
-  return el;
+function el(tag, props = {}, ...children) {
+  const node = Object.assign(document.createElement(tag), props);
+  node.append(...children);
+  return node;
 }
 
-function drawChart(series, color) {
+function svgEl(tag, attrs) {
+  const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const k in attrs) node.setAttribute(k, attrs[k]);
+  return node;
+}
+
+function drawChart(series, showValues) {
   const { yearStart, yearEnd } = data;
   const ymax = niceMax(Math.max(...series) || 1);
   const x = (yr) => PAD.l + ((yr - yearStart) / (yearEnd - yearStart)) * (W - PAD.l - PAD.r);
@@ -87,7 +107,7 @@ function drawChart(series, color) {
     const v = (ymax * i) / 4;
     svg.append(svgEl("line", { x1: PAD.l, x2: W - PAD.r, y1: y(v), y2: y(v), class: i ? "grid" : "axis" }));
     const t = svgEl("text", { x: PAD.l - 6, y: y(v) + 4, "text-anchor": "end" });
-    t.textContent = fmt(v);
+    t.textContent = showValues ? fmt(v) : i === 0 ? "0" : "?";
     svg.append(t);
   }
   for (const yr of [1800, 1850, 1900, 1950, 2000]) {
@@ -96,10 +116,10 @@ function drawChart(series, color) {
     svg.append(t);
   }
   const d = series.map((v, i) => `${i ? "L" : "M"}${x(yearStart + i).toFixed(1)},${y(v).toFixed(1)}`).join("");
-  svg.append(svgEl("path", { d, class: "line", stroke: color }));
+  svg.append(svgEl("path", { d, class: "line" }));
 
   const cross = svgEl("line", { y1: PAD.t, y2: H - PAD.b, class: "cross", visibility: "hidden" });
-  const dot = svgEl("circle", { r: 4, class: "dot", fill: color, visibility: "hidden" });
+  const dot = svgEl("circle", { r: 4, class: "dot", visibility: "hidden" });
   svg.append(cross, dot);
 
   const hide = () => {
@@ -119,7 +139,8 @@ function drawChart(series, color) {
     dot.setAttribute("cy", cy);
     cross.setAttribute("visibility", "visible");
     dot.setAttribute("visibility", "visible");
-    tooltip.innerHTML = `<b>${yearStart + i}</b> <span class="y">${fmt(series[i])} per billion words</span>`;
+    tooltip.replaceChildren(el("b", { textContent: yearStart + i }));
+    if (showValues) tooltip.append(" ", el("span", { className: "y", textContent: `${fmt(series[i])} per billion words` }));
     tooltip.hidden = false;
     tooltip.style.left = Math.min(e.clientX + 12, innerWidth - tooltip.offsetWidth - 8) + "px";
     tooltip.style.top = e.clientY - 40 + "px";
@@ -129,7 +150,7 @@ function drawChart(series, color) {
 }
 
 function place(gi, word) {
-  if (checked || !word) return;
+  if (status !== "playing" || !word || locked[gi] || locked[assignments.indexOf(word)]) return;
   const prev = assignments.indexOf(word);
   if (prev >= 0) assignments[prev] = null;
   assignments[gi] = word;
@@ -137,70 +158,101 @@ function place(gi, word) {
   render();
 }
 
-function renderWords() {
+function definitionText(word) {
+  const def = definitions[word];
+  return def ? [el("span", { className: "pos", textContent: def.pos }), def.text] : ["No definition available."];
+}
+
+function renderBank() {
   const wordsEl = $("words");
   wordsEl.replaceChildren();
   for (const w of round.shuffled) {
-    const b = document.createElement("button");
-    b.className = "chip";
-    b.textContent = w;
-    const placedAt = assignments.indexOf(w);
-    if (placedAt >= 0) {
-      b.classList.add("placed");
-      const tag = document.createElement("span");
-      tag.className = "tag";
-      tag.textContent = "→ " + LETTERS[placedAt];
-      b.append(tag);
+    const at = assignments.indexOf(w);
+    const isLocked = at >= 0 && locked[at];
+    const b = el("button", { className: "chip", textContent: w });
+    if (at >= 0) {
+      b.classList.add(isLocked ? "locked" : "placed");
+      b.append(el("span", { className: "tag", textContent: (isLocked ? "✓ " : "→ ") + LETTERS[at] }));
     }
     if (w === selectedWord) b.classList.add("selected");
-    b.disabled = checked;
-    b.draggable = !checked;
+    b.disabled = status !== "playing" || isLocked;
+    b.draggable = !b.disabled;
     b.addEventListener("click", () => {
       selectedWord = selectedWord === w ? null : w;
       render();
     });
-    b.addEventListener("dragstart", (e) => {
-      e.dataTransfer.setData("text/plain", w);
-    });
+    b.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", w));
     wordsEl.append(b);
   }
+
+  const sel = $("selected-def");
+  sel.replaceChildren();
+  if (selectedWord) {
+    sel.append(el("b", { textContent: selectedWord }));
+    if (hintOn("definitions")) sel.append(" — ", ...definitionText(selectedWord));
+    else sel.append(" — now tap a graph");
+  }
+}
+
+function renderStatus() {
+  const guessesEl = $("guesses");
+  guessesEl.replaceChildren("Guesses");
+  for (let i = 0; i < MAX_GUESSES; i++) {
+    const pip = el("span", { className: "pip" });
+    if (i < wrongGuesses) pip.classList.add("used");
+    else if (i === wrongGuesses && status === "won") pip.classList.add("win");
+    guessesEl.append(pip);
+  }
+
+  const hintsEl = $("hints");
+  hintsEl.replaceChildren();
+  for (const h of HINTS) {
+    const on = hintOn(h.key);
+    const text = on ? `💡 ${h.label}` : `🔒 ${h.label} after ${h.after} wrong`;
+    hintsEl.append(el("span", { className: "hint" + (on ? " on" : ""), textContent: text }));
+  }
+
+  const defsEl = $("definitions");
+  defsEl.hidden = !hintOn("definitions");
+  defsEl.replaceChildren();
+  for (const w of round.shuffled) defsEl.append(el("dt", { textContent: w }), el("dd", {}, ...definitionText(w)));
 }
 
 function renderCharts() {
   const chartsEl = $("charts");
   chartsEl.replaceChildren();
+  const showValues = hintOn("magnitude");
   round.words.forEach((word, gi) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    if (!checked && selectedWord) card.classList.add("target");
-    if (checked) card.classList.add(assignments[gi] === word ? "correct" : "wrong");
+    const card = el("div", { className: "card" });
+    if (locked[gi]) card.classList.add("correct");
+    else if (status === "lost") card.classList.add("revealed");
+    else if (flashing.has(gi)) card.classList.add("flash");
+    else if (selectedWord) card.classList.add("target");
 
-    const head = document.createElement("div");
-    head.className = "card-head";
-    head.innerHTML = `<span class="letter"><span class="swatch" style="background:${COLORS[gi]}"></span>Graph ${LETTERS[gi]}</span>`;
-    const slot = document.createElement("span");
-    slot.className = "slot" + (assignments[gi] ? " filled" : "");
-    slot.textContent = assignments[gi] || "drop a word";
-    head.append(slot);
-
-    const answer = document.createElement("p");
-    answer.className = "answer";
-    if (checked) {
-      answer.innerHTML = assignments[gi] === word
-        ? `<span class="ok">✓ Correct</span>`
-        : `<span class="no">✗</span> It was <b>${word}</b>`;
+    const slot = el("div", { className: "slot" + (assignments[gi] ? " filled" : "") });
+    if (status === "lost" && !locked[gi]) slot.textContent = `It was: ${word}`;
+    else slot.textContent = assignments[gi] ? (locked[gi] ? "✓ " : "") + assignments[gi] : "tap to place a word";
+    if (assignments[gi] && !locked[gi] && status === "playing") {
+      slot.draggable = true;
+      slot.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", assignments[gi]));
     }
 
-    card.append(head, drawChart(data.series[word], COLORS[gi]), answer);
+    const triedEl = el("div", { className: "tried" });
+    if (tried[gi].size && !locked[gi]) {
+      triedEl.append("Not: ");
+      [...tried[gi]].forEach((w, i) => triedEl.append(i ? ", " : "", el("s", { textContent: w })));
+    }
+
+    card.append(el("div", { className: "letter", textContent: `Graph ${LETTERS[gi]}` }), drawChart(data.series[word], showValues), slot, triedEl);
     card.addEventListener("click", () => {
-      if (checked) return;
+      if (status !== "playing" || locked[gi]) return;
       if (selectedWord) place(gi, selectedWord);
       else if (assignments[gi]) {
         assignments[gi] = null;
         render();
       }
     });
-    card.addEventListener("dragover", (e) => { if (!checked) e.preventDefault(); });
+    card.addEventListener("dragover", (e) => { if (status === "playing" && !locked[gi]) e.preventDefault(); });
     card.addEventListener("drop", (e) => {
       e.preventDefault();
       place(gi, e.dataTransfer.getData("text/plain"));
@@ -210,11 +262,13 @@ function renderCharts() {
 }
 
 function render() {
-  renderWords();
+  renderBank();
+  renderStatus();
   renderCharts();
+  flashing.clear();
+  $("submit").hidden = status !== "playing";
   $("submit").disabled = assignments.some((a) => !a);
-  $("submit").hidden = checked;
-  $("next").hidden = !checked;
+  $("next").hidden = status === "playing";
   $("score").textContent = stats.score;
   $("streak").textContent = stats.streak;
 }
@@ -222,34 +276,62 @@ function render() {
 function newRound() {
   const words = pickWords();
   round = { words, shuffled: shuffle(words) };
-  assignments = [null, null, null];
+  assignments = words.map(() => null);
+  locked = words.map(() => false);
+  tried = words.map(() => new Set());
+  flashing = new Set();
+  wrongGuesses = 0;
+  status = "playing";
   selectedWord = null;
-  checked = false;
   $("result").textContent = "";
   render();
 }
 
-$("submit").addEventListener("click", () => {
-  checked = true;
-  const correct = round.words.filter((w, i) => assignments[i] === w).length;
-  if (correct === 3) {
+function submit() {
+  let wrong = 0;
+  round.words.forEach((word, gi) => {
+    if (locked[gi]) return;
+    if (assignments[gi] === word) {
+      locked[gi] = true;
+    } else {
+      wrong++;
+      tried[gi].add(assignments[gi]);
+      assignments[gi] = null;
+      flashing.add(gi);
+    }
+  });
+  selectedWord = null;
+  tooltip.hidden = true;
+
+  if (wrong === 0) {
+    status = "won";
     stats.score += 1;
     stats.streak += 1;
-    $("result").textContent = "Perfect! 🎉";
+    const n = wrongGuesses + 1;
+    $("result").textContent = `Solved in ${n} guess${n === 1 ? "" : "es"}! 🎉`;
   } else {
-    stats.streak = 0;
-    $("result").textContent = `${correct} of 3 correct.`;
+    wrongGuesses++;
+    const unlocked = HINTS.find((h) => h.after === wrongGuesses);
+    if (wrongGuesses >= MAX_GUESSES) {
+      status = "lost";
+      stats.streak = 0;
+      $("result").textContent = "Out of guesses — answers revealed.";
+    } else {
+      const right = round.words.length - wrong;
+      $("result").textContent = `${right} of ${round.words.length} correct.` + (unlocked ? ` Hint unlocked: ${unlocked.label.toLowerCase()}.` : "");
+    }
   }
-  saveStats();
-  tooltip.hidden = true;
+  if (status !== "playing") saveStats();
   render();
-});
+}
+
+$("submit").addEventListener("click", submit);
 $("next").addEventListener("click", newRound);
 
-fetch("data/ngrams.json")
-  .then((r) => r.json())
-  .then((json) => {
-    data = json;
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u).then((r) => r.json())))
+  .then(([ngrams, defs]) => {
+    data = ngrams;
+    definitions = defs;
     newRound();
   })
   .catch(() => {
