@@ -132,6 +132,48 @@ function renderPeakSlider() {
   return el("div", { className: "field" }, slider, label);
 }
 
+// Pointer dragging for hint cards, matching the game board (works on touch too).
+function hintDragSource(node, key) {
+  node.addEventListener("pointerdown", (e) => {
+    if (e.button !== 0) return;
+    const startX = e.clientX, startY = e.clientY;
+    let dragging = false, hovered = null;
+    const colAt = (x, y) => document.elementFromPoint(x, y)?.closest(".hint-col");
+    const move = (ev) => {
+      if (!dragging) {
+        if (Math.hypot(ev.clientX - startX, ev.clientY - startY) < 6) return;
+        dragging = true;
+        try { node.setPointerCapture(ev.pointerId); } catch {}
+        node.classList.add("dragging");
+      }
+      ev.preventDefault();
+      const col = colAt(ev.clientX, ev.clientY);
+      if (col !== hovered) {
+        hovered?.classList.remove("drop");
+        hovered = col;
+        hovered?.classList.add("drop");
+      }
+    };
+    const end = (ev) => {
+      node.removeEventListener("pointermove", move);
+      node.removeEventListener("pointerup", end);
+      node.removeEventListener("pointercancel", end);
+      if (!dragging) return;
+      node.classList.remove("dragging");
+      hovered?.classList.remove("drop");
+      node.addEventListener("click", (c) => c.stopImmediatePropagation(), { capture: true, once: true });
+      const col = colAt(ev.clientX, ev.clientY);
+      if (!col) return;
+      draft.hints[key] = col.dataset.at === "off" ? null : Number(col.dataset.at);
+      selectedHint = null;
+      renderCreator();
+    };
+    node.addEventListener("pointermove", move);
+    node.addEventListener("pointerup", end);
+    node.addEventListener("pointercancel", end);
+  });
+}
+
 function renderHintBoard() {
   const board = el("div", { className: "hint-board" });
   const columns = [null, ...Array.from({ length: draft.guesses }, (_, i) => i)];
@@ -139,9 +181,9 @@ function renderHintBoard() {
     const title = at === null ? "Off" : at === 0 ? "Start" : `After ${at} wrong`;
     const col = el("div", { className: "hint-col" + (at === null ? " off" : "") }, el("div", { className: "hint-col-title", textContent: title }));
     for (const h of HINT_TYPES.filter((t) => draft.hints[t.key] === at)) {
-      const card = el("div", { className: "hint-card" + (selectedHint === h.key ? " selected" : ""), draggable: true, title: h.desc },
+      const card = el("div", { className: "hint-card" + (selectedHint === h.key ? " selected" : ""), title: h.desc },
         el("b", { textContent: h.label }), el("span", { textContent: h.desc }));
-      card.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", h.key));
+      hintDragSource(card, h.key);
       card.addEventListener("click", (e) => {
         e.stopPropagation();
         selectedHint = selectedHint === h.key ? null : h.key;
@@ -155,15 +197,7 @@ function renderHintBoard() {
       selectedHint = null;
       renderCreator();
     };
-    col.addEventListener("dragover", (e) => {
-      e.preventDefault();
-      col.classList.add("drop");
-    });
-    col.addEventListener("dragleave", () => col.classList.remove("drop"));
-    col.addEventListener("drop", (e) => {
-      e.preventDefault();
-      moveHere(e.dataTransfer.getData("text/plain"));
-    });
+    col.dataset.at = at === null ? "off" : at;
     col.addEventListener("click", () => selectedHint && moveHere(selectedHint));
     board.append(col);
   }

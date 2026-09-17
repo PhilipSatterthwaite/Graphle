@@ -221,6 +221,71 @@ function loadGuess(index) {
 
 const sameAsPastGuess = () => guesses.some((h) => h.guess.every((w, gi) => w === assignments[gi]));
 
+// Pointer-based dragging, so it works the same with a mouse, trackpad, touchscreen
+// or pen — HTML5 drag events do nothing on touch devices.
+const DRAG_THRESHOLD = 6;
+let dragGhost = null;
+
+function dropTargetAt(x, y) {
+  const under = document.elementFromPoint(x, y);
+  if (!under) return null;
+  const card = under.closest(".card[data-graph]");
+  if (card) return { type: "graph", index: Number(card.dataset.graph), el: card };
+  if (under.closest("#words")) return { type: "bank", el: $("words") };
+  return null;
+}
+
+function dragSource(node, word) {
+  node.addEventListener("pointerdown", (e) => {
+    if (e.button !== 0 || status !== "playing") return;
+    const startX = e.clientX, startY = e.clientY;
+    let dragging = false;
+    let hovered = null;
+
+    const highlight = (target) => {
+      if (hovered === target?.el) return;
+      hovered?.classList.remove("drop-target");
+      hovered = target?.el ?? null;
+      hovered?.classList.add("drop-target");
+    };
+
+    const move = (ev) => {
+      if (!dragging) {
+        if (Math.hypot(ev.clientX - startX, ev.clientY - startY) < DRAG_THRESHOLD) return;
+        dragging = true;
+        try { node.setPointerCapture(ev.pointerId); } catch {}
+        dragGhost = el("div", { className: "drag-ghost", textContent: word });
+        document.body.append(dragGhost);
+        node.classList.add("dragging");
+      }
+      ev.preventDefault();
+      dragGhost.style.left = ev.clientX + "px";
+      dragGhost.style.top = ev.clientY + "px";
+      highlight(dropTargetAt(ev.clientX, ev.clientY));
+    };
+
+    const end = (ev) => {
+      node.removeEventListener("pointermove", move);
+      node.removeEventListener("pointerup", end);
+      node.removeEventListener("pointercancel", end);
+      if (!dragging) return;
+      dragGhost?.remove();
+      dragGhost = null;
+      node.classList.remove("dragging");
+      highlight(null);
+      // Suppress the click that would otherwise follow the drag.
+      node.addEventListener("click", (c) => c.stopImmediatePropagation(), { capture: true, once: true });
+      const target = dropTargetAt(ev.clientX, ev.clientY);
+      if (target?.type === "graph") place(target.index, word);
+      else if (target?.type === "bank") unplace(word);
+    };
+
+    node.addEventListener("pointermove", move);
+    node.addEventListener("pointerup", end);
+    node.addEventListener("pointercancel", end);
+  });
+}
+
 // ---- Hints --------------------------------------------------------------
 
 // Apply hints whose unlock point is exactly the current number of wrong guesses.
@@ -296,7 +361,7 @@ function renderBank() {
     }
     if (w === selectedWord) b.classList.add("selected");
     b.disabled = status !== "playing" || isLocked;
-    b.draggable = !b.disabled;
+    if (!b.disabled) dragSource(b, w);
     b.addEventListener("click", () => {
       // With only one open graph left, tapping an unplaced word drops it straight in.
       const open = assignments.map((a, gi) => gi).filter((gi) => !assignments[gi] && !locked[gi]);
@@ -304,7 +369,6 @@ function renderBank() {
       selectedWord = selectedWord === w ? null : w;
       render();
     });
-    b.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", w));
     wordsEl.append(el("span", { className: "chip-wrap" }, b, starButton(w)));
   }
 
@@ -380,6 +444,7 @@ function renderCharts() {
   round.words.forEach((word, gi) => {
     const placed = assignments[gi];
     const card = el("div", { className: "card" });
+    card.dataset.graph = gi;
     const slot = el("div", { className: "slot" + (placed ? " filled" : "") });
     const note = el("div", { className: "note" });
 
@@ -394,8 +459,7 @@ function renderCharts() {
       if (lastWrong.has(gi)) card.classList.add("wrong");
       slot.textContent = placed || "tap to place";
       if (placed) {
-        slot.draggable = true;
-        slot.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", placed));
+        dragSource(slot, placed);
       }
       if (knownWrong[gi].size) note.append("Not: " + [...knownWrong[gi]].join(", "));
       if (checksLeft > 0 && placed) {
@@ -416,11 +480,6 @@ function renderCharts() {
       if (status !== "playing" || locked[gi]) return;
       if (selectedWord) place(gi, selectedWord);
       else if (placed) unplace(placed);
-    });
-    card.addEventListener("dragover", (e) => { if (status === "playing" && !locked[gi]) e.preventDefault(); });
-    card.addEventListener("drop", (e) => {
-      e.preventDefault();
-      place(gi, e.dataTransfer.getData("text/plain"));
     });
     chartsEl.append(card);
   });
@@ -533,12 +592,6 @@ $("edit-rules").addEventListener("click", () => showTab("create"));
 $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
-// Dropping a placed word back on the word bank takes it off its graph.
-$("words").addEventListener("dragover", (e) => e.preventDefault());
-$("words").addEventListener("drop", (e) => {
-  e.preventDefault();
-  unplace(e.dataTransfer.getData("text/plain"));
-});
 
 Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=16").then((r) => r.json())))
   .then(([ngrams, defs]) => {
