@@ -4,7 +4,7 @@ const W = 240, H = 200, PAD = { l: 34, r: 8, t: 10, b: 24 };
 const $ = (id) => document.getElementById(id);
 const tooltip = $("tooltip");
 
-let data, definitions;
+let data, definitions, books = {};
 let peaks = {};       // word -> peak uses per billion words, kept for the minimum-peak rule
 let rules = rulesFromQuery(location.search);
 let roundIndex = 0;   // rounds started under the current rules; hand-picked words only apply to the first
@@ -224,7 +224,6 @@ const sameAsPastGuess = () => guesses.some((h) => h.guess.every((w, gi) => w ===
 // Pointer-based dragging, so it works the same with a mouse, trackpad, touchscreen
 // or pen — HTML5 drag events do nothing on touch devices.
 const DRAG_THRESHOLD = 6;
-let dragGhost = null;
 
 function dropTargetAt(x, y) {
   const under = document.elementFromPoint(x, y);
@@ -235,54 +234,65 @@ function dropTargetAt(x, y) {
   return null;
 }
 
+// One drag at a time, tracked here rather than on the dragged element: if the
+// browser stops sending events to that element (lost pointer capture, a re-render
+// mid-drag, a pointerup outside the window), element listeners would never fire
+// and the ghost would be stranded on screen.
+let drag = null;
+
+function clearGhosts() {
+  for (const g of document.querySelectorAll(".drag-ghost")) g.remove();
+  for (const n of document.querySelectorAll(".dragging")) n.classList.remove("dragging");
+  for (const t of document.querySelectorAll(".drop-target")) t.classList.remove("drop-target");
+}
+
+function endDrag(ev) {
+  if (!drag) return;
+  const { node, word, dragging } = drag;
+  drag = null;
+  removeEventListener("pointermove", onDragMove, true);
+  removeEventListener("pointerup", endDrag, true);
+  removeEventListener("pointercancel", endDrag, true);
+  removeEventListener("blur", endDrag);
+  clearGhosts();
+  if (!dragging || !ev || ev.type !== "pointerup") return;
+  // Suppress the click that would otherwise follow the drag.
+  node.addEventListener("click", (c) => c.stopImmediatePropagation(), { capture: true, once: true });
+  const target = dropTargetAt(ev.clientX, ev.clientY);
+  if (target?.type === "graph") place(target.index, word);
+  else if (target?.type === "bank") unplace(word);
+}
+
+function onDragMove(ev) {
+  if (!drag || ev.pointerId !== drag.pointerId) return;
+  if (!drag.dragging) {
+    if (Math.hypot(ev.clientX - drag.startX, ev.clientY - drag.startY) < DRAG_THRESHOLD) return;
+    drag.dragging = true;
+    try { drag.node.setPointerCapture(ev.pointerId); } catch {}
+    drag.ghost = el("div", { className: "drag-ghost", textContent: drag.word });
+    document.body.append(drag.ghost);
+    drag.node.classList.add("dragging");
+  }
+  ev.preventDefault();
+  drag.ghost.style.left = ev.clientX + "px";
+  drag.ghost.style.top = ev.clientY + "px";
+  const target = dropTargetAt(ev.clientX, ev.clientY);
+  if (drag.hovered !== (target?.el ?? null)) {
+    drag.hovered?.classList.remove("drop-target");
+    drag.hovered = target?.el ?? null;
+    drag.hovered?.classList.add("drop-target");
+  }
+}
+
 function dragSource(node, word) {
   node.addEventListener("pointerdown", (e) => {
     if (e.button !== 0 || status !== "playing") return;
-    const startX = e.clientX, startY = e.clientY;
-    let dragging = false;
-    let hovered = null;
-
-    const highlight = (target) => {
-      if (hovered === target?.el) return;
-      hovered?.classList.remove("drop-target");
-      hovered = target?.el ?? null;
-      hovered?.classList.add("drop-target");
-    };
-
-    const move = (ev) => {
-      if (!dragging) {
-        if (Math.hypot(ev.clientX - startX, ev.clientY - startY) < DRAG_THRESHOLD) return;
-        dragging = true;
-        try { node.setPointerCapture(ev.pointerId); } catch {}
-        dragGhost = el("div", { className: "drag-ghost", textContent: word });
-        document.body.append(dragGhost);
-        node.classList.add("dragging");
-      }
-      ev.preventDefault();
-      dragGhost.style.left = ev.clientX + "px";
-      dragGhost.style.top = ev.clientY + "px";
-      highlight(dropTargetAt(ev.clientX, ev.clientY));
-    };
-
-    const end = (ev) => {
-      node.removeEventListener("pointermove", move);
-      node.removeEventListener("pointerup", end);
-      node.removeEventListener("pointercancel", end);
-      if (!dragging) return;
-      dragGhost?.remove();
-      dragGhost = null;
-      node.classList.remove("dragging");
-      highlight(null);
-      // Suppress the click that would otherwise follow the drag.
-      node.addEventListener("click", (c) => c.stopImmediatePropagation(), { capture: true, once: true });
-      const target = dropTargetAt(ev.clientX, ev.clientY);
-      if (target?.type === "graph") place(target.index, word);
-      else if (target?.type === "bank") unplace(word);
-    };
-
-    node.addEventListener("pointermove", move);
-    node.addEventListener("pointerup", end);
-    node.addEventListener("pointercancel", end);
+    endDrag();  // drop anything still in flight
+    drag = { node, word, pointerId: e.pointerId, startX: e.clientX, startY: e.clientY, dragging: false, ghost: null, hovered: null };
+    addEventListener("pointermove", onDragMove, true);
+    addEventListener("pointerup", endDrag, true);
+    addEventListener("pointercancel", endDrag, true);
+    addEventListener("blur", endDrag);
   });
 }
 
@@ -327,6 +337,18 @@ function checkGraph(gi) {
     message = `Check: “${word}” is not graph ${LETTERS[gi]}.`;
   }
   render();
+}
+
+// A period clue for a word: a book published around its peak, or, when no such
+// book was found, the decade the word first came into wide use.
+function clueFor(word) {
+  const b = books[word];
+  if (b) return `“${b.title}”${b.author ? ", " + b.author : ""} (${b.year})`;
+  const series = data.series[word];
+  const peak = Math.max(...series);
+  const takeoff = data.yearStart + series.findIndex((v) => v >= peak * 0.25);
+  if (takeoff <= data.yearStart + 10) return "already common in 1800";
+  return `came into wide use in the ${Math.floor(takeoff / 10) * 10}s`;
 }
 
 // ---- Rendering ----------------------------------------------------------
@@ -377,6 +399,7 @@ function renderBank() {
   if (selectedWord) {
     sel.append(el("b", { textContent: selectedWord }));
     if (hintOn("definitions")) sel.append(" — ", ...definitionText(selectedWord));
+    else if (hintOn("book")) sel.append(" — ", clueFor(selectedWord));
     else sel.append(" — now tap a graph");
   }
 }
@@ -406,6 +429,15 @@ function renderStatus() {
   defsEl.hidden = !hintOn("definitions");
   defsEl.replaceChildren();
   for (const w of round.shuffled) defsEl.append(el("dt", {}, w, starButton(w)), el("dd", {}, ...definitionText(w)));
+
+  const cluesEl = $("clues");
+  cluesEl.hidden = !hintOn("book");
+  cluesEl.replaceChildren();
+  if (hintOn("book")) {
+    for (const w of round.shuffled) {
+      cluesEl.append(el("dt", {}, w, starButton(w)), el("dd", { className: "clue", textContent: clueFor(w) }));
+    }
+  }
 
   const histEl = $("history");
   histEl.hidden = guesses.length === 0;
@@ -486,6 +518,7 @@ function renderCharts() {
 }
 
 function render() {
+  if (!drag) clearGhosts();  // never leave a stranded ghost behind a re-render
   renderRulesSummary();
   renderBank();
   renderStatus();
@@ -593,8 +626,13 @@ $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=16").then((r) => r.json())))
-  .then(([ngrams, defs]) => {
+Promise.all([
+  fetch("data/ngrams.json?v=20").then((r) => r.json()),
+  fetch("data/definitions.json?v=20").then((r) => r.json()),
+  fetch("data/books.json?v=20").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+])
+  .then(([ngrams, defs, bookData]) => {
+    books = bookData;
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {
       peaks[w] = max;

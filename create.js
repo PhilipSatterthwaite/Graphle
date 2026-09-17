@@ -133,44 +133,54 @@ function renderPeakSlider() {
 }
 
 // Pointer dragging for hint cards, matching the game board (works on touch too).
+// Listeners live on the window so a lost pointer capture can never strand a card.
+let hintDrag = null;
+
+function endHintDrag(ev) {
+  if (!hintDrag) return;
+  const { node, key, dragging } = hintDrag;
+  hintDrag = null;
+  removeEventListener("pointermove", onHintMove, true);
+  removeEventListener("pointerup", endHintDrag, true);
+  removeEventListener("pointercancel", endHintDrag, true);
+  removeEventListener("blur", endHintDrag);
+  for (const n of document.querySelectorAll(".hint-card.dragging")) n.classList.remove("dragging");
+  for (const col of document.querySelectorAll(".hint-col.drop")) col.classList.remove("drop");
+  if (!dragging || !ev || ev.type !== "pointerup") return;
+  node.addEventListener("click", (c) => c.stopImmediatePropagation(), { capture: true, once: true });
+  const col = document.elementFromPoint(ev.clientX, ev.clientY)?.closest(".hint-col");
+  if (!col) return;
+  draft.hints[key] = col.dataset.at === "off" ? null : Number(col.dataset.at);
+  selectedHint = null;
+  renderCreator();
+}
+
+function onHintMove(ev) {
+  if (!hintDrag || ev.pointerId !== hintDrag.pointerId) return;
+  if (!hintDrag.dragging) {
+    if (Math.hypot(ev.clientX - hintDrag.startX, ev.clientY - hintDrag.startY) < 6) return;
+    hintDrag.dragging = true;
+    try { hintDrag.node.setPointerCapture(ev.pointerId); } catch {}
+    hintDrag.node.classList.add("dragging");
+  }
+  ev.preventDefault();
+  const col = document.elementFromPoint(ev.clientX, ev.clientY)?.closest(".hint-col") ?? null;
+  if (col !== hintDrag.hovered) {
+    hintDrag.hovered?.classList.remove("drop");
+    hintDrag.hovered = col;
+    hintDrag.hovered?.classList.add("drop");
+  }
+}
+
 function hintDragSource(node, key) {
   node.addEventListener("pointerdown", (e) => {
     if (e.button !== 0) return;
-    const startX = e.clientX, startY = e.clientY;
-    let dragging = false, hovered = null;
-    const colAt = (x, y) => document.elementFromPoint(x, y)?.closest(".hint-col");
-    const move = (ev) => {
-      if (!dragging) {
-        if (Math.hypot(ev.clientX - startX, ev.clientY - startY) < 6) return;
-        dragging = true;
-        try { node.setPointerCapture(ev.pointerId); } catch {}
-        node.classList.add("dragging");
-      }
-      ev.preventDefault();
-      const col = colAt(ev.clientX, ev.clientY);
-      if (col !== hovered) {
-        hovered?.classList.remove("drop");
-        hovered = col;
-        hovered?.classList.add("drop");
-      }
-    };
-    const end = (ev) => {
-      node.removeEventListener("pointermove", move);
-      node.removeEventListener("pointerup", end);
-      node.removeEventListener("pointercancel", end);
-      if (!dragging) return;
-      node.classList.remove("dragging");
-      hovered?.classList.remove("drop");
-      node.addEventListener("click", (c) => c.stopImmediatePropagation(), { capture: true, once: true });
-      const col = colAt(ev.clientX, ev.clientY);
-      if (!col) return;
-      draft.hints[key] = col.dataset.at === "off" ? null : Number(col.dataset.at);
-      selectedHint = null;
-      renderCreator();
-    };
-    node.addEventListener("pointermove", move);
-    node.addEventListener("pointerup", end);
-    node.addEventListener("pointercancel", end);
+    endHintDrag();
+    hintDrag = { node, key, pointerId: e.pointerId, startX: e.clientX, startY: e.clientY, dragging: false, hovered: null };
+    addEventListener("pointermove", onHintMove, true);
+    addEventListener("pointerup", endHintDrag, true);
+    addEventListener("pointercancel", endHintDrag, true);
+    addEventListener("blur", endHintDrag);
   });
 }
 

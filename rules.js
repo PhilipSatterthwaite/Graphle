@@ -5,6 +5,7 @@ const HINT_TYPES = [
   { key: "magnitude", code: "y", label: "Y-axis scale", desc: "Shows the numbers on each graph's y-axis." },
   { key: "reveal", code: "r", label: "Reveal one match", desc: "Locks one graph's correct word in place." },
   { key: "check", code: "c", label: "Check one graph", desc: "Player picks a graph to learn if its word is right." },
+  { key: "book", code: "b", label: "Peak-era book", desc: "Shows a book published when each word was at its height." },
 ];
 
 const DEFAULT_RULES = {
@@ -13,7 +14,7 @@ const DEFAULT_RULES = {
   feedback: "count",  // "count": only how many are right; "exact": which ones are right
   logic: false,       // color past guesses by whether the current arrangement is consistent with them
   // Wrong guesses needed to unlock each hint (0 = from the start), or null for off.
-  hints: { definitions: 1, magnitude: 2, reveal: 3, check: null },
+  hints: { definitions: 1, magnitude: 2, reveal: 3, check: null, book: null },
   minPeak: 50,        // random rounds only use words peaking at least this high (per billion words)
   words: null,        // hand-picked words for the first round, or null for random
 };
