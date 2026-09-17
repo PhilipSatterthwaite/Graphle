@@ -274,7 +274,7 @@ function renderBank() {
       render();
     });
     b.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", w));
-    wordsEl.append(b);
+    wordsEl.append(el("span", { className: "chip-wrap" }, b, starButton(w)));
   }
 
   const sel = $("selected-def");
@@ -310,7 +310,7 @@ function renderStatus() {
   const defsEl = $("definitions");
   defsEl.hidden = !hintOn("definitions");
   defsEl.replaceChildren();
-  for (const w of round.shuffled) defsEl.append(el("dt", { textContent: w }), el("dd", {}, ...definitionText(w)));
+  for (const w of round.shuffled) defsEl.append(el("dt", {}, w, starButton(w)), el("dd", {}, ...definitionText(w)));
 
   const histEl = $("history");
   histEl.hidden = guesses.length === 0;
@@ -372,7 +372,10 @@ function renderCharts() {
       }
     }
 
-    card.append(el("div", { className: "letter", textContent: `Graph ${LETTERS[gi]}` }), drawChart(data.series[word], showValues), slot, note);
+    // Starring a graph's word is only offered once the word is known, so it can't leak the answer.
+    const known = status !== "playing" || locked[gi];
+    const letter = el("div", { className: "letter" }, `Graph ${LETTERS[gi]}`, known ? starButton(word) : "");
+    card.append(letter, drawChart(data.series[word], showValues), slot, note);
     card.addEventListener("click", () => {
       if (status !== "playing" || locked[gi]) return;
       if (selectedWord) place(gi, selectedWord);
@@ -479,11 +482,11 @@ function applyRules(newRules) {
 // ---- Tabs and startup ---------------------------------------------------
 
 function showTab(name) {
-  $("play-view").hidden = name !== "play";
-  $("create-view").hidden = name !== "create";
+  for (const view of ["play", "create", "saved"]) $(view + "-view").hidden = name !== view;
   for (const b of document.querySelectorAll(".tab")) b.classList.toggle("active", b.dataset.tab === name);
-  history.replaceState(null, "", location.search + (name === "create" ? "#create" : ""));
+  history.replaceState(null, "", location.search + (name === "play" ? "" : "#" + name));
   if (name === "create") openCreator(rules);
+  if (name === "saved") renderSaved();
   window.scrollTo(0, 0);
 }
 
@@ -505,7 +508,7 @@ Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "
     data = ngrams;
     definitions = defs;
     newRound();
-    showTab(location.hash === "#create" ? "create" : "play");
+    showTab(["#create", "#saved"].includes(location.hash) ? location.hash.slice(1) : "play");
   })
   .catch((err) => {
     console.error(err);

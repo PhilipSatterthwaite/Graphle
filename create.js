@@ -194,7 +194,7 @@ function renderWordSection() {
       const shown = isValidWord(word) ? word : "";
       if (preview.dataset.word !== shown) {
         preview.dataset.word = shown;
-        preview.replaceChildren(...(shown ? [drawChart(data.series[shown], true)] : []));
+        preview.replaceChildren(...(shown ? [el("div", { className: "preview-star" }, starButton(shown)), drawChart(data.series[shown], true)] : []));
       }
     });
     renderActions(true);

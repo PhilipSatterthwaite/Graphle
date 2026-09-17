@@ -201,6 +201,27 @@ button.secondary:disabled { opacity: .4; cursor: not-allowed; }
 .share-url { flex: 1; min-width: 0; font: inherit; font-size: .85rem; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text-2); }
 .action-row { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
 
+/* ---- Saved words ---- */
+.star { font-size: 1rem; line-height: 1; background: none; border: 0; padding: 2px 4px; color: var(--muted); cursor: pointer; }
+.star:hover { color: #d99a00; }
+.star.on { color: #e0a100; }
+.chip-wrap { display: inline-flex; align-items: center; }
+.chip-wrap .star { margin-left: -2px; }
+.definitions dt .star { margin-left: 2px; }
+.letter { display: flex; align-items: center; justify-content: space-between; }
+.preview-star { display: flex; justify-content: flex-end; margin-bottom: -18px; position: relative; }
+.saved-intro { max-width: 1000px; margin: 18px auto 12px; }
+.saved-intro h2 { margin: 0 0 4px; }
+.saved-intro p { color: var(--text-2); margin: 0 0 12px; }
+.saved-empty { max-width: 1000px; margin: 0 auto; color: var(--muted); }
+.saved-list { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.saved-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; }
+.saved-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.saved-head b { font-size: 1.05rem; }
+.saved-date { font-size: .75rem; color: var(--muted); }
+.saved-def { margin: 0; font-size: .85rem; color: var(--text-2); }
+.saved-card .link-btn { align-self: flex-end; font-size: .85rem; }
+
 .tooltip {
   position: fixed; pointer-events: none; z-index: 10;
   background: var(--surface); color: var(--text); border: 1px solid var(--border);

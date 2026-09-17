@@ -6,7 +6,7 @@
   <title>Graphle</title>
   <meta name="description" content="Match words to their Google Books Ngram graphs.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📈%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
   <header>
@@ -15,6 +15,7 @@
     <nav class="tabs" aria-label="Sections">
       <button class="tab active" data-tab="play" type="button">Play</button>
       <button class="tab" data-tab="create" type="button">Create &amp; share</button>
+      <button class="tab" data-tab="saved" type="button">Saved<span id="saved-count"></span></button>
     </nav>
   </header>
 
@@ -59,11 +60,26 @@
     <datalist id="word-list"></datalist>
   </main>
 
+  <main id="saved-view" hidden>
+    <div class="saved-intro">
+      <h2>Saved words</h2>
+      <p>Tap ☆ next to any word — in the word bank, the definitions list, a finished round's graphs, or the Create tab — to save it here. Saved words are kept in this browser.</p>
+      <div id="saved-actions" class="action-row">
+        <button id="saved-download" class="primary" type="button">Download .txt</button>
+        <button id="saved-copy" class="secondary" type="button">Copy as text</button>
+        <button id="saved-clear" class="link-btn" type="button">Clear all</button>
+      </div>
+    </div>
+    <p id="saved-empty" class="saved-empty">Nothing saved yet.</p>
+    <div id="saved-list" class="saved-list"></div>
+  </main>
+
   <footer>Data: <a href="https://books.google.com/ngrams" target="_blank" rel="noopener">Google Books Ngram Viewer</a> (English corpus, smoothing 3).</footer>
 
   <div id="tooltip" class="tooltip" hidden></div>
-  <script src="rules.js?v=11"></script>
-  <script src="game.js?v=11"></script>
-  <script src="create.js?v=11"></script>
+  <script src="rules.js?v=12"></script>
+  <script src="game.js?v=12"></script>
+  <script src="create.js?v=12"></script>
+  <script src="saved.js?v=12"></script>
 </body>
 </html>
