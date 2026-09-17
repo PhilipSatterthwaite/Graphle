@@ -173,11 +173,20 @@ function renderWordSection() {
 
   const list = el("div", { className: "pick-list" });
   const statusEls = [];
+  const previewEls = [];
   const refreshStatus = () => {
     const problems = pickProblems();
     statusEls.forEach((s, i) => {
       s.textContent = problems[i] === null ? "✓" : problems[i] === "empty" ? "" : problems[i];
       s.className = "pick-status " + (problems[i] === null ? "ok" : problems[i] === "empty" ? "" : "bad");
+      // Small preview of the word's graph, redrawn only when the word changes.
+      const word = (pickInputs[i] || "").trim().toLowerCase();
+      const preview = previewEls[i];
+      const shown = isValidWord(word) ? word : "";
+      if (preview.dataset.word !== shown) {
+        preview.dataset.word = shown;
+        preview.replaceChildren(...(shown ? [drawChart(data.series[shown], true)] : []));
+      }
     });
     renderActions(true);
   };
@@ -198,7 +207,9 @@ function renderWordSection() {
     });
     const status = el("span", { className: "pick-status" });
     statusEls.push(status);
-    list.append(el("div", { className: "pick-row" }, input, dice, status));
+    const preview = el("div", { className: "pick-preview" });
+    previewEls.push(preview);
+    list.append(el("div", { className: "pick-row" }, el("div", { className: "pick-controls" }, input, dice, status), preview));
   }
   wrap.append(list);
 

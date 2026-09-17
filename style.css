@@ -171,7 +171,15 @@ button.primary:disabled { opacity: .4; cursor: not-allowed; }
 .hint-card b { color: var(--text); font-size: .9rem; }
 .hint-card.selected { border-color: var(--accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 30%, transparent); }
 .pick-list { display: grid; gap: 6px; margin-top: 10px; }
-.pick-row { display: flex; align-items: center; gap: 8px; }
+.pick-list { grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); gap: 8px; }
+.pick-row { display: flex; flex-direction: column; gap: 6px; padding: 8px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); }
+.pick-controls { display: flex; align-items: center; gap: 6px; }
+.pick-controls .pick-input { flex: 1; min-width: 0; width: auto; }
+.pick-preview { min-height: 40px; }
+.pick-preview:empty::before { content: "Graph appears when the word is valid"; display: block; font-size: .8rem; color: var(--muted); text-align: center; padding: 12px 0; }
+.pick-preview svg.chart { max-width: 190px; margin: 0 auto; }
+.pick-controls { flex-wrap: wrap; }
+.pick-controls .pick-status { flex-basis: 100%; font-size: .8rem; min-height: 1.2em; margin-top: -2px; }
 .pick-input { font: inherit; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); width: min(260px, 60vw); }
 .dice { font-size: 1.1rem; background: none; border: 0; cursor: pointer; padding: 2px 4px; }
 .pick-status { font-size: .85rem; }
