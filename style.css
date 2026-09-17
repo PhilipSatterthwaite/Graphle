@@ -64,6 +64,7 @@ h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
 .chip:disabled { cursor: default; }
 .chip.selected { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
 .chip.placed { opacity: .5; }
+.chip.locked { opacity: 1; border-color: var(--good); background: var(--good-bg); }
 .chip .tag { font-size: .75rem; font-weight: 700; color: var(--text-2); }
 .selected-def { text-align: center; margin: 6px 0 0; font-size: .9rem; color: var(--text-2); min-height: 1.35em; }
 
