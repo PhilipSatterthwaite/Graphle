@@ -16,7 +16,7 @@ const SMOOTHING = 3;
 const CORPUS = "en";
 const BATCH = 12;
 // Words whose peak is below this (per billion words) are too rare to graph well.
-const MIN_PEAK = 1;
+const MIN_PEAK = 50;
 
 const root = new URL("..", import.meta.url);
 const path = (p) => new URL(p, root);

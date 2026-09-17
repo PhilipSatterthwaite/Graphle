@@ -44,7 +44,7 @@ node scripts/fetch-ngrams.mjs
 
 This writes `data/ngrams.json` and `data/definitions.json`. Raw Ngram responses
 are cached in `scripts/.ngram-cache.json`, so only new words are downloaded.
-Words too rare to graph well are dropped and listed in the output.
+Words peaking below 50 per billion words (`MIN_PEAK` in the script) are dropped and listed in the output.
 
 The Ngram endpoint doesn't allow cross-origin browser requests, so the data is
 fetched ahead of time and served as a static file.
