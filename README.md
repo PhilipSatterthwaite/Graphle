@@ -42,7 +42,10 @@ rebuild the data:
 node scripts/fetch-ngrams.mjs
 ```
 
-This writes `data/ngrams.json` and `data/definitions.json`. Raw Ngram responses
+This writes `data/ngrams.json` and `data/definitions.json`.
+
+`node scripts/fetch-books.mjs` writes `data/books.json`: a book published around
+each word's peak whose title contains the word, used by the "Peak-era book" hint. Raw Ngram responses
 are cached in `scripts/.ngram-cache.json`, so only new words are downloaded.
 Words peaking below 50 per billion words (`MIN_PEAK` in the script) are dropped and listed in the output.
 
