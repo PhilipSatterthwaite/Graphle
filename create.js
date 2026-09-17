@@ -87,6 +87,7 @@ function renderCreator() {
           for (const h of HINT_TYPES) if (draft.hints[h.key] !== null) draft.hints[h.key] = Math.min(draft.hints[h.key], g - 1);
           renderCreator();
         }))),
+    section("Word frequency", "Random rounds only draw words whose graph peaks at least this high (uses per billion words). Higher means more familiar words.", renderPeakSlider()),
     section("Feedback after each guess", null,
       segmented([["count", "How many are right"], ["exact", "Which ones are right"]], draft.feedback, (fb) => {
         draft.feedback = fb;
@@ -111,6 +112,24 @@ function renderCreator() {
     section("Words", null, renderWordSection()),
     renderActions(),
   );
+}
+
+function renderPeakSlider() {
+  const index = Math.max(0, MIN_PEAK_STEPS.indexOf(draft.minPeak));
+  const slider = el("input", { type: "range", className: "peak-slider", min: 0, max: MIN_PEAK_STEPS.length - 1, step: 1, value: index });
+  const label = el("span", { className: "peak-value" });
+  const update = () => {
+    const eligible = Object.keys(data.series).filter((w) => peaks[w] >= draft.minPeak).length;
+    label.textContent = `${formatPeak(draft.minPeak)} per billion — ${eligible} words available`;
+    label.className = "peak-value" + (eligible < 50 ? " bad" : "");
+  };
+  slider.addEventListener("input", () => {
+    draft.minPeak = MIN_PEAK_STEPS[Number(slider.value)];
+    update();
+    renderActions(true);
+  });
+  update();
+  return el("div", { className: "field" }, slider, label);
 }
 
 function renderHintBoard() {

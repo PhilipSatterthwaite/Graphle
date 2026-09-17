@@ -5,6 +5,7 @@ const $ = (id) => document.getElementById(id);
 const tooltip = $("tooltip");
 
 let data, definitions;
+let peaks = {};       // word -> peak uses per billion words, kept for the minimum-peak rule
 let rules = rulesFromQuery(location.search);
 let roundIndex = 0;   // rounds started under the current rules; hand-picked words only apply to the first
 let round;            // { words: graph order, shuffled: bank order }
@@ -57,8 +58,14 @@ function correlation(x, y) {
   return num / (Math.sqrt(dx * dy) || 1);
 }
 
-function pickWords(n) {
+function wordPool() {
   const all = Object.keys(data.series);
+  const pool = all.filter((w) => peaks[w] >= rules.minPeak);
+  return pool.length >= 20 ? pool : all;
+}
+
+function pickWords(n) {
+  const all = wordPool();
   let best;
   for (let attempt = 0; attempt < 200; attempt++) {
     const words = shuffle(all).slice(0, n);
@@ -271,6 +278,7 @@ function renderRulesSummary() {
     rules.feedback === "exact" ? "shows which are right" : "shows how many are right",
   ];
   if (rules.logic) parts.push("logic helper on");
+  if (rules.minPeak !== DEFAULT_RULES.minPeak) parts.push(`peak ≥ ${formatPeak(rules.minPeak)}`);
   if (rules.words) parts.push(roundIndex <= 1 ? "custom puzzle" : "custom puzzle done, now random");
   $("rules-summary").textContent = parts.join(" · ");
 }
@@ -535,7 +543,10 @@ $("words").addEventListener("drop", (e) => {
 Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=16").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
-    for (const [w, { max, q }] of Object.entries(ngrams.series)) ngrams.series[w] = q.map((p) => (p * max) / 100);
+    for (const [w, { max, q }] of Object.entries(ngrams.series)) {
+      peaks[w] = max;
+      ngrams.series[w] = q.map((p) => (p * max) / 100);
+    }
     data = ngrams;
     definitions = defs;
     newRound();

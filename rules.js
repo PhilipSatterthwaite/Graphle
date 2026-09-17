@@ -14,10 +14,18 @@ const DEFAULT_RULES = {
   logic: false,       // color past guesses by whether the current arrangement is consistent with them
   // Wrong guesses needed to unlock each hint (0 = from the start), or null for off.
   hints: { definitions: 1, magnitude: 2, reveal: 3, check: null },
+  minPeak: 50,        // random rounds only use words peaking at least this high (per billion words)
   words: null,        // hand-picked words for the first round, or null for random
 };
 
 const MAX_GUESS_SETTING = 10;
+// Slider stops for the minimum peak, in uses per billion words. The data itself
+// already excludes anything below 50.
+const MIN_PEAK_STEPS = [50, 75, 100, 150, 250, 400, 600, 1000, 1500, 2500, 4000, 6000, 10000, 20000];
+
+function formatPeak(v) {
+  return v >= 1000 ? (v / 1000) + "k" : String(v);
+}
 
 function cloneRules(r) {
   return { ...r, hints: { ...r.hints }, words: r.words ? [...r.words] : null };
@@ -41,6 +49,8 @@ function rulesFromQuery(search) {
   if (Number.isInteger(g) && g >= 1 && g <= MAX_GUESS_SETTING) r.guesses = g;
   if (p.get("fb") === "exact") r.feedback = "exact";
   if (p.get("lg") === "1") r.logic = true;
+  const mp = Number(p.get("mp"));
+  if (Number.isFinite(mp) && mp >= MIN_PEAK_STEPS[0]) r.minPeak = mp;
   if (p.has("h")) {
     for (const h of HINT_TYPES) r.hints[h.key] = null;
     for (const part of p.get("h").split(",")) {
@@ -64,6 +74,7 @@ function rulesToQuery(r) {
   p.set("g", r.guesses);
   p.set("fb", r.feedback);
   if (r.logic) p.set("lg", "1");
+  if (r.minPeak !== DEFAULT_RULES.minPeak) p.set("mp", r.minPeak);
   p.set("h", HINT_TYPES.filter((h) => r.hints[h.key] !== null).map((h) => h.code + r.hints[h.key]).join(","));
   if (r.words) p.set("p", encodeWords(r.words));
   return "?" + p.toString().replace(/%2C/g, ",");
