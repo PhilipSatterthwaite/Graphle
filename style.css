@@ -150,6 +150,12 @@ button.primary:disabled { opacity: .4; cursor: not-allowed; }
 .history .n { color: var(--muted); }
 .history td.ok { color: var(--good); font-weight: 600; }
 .history td.bad { color: var(--bad); text-decoration: line-through; }
+.history tr.logic-fits td { background: var(--good-bg); }
+.history tr.logic-conflicts td { background: color-mix(in srgb, var(--bad) 14%, transparent); }
+.history td.logic { font-weight: 700; }
+.history tr.logic-fits td.logic { color: var(--good); }
+.history tr.logic-conflicts td.logic { color: var(--bad); }
+.history tr.logic-open td.logic { color: var(--muted); }
 .history .count { font-weight: 700; font-variant-numeric: tabular-nums; }
 
 /* ---- Create tab ---- */

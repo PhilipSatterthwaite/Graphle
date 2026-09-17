@@ -11,6 +11,7 @@ const DEFAULT_RULES = {
   n: 5,               // words per round: 3, 4, or 5
   guesses: 6,
   feedback: "count",  // "count": only how many are right; "exact": which ones are right
+  logic: false,       // color past guesses by whether the current arrangement is consistent with them
   // Wrong guesses needed to unlock each hint (0 = from the start), or null for off.
   hints: { definitions: 1, magnitude: 2, reveal: 3, check: null },
   words: null,        // hand-picked words for the first round, or null for random
@@ -39,6 +40,7 @@ function rulesFromQuery(search) {
   const g = Number(p.get("g"));
   if (Number.isInteger(g) && g >= 1 && g <= MAX_GUESS_SETTING) r.guesses = g;
   if (p.get("fb") === "exact") r.feedback = "exact";
+  if (p.get("lg") === "1") r.logic = true;
   if (p.has("h")) {
     for (const h of HINT_TYPES) r.hints[h.key] = null;
     for (const part of p.get("h").split(",")) {
@@ -61,6 +63,7 @@ function rulesToQuery(r) {
   p.set("n", r.n);
   p.set("g", r.guesses);
   p.set("fb", r.feedback);
+  if (r.logic) p.set("lg", "1");
   p.set("h", HINT_TYPES.filter((h) => r.hints[h.key] !== null).map((h) => h.code + r.hints[h.key]).join(","));
   if (r.words) p.set("p", encodeWords(r.words));
   return "?" + p.toString().replace(/%2C/g, ",");

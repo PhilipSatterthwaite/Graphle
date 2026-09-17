@@ -179,6 +179,19 @@ function unplace(word) {
   render();
 }
 
+// Would the current arrangement, if it were the answer, have produced this past guess's score?
+// "fits" / "conflicts" for a full arrangement; while slots are empty, "open" unless it's already impossible.
+function logicCheck(past) {
+  const placed = new Set(assignments.filter(Boolean));
+  let matches = 0, couldMatch = 0;
+  past.guess.forEach((w, gi) => {
+    if (assignments[gi]) matches += assignments[gi] === w ? 1 : 0;
+    else if (!placed.has(w)) couldMatch++;
+  });
+  if (matches > past.correct || matches + couldMatch < past.correct) return "conflicts";
+  return assignments.every(Boolean) ? "fits" : "open";
+}
+
 const sameAsPastGuess = () => guesses.some((h) => h.guess.every((w, gi) => w === assignments[gi]));
 
 // ---- Hints --------------------------------------------------------------
@@ -237,6 +250,7 @@ function renderRulesSummary() {
     `${rules.guesses} guesses`,
     rules.feedback === "exact" ? "shows which are right" : "shows how many are right",
   ];
+  if (rules.logic) parts.push("logic helper on");
   if (rules.words) parts.push(roundIndex <= 1 ? "custom puzzle" : "custom puzzle done, now random");
   $("rules-summary").textContent = parts.join(" · ");
 }
@@ -301,19 +315,24 @@ function renderStatus() {
   const histEl = $("history");
   histEl.hidden = guesses.length === 0;
   const tbody = el("tbody");
+  const showLogic = rules.logic && status === "playing";
   guesses.forEach((h, i) => {
     const row = el("tr", {}, el("td", { className: "n", textContent: i + 1 }));
+    const logic = showLogic ? logicCheck(h) : null;
+    if (logic) row.className = "logic-" + logic;
     h.guess.forEach((w, gi) => {
       const cell = el("td", { textContent: w });
       if (rules.feedback === "exact") cell.className = w === round.words[gi] ? "ok" : "bad";
       row.append(cell);
     });
     row.append(el("td", { className: "count", textContent: `${h.correct} / ${rules.n}` }));
+    if (logic) row.append(el("td", { className: "logic", textContent: { fits: "✓ fits", conflicts: "✗ conflicts", open: "…" }[logic] }));
     tbody.append(row);
   });
   const head = el("tr", {}, el("th", { textContent: "#" }));
   for (let gi = 0; gi < rules.n; gi++) head.append(el("th", { textContent: LETTERS[gi] }));
   head.append(el("th", { textContent: "Correct" }));
+  if (showLogic) head.append(el("th", { textContent: "Your arrangement", title: "Whether your current arrangement is consistent with each past result" }));
   histEl.querySelector("table").replaceChildren(el("thead", {}, head), tbody);
 }
 
@@ -377,7 +396,10 @@ function render() {
   const repeat = status === "playing" && full && sameAsPastGuess();
   $("submit").hidden = status !== "playing";
   $("submit").disabled = !full || repeat;
-  $("submit-note").textContent = repeat ? "You already tried this exact arrangement." : "";
+  const conflicts = rules.logic && status === "playing" ? guesses.map((h, i) => (logicCheck(h) === "conflicts" ? "#" + (i + 1) : null)).filter(Boolean) : [];
+  $("submit-note").textContent = repeat
+    ? "You already tried this exact arrangement."
+    : conflicts.length ? `Heads up: this arrangement can't be right given guess ${conflicts.join(", ")}.` : "";
   $("next").hidden = status === "playing";
   $("result").textContent = message;
   $("score").textContent = stats.score;

@@ -98,6 +98,15 @@ function renderCreator() {
           ? "Correct words lock in green; wrong ones are marked so the player can rearrange them."
           : "The player only sees a count, and has to deduce which words are right.",
       })),
+    section("Logic helper", null,
+      segmented([[false, "Off"], [true, "On"]], draft.logic, (on) => {
+        draft.logic = on;
+        renderCreator();
+      }),
+      el("p", {
+        className: "panel-hint",
+        textContent: "When on, each past guess is colored green if the current arrangement is consistent with its score and red if it can't be, so repeating a 0-correct placement gets flagged.",
+      })),
     section("Hints", "Drag each hint to when it unlocks (or tap a hint, then tap a column). “Start” means it's available from the beginning.", renderHintBoard()),
     section("Words", null, renderWordSection()),
     renderActions(),

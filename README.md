@@ -10,7 +10,7 @@ The page has two tabs:
   (definitions, y-axis scale, reveal one match, check one graph), and random or
   hand-picked words. "Play these rules" applies them; the share link encodes them.
 
-Rules live in the URL query (`n`, `g`, `fb`, `h`, and `p` for hand-picked
+Rules live in the URL query (`n`, `g`, `fb`, `lg`, `h`, and `p` for hand-picked
 words), so any link reproduces a rule set. Hand-picked words only apply to the
 first round; later rounds are random.
 
