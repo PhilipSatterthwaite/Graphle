@@ -12,7 +12,7 @@ The page has three tabs:
 - **Saved** — words starred with ☆ anywhere on the site (kept in the browser),
   exportable as a word-list file for `saved-words/`.
 
-Rules live in the URL query (`n`, `g`, `fb`, `lg`, `mp`, `h`, and `p` for hand-picked
+Rules live in the URL query (`n`, `g`, `fb`, `lg`, `mp`, `sh`, `h`, and `p` for hand-picked
 words), so any link reproduces a rule set. Hand-picked words only apply to the
 first round; later rounds are random.
 

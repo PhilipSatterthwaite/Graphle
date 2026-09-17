@@ -4,8 +4,9 @@ const W = 240, H = 200, PAD = { l: 34, r: 8, t: 10, b: 24 };
 const $ = (id) => document.getElementById(id);
 const tooltip = $("tooltip");
 
-let data, definitions, books = {};
+let data, definitions;
 let peaks = {};       // word -> peak uses per billion words, kept for the minimum-peak rule
+let shapes = {};      // word -> curve shape key (see SHAPES)
 let rules = rulesFromQuery(location.search);
 let roundIndex = 0;   // rounds started under the current rules; hand-picked words only apply to the first
 let round;            // { words: graph order, shuffled: bank order }
@@ -58,13 +59,61 @@ function correlation(x, y) {
   return num / (Math.sqrt(dx * dy) || 1);
 }
 
+// Sort a curve into one of the SHAPES buckets from its normalized profile.
+function classifyShape(values) {
+  const peak = Math.max(...values);
+  if (!peak) return "flat";
+  const p = values.map((v) => v / peak);
+  const n = p.length;
+  const avg = (arr) => arr.reduce((a, b) => a + b, 0) / arr.length;
+  const peakAt = p.indexOf(1) / (n - 1);
+  const start = avg(p.slice(0, 15));
+  const end = avg(p.slice(-15));
+  const middleLow = Math.min(...p.slice(Math.round(n * 0.25), Math.round(n * 0.75)));
+  const yearsNearPeak = p.filter((v) => v >= 0.5).length;
+
+  if (avg(p) > 0.55) return "flat";
+  if (peakAt > 0.85 && start < 0.3) return "ascending";
+  if (peakAt < 0.15 && end < 0.3) return "descending";
+  if (start > 0.55 && end > 0.55 && middleLow < 0.55) return "bowl";
+  if (peakAt > 0.15 && peakAt < 0.85 && start < 0.5 && end < 0.5) return yearsNearPeak < 25 ? "spike" : "dome";
+  return "irregular";
+}
+
+// How far apart the round's peak magnitudes are — bigger is more varied.
+function magnitudeSpread(words) {
+  const sorted = words.map((w) => peaks[w]).sort((a, b) => a - b);
+  return sorted[sorted.length - 1] / sorted[0];
+}
+
 function wordPool() {
   const all = Object.keys(data.series);
   const pool = all.filter((w) => peaks[w] >= rules.minPeak);
   return pool.length >= 20 ? pool : all;
 }
 
+// One word per shape, so every graph in the round looks different.
+function pickWordsByShape(n) {
+  const pool = wordPool();
+  const byShape = {};
+  for (const w of pool) (byShape[shapes[w]] ||= []).push(w);
+  const usable = SHAPES.map((s) => s.key).filter((k) => byShape[k]?.length);
+  if (usable.length < n) return null;
+  let best = null;
+  for (let attempt = 0; attempt < 40; attempt++) {
+    const words = shuffle(usable).slice(0, n).map((k) => byShape[k][Math.floor(Math.random() * byShape[k].length)]);
+    const spread = magnitudeSpread(words);
+    if (!best || spread > best.spread) best = { words, spread };
+    if (spread >= 10) break;   // clearly different heights; good enough
+  }
+  return best.words;
+}
+
 function pickWords(n) {
+  if (rules.distinctShapes) {
+    const picked = pickWordsByShape(n);
+    if (picked) return picked;
+  }
   const all = wordPool();
   let best;
   for (let attempt = 0; attempt < 200; attempt++) {
@@ -339,18 +388,6 @@ function checkGraph(gi) {
   render();
 }
 
-// A period clue for a word: a book published around its peak, or, when no such
-// book was found, the decade the word first came into wide use.
-function clueFor(word) {
-  const b = books[word];
-  if (b) return `“${b.title}”${b.author ? ", " + b.author : ""} (${b.year})`;
-  const series = data.series[word];
-  const peak = Math.max(...series);
-  const takeoff = data.yearStart + series.findIndex((v) => v >= peak * 0.25);
-  if (takeoff <= data.yearStart + 10) return "already common in 1800";
-  return `came into wide use in the ${Math.floor(takeoff / 10) * 10}s`;
-}
-
 // ---- Rendering ----------------------------------------------------------
 
 function definitionText(word) {
@@ -366,6 +403,7 @@ function renderRulesSummary() {
   ];
   if (rules.logic) parts.push("logic helper on");
   if (rules.minPeak !== DEFAULT_RULES.minPeak) parts.push(`peak ≥ ${formatPeak(rules.minPeak)}`);
+  if (rules.distinctShapes) parts.push("different shapes");
   if (rules.words) parts.push(roundIndex <= 1 ? "custom puzzle" : "custom puzzle done, now random");
   $("rules-summary").textContent = parts.join(" · ");
 }
@@ -399,7 +437,6 @@ function renderBank() {
   if (selectedWord) {
     sel.append(el("b", { textContent: selectedWord }));
     if (hintOn("definitions")) sel.append(" — ", ...definitionText(selectedWord));
-    else if (hintOn("book")) sel.append(" — ", clueFor(selectedWord));
     else sel.append(" — now tap a graph");
   }
 }
@@ -429,15 +466,6 @@ function renderStatus() {
   defsEl.hidden = !hintOn("definitions");
   defsEl.replaceChildren();
   for (const w of round.shuffled) defsEl.append(el("dt", {}, w, starButton(w)), el("dd", {}, ...definitionText(w)));
-
-  const cluesEl = $("clues");
-  cluesEl.hidden = !hintOn("book");
-  cluesEl.replaceChildren();
-  if (hintOn("book")) {
-    for (const w of round.shuffled) {
-      cluesEl.append(el("dt", {}, w, starButton(w)), el("dd", { className: "clue", textContent: clueFor(w) }));
-    }
-  }
 
   const histEl = $("history");
   histEl.hidden = guesses.length === 0;
@@ -626,17 +654,13 @@ $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all([
-  fetch("data/ngrams.json?v=20").then((r) => r.json()),
-  fetch("data/definitions.json?v=20").then((r) => r.json()),
-  fetch("data/books.json?v=20").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
-])
-  .then(([ngrams, defs, bookData]) => {
-    books = bookData;
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=21").then((r) => r.json())))
+  .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {
       peaks[w] = max;
       ngrams.series[w] = q.map((p) => (p * max) / 100);
+      shapes[w] = classifyShape(ngrams.series[w]);
     }
     data = ngrams;
     definitions = defs;

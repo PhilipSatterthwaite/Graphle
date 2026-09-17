@@ -88,6 +88,16 @@ function renderCreator() {
           renderCreator();
         }))),
     section("Word frequency", "Random rounds only draw words whose graph peaks at least this high (uses per billion words). Higher means more familiar words.", renderPeakSlider()),
+    section("Graph shapes", null,
+      segmented([[false, "Any mix"], [true, "All different"]], draft.distinctShapes, (on) => {
+        draft.distinctShapes = on;
+        renderCreator();
+      }),
+      el("p", { className: "panel-hint" },
+        draft.distinctShapes
+          ? "Every graph in a round gets a different curve shape, and the game favours rounds whose peaks differ in size too."
+          : "Rounds are drawn at random, so two graphs can have similar shapes."),
+      renderShapeKey()),
     section("Feedback after each guess", null,
       segmented([["count", "How many are right"], ["exact", "Which ones are right"]], draft.feedback, (fb) => {
         draft.feedback = fb;
@@ -112,6 +122,15 @@ function renderCreator() {
     section("Words", null, renderWordSection()),
     renderActions(),
   );
+}
+
+function renderShapeKey() {
+  const list = el("div", { className: "shape-key" });
+  for (const s of SHAPES) {
+    const count = Object.keys(data.series).filter((w) => shapes[w] === s.key && peaks[w] >= draft.minPeak).length;
+    list.append(el("span", { className: "shape-chip", title: s.desc, textContent: `${s.label} · ${count}` }));
+  }
+  return list;
 }
 
 function renderPeakSlider() {
