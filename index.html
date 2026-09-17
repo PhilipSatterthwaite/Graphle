@@ -4,22 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Graphle</title>
-  <meta name="description" content="Match five words to their Google Books Ngram graphs.">
+  <meta name="description" content="Match words to their Google Books Ngram graphs.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📈%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
   <header>
     <h1>Graphle</h1>
-    <p class="tagline">Five words. Five graphs. Which is which?</p>
-    <div class="stats">
-      <span>Solved <b id="score">0</b></span>
-      <span>Streak <b id="streak">0</b></span>
-    </div>
+    <p class="tagline">Match each word to its graph.</p>
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab active" data-tab="play" type="button">Play</button>
+      <button class="tab" data-tab="create" type="button">Create &amp; share</button>
+    </nav>
   </header>
 
-  <main>
-    <p class="how">Each graph shows how often a word appeared in English books, 1800–2022. Put a word under every graph and submit — you'll only learn <em>how many</em> are right. Wrong guesses unlock hints.</p>
+  <main id="play-view">
+    <div class="rules-bar">
+      <span id="rules-summary"></span>
+      <button id="edit-rules" class="link-btn" type="button">Change rules</button>
+      <span class="stats">Solved <b id="score">0</b> · Streak <b id="streak">0</b></span>
+    </div>
+
+    <p class="how">Each graph shows how often a word appeared in English books, 1800–2022. Put a word under every graph and submit. Drag a word onto a filled graph to swap them.</p>
 
     <div class="bank-bar">
       <div id="words" class="words" aria-label="Words"></div>
@@ -48,9 +54,16 @@
     <p id="result" class="result" aria-live="polite"></p>
   </main>
 
+  <main id="create-view" hidden>
+    <div id="creator" class="creator"></div>
+    <datalist id="word-list"></datalist>
+  </main>
+
   <footer>Data: <a href="https://books.google.com/ngrams" target="_blank" rel="noopener">Google Books Ngram Viewer</a> (English corpus, smoothing 3).</footer>
 
   <div id="tooltip" class="tooltip" hidden></div>
-  <script src="game.js?v=8"></script>
+  <script src="rules.js?v=9"></script>
+  <script src="game.js?v=9"></script>
+  <script src="create.js?v=9"></script>
 </body>
 </html>

@@ -43,8 +43,14 @@ header, main, footer { max-width: 1500px; margin: 0 auto; padding: 0 16px; }
 header { padding-top: 28px; text-align: center; }
 h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
 .tagline { margin: 2px 0 10px; color: var(--text-2); }
-.stats { display: flex; gap: 20px; justify-content: center; color: var(--text-2); font-size: .95rem; }
+.stats { color: var(--text-2); font-size: .9rem; margin-left: auto; }
 .stats b { color: var(--text); font-variant-numeric: tabular-nums; }
+
+.tabs { display: inline-flex; gap: 4px; padding: 4px; margin-top: 4px; border-radius: 12px; background: var(--surface); border: 1px solid var(--border); }
+.tab { font: inherit; font-weight: 600; padding: 7px 18px; border: 0; border-radius: 9px; background: transparent; color: var(--text-2); cursor: pointer; }
+.tab.active { background: var(--accent); color: #fff; }
+.rules-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 18px 0 0; padding: 8px 14px; border-radius: 10px; background: var(--surface); border: 1px solid var(--border); font-size: .9rem; color: var(--text-2); }
+.link-btn { font: inherit; background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 .how { text-align: center; color: var(--text-2); font-size: .95rem; margin: 16px auto; max-width: 640px; }
 
 /* Word bank stays in view while scrolling through the graphs. */
@@ -95,7 +101,7 @@ h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
 
 /* All graphs sit in one row; on narrow screens the row scrolls sideways. */
 .charts {
-  display: grid; grid-template-columns: repeat(5, minmax(180px, 1fr)); gap: 12px;
+  display: grid; grid-template-columns: repeat(var(--cols, 5), minmax(180px, 1fr)); gap: 12px;
   overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px;
 }
 .charts > .card { scroll-snap-align: start; }
@@ -107,6 +113,9 @@ h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
 .card.target:hover { border-color: var(--accent); }
 .card.correct { border-color: var(--good); cursor: default; }
 .card.revealed { border-color: var(--bad); cursor: default; }
+.card.wrong { border-color: var(--bad); }
+.note { font-size: .8rem; color: var(--muted); text-align: center; min-height: 1.2em; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.check-btn { font: inherit; font-size: .8rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; }
 .letter { font-weight: 700; color: var(--text-2); font-size: .9rem; }
 .slot {
   text-align: center; font-weight: 600; padding: 6px 12px; border-radius: 8px;
@@ -139,7 +148,44 @@ button.primary:disabled { opacity: .4; cursor: not-allowed; }
 .history th { color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--border); }
 .history tbody tr + tr td { border-top: 1px solid var(--grid); }
 .history .n { color: var(--muted); }
+.history td.ok { color: var(--good); font-weight: 600; }
+.history td.bad { color: var(--bad); text-decoration: line-through; }
 .history .count { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* ---- Create tab ---- */
+.creator { max-width: 1000px; margin: 18px auto 0; display: flex; flex-direction: column; gap: 14px; }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.panel h2 { font-size: 1.05rem; margin: 0 0 8px; }
+.panel-hint { color: var(--text-2); font-size: .9rem; margin: 8px 0 0; }
+.field { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 6px 0; }
+.field-label { font-size: .9rem; color: var(--text-2); min-width: 120px; }
+.segmented { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+.seg { font: inherit; font-size: .9rem; font-weight: 600; min-width: 36px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text-2); cursor: pointer; }
+.seg.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.hint-board { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+.hint-col { flex: 1 0 120px; min-height: 120px; border: 1.5px dashed var(--border); border-radius: 10px; padding: 8px; display: flex; flex-direction: column; gap: 6px; cursor: pointer; }
+.hint-col.off { background: var(--bg); }
+.hint-col.drop { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.hint-col-title { font-size: .8rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.hint-card { background: var(--hint-bg); border: 1px solid transparent; border-radius: 8px; padding: 6px 8px; cursor: grab; display: flex; flex-direction: column; font-size: .8rem; color: var(--text-2); }
+.hint-card b { color: var(--text); font-size: .9rem; }
+.hint-card.selected { border-color: var(--accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 30%, transparent); }
+.pick-list { display: grid; gap: 6px; margin-top: 10px; }
+.pick-row { display: flex; align-items: center; gap: 8px; }
+.pick-input { font: inherit; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); width: min(260px, 60vw); }
+.dice { font-size: 1.1rem; background: none; border: 0; cursor: pointer; padding: 2px 4px; }
+.pick-status { font-size: .85rem; }
+.pick-status.ok { color: var(--good); font-weight: 700; }
+.pick-status.bad { color: var(--bad); }
+.suggestions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; }
+.chip.small { font-size: .85rem; padding: 4px 10px; }
+.hidden-words { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 10px; color: var(--text-2); font-size: .9rem; }
+button.secondary { font: inherit; font-size: .9rem; font-weight: 600; padding: 7px 14px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); cursor: pointer; }
+button.secondary:disabled { opacity: .4; cursor: not-allowed; }
+.creator-actions { display: flex; flex-direction: column; gap: 10px; }
+.share-row { display: flex; gap: 8px; }
+.share-url { flex: 1; min-width: 0; font: inherit; font-size: .85rem; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text-2); }
+.action-row { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
 
 .tooltip {
   position: fixed; pointer-events: none; z-index: 10;
