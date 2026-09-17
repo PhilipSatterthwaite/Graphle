@@ -328,7 +328,7 @@ function submit() {
 $("submit").addEventListener("click", submit);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u).then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=2").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     data = ngrams;
     definitions = defs;
