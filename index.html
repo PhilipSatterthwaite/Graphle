@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Graphle</title>
+  <meta name="description" content="Match three words to their Google Books Ngram graphs.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📈%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Graphle</h1>
+    <p class="tagline">Three words. Three graphs. Which is which?</p>
+    <div class="stats">
+      <span>Score <b id="score">0</b></span>
+      <span>Streak <b id="streak">0</b></span>
+    </div>
+  </header>
+
+  <main>
+    <p class="how">Pick a word, then tap the graph you think it belongs to. Graphs show how often each word appeared in English books, 1800–2022.</p>
+
+    <div id="words" class="words" aria-label="Words"></div>
+    <div id="charts" class="charts"></div>
+
+    <div class="actions">
+      <button id="submit" class="primary" disabled>Check answers</button>
+      <button id="next" class="primary" hidden>Next round</button>
+    </div>
+    <p id="result" class="result" aria-live="polite"></p>
+  </main>
+
+  <footer>Data: <a href="https://books.google.com/ngrams" target="_blank" rel="noopener">Google Books Ngram Viewer</a> (English corpus, smoothing 3).</footer>
+
+  <div id="tooltip" class="tooltip" hidden></div>
+  <script src="game.js"></script>
+</body>
+</html>
