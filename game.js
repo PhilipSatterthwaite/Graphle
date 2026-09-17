@@ -1,5 +1,5 @@
 const WORDS_PER_ROUND = 5;
-const MAX_GUESSES = 4;
+const MAX_GUESSES = 6;
 // Hints unlock after this many wrong guesses.
 const HINTS = [
   { key: "definitions", label: "Definitions", after: 1 },
@@ -14,10 +14,9 @@ const tooltip = $("tooltip");
 let data, definitions;
 let round;            // { words: graph order, shuffled: bank order }
 let assignments;      // graph index -> word | null
-let locked;           // graph index -> true once guessed correctly
-let tried;            // graph index -> Set of words guessed wrong there
+let history;          // [{ guess: [word by graph index], correct: number }]
+let consistent;       // answer permutations still possible given history
 let wrongGuesses;
-let flashing;         // graph indices to shake after a submit
 let status;           // "playing" | "won" | "lost"
 let selectedWord = null;
 const stats = loadStats();
@@ -149,8 +148,20 @@ function drawChart(series, showValues) {
   return svg;
 }
 
+function permutations(items) {
+  if (items.length <= 1) return [items];
+  return items.flatMap((item, i) =>
+    permutations([...items.slice(0, i), ...items.slice(i + 1)]).map((rest) => [item, ...rest]));
+}
+
+// A placement is ruled out when no arrangement consistent with every past
+// guess's correct-count puts that word on that graph.
+const ruledOut = (gi, word) => status === "playing" && !consistent.some((perm) => perm[gi] === word);
+
+const sameAsPastGuess = () => history.some((h) => h.guess.every((w, gi) => w === assignments[gi]));
+
 function place(gi, word) {
-  if (status !== "playing" || !word || locked[gi] || locked[assignments.indexOf(word)]) return;
+  if (status !== "playing" || !word) return;
   const prev = assignments.indexOf(word);
   if (prev >= 0) assignments[prev] = null;
   assignments[gi] = word;
@@ -168,14 +179,13 @@ function renderBank() {
   wordsEl.replaceChildren();
   for (const w of round.shuffled) {
     const at = assignments.indexOf(w);
-    const isLocked = at >= 0 && locked[at];
     const b = el("button", { className: "chip", textContent: w });
     if (at >= 0) {
-      b.classList.add(isLocked ? "locked" : "placed");
-      b.append(el("span", { className: "tag", textContent: (isLocked ? "✓ " : "→ ") + LETTERS[at] }));
+      b.classList.add("placed");
+      b.append(el("span", { className: "tag", textContent: "→ " + LETTERS[at] }));
     }
     if (w === selectedWord) b.classList.add("selected");
-    b.disabled = status !== "playing" || isLocked;
+    b.disabled = status !== "playing";
     b.draggable = !b.disabled;
     b.addEventListener("click", () => {
       selectedWord = selectedWord === w ? null : w;
@@ -216,6 +226,20 @@ function renderStatus() {
   defsEl.hidden = !hintOn("definitions");
   defsEl.replaceChildren();
   for (const w of round.shuffled) defsEl.append(el("dt", { textContent: w }), el("dd", {}, ...definitionText(w)));
+
+  const histEl = $("history");
+  histEl.hidden = history.length === 0;
+  const tbody = el("tbody");
+  history.forEach((h, i) => {
+    const row = el("tr", {}, el("td", { className: "n", textContent: i + 1 }));
+    h.guess.forEach((w) => row.append(el("td", { textContent: w })));
+    row.append(el("td", { className: "count", textContent: `${h.correct} / ${WORDS_PER_ROUND}` }));
+    tbody.append(row);
+  });
+  const head = el("tr", {}, el("th", { textContent: "#" }));
+  for (let gi = 0; gi < WORDS_PER_ROUND; gi++) head.append(el("th", { textContent: LETTERS[gi] }));
+  head.append(el("th", { textContent: "Correct" }));
+  histEl.querySelector("table").replaceChildren(el("thead", {}, head), tbody);
 }
 
 function renderCharts() {
@@ -223,36 +247,40 @@ function renderCharts() {
   chartsEl.replaceChildren();
   const showValues = hintOn("magnitude");
   round.words.forEach((word, gi) => {
+    const placed = assignments[gi];
     const card = el("div", { className: "card" });
-    if (locked[gi]) card.classList.add("correct");
-    else if (status === "lost") card.classList.add("revealed");
-    else if (flashing.has(gi)) card.classList.add("flash");
-    else if (selectedWord) card.classList.add("target");
+    const slot = el("div", { className: "slot" + (placed ? " filled" : "") });
+    const note = el("div", { className: "note" });
 
-    const slot = el("div", { className: "slot" + (assignments[gi] ? " filled" : "") });
-    if (status === "lost" && !locked[gi]) slot.textContent = `It was: ${word}`;
-    else slot.textContent = assignments[gi] ? (locked[gi] ? "✓ " : "") + assignments[gi] : "tap to place";
-    if (assignments[gi] && !locked[gi] && status === "playing") {
-      slot.draggable = true;
-      slot.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", assignments[gi]));
+    if (status === "won") {
+      card.classList.add("correct");
+      slot.textContent = "✓ " + word;
+    } else if (status === "lost") {
+      card.classList.add(placed === word ? "correct" : "revealed");
+      slot.textContent = placed === word ? "✓ " + word : `It was: ${word}`;
+    } else {
+      if (selectedWord) card.classList.add("target");
+      slot.textContent = placed || "tap to place";
+      if (placed && ruledOut(gi, placed)) {
+        slot.classList.add("ruled-out");
+        note.textContent = "✗ Ruled out by earlier guesses";
+      }
+      if (placed) {
+        slot.draggable = true;
+        slot.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/plain", placed));
+      }
     }
 
-    const triedEl = el("div", { className: "tried" });
-    if (tried[gi].size && !locked[gi]) {
-      triedEl.append("Not: ");
-      [...tried[gi]].forEach((w, i) => triedEl.append(i ? ", " : "", el("s", { textContent: w })));
-    }
-
-    card.append(el("div", { className: "letter", textContent: `Graph ${LETTERS[gi]}` }), drawChart(data.series[word], showValues), slot, triedEl);
+    card.append(el("div", { className: "letter", textContent: `Graph ${LETTERS[gi]}` }), drawChart(data.series[word], showValues), slot, note);
     card.addEventListener("click", () => {
-      if (status !== "playing" || locked[gi]) return;
+      if (status !== "playing") return;
       if (selectedWord) place(gi, selectedWord);
-      else if (assignments[gi]) {
+      else if (placed) {
         assignments[gi] = null;
         render();
       }
     });
-    card.addEventListener("dragover", (e) => { if (status === "playing" && !locked[gi]) e.preventDefault(); });
+    card.addEventListener("dragover", (e) => { if (status === "playing") e.preventDefault(); });
     card.addEventListener("drop", (e) => {
       e.preventDefault();
       place(gi, e.dataTransfer.getData("text/plain"));
@@ -265,9 +293,11 @@ function render() {
   renderBank();
   renderStatus();
   renderCharts();
-  flashing.clear();
+  const full = assignments.every(Boolean);
+  const repeat = status === "playing" && full && sameAsPastGuess();
   $("submit").hidden = status !== "playing";
-  $("submit").disabled = assignments.some((a) => !a);
+  $("submit").disabled = !full || repeat;
+  $("submit-note").textContent = repeat ? "You already tried this exact arrangement." : "";
   $("next").hidden = status === "playing";
   $("score").textContent = stats.score;
   $("streak").textContent = stats.streak;
@@ -277,9 +307,8 @@ function newRound() {
   const words = pickWords();
   round = { words, shuffled: shuffle(words) };
   assignments = words.map(() => null);
-  locked = words.map(() => false);
-  tried = words.map(() => new Set());
-  flashing = new Set();
+  history = [];
+  consistent = permutations(words);
   wrongGuesses = 0;
   status = "playing";
   selectedWord = null;
@@ -288,26 +317,18 @@ function newRound() {
 }
 
 function submit() {
-  let wrong = 0;
-  round.words.forEach((word, gi) => {
-    if (locked[gi]) return;
-    if (assignments[gi] === word) {
-      locked[gi] = true;
-    } else {
-      wrong++;
-      tried[gi].add(assignments[gi]);
-      assignments[gi] = null;
-      flashing.add(gi);
-    }
-  });
+  const guess = [...assignments];
+  const correct = guess.filter((w, gi) => w === round.words[gi]).length;
+  history.push({ guess, correct });
+  consistent = consistent.filter((perm) => guess.filter((w, gi) => w === perm[gi]).length === correct);
   selectedWord = null;
   tooltip.hidden = true;
 
-  if (wrong === 0) {
+  if (correct === WORDS_PER_ROUND) {
     status = "won";
     stats.score += 1;
     stats.streak += 1;
-    const n = wrongGuesses + 1;
+    const n = history.length;
     $("result").textContent = `Solved in ${n} guess${n === 1 ? "" : "es"}! 🎉`;
   } else {
     wrongGuesses++;
@@ -317,8 +338,7 @@ function submit() {
       stats.streak = 0;
       $("result").textContent = "Out of guesses — answers revealed.";
     } else {
-      const right = round.words.length - wrong;
-      $("result").textContent = `${right} of ${round.words.length} correct.` + (unlocked ? ` Hint unlocked: ${unlocked.label.toLowerCase()}.` : "");
+      $("result").textContent = `${correct} of ${WORDS_PER_ROUND} correct.` + (unlocked ? ` Hint unlocked: ${unlocked.label.toLowerCase()}.` : "");
     }
   }
   if (status !== "playing") saveStats();
@@ -328,7 +348,7 @@ function submit() {
 $("submit").addEventListener("click", submit);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=3").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=4").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     data = ngrams;
     definitions = defs;

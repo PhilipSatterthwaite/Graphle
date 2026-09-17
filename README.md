@@ -1,7 +1,8 @@
 # Graphle
 
-Match five words to their Google Books Ngram graphs. Correct matches lock in;
-wrong guesses unlock hints (definitions, then the y-axis scale). Four guesses per round.
+Match five words to their Google Books Ngram graphs. Each submission only tells
+you how many are correct; placements that earlier results prove wrong are marked.
+Wrong guesses unlock hints (definitions, then the y-axis scale). Six guesses per round.
 
 ## Run locally
 
