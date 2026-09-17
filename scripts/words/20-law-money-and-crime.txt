@@ -5,11 +5,8 @@ affidavit | noun | A written statement confirmed by oath, used as evidence in co
 alibi | noun | A claim that one was elsewhere when a crime was committed.
 alimony | noun | Financial support paid to a former spouse after divorce.
 amnesty | noun | An official pardon for people convicted of political offenses.
-annuity | noun | A fixed sum of money paid to someone each year.
 arson | noun | The criminal act of deliberately setting fire to property.
-auditor | noun | A person who conducts an official inspection of accounts.
 bailiff | noun | A court officer who keeps order; a sheriff's officer.
-bankruptcy | noun | The state of being unable to pay one's debts.
 barrister | noun | A lawyer entitled to practice as an advocate in higher courts (British).
 bigamy | noun | The offense of marrying someone while already married.
 blackmail | noun | Demanding money in return for not revealing compromising information.
@@ -21,28 +18,21 @@ bullion | noun | Gold or silver in bulk before coining.
 burglar | noun | A person who commits burglary.
 burglary | noun | Illegal entry into a building with intent to commit a crime.
 cartel | noun | An association of manufacturers or suppliers to maintain prices.
-cashier | noun | A person handling payments in a shop or bank.
-checkbook | noun | A book of checks.
 clemency | noun | Mercy; lenience.
 coinage | noun | Coins collectively; the invention of a new word.
-comptroller | noun | A controller of financial affairs.
 conscription | noun | Compulsory enlistment for state service, typically into the armed forces.
 contraband | noun | Goods imported or exported illegally.
 counterfeit | adjective | Made in exact imitation of something valuable with intent to deceive.
 counterfeiter | noun | A person who makes counterfeit money or goods.
 crowdfund | verb | To fund a project by raising money from many people.
 cybercrime | noun | Criminal activities carried out by means of computers or the internet.
-defendant | noun | An individual or company sued or accused in a court of law.
 dowry | noun | Property or money brought by a bride to her husband on marriage.
 embezzlement | noun | Theft or misappropriation of funds placed in one's trust.
 entrapment | noun | Inducing a person to commit an offense in order to prosecute them.
 escrow | noun | A bond or deed kept by a third party until a condition is fulfilled.
-eviction | noun | The action of expelling someone from a property.
 extortion | noun | Obtaining something through force or threats.
 extradition | noun | Handing over a person accused of a crime to another jurisdiction.
 felon | noun | A person who has committed a felony.
-felony | noun | A crime regarded as more serious than a misdemeanor.
-foreclosure | noun | The action of taking possession of a mortgaged property when payments are not made.
 forgery | noun | Producing a copy of a document or signature to deceive.
 fraudster | noun | A person who commits fraud.
 gavel | noun | A small mallet used by a judge or auctioneer.
@@ -50,15 +40,11 @@ getaway | noun | An escape, especially after a crime; a short holiday.
 graft | noun | Bribery and corruption; hard work.
 heist | noun | A robbery.
 hijacker | noun | A person who unlawfully seizes a vehicle or aircraft.
-homicide | noun | The killing of one person by another.
 hoosegow | noun | A prison (slang).
 indictment | noun | A formal charge or accusation of a serious crime.
-inflation | noun | A general increase in prices and fall in the purchasing value of money.
-insider | noun | A person within a group or organization with special knowledge.
 jailbird | noun | A person who is or has repeatedly been in prison.
 jailbreak | noun | An escape from jail; the removal of software restrictions on a device.
 jaywalking | noun | Crossing a street illegally or without regard for traffic.
-juror | noun | A member of a jury.
 kickback | noun | A payment made to someone who has facilitated a transaction, especially illicitly.
 kidnapping | noun | The action of taking someone away illegally by force.
 kleptocracy | noun | A society whose leaders steal from the country's resources.
@@ -69,30 +55,22 @@ loansharking | noun | Lending money at extremely high interest rates.
 lobbyist | noun | A person who tries to influence legislators on an issue.
 looter | noun | A person who steals goods during a riot or war.
 manslaughter | noun | The crime of killing a human being without malice aforethought.
-mint | noun | A place where money is coined; an aromatic plant.
 misdemeanor | noun | A minor wrongdoing; a crime less serious than a felony.
 moneylender | noun | A person whose business is lending money to others at interest.
-mortgage | noun | A legal agreement by which a bank lends money against a property.
 mugger | noun | A person who attacks and robs people in public places.
 nepotism | noun | Favoritism shown to relatives, especially in giving jobs.
-notary | noun | A person authorized to witness the signing of documents.
 outlawry | noun | The action of declaring someone an outlaw; disregard for the law.
 pawnbroker | noun | A person who lends money at interest on the security of an article pawned.
 payola | noun | Bribery in return for promoting a product on the radio.
-payroll | noun | A list of a company's employees and the amount of money they are paid.
 penitentiary | noun | A prison for people convicted of serious crimes.
 perjury | noun | The offense of willfully telling an untruth in court after taking an oath.
 philanthropy | noun | The desire to promote the welfare of others through donations.
 pickpocketing | noun | Stealing from people's pockets.
 piracy | noun | Robbery at sea; unauthorized reproduction of copyrighted work.
-plaintiff | noun | A person who brings a case against another in a court of law.
 plutocrat | noun | A person whose power derives from their wealth.
 ponzi | noun | Part of "Ponzi scheme": a fraud paying early investors with later investors' money.
-probate | noun | The official proving of a will.
 racketeering | noun | Dishonest and fraudulent business dealings.
 ransom | noun | A sum of money demanded for the release of a captive.
-receipt | noun | A written acknowledgment of having received something.
-recession | noun | A period of temporary economic decline.
 repossession | noun | The retaking of possession of something when payments are not made.
 safecracker | noun | A person who breaks open and robs safes.
 scofflaws | noun | People who flout the law.
@@ -100,21 +78,14 @@ shoplifting | noun | The theft of goods from a shop.
 skimming | noun | Fraudulently diverting funds; copying card data illegally.
 slander | noun | The action of making a false spoken statement damaging to a person's reputation.
 smuggling | noun | The illegal movement of goods into or out of a country.
-solicitor | noun | A lawyer who advises clients and prepares legal documents (British).
-speculator | noun | A person who invests in stocks or property in the hope of gain.
 stagflation | noun | Persistent high inflation combined with high unemployment.
 stakeout | noun | A period of secret surveillance of a building or area.
 stockbroker | noun | A broker who buys and sells securities for clients.
 subpoena | noun | A writ ordering a person to attend a court.
 swindling | noun | Using deception to deprive someone of money.
-tax | noun | A compulsory contribution to state revenue.
-testimony | noun | A formal written or spoken statement given in a court of law.
-thief | noun | A person who steals another person's property.
 tollbooth | noun | A booth where drivers pay a toll.
 treason | noun | The crime of betraying one's country.
-treasury | noun | The funds or revenue of a state or organization.
 usury | noun | The action of lending money at unreasonably high rates of interest.
 vandalism | noun | Deliberate destruction of or damage to property.
-verdict | noun | A decision on an issue of fact in a civil or criminal case.
 wiretap | noun | A concealed device connected to a telephone for listening in.
 

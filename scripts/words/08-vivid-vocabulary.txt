@@ -13,7 +13,6 @@ antediluvian | adjective | Belonging to the time before the biblical Flood; ridi
 aplomb | noun | Self-confidence or assurance, especially in a demanding situation.
 apocryphal | adjective | Of doubtful authenticity, although widely circulated as true.
 arcane | adjective | Understood by few; mysterious or secret.
-ardent | adjective | Enthusiastic or passionate.
 assuage | verb | To make an unpleasant feeling less intense.
 audacious | adjective | Showing a willingness to take surprisingly bold risks.
 avuncular | adjective | Kind and friendly toward a younger or less experienced person.
@@ -31,9 +30,7 @@ bucolic | adjective | Relating to the pleasant aspects of the countryside.
 cacophony | noun | A harsh, discordant mixture of sounds.
 cajole | verb | To persuade someone by sustained coaxing or flattery.
 callipygian | adjective | Having shapely buttocks.
-callous | adjective | Showing an insensitive disregard for others.
 camaraderie | noun | Mutual trust and friendship among people who spend time together.
-candor | noun | The quality of being open and honest.
 capricious | adjective | Given to sudden and unaccountable changes of mood or behavior.
 catharsis | noun | The process of releasing strong or repressed emotions.
 caustic | adjective | Able to burn through chemical action; sarcastic in a scathing way.
@@ -46,7 +43,6 @@ collusion | noun | Secret or illegal cooperation to deceive others.
 conflagration | noun | An extensive fire that destroys a great deal.
 conundrum | noun | A confusing and difficult problem or question.
 convivial | adjective | Friendly, lively, and enjoyable.
-copious | adjective | Abundant in supply or quantity.
 coterie | noun | A small group of people with shared interests.
 covfefe | noun | A nonsense word from a 2017 tweet by Donald Trump.
 craven | adjective | Contemptibly lacking in courage; cowardly.
@@ -70,7 +66,6 @@ effervescent | adjective | Giving off bubbles; vivacious and enthusiastic.
 effrontery | noun | Insolent or impertinent behavior.
 egregious | adjective | Outstandingly bad; shocking.
 eldritch | adjective | Weird and sinister or ghostly.
-eloquent | adjective | Fluent or persuasive in speaking or writing.
 emollient | adjective | Soothing to the skin; attempting to avoid confrontation.
 enigma | noun | A person or thing that is mysterious or difficult to understand.
 ennui | noun | A feeling of listlessness and dissatisfaction arising from boredom.
@@ -151,7 +146,6 @@ misnomer | noun | A wrong or inaccurate name or designation.
 modicum | noun | A small quantity of a particular thing.
 moribund | adjective | At the point of death; in terminal decline.
 munificent | adjective | Larger or more generous than is usual.
-myriad | noun | A countless or extremely great number.
 nadir | noun | The lowest point in the fortunes of a person or organization.
 nebulous | adjective | In the form of a cloud or haze; hazy; vague.
 nemesis | noun | The inescapable agent of someone's downfall; a long-standing rival.
@@ -167,7 +161,6 @@ ostentatious | adjective | Characterized by vulgar or pretentious display.
 palaver | noun | Prolonged and idle discussion; fuss.
 panacea | noun | A solution or remedy for all difficulties or diseases.
 panache | noun | Flamboyant confidence of style or manner.
-paradigm | noun | A typical example or pattern; a model.
 paragon | noun | A person or thing regarded as a perfect example of a quality.
 pariah | noun | An outcast.
 parsimonious | adjective | Unwilling to spend money or use resources.

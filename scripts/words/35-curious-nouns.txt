@@ -1,25 +1,14 @@
 # Curious and evocative nouns
 # word | part of speech | definition
-aftermath | noun | The consequences or aftereffects of a significant unpleasant event.
 airhead | noun | A silly or foolish person.
-ampersand | noun | The sign &, standing for "and."
 apocrypha | noun | Writings or statements of doubtful authenticity.
 armageddon | noun | A final battle between good and evil; a catastrophic conflict.
-asterisk | noun | A symbol (*) used as a pointer to an annotation.
-backlash | noun | A strong negative reaction by a large number of people.
 backwater | noun | A place or condition in which no development or progress is occurring.
 bagatelle | noun | A game of rolling balls on a board; a thing of little importance.
-bandwidth | noun | A range of frequencies; the capacity to deal with a situation.
-bargain | noun | A thing bought for less than its true value; an agreement.
-bedrock | noun | Solid rock underlying loose deposits; the fundamental principles.
 beeline | noun | A straight line between two places.
 birthright | noun | A particular right one has by birth.
-blackout | noun | A failure of electrical power; a temporary loss of consciousness.
-blueprint | noun | A design plan or other technical drawing.
 bombshell | noun | An overwhelming surprise or disappointment; a very attractive woman.
-bottleneck | noun | The neck of a bottle; a point of congestion.
 brainstorm | noun | A spontaneous group discussion to produce ideas; a sudden clever idea.
-breakthrough | noun | A sudden, dramatic, and important discovery or development.
 brinkmanship | noun | Pushing dangerous events to the brink of disaster to achieve an advantage.
 buzzword | noun | A word or phrase that is fashionable at a particular time.
 cahoots | noun | Colluding or conspiring together secretly.
@@ -29,24 +18,16 @@ checkmate | noun | A position in chess in which a king is trapped; a final defea
 cliffhanger | noun | A dramatic ending that leaves an audience in suspense.
 clockwork | noun | A mechanism with a spring and toothed gearwheels; perfect regularity.
 cloudburst | noun | A sudden violent rainstorm.
-comeback | noun | A return by a well-known person to a previous position; a quick reply.
-countdown | noun | An act of counting numerals in reverse order to zero.
-crossroads | noun | An intersection of two or more roads; a point where a crucial decision must be made.
 crusader | noun | A person who campaigns vigorously for a cause.
 daydream | noun | A series of pleasant thoughts that distract from the present.
-deadline | noun | The latest time or date by which something should be completed.
 deadlock | noun | A situation in which no progress can be made.
 dealbreaker | noun | A factor or issue that would cause someone to abandon a deal.
-dilemma | noun | A situation requiring a choice between equally undesirable alternatives.
 doghouse | noun | A dog's kennel; a state of disgrace.
-domino | noun | Any of 28 small oblong pieces marked with dots.
 doohickey | noun | A small object whose name one does not know.
-downfall | noun | A loss of power, prosperity, or status.
 dragnet | noun | A net drawn through water; a systematic search for criminals.
 dreamland | noun | An imagined and unrealistically ideal world.
 earworm | noun | A catchy song or tune that runs continually through a person's mind.
 eavesdropping | noun | Secretly listening to a conversation.
-eggshell | noun | The thin hard outer layer of an egg; a pale off-white color.
 eyesore | noun | A thing that is very ugly, especially a building.
 fallout | noun | Radioactive particles after a nuclear explosion; the adverse side effects of a situation.
 figurehead | noun | A carved bust at the prow of a ship; a nominal leader.
@@ -54,76 +35,54 @@ firestorm | noun | A very intense and destructive fire; a sudden intense outbrea
 flashback | noun | A scene set earlier than the main story; a sudden vivid memory.
 flashpoint | noun | A place or event at which anger or violence flares up.
 floodgate | noun | A gate that can be opened to admit water; a last restraint against an outpouring.
-footnote | noun | An additional piece of information printed at the bottom of a page.
 foreshadowing | noun | A warning or indication of a future event.
 freefall | noun | Downward movement under the force of gravity; a rapid uncontrolled decline.
 gibbet | noun | A gallows; an upright post with an arm for hanging bodies of executed criminals.
 gimmick | noun | A trick or device intended to attract attention or publicity.
-graveyard | noun | A burial ground.
 grindstone | noun | A thick revolving disc used for grinding and sharpening.
-guesswork | noun | The process of making guesses.
 hairpin | noun | A U-shaped pin for fastening the hair.
 handcuffs | noun | A pair of lockable linked metal rings for securing a prisoner's wrists.
-headway | noun | Forward movement; progress.
-heartbeat | noun | A pulsation of the heart; an instant.
 heirloom | noun | A valuable object that has belonged to a family for generations.
-hindsight | noun | Understanding of a situation after it has happened.
 hotbed | noun | An environment promoting the growth of something undesirable.
 hotchpotch | noun | A confused mixture (British).
 jackpot | noun | A large cash prize in a game or lottery.
 jigsaw | noun | A puzzle of irregular interlocking pieces.
 keepsake | noun | A small item kept in memory of the person who gave it.
 keystone | noun | A central stone at the summit of an arch; the central principle of a system.
-landmark | noun | An object or feature easily seen and recognized from a distance; an important event.
 landslide | noun | The sliding down of a mass of earth; an overwhelming electoral victory.
 limelight | noun | Intense white light formerly used in theaters; the focus of public attention.
 loophole | noun | An ambiguity or inadequacy in a law or rules that allows evasion.
-makeover | noun | A complete transformation of appearance.
-masterpiece | noun | A work of outstanding artistry, skill, or workmanship.
 mayhem | noun | Violent or damaging disorder; chaos.
-milestone | noun | An action or event marking a significant change or stage.
-mindset | noun | The established set of attitudes held by someone.
 moonshine | noun | Illicitly distilled liquor; foolish talk or ideas.
 nightfall | noun | The onset of night; dusk.
 nitpick | verb | To look for small or unimportant errors.
 noose | noun | A loop with a running knot that tightens as the rope is pulled.
-offshoot | noun | A side shoot on a plant; a thing that develops from something else.
 overdrive | noun | A state of great activity; a gear in a vehicle.
 pandemonium | noun | Wild and noisy disorder or confusion.
 pathfinder | noun | A person who goes ahead and discovers a path.
 peephole | noun | A small hole that may be looked through.
 pigeonhole | noun | A small compartment in a desk for letters; a category.
 pitfall | noun | A hidden or unsuspected danger or difficulty.
-playground | noun | An outdoor area for children to play in.
 powerhouse | noun | A person or thing having great energy or power.
 quandary | noun | A state of perplexity or uncertainty over what to do.
 rattletrap | noun | An old rickety vehicle.
-riddle | noun | A question or statement intentionally phrased to require ingenuity to answer.
 rigmarole | noun | A lengthy and complicated procedure.
 scapegoat | noun | A person who is blamed for the wrongdoings of others.
-setback | noun | A reversal or check in progress.
 showdown | noun | A final test or confrontation intended to settle a dispute.
-shortcut | noun | An alternative route that is shorter than the one usually taken.
 sidekick | noun | A person's assistant or close associate.
-skeleton | noun | An internal or external framework of bone; a very thin person.
 smokescreen | noun | A cloud of smoke to conceal military operations; a ruse.
 snowdrift | noun | A bank of deep snow heaped up by the wind.
-spotlight | noun | A lamp projecting a narrow intense beam of light; public attention.
 stalemate | noun | A situation in which further action is blocked.
 standoff | noun | A stalemate or deadlock between two equally matched opponents.
 stranglehold | noun | Complete or overwhelming control.
 sweatshop | noun | A factory where workers are employed for long hours at low wages.
 teardrop | noun | A single tear.
-timeline | noun | A graphic representation of the passage of time.
 tinderbox | noun | A box of tinder; a volatile situation.
 touchstone | noun | A standard or criterion by which something is judged.
-trademark | noun | A symbol or word legally registered to represent a company or product.
 trapdoor | noun | A hinged or removable panel in a floor, ceiling, or roof.
 treadmill | noun | A device for exercise; a job or situation that is tiring or boring.
 tripwire | noun | A wire stretched close to the ground that triggers a trap when disturbed.
-turmoil | noun | A state of great disturbance, confusion, or uncertainty.
 underdog | noun | A competitor thought to have little chance of winning.
-upheaval | noun | A violent or sudden change or disruption.
 watchdog | noun | A dog kept to guard property; a person or group monitoring practices.
 watershed | noun | An area separating waters flowing into different rivers; a turning point.
 wildfire | noun | A large destructive fire that spreads quickly.

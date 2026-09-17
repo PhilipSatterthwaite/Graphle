@@ -42,6 +42,8 @@ rebuild the data:
 node scripts/fetch-ngrams.mjs
 ```
 
+Words cut for being too plain live in `scripts/words-removed/` (ignored by the build).
+
 This writes `data/ngrams.json` and `data/definitions.json`. Raw Ngram responses
 are cached in `scripts/.ngram-cache.json`, so only new words are downloaded.
 Words peaking below 50 per billion words (`MIN_PEAK` in the script) are dropped and listed in the output.

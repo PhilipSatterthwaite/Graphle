@@ -3,16 +3,11 @@
 achoo | exclamation | Representing the sound of a sneeze.
 ahoy | exclamation | A call used in hailing a ship or boat.
 aloha | exclamation | A Hawaiian word used as a greeting or farewell.
-bamboo | noun | A giant woody grass with hollow stems.
 bandwagon | noun | A wagon for carrying a band; a popular activity or cause.
-bangle | noun | A rigid ornamental band worn around the arm or ankle.
 bazillion | noun | An exaggeratedly large number.
 bedbug | noun | A bloodsucking insect that lives in beds.
 bellyache | noun | A stomach pain; a complaint (informal).
-bellybutton | noun | The navel.
-blunder | noun | A stupid or careless mistake.
 bobblehead | noun | A doll with an oversized head on a spring.
-bonfire | noun | A large open-air fire used for burning rubbish or for celebration.
 boohoo | exclamation | Representing the sound of noisy weeping.
 bubblegum | noun | Chewing gum that can be blown into bubbles.
 bumblebee | noun | A large hairy bee with a loud hum.
@@ -26,32 +21,24 @@ conch | noun | A tropical marine mollusk with a spiral shell.
 confetti | noun | Small pieces of colored paper thrown at celebrations.
 cooties | noun | Imaginary germs said by children to infect others; body lice.
 crackpot | noun | An eccentric person with strange or impractical ideas.
-daffodil | noun | A plant bearing bright yellow flowers with a trumpet-shaped center.
 dewdrop | noun | A drop of dew.
 dimwit | noun | A stupid or silly person.
 dingdong | noun | The sound of a doorbell; a heated argument.
 doodad | noun | A gadget or other small object whose name one does not know.
-dustbin | noun | A container for household refuse (British).
 earmuffs | noun | A pair of fabric coverings connected by a band, worn to keep the ears warm.
 fiddlestick | noun | A violin bow; something of little value.
 fisticuffs | noun | Fighting with the fists.
-fizz | noun | The effervescence of a drink.
 flabbergast | verb | To surprise someone greatly; astonish.
-flimsy | adjective | Comparatively light and insubstantial; easily damaged.
-flutter | verb | To fly unsteadily by flapping the wings quickly and lightly.
 footloose | adjective | Free to go where one likes and do what one wants.
 fuddle | verb | To confuse or stupefy, especially with alcohol.
 gazillion | noun | A very large number.
-giggle | verb | To laugh lightly in a nervous, affected, or silly manner.
 gumball | noun | A ball of chewing gum, typically sold from a vending machine.
 gumdrop | noun | A firm, translucent gummy candy.
 hairball | noun | A ball of hair that collects in the stomach of a cat.
 hankering | noun | A strong desire to have or do something.
 heyday | noun | The period of a person's or thing's greatest success.
-hiccup | noun | An involuntary spasm of the diaphragm; a minor setback.
 hoopla | noun | Excitement surrounding an event; a fairground game of throwing rings.
 jiffy | noun | A moment.
-jingle | noun | A light ringing sound; a short catchy song used in advertising.
 kaboom | exclamation | Representing the sound of a loud explosion.
 kazoo | noun | A small pipe that makes a buzzing sound when hummed into.
 kerplunk | exclamation | Representing a heavy dull sound.
@@ -65,37 +52,26 @@ pinwheel | noun | A small windmill toy; a whirling firework.
 pizzazz | noun | An attractive combination of vitality and glamour.
 poppet | noun | A small or delicate person, used as a term of endearment.
 potluck | noun | A meal to which each guest contributes a dish.
-puddle | noun | A small pool of liquid, especially rainwater on the ground.
-pumpkin | noun | A large rounded orange-yellow fruit.
 quicksand | noun | Loose wet sand that yields to pressure and sucks in anything resting on it.
 ragtag | adjective | Untidy, disorganized, or incongruously varied.
-rainbow | noun | An arch of colors formed in the sky by refraction of sunlight.
 rickrack | noun | Braided trimming in a zigzag pattern.
 sassafras | noun | A North American tree with aromatic bark and leaves.
 scatterbrained | adjective | Disorganized and lacking in concentration.
-scribble | verb | To write or draw carelessly or hurriedly.
 shazam | exclamation | Used to introduce an extraordinary deed or transformation.
 shipshape | adjective | In good order; trim and neat.
 shuttlecock | noun | A feathered cone struck with rackets in badminton.
 slapdash | adjective | Done too hurriedly and carelessly.
 snapdragon | noun | A plant with flowers that open like a mouth when squeezed.
 snickerdoodle | noun | A cookie rolled in cinnamon sugar.
-snowball | noun | A ball of packed snow; to increase rapidly.
 somersault | noun | An acrobatic movement in which a person turns head over heels.
 squiggle | noun | A short line that curls and loops irregularly.
-sunflower | noun | A tall plant with very large golden-rayed flowers.
 tchotchke | noun | A small decorative object; a trinket.
-teeny | adjective | Tiny.
-thingy | noun | A thing whose name one has forgotten or does not know.
 thunderclap | noun | A crash of thunder.
-tickle | verb | To lightly touch someone in a way that causes laughter.
 tidbit | noun | A small piece of tasty food; a small and particularly interesting item of gossip.
 tinsel | noun | A form of decoration of thin strips of shiny metal foil.
 toadstool | noun | A fungus with a round cap on a stalk, especially a poisonous one.
 toothpick | noun | A thin stick used for removing bits of food from between the teeth.
 trinket | noun | A small ornament or item of jewelry of little value.
-twinkle | verb | To shine with a gleam that changes constantly from bright to faint.
-umbrella | noun | A device for protection against rain, with a collapsible canopy.
 whirligig | noun | A toy that spins around; something that is constantly changing.
 whizbang | noun | A small high-velocity shell; something excellent (usually "whiz-bang").
 wishbone | noun | A forked bone between the neck and breast of a bird.

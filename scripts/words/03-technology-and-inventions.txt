@@ -4,9 +4,6 @@ abacus | noun | A frame with rows of sliding beads, used for arithmetic.
 aeroplane | noun | A powered flying vehicle with fixed wings (British spelling).
 airbag | noun | A safety device in a vehicle that inflates rapidly in a collision.
 airship | noun | A power-driven aircraft kept buoyant by a lighter-than-air gas.
-algorithm | noun | A process or set of rules to be followed in calculations or problem-solving.
-antenna | noun | A rod or wire for transmitting or receiving radio signals; an insect's feeler.
-app | noun | An application, especially one downloaded to a mobile device.
 astrolabe | noun | An instrument formerly used to measure the altitude of stars.
 autogiro | noun | An early aircraft with an unpowered rotor and a propeller.
 automaton | noun | A moving mechanical device made in imitation of a human being.
@@ -17,8 +14,6 @@ blockchain | noun | A digital ledger of transactions duplicated across a network
 blog | noun | A regularly updated website written in an informal style.
 blogger | noun | A person who writes a blog.
 bluetooth | noun | A standard for short-range wireless connection of devices.
-browser | noun | A program for viewing websites.
-calculator | noun | A device used for making mathematical calculations.
 camcorder | noun | A portable combined video camera and recorder.
 carburetor | noun | A device in an engine that mixes air with fuel.
 cassette | noun | A sealed case containing magnetic tape for audio or video.
@@ -28,16 +23,12 @@ cinematograph | noun | An early apparatus for showing motion pictures.
 cyborg | noun | A being with both organic and biomechatronic body parts.
 daguerreotype | noun | An early photograph produced on a silver-coated copper plate.
 diskette | noun | A floppy disk.
-dishwasher | noun | A machine for washing dishes automatically.
-download | verb | To copy data from one computer system to another, typically over the internet.
 dynamo | noun | A machine for converting mechanical energy into electrical energy.
 email | noun | Messages distributed by electronic means.
 escalator | noun | A moving staircase.
 facsimile | noun | An exact copy; a fax.
 fax | noun | A copy of a document transmitted electronically over a telephone line.
 firewall | noun | A system that prevents unauthorized access to a computer network.
-flashlight | noun | A battery-operated portable light.
-floppy | noun | A flexible removable magnetic disk for storing data.
 freeware | noun | Software available free of charge.
 gaslight | noun | Light from burning gas; to manipulate someone into doubting their sanity.
 gasometer | noun | A large tank for storing gas.
@@ -46,15 +37,12 @@ gigabyte | noun | A unit of information equal to about one billion bytes.
 googol | noun | Ten raised to the power of a hundred.
 gyroscope | noun | A spinning wheel device used to maintain orientation.
 hacker | noun | A person who uses computers to gain unauthorized access to data.
-handset | noun | The part of a telephone held in the hand.
 heliograph | noun | A signaling device that reflects sunlight with a mirror.
 hologram | noun | A three-dimensional image formed by the interference of light beams.
 hyperlink | noun | A link from a hypertext document to another location.
 hypertext | noun | Text containing links to other texts.
 icebox | noun | A chilled box for keeping food cold; an old-fashioned refrigerator.
-inbox | noun | A folder where incoming email is held.
 internet | noun | A global computer network providing information and communication.
-intranet | noun | A private network within an organization.
 jukebox | noun | A machine that plays selected music when a coin is inserted.
 kilobyte | noun | A unit of memory equal to 1,024 bytes.
 kinetoscope | noun | An early motion-picture device for viewing through a peephole.
@@ -62,7 +50,6 @@ laptop | noun | A portable computer suitable for use while traveling.
 lightbulb | noun | A glass bulb that provides light by passing electric current through a filament.
 linotype | noun | A typesetting machine that casts a whole line of type at once.
 locomotive | noun | A powered railway vehicle used for pulling trains.
-loom | noun | An apparatus for making fabric by weaving yarn.
 magnetron | noun | An electron tube for generating microwaves.
 mainframe | noun | A large, high-speed computer supporting many workstations.
 megabyte | noun | A unit of information equal to about one million bytes.
@@ -75,13 +62,11 @@ microwave | noun | An electromagnetic wave; an oven that cooks food using such w
 modem | noun | A device that converts signals to transmit data over telephone lines.
 monocle | noun | A single eyeglass kept in position by the muscles around the eye.
 motorcar | noun | An automobile (dated).
-mouse | noun | A small rodent; a handheld device for controlling a computer cursor.
 netbook | noun | A small, inexpensive laptop designed mainly for internet access.
 newsreel | noun | A short film of news and current affairs, shown in cinemas.
 nickelodeon | noun | An early movie theater charging five cents; a jukebox.
 odometer | noun | An instrument measuring distance traveled by a vehicle.
 omnibus | noun | A volume containing several works; a bus (dated).
-online | adjective | Connected to or available through a computer network.
 oscilloscope | noun | A device for viewing oscillations on a screen.
 pager | noun | A small radio device that beeps to alert the user to a message.
 pedometer | noun | An instrument counting the steps a person takes.
@@ -89,25 +74,19 @@ pendulum | noun | A weight hung from a fixed point so that it can swing freely.
 phonautograph | noun | The earliest device for recording sound, invented in the 1850s.
 photocopier | noun | A machine for making photocopies.
 pianola | noun | A player piano.
-pixel | noun | A minute area of illumination on a display screen.
 podcasting | noun | The practice of making podcasts.
-printer | noun | A machine for printing text or pictures.
 radar | noun | A system for detecting objects using radio waves.
 radiogram | noun | A combined radio and record player; a telegram sent by radio.
-railroad | noun | A track made of steel rails for trains.
-router | noun | A device that forwards data packets between computer networks.
 satnav | noun | A satellite navigation system in a vehicle.
 semaphore | noun | A system of signaling using flags or mechanical arms.
 sextant | noun | An instrument for measuring angular distances for navigation.
 smartphone | noun | A mobile phone that performs many functions of a computer.
 smartwatch | noun | A wristwatch with computing capabilities.
-software | noun | The programs used by a computer.
 sonar | noun | A system for detecting objects underwater by sound pulses.
 spreadsheet | noun | A computer program for organizing and calculating data in tables.
 stereoscope | noun | A device for viewing pairs of photographs as a single 3D image.
 streetcar | noun | A tram running on rails along city streets.
 supercomputer | noun | A powerful computer capable of dealing with complex problems.
-tablet | noun | A small pill; a flat slab for inscriptions; a portable touchscreen computer.
 tachometer | noun | An instrument measuring the rotation speed of an engine.
 tamagotchi | noun | A handheld digital pet toy.
 telautograph | noun | A telegraph that reproduced handwriting at a distance.
@@ -120,28 +99,19 @@ telescope | noun | An optical instrument for making distant objects appear neare
 teletype | noun | A teleprinter.
 television | noun | A system for transmitting visual images and sound.
 telex | noun | An international system of telegraphy with printed messages.
-texting | noun | The sending of text messages.
 thermostat | noun | A device that automatically regulates temperature.
 touchscreen | noun | A display screen that responds to touch.
 tramcar | noun | A tram.
 transistorized | adjective | Fitted with transistors rather than valves.
-turbine | noun | A machine for producing power in which a wheel is turned by moving fluid.
 typesetter | noun | A person or machine that sets type.
-typist | noun | A person skilled in using a typewriter.
 ultrasound | noun | Sound with a frequency above human hearing, used in medical imaging.
-upload | verb | To transfer data to a larger computer system or the internet.
-vacuum | noun | A space devoid of matter; a vacuum cleaner.
 videocassette | noun | A cassette of videotape.
 videotape | noun | Magnetic tape for recording and reproducing visual images and sound.
 viewfinder | noun | A device on a camera showing the field of view.
-virus | noun | An infective agent; a program that copies itself and corrupts data.
 voicemail | noun | A centralized system for storing phone messages.
 walkman | noun | A brand of personal cassette player.
 webcam | noun | A video camera connected to a computer for streaming.
-webpage | noun | A document on the World Wide Web.
-website | noun | A set of related web pages under a single domain.
 wifi | noun | Wireless networking technology.
-wireless | noun | A radio (dated); using radio or microwaves rather than wires.
 wristwatch | noun | A watch worn on a strap around the wrist.
 xerox | verb | To photocopy.
 zoetrope | noun | A cylindrical toy that creates an illusion of motion from a sequence of pictures.

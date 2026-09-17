@@ -2,66 +2,41 @@
 # word | part of speech | definition
 archipelago | noun | A group of islands.
 arroyo | noun | A steep-sided gully cut by running water in an arid region.
-astronomy | noun | The science of celestial objects and space.
 aurora | noun | A natural display of colored lights in the polar sky.
 badlands | noun | Extensive tracts of heavily eroded, uncultivable land.
 bayou | noun | A marshy outlet of a lake or river in the southern US.
 blackhole | noun | A region of space with gravity so strong nothing escapes (usually "black hole").
-bog | noun | Wet muddy ground too soft to support a heavy body.
-boulder | noun | A large rock.
 butte | noun | An isolated hill with steep sides and a flat top.
 caldera | noun | A large volcanic crater.
-canyon | noun | A deep gorge, typically with a river flowing through it.
 cavern | noun | A large cave or chamber in a cave.
 constellation | noun | A group of stars forming a recognizable pattern.
 cosmos | noun | The universe seen as a well-ordered whole.
-crater | noun | A large bowl-shaped cavity in the ground or on a celestial body.
 crevasse | noun | A deep open crack in a glacier.
-delta | noun | A triangular tract of sediment at the mouth of a river.
-downpour | noun | A heavy fall of rain.
-drizzle | noun | Light rain falling in very fine drops.
-drought | noun | A prolonged period of abnormally low rainfall.
 dune | noun | A mound or ridge of sand formed by the wind.
-earthquake | noun | A sudden violent shaking of the ground.
 eclipse | noun | An obscuring of the light from one celestial body by another.
 equinox | noun | The time when the sun crosses the celestial equator, making day and night equal.
 estuary | noun | The tidal mouth of a large river.
 fogbank | noun | A dense mass of fog.
 geyser | noun | A hot spring that intermittently sends up a column of water and steam.
 glacier | noun | A slowly moving mass of ice.
-gorge | noun | A narrow valley between hills or mountains.
 gulch | noun | A narrow steep-sided ravine.
 hailstone | noun | A pellet of hail.
 heatwave | noun | A prolonged period of abnormally hot weather (usually "heat wave").
-hemisphere | noun | Half of the earth.
-horizon | noun | The line at which the earth's surface and the sky appear to meet.
 iceberg | noun | A large floating mass of ice.
 isthmus | noun | A narrow strip of land connecting two larger areas.
 jetstream | noun | A narrow fast-flowing air current (usually "jet stream").
 lagoon | noun | A stretch of salt water separated from the sea by a sandbank or reef.
-lava | noun | Hot molten rock erupted from a volcano.
-lightning | noun | A high-voltage natural electrical discharge in the atmosphere.
 magma | noun | Hot fluid material below the earth's crust.
-marsh | noun | An area of low-lying land that is flooded in wet seasons.
-meadow | noun | A piece of grassland, especially one used for hay.
 mesa | noun | An isolated flat-topped hill with steep sides.
 meteor | noun | A small body of matter from space that glows as it enters the atmosphere.
-milestone | noun | A stone marking distance; a significant stage or event.
 mirage | noun | An optical illusion caused by atmospheric conditions.
-moonlight | noun | The light of the moon.
-moor | noun | A tract of open uncultivated upland.
 nebulae | noun | Clouds of gas and dust in outer space.
 oasis | noun | A fertile spot in a desert where water is found.
 permafrost | noun | A thick subsurface layer of soil that remains frozen year-round.
-planet | noun | A celestial body moving in an elliptical orbit around a star.
 plateau | noun | An area of relatively level high ground; a state of little change.
-prairie | noun | A large open area of grassland.
 precipice | noun | A very steep rock face or cliff.
 rainforest | noun | A dense forest rich in biodiversity, found in tropical areas of high rainfall.
 ravine | noun | A deep, narrow gorge with steep sides.
-reef | noun | A ridge of jagged rock or coral just above or below the sea's surface.
-rocket | noun | A cylindrical projectile propelled to a great height; a salad green.
-satellite | noun | A celestial body or artificial object orbiting a planet.
 savanna | noun | A grassy plain in tropical and subtropical regions.
 seismograph | noun | An instrument measuring and recording earthquakes.
 sinkhole | noun | A cavity in the ground caused by erosion or collapse.
@@ -74,15 +49,10 @@ stalagmite | noun | A mound or tapering column rising from the floor of a cave.
 steppe | noun | A large area of flat unforested grassland.
 stratosphere | noun | The layer of the atmosphere above the troposphere.
 sunspot | noun | A temporary dark spot on the sun's surface.
-swamp | noun | An area of waterlogged ground.
 tectonic | adjective | Relating to the structure of the earth's crust.
-thaw | verb | To melt or become liquid after being frozen.
 thunderhead | noun | A rounded mass of cumulus cloud that often precedes a thunderstorm.
 tidepool | noun | A pool of water left on a beach by the ebbing tide (usually "tide pool").
 tundra | noun | A vast flat treeless Arctic region.
-twilight | noun | The soft glowing light from the sky when the sun is below the horizon.
-volcano | noun | A mountain with a crater through which lava erupts.
-waterfall | noun | A cascade of water falling from a height.
 waterspout | noun | A rotating column of water and spray formed by a whirlwind over the sea.
 whirlpool | noun | A quickly rotating mass of water.
 whirlwind | noun | A column of air moving rapidly around in a funnel shape.

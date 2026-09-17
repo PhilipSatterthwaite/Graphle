@@ -8,8 +8,6 @@ artichoke | noun | A plant whose unopened flower head is eaten as a vegetable.
 asparagus | noun | A plant whose young shoots are eaten as a vegetable.
 aubergine | noun | An eggplant (British).
 azalea | noun | A deciduous flowering shrub.
-barley | noun | A hardy cereal with coarse bristles, used in brewing and stockfeed.
-basil | noun | An aromatic herb of the mint family.
 begonia | noun | A plant with brightly colored flowers.
 beetroot | noun | The edible dark red root of a beet.
 blackberry | noun | An edible soft fruit; a trademarked early smartphone.
@@ -17,15 +15,12 @@ bluebell | noun | A woodland plant with clusters of blue bell-shaped flowers.
 bonsai | noun | The art of growing ornamental, artificially dwarfed trees.
 boysenberry | noun | A large red edible blackberry-like fruit.
 bramble | noun | A prickly scrambling shrub, especially a blackberry.
-cabbage | noun | A cultivated plant eaten as a vegetable, with a heart of leaves.
-cactus | noun | A succulent plant with a thick fleshy stem and spines.
 camellia | noun | An evergreen shrub with showy flowers.
 cantaloupe | noun | A small round melon with orange flesh.
 cardamom | noun | The aromatic seeds of a plant of the ginger family, used as a spice.
 carnation | noun | A double-flowered cultivated pink.
 cauliflower | noun | A cabbage with a large flower head of small creamy-white buds.
 cayenne | noun | A pungent, hot-tasting red powder from dried chilies.
-celery | noun | A plant with crisp juicy stalks eaten raw or cooked.
 chamomile | noun | An aromatic plant whose flowers are used in herbal tea.
 chervil | noun | A plant of the parsley family used as a culinary herb.
 chickpea | noun | A round yellowish edible seed of a leguminous plant.
@@ -33,33 +28,24 @@ chrysanthemum | noun | A plant with brightly colored ornamental flowers.
 cilantro | noun | The leaves of the coriander plant.
 cinnamon | noun | An aromatic spice made from the dried bark of a tree.
 clematis | noun | A climbing plant with showy flowers.
-clover | noun | A plant with round flower heads and trifoliate leaves.
-compost | noun | Decayed organic material used as a fertilizer.
 cornucopia | noun | A symbol of plenty consisting of a goat's horn overflowing with produce.
 cranberry | noun | A small, red, acid berry.
-cucumber | noun | A long green-skinned fruit eaten as a vegetable.
 cumin | noun | The aromatic seeds of a plant of the parsley family, used as a spice.
 cypress | noun | A coniferous tree with small dark green leaves.
-daisy | noun | A small grassland plant with white petals and a yellow center.
 dahlia | noun | A plant with brightly colored flowers.
-dill | noun | An aromatic herb of the parsley family.
 durian | noun | A tropical fruit with a strong odor and a spiny rind.
 eggplant | noun | A large egg-shaped purple fruit eaten as a vegetable.
 elderberry | noun | The berry of the elder tree.
 eucalyptus | noun | A fast-growing evergreen Australian tree.
 fennel | noun | An aromatic plant with yellow flowers and edible seeds and bulbs.
-fern | noun | A flowerless plant with feathery fronds.
-fertilizer | noun | A chemical or natural substance added to soil to increase fertility.
 foxglove | noun | A tall plant with tubular flowers, the source of digitalis.
 gardenia | noun | A tree or shrub with large fragrant white flowers.
-garlic | noun | A strong-smelling bulb used as a flavoring in cooking.
 geranium | noun | A herbaceous plant with showy flowers.
 ginkgo | noun | A deciduous Chinese tree with fan-shaped leaves.
 gooseberry | noun | A round edible yellowish-green berry.
 gourd | noun | A fleshy fruit with a hard skin, often used as a container.
 grapefruit | noun | A large round yellow citrus fruit with an acid juicy pulp.
 guava | noun | An edible pale orange tropical fruit.
-harvest | noun | The process of gathering in crops.
 hawthorn | noun | A thorny shrub or tree of the rose family.
 haystack | noun | A packed pile of hay.
 heather | noun | A purple-flowered Eurasian heath.
@@ -69,7 +55,6 @@ honeysuckle | noun | A climbing shrub with fragrant flowers.
 horseradish | noun | A plant whose pungent root is used as a condiment.
 hyacinth | noun | A bulbous plant with dense spikes of fragrant flowers.
 hydrangea | noun | A shrub with large heads of white, blue, or pink flowers.
-iris | noun | A plant with showy flowers; the colored part of the eye.
 jackfruit | noun | A very large edible fruit of a tropical Asian tree.
 jasmine | noun | A shrub or climbing plant with fragrant flowers.
 jicama | noun | The crisp white-fleshed edible tuber of a Central American plant.
@@ -78,9 +63,7 @@ kohlrabi | noun | A cabbage with an edible turnip-like swollen stem.
 kudzu | noun | A quick-growing East Asian climbing plant, invasive in the southern US.
 lemongrass | noun | A tropical grass with a lemony flavor used in cooking.
 lentil | noun | A high-protein pulse dried and soaked before cooking.
-lettuce | noun | A cultivated plant whose leaves are eaten in salads.
 lilac | noun | A shrub with fragrant violet, pink, or white blossoms.
-lotus | noun | A large water lily.
 lychee | noun | A small rounded fruit with sweet white flesh and a rough red skin.
 magnolia | noun | A tree or shrub with large showy flowers.
 mandrake | noun | A Mediterranean plant with a forked root, once thought to have magical powers.
@@ -89,13 +72,11 @@ marigold | noun | A plant with yellow or orange flowers.
 marjoram | noun | An aromatic plant of the mint family, used in cooking.
 mistletoe | noun | A parasitic plant with white berries, used as a Christmas decoration.
 mulberry | noun | A dark red or white fruit resembling the loganberry.
-mustard | noun | A hot-tasting yellow or brown paste made from seeds.
 nasturtium | noun | A trailing plant with round leaves and bright orange flowers.
 nectarine | noun | A variety of peach with smooth skin.
 nutmeg | noun | The hard aromatic seed of a tropical tree, used as a spice.
 okra | noun | A plant with long ridged seed pods eaten as a vegetable.
 oleander | noun | A poisonous evergreen shrub with clusters of flowers.
-orchard | noun | A piece of enclosed land planted with fruit trees.
 orchid | noun | A plant with complex, showy flowers.
 oregano | noun | An aromatic plant with leaves used as a culinary herb.
 paprika | noun | A powdered spice made from dried red peppers.
@@ -111,42 +92,29 @@ pineapple | noun | A large juicy tropical fruit with a tough segmented skin.
 pistachio | noun | An edible pale green seed.
 plantain | noun | A starchy banana-like fruit.
 pomegranate | noun | An orange-sized fruit with a tough reddish outer skin and many seeds.
-poppy | noun | A plant with showy red flowers and a milky sap.
-potato | noun | A starchy plant tuber that is one of the most important food crops.
 primrose | noun | A plant with pale yellow flowers.
-prune | noun | A plum preserved by drying.
 quince | noun | A hard, acid pear-shaped fruit used in preserves.
 radicchio | noun | A variety of chicory with dark red leaves.
-radish | noun | A pungent red root eaten raw.
 raspberry | noun | An edible soft fruit; a rude sound made with the tongue and lips.
 rhododendron | noun | A shrub with large clusters of bell-shaped flowers.
 rosemary | noun | An evergreen aromatic shrub used as a culinary herb.
 rutabagas | noun | Large yellow-fleshed root vegetables.
 saffron | noun | An orange-yellow spice made from crocus stigmas.
-sage | noun | An aromatic herb; a profoundly wise person.
 scallion | noun | A long-necked onion with a small bulb.
 scarecrows | noun | Figures set up to scare birds away from crops.
 shallot | noun | A small onion-like bulb.
 snapdragons | noun | Plants with flowers that open like a mouth.
 sorghum | noun | A cereal grown for grain and syrup.
 soybean | noun | A legume grown for its seeds, which are used as food.
-spinach | noun | A plant with edible dark green leaves.
-squash | noun | A gourd eaten as a vegetable; a racket game; to crush.
-succulent | noun | A plant with thick fleshy leaves adapted to store water.
 sycamore | noun | A large deciduous tree.
 tangerine | noun | A small citrus fruit with a loose skin.
 tarragon | noun | A perennial plant with narrow aromatic leaves used as a herb.
 thistle | noun | A widely distributed plant with prickly leaves.
 thyme | noun | A low-growing aromatic plant of the mint family.
-tomato | noun | A glossy red fruit eaten as a vegetable.
 topiary | noun | The art of clipping shrubs into ornamental shapes.
 tulip | noun | A bulbous spring-flowering plant with cup-shaped flowers.
 turmeric | noun | A bright yellow aromatic powder from a plant of the ginger family.
-turnip | noun | A round root with white or cream flesh, eaten as a vegetable.
 vanilla | noun | A spice from the pods of a tropical orchid; bland or plain.
-venus | noun | Part of "Venus flytrap": a carnivorous plant.
-violet | noun | A small plant with purple flowers; a bluish-purple color.
-walnut | noun | The large wrinkled edible seed of a deciduous tree.
 watermelon | noun | A large melon with smooth green skin and red pulp.
 wheatgrass | noun | Young wheat plants juiced as a health food.
 wisteria | noun | A climbing shrub with hanging clusters of pale bluish-lilac flowers.

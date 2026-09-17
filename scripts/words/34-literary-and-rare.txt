@@ -2,15 +2,11 @@
 # word | part of speech | definition
 abeyance | noun | A state of temporary disuse or suspension.
 accoutrements | noun | Additional items of dress or equipment.
-adamant | adjective | Refusing to be persuaded or change one's mind.
-afoot | adverb | In preparation or progress; happening.
 agley | adverb | Askew; awry (Scottish).
-alight | adjective | On fire; verb: to descend from a vehicle.
 amok | adverb | In a frenzied, uncontrolled state.
 anodyne | adjective | Not likely to cause offense; bland.
 apropos | adverb | By the way; incidentally.
 arrant | adjective | Complete, utter.
-ashore | adverb | To or on the shore.
 aslant | adverb | At a slant.
 asunder | adverb | Apart; into pieces.
 athwart | preposition | From side to side of; in opposition to.
@@ -64,7 +60,6 @@ gudgeon | noun | A small freshwater fish; a credulous person.
 hebetude | noun | Dullness; lethargy.
 hierophant | noun | A person who interprets sacred mysteries.
 hoyden | noun | A boisterous girl.
-imbibe | verb | To drink, especially alcohol; to absorb ideas.
 impuissant | adjective | Powerless; weak.
 inchoate | adjective | Just begun and so not fully formed.
 inglenook | noun | A space on either side of a large fireplace.
@@ -128,7 +123,6 @@ tatterdemalion | adjective | In tattered clothes; ragged.
 tergiversate | verb | To make conflicting or evasive statements.
 thaumaturgy | noun | The working of wonders or miracles; magic.
 threnody | noun | A song or poem of lamentation for the dead.
-tittle | noun | A tiny amount or part of something.
 toothsome | adjective | Temptingly tasty; attractive.
 turpitude | noun | Depravity; wickedness.
 ululate | verb | To howl or wail as an expression of strong emotion.
@@ -138,7 +132,6 @@ verdigris | noun | A bright bluish-green coating on copper or brass.
 vermiculate | adjective | Marked with sinuous or wavy lines.
 vituperation | noun | Bitter and abusive language.
 welkin | noun | The sky; heaven.
-whilst | conjunction | While (chiefly British).
 winsome | adjective | Attractive or appealing in a fresh, innocent way.
 xanthic | adjective | Yellowish.
 zephyr | noun | A soft gentle breeze.

@@ -8,40 +8,26 @@ anchorman | noun | A person who presents a live television news program.
 archbishop | noun | The chief bishop responsible for an archdiocese.
 aviator | noun | A pilot, especially in the early days of aviation.
 aviatrix | noun | A female pilot.
-bachelor | noun | An unmarried man; a person holding a first university degree.
 bandit | noun | A robber or outlaw belonging to a gang.
-bartender | noun | A person who mixes and serves drinks at a bar.
 beachcomber | noun | A person who searches beaches for articles of value.
 beefcake | noun | Attractive men with well-developed muscles.
-biker | noun | A motorcyclist, especially one who is a member of a gang.
-billionaire | noun | A person with assets worth at least a billion.
 blockhead | noun | A stupid person.
-bodyguard | noun | A person employed to protect a rich or famous person.
 bookworm | noun | A person who enjoys reading very much.
 bootblack | noun | A person who polishes boots and shoes.
 braggart | noun | A person who boasts about achievements or possessions.
-bully | noun | A person who harms or intimidates those they perceive as vulnerable.
 busybody | noun | A meddling or prying person.
-cameraman | noun | A person who operates a film or television camera.
 cardsharp | noun | A person who cheats at cards.
-caretaker | noun | A person employed to look after a building.
 cavewoman | noun | A prehistoric woman living in caves.
 caveman | noun | A prehistoric man living in caves; a crude man.
-celebrity | noun | A famous person.
 chatterbox | noun | A person who talks at length about trivial matters.
 cheapskate | noun | A stingy person.
 cheerleader | noun | A person who leads cheers at a sports event; an enthusiastic supporter.
 chieftain | noun | The leader of a people or clan.
 chorister | noun | A member of a choir.
-clown | noun | A comic entertainer in a circus; a playful or silly person.
-comedian | noun | An entertainer whose act is intended to make people laugh.
-commoner | noun | One of the ordinary or common people.
 copywriter | noun | A person who writes the text of advertisements.
 cosmonaut | noun | A Russian astronaut.
 courtesan | noun | A prostitute with wealthy or upper-class clients.
-cowboy | noun | A man who herds cattle on horseback; a reckless operator.
 cowgirl | noun | A woman who herds cattle on horseback.
-crank | noun | An eccentric person, especially one obsessed with a theory.
 crooner | noun | A singer of sentimental songs in a low, smooth voice.
 curator | noun | A keeper of a museum or collection.
 daredevil | noun | A reckless person who enjoys doing dangerous things.
@@ -49,11 +35,8 @@ daydreamer | noun | A person who indulges in pleasant thoughts that distract fro
 debutante | noun | A young upper-class woman making her first appearance in society.
 deejay | noun | A disc jockey.
 desperado | noun | A desperate or reckless criminal.
-detective | noun | A person whose occupation is to investigate crimes.
-doorman | noun | A man employed to stand at the entrance to a building.
 dowager | noun | A widow holding a title or property derived from her late husband.
 drifter | noun | A person who moves aimlessly from place to place.
-drummer | noun | A person who plays a drum; a traveling salesman (dated).
 dynamo | noun | An extremely energetic person.
 eavesdropper | noun | A person who secretly listens to a conversation.
 escapologist | noun | An entertainer who specializes in escaping from confinement.
@@ -63,22 +46,17 @@ flatfoot | noun | A police officer (dated slang).
 freeloader | noun | A person who takes advantage of others' generosity.
 fugitive | noun | A person who has escaped from captivity or is in hiding.
 gadfly | noun | A fly that bites livestock; a person who provokes others.
-gambler | noun | A person who gambles.
 gangster | noun | A member of a gang of violent criminals.
 gatekeeper | noun | An attendant at a gate; a person who controls access.
-gentleman | noun | A chivalrous, courteous, or honorable man.
 gigolo | noun | A young man paid or financially supported by an older woman.
 globetrotter | noun | A person who travels widely.
-gossip | noun | Casual conversation about other people; a person who likes to talk about others.
 gourmand | noun | A person who enjoys eating, often to excess.
 grifter | noun | A person who engages in petty or small-scale swindling.
 groupie | noun | A fan who follows a band or celebrity.
 gunslinger | noun | A man who carries a gun and shoots well.
 hitchhiker | noun | A person who travels by getting free lifts in passing vehicles.
 hobo | noun | A homeless person; a migrant worker.
-homemaker | noun | A person who manages a household.
 hothead | noun | An impetuous or quick-tempered person.
-housewife | noun | A woman whose main occupation is caring for her family and home.
 hustler | noun | An aggressively enterprising person; a swindler.
 illusionist | noun | A magician or conjurer.
 insomniac | noun | A person who is regularly unable to sleep.
@@ -89,30 +67,24 @@ jockey | noun | A professional rider in horse races.
 journeyman | noun | A skilled worker; a reliable but not outstanding worker.
 kingpin | noun | A person or thing essential to the success of an organization, especially a criminal one.
 layabout | noun | A person who habitually does little or no work.
-lifeguard | noun | A person employed to rescue swimmers in difficulty.
-loner | noun | A person who prefers to be alone.
 loudmouth | noun | A person who talks too much, especially in an offensive way.
 lumberjack | noun | A person who fells trees.
 madcap | adjective | Amusingly eccentric; crazy or reckless.
 magnate | noun | A wealthy and influential person, especially in business.
 maharaja | noun | An Indian prince.
 matriarch | noun | A woman who is the head of a family or tribe.
-millionaire | noun | A person whose assets are worth one million or more.
 misanthrope | noun | A person who dislikes humankind.
 miser | noun | A person who hoards wealth and spends as little money as possible.
 mobster | noun | A member of a group of violent criminals.
 moonshiner | noun | A person who distills or sells illegal whiskey.
 motormouth | noun | A person who talks quickly and incessantly.
-nanny | noun | A woman employed to care for a child in its own home.
 naysayer | noun | A person who criticizes or objects.
 nomad | noun | A member of a people who travel from place to place.
-outlaw | noun | A person who has broken the law, especially one who remains at large.
 pallbearer | noun | A person helping to carry a coffin at a funeral.
 patriarch | noun | The male head of a family or tribe.
 peddler | noun | A person who goes from place to place selling goods.
 philanthropist | noun | A person who seeks to promote the welfare of others through donations.
 pickpocket | noun | A person who steals from people's pockets.
-pilgrim | noun | A person who journeys to a sacred place for religious reasons.
 playboy | noun | A wealthy man who spends his time enjoying himself.
 prankster | noun | A person fond of playing pranks.
 prospector | noun | A person who searches for mineral deposits, especially gold.
@@ -127,7 +99,6 @@ scarecrow | noun | An object made to resemble a person, set up to scare birds aw
 scatterbrain | noun | A person who tends to be disorganized and lacking in concentration.
 schoolmarm | noun | A schoolmistress, especially one who is prim and strict.
 scrooge | noun | A person who is mean with money.
-shopkeeper | noun | The owner and manager of a shop.
 showman | noun | A person skilled at entertaining or attracting attention.
 skinflint | noun | A person who spends as little money as possible.
 slacker | noun | A person who avoids work or effort.
@@ -141,14 +112,11 @@ stuntman | noun | A man employed to take an actor's place in dangerous scenes.
 superhero | noun | A benevolent fictional character with superhuman powers.
 supermodel | noun | A very successful and famous fashion model.
 supervillain | noun | A villain in a story with superhuman powers.
-sweetheart | noun | A person with whom someone is having a romantic relationship.
 swindler | noun | A person who uses deception to take money or possessions.
 tattletale | noun | A person, especially a child, who reveals secrets or informs on others.
-teenager | noun | A person aged between 13 and 19.
 tightwad | noun | A mean or miserly person.
 tomboy | noun | A girl who enjoys rough, noisy activities traditionally associated with boys.
 trailblazer | noun | A person who makes a new track; an innovator.
-tramp | noun | A person who travels from place to place on foot as a vagrant.
 trendsetter | noun | A person who leads the way in fashion or ideas.
 troublemaker | noun | A person who habitually causes trouble.
 turncoat | noun | A person who deserts one party or cause for an opposing one.
@@ -156,9 +124,7 @@ understudy | noun | A person who learns another's role in order to act as a repl
 upstart | noun | A person who has risen suddenly in rank or importance and behaves arrogantly.
 vagabond | noun | A person who wanders from place to place without a home or job.
 vagrant | noun | A person without a settled home or regular work.
-villain | noun | A person guilty of or capable of a crime or wickedness.
 wallflower | noun | A shy person who does not join in at social events.
-wanderer | noun | A person who travels aimlessly.
 whiz | noun | A person who is extremely clever at something.
 windbag | noun | A person who talks at length but says little of value.
 wiseacre | noun | A person with an affectation of wisdom or knowledge.

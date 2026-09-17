@@ -152,11 +152,9 @@ tofu | noun | Curd made from mashed soybeans.
 ketchup | noun | A spicy sauce made chiefly from tomatoes and vinegar.
 mayonnaise | noun | A thick, creamy dressing made from egg yolks, oil, and vinegar.
 spam | noun | Canned pork luncheon meat; irrelevant or unsolicited messages sent over the internet.
-software | noun | The programs and other operating information used by a computer.
 hashtag | noun | A word or phrase preceded by a hash sign, used on social media to identify a topic.
 steampunk | noun | A genre of fiction with advanced machines powered by steam, often in a Victorian setting.
 workaholic | noun | A person who compulsively works excessively hard and long hours.
 babysitter | noun | A person who looks after a child or children while the parents are out.
 cheeseburger | noun | A hamburger with a slice of cheese on it.
-supermarket | noun | A large self-service store selling foods and household goods.
 

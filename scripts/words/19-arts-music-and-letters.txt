@@ -8,7 +8,6 @@ aria | noun | A long accompanied song for a solo voice in an opera.
 arpeggio | noun | The notes of a chord played in rapid succession.
 autobiography | noun | An account of a person's life written by that person.
 bagpipes | noun | A wind instrument with reed pipes sounded by pressure from a bag.
-ballad | noun | A poem or song narrating a story in short stanzas.
 banjo | noun | A stringed instrument with a round body and a long neck.
 bard | noun | A poet, traditionally one reciting epics.
 bassoon | noun | A large bass woodwind instrument with a double reed.
@@ -20,12 +19,10 @@ calligraphy | noun | Decorative handwriting or handwritten lettering.
 caricature | noun | A picture in which features are exaggerated for comic effect.
 castanets | noun | Small concave pieces of wood clicked together in the hand.
 celesta | noun | A small keyboard instrument with hammers striking steel plates.
-cello | noun | A bass instrument of the violin family, held between the knees.
 chanteuse | noun | A female singer of popular songs, especially in a nightclub.
 chiaroscuro | noun | The treatment of light and shade in drawing and painting.
 choreography | noun | The sequence of steps and movements in dance.
 cinematography | noun | The art of photography and camerawork in filmmaking.
-clarinet | noun | A woodwind instrument with a single-reed mouthpiece.
 clavichord | noun | A small, rectangular keyboard instrument of the Renaissance.
 coda | noun | The concluding passage of a piece of music.
 collage | noun | Art made by sticking various materials onto a backing.
@@ -45,11 +42,9 @@ ensemble | noun | A group of musicians, actors, or dancers who perform together.
 epilogue | noun | A section at the end of a book serving as a comment or conclusion.
 epistolary | adjective | In the form of letters.
 etching | noun | A print produced by the process of etching a metal plate.
-fable | noun | A short story, typically with animals as characters, conveying a moral.
 falsetto | noun | A method of voice production used by male singers to reach high notes.
 fanfare | noun | A short ceremonial tune played on brass instruments.
 farce | noun | A comic dramatic work using buffoonery and horseplay.
-fiddle | noun | A violin, especially when used for folk music.
 filmstrip | noun | A series of still images on a strip of film for projection.
 flugelhorn | noun | A brass instrument like a cornet but with a mellower tone.
 folklore | noun | The traditional beliefs, customs, and stories of a community.
@@ -57,10 +52,8 @@ fresco | noun | A painting done on wet plaster.
 glockenspiel | noun | A percussion instrument of metal bars struck with hammers.
 gong | noun | A metal disc that gives a resonant note when struck.
 gramophones | noun | Old record players with horns.
-graphic | adjective | Relating to visual art; giving vivid detail.
 gumshoes | noun | Detectives.
 harmonica | noun | A small rectangular wind instrument with reeds.
-harp | noun | A large upright stringed instrument played by plucking.
 harpsichord | noun | A keyboard instrument with strings plucked by quills.
 hurdygurdy | noun | A stringed instrument played by turning a handle (usually "hurdy-gurdy").
 iambic | adjective | Relating to or using iambs, metrical feet of an unstressed then stressed syllable.
@@ -76,11 +69,9 @@ maracas | noun | A pair of hollow gourds containing seeds, shaken as a percussio
 marimba | noun | A deep-toned xylophone.
 marionette | noun | A puppet worked by strings.
 melodrama | noun | A sensational dramatic piece with exaggerated characters.
-metaphor | noun | A figure of speech applying a word to something it does not literally denote.
 mime | noun | The theatrical technique of suggesting action by gesture without words.
 minuet | noun | A slow, stately ballroom dance in triple time.
 mosaic | noun | A picture made by arranging small pieces of colored material.
-musical | noun | A play or film in which singing and dancing play an essential part.
 nocturne | noun | A short composition of a romantic nature, suggestive of night.
 novella | noun | A short novel or long short story.
 oboe | noun | A woodwind instrument with a double reed and a penetrating tone.
@@ -88,34 +79,26 @@ ocarina | noun | A small egg-shaped ceramic flute.
 ode | noun | A lyric poem addressed to a particular subject.
 operetta | noun | A short opera, usually on a light or humorous theme.
 oratorio | noun | A large-scale musical work for orchestra and voices on a sacred theme.
-organist | noun | A person who plays the organ.
 palindrome | noun | A word or phrase that reads the same backward as forward.
 pantomime | noun | A theatrical entertainment involving music and comedy; mime.
 parody | noun | An imitation of a style with deliberate exaggeration for comic effect.
 pentameter | noun | A line of verse with five metrical feet.
 piccolo | noun | A small flute sounding an octave higher than the ordinary one.
-playwright | noun | A person who writes plays.
-podium | noun | A small platform on which a person may stand to be seen by an audience.
 portraiture | noun | The art of creating portraits.
 prequel | noun | A story or film containing events that precede those of an existing work.
 protagonist | noun | The leading character in a drama, film, or novel.
 pseudonym | noun | A fictitious name, especially one used by an author.
 puppeteer | noun | A person who works puppets.
 quatrain | noun | A stanza of four lines.
-recorder | noun | A simple woodwind instrument; a device for recording sound.
 requiem | noun | A Mass for the repose of the souls of the dead; a musical setting of it.
 rhapsody | noun | An effusively enthusiastic expression of feeling; a free-form musical composition.
-rhyme | noun | Correspondence of sound between words or word endings.
 screenplay | noun | The script of a film.
-sculptor | noun | An artist who makes sculptures.
-sequel | noun | A published or broadcast work that continues the story of an earlier one.
 serenade | noun | A piece of music sung or played in the open air, typically by a lover at night.
 sitar | noun | A large, long-necked Indian lute.
 slapsticks | noun | Comedies based on deliberately clumsy actions.
 soliloquy | noun | An act of speaking one's thoughts aloud when alone, especially in a play.
 sonata | noun | A classical composition for an instrumental soloist, often with piano.
 sonnet | noun | A poem of fourteen lines using any of a number of formal rhyme schemes.
-soprano | noun | The highest singing voice.
 soundtrack | noun | A recording of the musical accompaniment to a film.
 stanza | noun | A group of lines forming the basic recurring metrical unit in a poem.
 storyboard | noun | A sequence of drawings representing the shots planned for a film.
@@ -124,13 +107,9 @@ talkie | noun | A film with a soundtrack, as distinct from a silent film.
 tambourine | noun | A percussion instrument resembling a shallow drum with jingling discs.
 thespian | noun | An actor or actress.
 timpani | noun | Kettledrums.
-tragedy | noun | An event causing great suffering; a play dealing with tragic events.
 trombone | noun | A large brass wind instrument with a sliding tube.
 troubadour | noun | A medieval lyric poet who composed and sang in Provençal.
-tuba | noun | A large brass wind instrument of bass pitch.
 vibraphone | noun | A percussion instrument like a xylophone but with metal bars and motor-driven resonators.
-viola | noun | An instrument of the violin family, larger than a violin.
-violin | noun | A stringed musical instrument of treble pitch, played with a bow.
 watercolor | noun | Artists' paint thinned with water; a painting made with it.
 woodcut | noun | A print made from a design cut in a block of wood.
 xylophone | noun | A musical instrument played by striking wooden bars with small mallets.

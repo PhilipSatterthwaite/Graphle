@@ -4,9 +4,6 @@ abecedarian | noun | A person who is learning the alphabet; a beginner.
 agog | adjective | Very eager or curious to hear or see something.
 alehouse | noun | A tavern or inn where ale is sold.
 alms | noun | Money or food given to poor people.
-anon | adverb | Soon; shortly.
-apace | adverb | Swiftly; quickly.
-aright | adverb | Correctly; properly.
 avast | exclamation | Stop; cease (nautical).
 bailiwick | noun | One's sphere of operations or particular area of interest.
 bandbox | noun | A lightweight box for hats or collars.
@@ -41,13 +38,9 @@ damsel | noun | A young unmarried woman.
 dandy | noun | A man unduly devoted to smartness and fashion.
 dotard | noun | An old person, especially one who has become weak or senile.
 doublet | noun | A man's short, close-fitting padded jacket, worn in the Renaissance.
-draught | noun | A current of cool air; a single act of drinking.
 dropsy | noun | Old-fashioned term for edema, swelling from excess fluid.
-ere | preposition | Before (in time).
 erstwhile | adjective | Former.
-fain | adverb | Gladly; willingly.
 farthing | noun | A former British coin worth a quarter of a penny.
-fie | exclamation | Used to express disgust or outrage.
 fishwife | noun | A coarse-mannered woman who is prone to shouting.
 flagon | noun | A large container for serving or drinking wine or ale.
 footpad | noun | A highwayman who robbed on foot.
@@ -64,19 +57,16 @@ greatcoat | noun | A long heavy overcoat.
 grog | noun | Spirits, originally rum, mixed with water.
 grogshop | noun | A cheap bar or tavern.
 haberdasher | noun | A dealer in men's clothing or sewing goods.
-hackney | noun | A horse or carriage for hire.
 harlot | noun | A prostitute or promiscuous woman.
 harridan | noun | A strict, bossy, or belligerent old woman.
 hearken | verb | To listen.
 helpmeet | noun | A helpful companion or partner, especially a spouse.
 highwayman | noun | A man who held up travelers at gunpoint to rob them.
-hither | adverb | To or toward this place.
 hornbook | noun | A leaf of paper showing the alphabet, protected by transparent horn.
 hostler | noun | A person who looks after horses at an inn.
 huckster | noun | A person who sells small items door to door; an aggressive salesperson.
 inkhorn | noun | A small portable container for ink, originally made of horn.
 inkwell | noun | A pot for ink housed in a hole in a desk.
-jade | noun | A bad-tempered or disreputable woman; a worn-out horse; a green gem.
 jerkin | noun | A sleeveless jacket.
 knickerbockers | noun | Loose-fitting breeches gathered at the knee.
 lackey | noun | A servant, especially a liveried footman; an obsequious follower.
@@ -85,7 +75,6 @@ laudanum | noun | An alcoholic solution of opium once used as a painkiller.
 liege | noun | A feudal superior or sovereign.
 linkboy | noun | A boy employed to carry a torch to guide people through dark streets.
 livery | noun | A special uniform worn by a servant or official.
-lunatic | noun | A person who is mentally ill (dated); an extremely foolish person.
 maidservant | noun | A female domestic servant.
 malapert | adjective | Boldly disrespectful to a superior; impudent.
 manservant | noun | A male servant.
@@ -94,14 +83,9 @@ milksop | noun | A person who is indecisive and lacks courage.
 milliner | noun | A person who makes or sells women's hats.
 misbegotten | adjective | Badly conceived, designed, or planned.
 mountebank | noun | A person who deceives others to trick them out of money; a charlatan.
-naught | pronoun | Nothing.
-nary | adjective | Not any; no.
 natheless | adverb | Nevertheless.
-nigh | adverb | Near; nearly.
 nosegay | noun | A small bunch of flowers, typically sweet-scented.
-oft | adverb | Often.
 ostler | noun | A person who looked after horses at an inn.
-parlance | noun | A particular way of speaking or using words.
 parlormaid | noun | A maid employed to wait at table.
 peradventure | adverb | Perhaps.
 perchance | adverb | By some chance; perhaps.
@@ -118,10 +102,8 @@ posset | noun | A drink of hot milk curdled with ale or wine.
 postilion | noun | A person who rides the leading horse of a team drawing a coach.
 pottage | noun | A thick soup or stew.
 prithee | exclamation | Please (archaic).
-privy | noun | An outdoor toilet.
 quacksalver | noun | A person who dishonestly claims knowledge of medicine.
 quaff | verb | To drink something heartily.
-quoth | verb | Said.
 rapier | noun | A thin, light sharp-pointed sword used for thrusting.
 reticule | noun | A woman's small drawstring bag.
 rheumatism | noun | A disease marked by inflammation and pain in the joints and muscles.
@@ -132,7 +114,6 @@ sackbut | noun | An early form of trombone.
 scrivener | noun | A clerk or scribe who writes documents.
 scullery | noun | A small kitchen or room for washing dishes.
 scullion | noun | A servant assigned the most menial kitchen tasks.
-sedan | noun | An enclosed chair carried on poles; a closed car.
 seneschal | noun | The steward of a medieval great house.
 shilling | noun | A former British coin worth one twentieth of a pound.
 sirrah | noun | A term of address for a man or boy, expressing contempt.
@@ -145,8 +126,6 @@ strumpet | noun | A female prostitute or promiscuous woman.
 swain | noun | A country youth; a young lover or suitor.
 swoon | verb | To faint from extreme emotion.
 tallyho | exclamation | A huntsman's cry to hounds on sighting a fox.
-tarry | verb | To stay longer than intended; to delay leaving.
-thither | adverb | To or toward that place.
 tinderbox | noun | A box containing tinder and flint for kindling fire.
 tinker | noun | A traveling mender of pots and kettles.
 tippler | noun | A habitual drinker of alcohol.
@@ -154,23 +133,15 @@ tosspot | noun | A habitual drunkard.
 trencher | noun | A wooden plate or platter for serving food.
 trollop | noun | A sexually disreputable or promiscuous woman.
 troth | noun | Faith or loyalty when pledged in a solemn agreement.
-twain | noun | Two.
 typhus | noun | An infectious disease spread by lice, causing fever and delirium.
 varlet | noun | A male servant or attendant; an unprincipled rogue.
-verily | adverb | Truly; certainly.
 victuals | noun | Food or provisions.
 villein | noun | A feudal tenant entirely subject to a lord.
 wainscot | noun | Wooden paneling that lines the lower part of a room's walls.
 washerwoman | noun | A woman whose occupation is washing clothes.
 wench | noun | A girl or young woman (archaic or humorous).
-wherefore | adverb | For what reason.
-whilom | adjective | Former; erstwhile.
 whist | noun | A card game for two pairs of players.
-wight | noun | A person of a specified kind, especially one regarded as unfortunate.
-wot | verb | Knows (archaic).
 yclept | adjective | By the name of; called.
 yeoman | noun | A man holding a small landed estate; a naval petty officer.
-yon | adjective | Yonder; that.
-yonder | adverb | At some distance in the direction indicated.
 zounds | exclamation | Expressing surprise or indignation.
 

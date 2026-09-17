@@ -5,53 +5,36 @@ anemone | noun | A plant with brightly colored flowers; a sea anemone.
 ankylosaurus | noun | A heavily armored dinosaur with a club-like tail.
 archaeopteryx | noun | The oldest known fossil bird, with feathers and teeth.
 beagle | noun | A small hound with a smooth coat and drooping ears.
-blackbird | noun | A thrush of which the male has black plumage.
 bloodhound | noun | A large hound with a very keen sense of smell.
 bluebottle | noun | A large blowfly with a metallic blue body.
 bluejay | noun | A common North American jay (usually "blue jay").
 brachiosaurus | noun | A huge herbivorous dinosaur with a long neck.
 bulldog | noun | A dog of a sturdy smooth-haired breed with a large head.
-butterfly | noun | An insect with large colorful wings.
 canary | noun | A small yellow finch, popular as a cage bird.
 catbird | noun | A songbird with a catlike mewing call.
-caterpillar | noun | The larva of a butterfly or moth.
 chihuahua | noun | A very small breed of dog with smooth hair and large eyes.
 cockatoo | noun | A crested parrot.
 cockerel | noun | A young domestic cock.
-cockle | noun | An edible burrowing bivalve mollusk.
 collie | noun | A sheepdog of a breed originating in Scotland.
 corgi | noun | A short-legged breed of dog with a foxlike head.
-crane | noun | A tall long-legged bird; a machine for lifting heavy objects.
-crayfish | noun | A freshwater crustacean resembling a small lobster.
-cricket | noun | A jumping insect that chirps; a bat-and-ball game.
 cuttlefish | noun | A cephalopod mollusk with ten arms and an internal shell.
 dachshund | noun | A dog of a short-legged, long-bodied breed.
 dalmatian | noun | A dog of a large white short-haired breed with dark spots.
-dinosaurs | noun | Prehistoric reptiles of the Mesozoic era.
-dragonflies | noun | Fast-flying insects with long bodies.
-duckbill | noun | A platypus; a hadrosaur dinosaur.
 egret | noun | A heron with white plumage.
-falcon | noun | A bird of prey with long pointed wings.
 flounder | noun | A small flatfish; to struggle clumsily.
 gannet | noun | A large seabird; a greedy person (British).
 goldfinch | noun | A brightly colored finch.
-goldfish | noun | A small reddish-golden carp kept in ponds and aquariums.
-grasshopper | noun | A plant-eating insect with long hind legs for jumping.
 greyhound | noun | A dog of a tall, slender breed capable of high speed.
-grouse | noun | A game bird with a plump body; a complaint.
 guppy | noun | A small freshwater fish popular in aquariums.
 haddock | noun | A silvery-gray fish of the cod family.
 halibut | noun | A large marine flatfish used as food.
 hammerhead | noun | A shark with flattened extensions on the sides of its head.
 heron | noun | A large fish-eating wading bird with long legs.
 hornet | noun | A large wasp with a severe sting.
-husky | noun | A powerful dog of a breed used for pulling sledges.
 kingfisher | noun | A brightly colored bird that dives for fish.
 krill | noun | Small shrimplike crustaceans eaten by whales.
 labrador | noun | A retriever of a breed with a black or yellow coat.
 lamprey | noun | An eel-like aquatic vertebrate with a sucker mouth.
-lark | noun | A songbird; something done for fun.
-leech | noun | A bloodsucking worm; a person who exploits others.
 limpet | noun | A marine mollusk with a conical shell that clings to rocks.
 lionfish | noun | A venomous fish with long spines.
 lovebird | noun | A small African parrot; lovebirds are an affectionate couple.
@@ -61,20 +44,14 @@ mallard | noun | The most common wild duck.
 mastiff | noun | A dog of a large, strong breed with drooping ears.
 mayfly | noun | An insect that lives only briefly as an adult.
 mockingbird | noun | A bird that mimics the songs of other birds.
-mollusk | noun | An invertebrate of a phylum including snails, slugs, and octopuses.
-mosquito | noun | A slender insect whose female sucks blood.
-moth | noun | A nocturnal insect related to butterflies.
 mussel | noun | An edible bivalve mollusk.
 nautilus | noun | A cephalopod mollusk with a coiled chambered shell.
 newt | noun | A small slender-bodied amphibian.
 oriole | noun | A brightly colored songbird.
 osprey | noun | A large fish-eating bird of prey.
-oyster | noun | A bivalve mollusk, some of which produce pearls.
-parrot | noun | A tropical bird with a hooked bill that can mimic speech.
 partridge | noun | A short-tailed game bird.
 pekingese | noun | A small dog of a breed with long hair and a flat face.
 pheasant | noun | A large long-tailed game bird.
-pigeon | noun | A stout seed- or fruit-eating bird with a small head.
 piranha | noun | A freshwater fish with very sharp teeth.
 plankton | noun | Small organisms drifting in the sea or fresh water.
 plover | noun | A short-billed gregarious wading bird.
@@ -82,22 +59,12 @@ poodle | noun | A dog of a breed with a curly coat.
 prawn | noun | A marine crustacean resembling a large shrimp.
 pterosaur | noun | A flying reptile of the Mesozoic era.
 pug | noun | A small dog with a broad flat nose and wrinkled face.
-quail | noun | A small short-tailed game bird; to feel fear.
-raven | noun | A large heavily built crow with black plumage.
-retriever | noun | A dog of a breed used for retrieving game.
 roadrunner | noun | A fast-running bird of the cuckoo family.
-robin | noun | A songbird with a red breast.
 rottweiler | noun | A large powerful breed of dog.
-salmon | noun | A large edible fish that migrates upstream to spawn.
-sardine | noun | A young pilchard or similar small fish.
 scallop | noun | An edible bivalve mollusk with a ribbed fan-shaped shell.
 schnauzer | noun | A dog of a German breed with a close wiry coat and heavy whiskers.
 seagull | noun | A gull.
-shrimp | noun | A small free-swimming crustacean; a small person.
 silkworm | noun | The caterpillar of a moth, which spins a silk cocoon.
-snail | noun | A mollusk with a single spiral shell.
-sparrow | noun | A small brown and gray songbird.
-spaniel | noun | A dog of a breed with long silky coat and drooping ears.
 squid | noun | An elongated fast-swimming cephalopod mollusk with ten arms.
 starfish | noun | A marine echinoderm with five or more radiating arms.
 stegosaurus | noun | A herbivorous dinosaur with plates along its back.
@@ -106,16 +73,10 @@ sturgeon | noun | A very large fish whose roe is prized as caviar.
 swordfish | noun | A large marine fish with a long flat swordlike snout.
 tadpole | noun | The tailed aquatic larva of an amphibian.
 tapeworm | noun | A parasitic flatworm living in the intestines.
-terrier | noun | A small dog of a breed originally used for turning out foxes.
-toad | noun | A tailless amphibian with dry warty skin.
 triceratops | noun | A large herbivorous dinosaur with three horns.
 trilobite | noun | A fossil marine arthropod of the Paleozoic era.
-trout | noun | A food and game fish of the salmon family.
-tuna | noun | A large edible fish of warm seas.
-turkey | noun | A large game bird; a failure (informal).
 tyrannosaurus | noun | A very large carnivorous dinosaur.
 velociraptor | noun | A small predatory dinosaur.
-wasp | noun | A stinging insect with a narrow waist.
 weevil | noun | A small beetle with an elongated snout.
 whippoorwill | noun | A North American nightjar with a distinctive call.
 woodlouse | noun | A small terrestrial crustacean with a gray segmented body.
