@@ -110,14 +110,37 @@ h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
 
 /* Graphs across the top, each word slot directly beneath its graph. */
 .board {
-  display: grid; grid-template-columns: repeat(var(--cols, 4), minmax(150px, 1fr));
-  gap: 10px; margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 4), minmax(130px, 1fr)) 56px;
+  gap: 8px; margin-top: 18px; align-items: stretch;
 }
+.guess-cell {
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  min-height: 44px; padding: 6px 8px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--bg);
+  color: var(--text-2); font-weight: 600; font-size: .95rem;
+}
+.guess-cell.loadable { cursor: pointer; }
+.guess-cell.loadable:hover { border-color: var(--accent); }
+.guess-cell.logic-fits { background: var(--good-bg); border-color: var(--good); }
+.guess-cell.logic-conflicts { background: color-mix(in srgb, var(--bad) 14%, transparent); border-color: var(--bad); }
+.guess-cell.ok { color: var(--good); }
+.guess-cell.bad { color: var(--bad); text-decoration: line-through; }
+.guess-cell.future { background: none; border-style: dashed; opacity: .5; }
+.guess-cell.answer { opacity: 1; color: var(--bad); border-color: var(--bad); border-style: solid; }
+.score-cell {
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text-2); font-size: .9rem;
+}
+.score-cell.head { font-weight: 600; font-size: .78rem; color: var(--muted); align-items: flex-end; padding-bottom: 8px; }
+.score-cell.future { opacity: .4; }
 .slot-cell {
-  border: 2px dashed var(--border); border-radius: 12px; padding: 8px;
-  display: flex; flex-direction: column; gap: 4px; justify-content: center;
-  min-height: 62px; cursor: pointer; background: var(--surface);
+  border: 2px dashed color-mix(in srgb, var(--accent) 45%, var(--border)); border-radius: 10px; padding: 6px 8px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+  min-height: 44px; cursor: pointer; background: var(--surface);
+  font-weight: 600; text-align: center;
 }
+.slot-cell.filled { border-style: solid; }
 .slot-cell.target:hover, .slot-cell.drop-target { border-color: var(--accent); border-style: solid; }
 .slot-cell.correct { border-style: solid; border-color: var(--good); background: var(--good-bg); }
 .slot-cell.revealed { border-style: solid; border-color: var(--bad); }
