@@ -155,7 +155,9 @@ svg.chart .dot { fill: var(--accent); stroke: var(--surface); stroke-width: 2; }
 .guess-cell.logic-fits { background: var(--good-bg); color: var(--good); }
 .guess-cell.logic-conflicts { background: var(--bad-bg); color: var(--bad); }
 .guess-cell.ok { background: var(--good-bg); color: var(--good); font-weight: 600; }
-.guess-cell.bad { background: var(--bad-bg); color: var(--bad); text-decoration: line-through; text-decoration-thickness: 1px; }
+.guess-cell.bad { background: var(--bad-bg); color: var(--bad); }
+/* Mid-round (exact feedback) wrong words are also struck through; once the round is over red alone says it. */
+.guess-cell.bad.loadable { text-decoration: line-through; text-decoration-thickness: 1px; }
 .guess-cell.win { background: var(--good-bg); color: var(--good); font-weight: 600; }
 .guess-cell.future { background: color-mix(in srgb, var(--well) 38%, transparent); }
 .guess-cell.answer { background: var(--good-bg); color: var(--good); font-weight: 600; }
