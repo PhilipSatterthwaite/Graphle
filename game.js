@@ -271,13 +271,28 @@ const sameAsPastGuess = () => guesses.some((h) => h.guess.every((w, gi) => w ===
 // or pen — HTML5 drag events do nothing on touch devices.
 const DRAG_THRESHOLD = 6;
 
+const DROP_MARGIN = 48;   // how far outside a column still counts as that column
+
 function dropTargetAt(x, y) {
   const under = document.elementFromPoint(x, y);
-  if (!under) return null;
-  const column = under.closest("[data-graph]");
+  const column = under?.closest("[data-graph]");
   if (column) return { type: "graph", index: Number(column.dataset.graph), el: column };
-  if (under.closest("#words")) return { type: "bank", el: $("words") };
-  return null;
+  if (under?.closest("#words")) return { type: "bank", el: $("words") };
+
+  // Near miss: if the pointer is around the board, use the nearest column.
+  const board = $("board").getBoundingClientRect();
+  if (y < board.top - DROP_MARGIN || y > board.bottom + DROP_MARGIN) return null;
+  if (x < board.left - DROP_MARGIN || x > board.right + DROP_MARGIN) return null;
+  let best = null;
+  for (const cell of document.querySelectorAll("#board [data-graph]")) {
+    const r = cell.getBoundingClientRect();
+    const dx = Math.max(r.left - x, 0, x - r.right);
+    const dy = Math.max(r.top - y, 0, y - r.bottom);
+    const distance = Math.hypot(dx, dy);
+    if (!best || distance < best.distance) best = { distance, cell };
+  }
+  if (!best || best.distance > DROP_MARGIN * 2) return null;
+  return { type: "graph", index: Number(best.cell.dataset.graph), el: best.cell };
 }
 
 // One drag at a time, tracked here rather than on the dragged element: if the
@@ -483,7 +498,7 @@ function renderBoard() {
     });
     board.append(card);
   });
-  board.append(el("div", { className: "score-cell head" }, status === "playing" ? "Right" : ""));
+  board.append(el("div", { className: "score-cell head" }));
 
   const current = guesses.length;   // the row being filled in
   for (let row = 0; row < rules.guesses; row++) {
@@ -493,6 +508,7 @@ function renderBoard() {
       const logic = rules.logic && status === "playing" ? logicCheck(past) : null;
       past.guess.forEach((w, gi) => {
         const cell = el("div", { className: "guess-cell", textContent: w });
+        cell.dataset.graph = gi;   // the whole column is a drop zone
         if (logic) cell.classList.add("logic-" + logic);
         if (rules.feedback === "exact") cell.classList.add(w === round.words[gi] ? "ok" : "bad");
         if (status === "playing") {
@@ -546,10 +562,12 @@ function renderBoard() {
     // A guess that hasn't happened yet, or the answers once the round is over.
     for (let gi = 0; gi < rules.n; gi++) {
       const showAnswer = status === "lost" && row === current;
-      board.append(el("div", {
+      const cell = el("div", {
         className: "guess-cell future" + (showAnswer ? " answer" : ""),
         textContent: showAnswer ? round.words[gi] : "",
-      }));
+      });
+      cell.dataset.graph = gi;
+      board.append(cell);
     }
     board.append(el("div", { className: "score-cell future" }));
   }
@@ -663,7 +681,7 @@ $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=29").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=30").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {
