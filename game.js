@@ -30,7 +30,7 @@ function saveStats() {
 }
 
 function hintOn(key) {
-  if (status !== "playing" && (key === "definitions" || key === "magnitude")) return true;
+  if (status !== "playing" && ["definitions", "magnitude", "curve"].includes(key)) return true;
   const at = rules.hints[key];
   return at !== null && wrongGuesses >= at;
 }
@@ -146,7 +146,7 @@ function svgEl(tag, attrs) {
   return node;
 }
 
-function drawChart(series, showValues) {
+function drawChart(series, showValues, showCurve = true) {
   const { yearStart, yearEnd } = data;
   const ymax = niceMax(Math.max(...series) || 1);
   const x = (yr) => PAD.l + ((yr - yearStart) / (yearEnd - yearStart)) * (W - PAD.l - PAD.r);
@@ -165,6 +165,14 @@ function drawChart(series, showValues) {
     t.textContent = yr;
     svg.append(t);
   }
+  if (!showCurve) {
+    // Curve hidden: mark only when the word peaked.
+    const peakYear = yearStart + series.indexOf(Math.max(...series));
+    svg.append(svgEl("line", { x1: x(peakYear), x2: x(peakYear), y1: PAD.t, y2: H - PAD.b, class: "peak-mark" }));
+    svg.append(svgEl("circle", { cx: x(peakYear), cy: PAD.t + 6, r: 4, class: "peak-dot" }));
+    return svg;
+  }
+
   const d = series.map((v, i) => `${i ? "L" : "M"}${x(yearStart + i).toFixed(1)},${y(v).toFixed(1)}`).join("");
   svg.append(svgEl("path", { d, class: "line" }));
 
@@ -491,6 +499,7 @@ function renderCharts() {
   chartsEl.replaceChildren();
   chartsEl.style.setProperty("--cols", rules.n);
   const showValues = hintOn("magnitude");
+  const showCurve = hintOn("curve");
   round.words.forEach((word, gi) => {
     const placed = assignments[gi];
     const card = el("div", { className: "card" });
@@ -525,7 +534,7 @@ function renderCharts() {
     // Starring a graph's word is only offered once the word is known, so it can't leak the answer.
     const known = status !== "playing" || locked[gi];
     const letter = el("div", { className: "letter" }, `Graph ${LETTERS[gi]}`, known ? starButton(word) : "");
-    card.append(letter, drawChart(data.series[word], showValues), slot, note);
+    card.append(letter, drawChart(data.series[word], showValues, showCurve), slot, note);
     card.addEventListener("click", () => {
       if (status !== "playing" || locked[gi]) return;
       if (selectedWord) place(gi, selectedWord);
@@ -644,7 +653,7 @@ $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=23").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=24").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {

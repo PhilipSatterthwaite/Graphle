@@ -138,6 +138,8 @@ svg.chart text { fill: var(--muted); font-size: 11px; font-family: inherit; }
 svg.chart .grid { stroke: var(--grid); stroke-width: 1; }
 svg.chart .axis { stroke: var(--border); stroke-width: 1; }
 svg.chart .line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+svg.chart .peak-mark { stroke: var(--accent); stroke-width: 2; stroke-dasharray: 4 4; }
+svg.chart .peak-dot { fill: var(--accent); }
 svg.chart .cross { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
 svg.chart .dot { fill: var(--accent); stroke: var(--surface); stroke-width: 2; }
 
