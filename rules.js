@@ -8,12 +8,12 @@ const HINT_TYPES = [
 ];
 
 const DEFAULT_RULES = {
-  n: 5,               // words per round: 3, 4, or 5
-  guesses: 6,
+  n: 4,               // words per round: 3, 4, or 5
+  guesses: 3,
   feedback: "count",  // "count": only how many are right; "exact": which ones are right
-  logic: false,       // color past guesses by whether the current arrangement is consistent with them
+  logic: true,        // color past guesses by whether the current arrangement is consistent with them
   // Wrong guesses needed to unlock each hint (0 = from the start), or null for off.
-  hints: { definitions: 1, magnitude: 2, reveal: 3, check: null },
+  hints: { definitions: null, magnitude: 1, reveal: 2, check: null },
   minPeak: 50,        // random rounds only use words peaking at least this high (per billion words)
   maxR2: 0.3,         // cap on how similar any two graphs in a round may be (R², shape only)
   peakFirst: false,   // start each round showing only a marker at each graph's peak year

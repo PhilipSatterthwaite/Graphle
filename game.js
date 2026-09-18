@@ -1,4 +1,3 @@
-const LETTERS = "ABCDE";
 const W = 240, H = 200, PAD = { l: 34, r: 8, t: 10, b: 24 };
 
 const $ = (id) => document.getElementById(id);
@@ -355,13 +354,13 @@ function unlockHints() {
   return unlocked;
 }
 
-// Give away one graph's word, preferring graphs the last guess got wrong so the hint adds information.
+// Confirm one graph's word. Prefer one the player already had right in their most
+// recent guess, then one they had right in their first guess, then any graph.
 function revealMatch() {
   const open = round.words.map((w, gi) => gi).filter((gi) => !locked[gi]);
   if (!open.length) return;
-  const last = guesses.at(-1);
-  const preferred = open.filter((gi) => !last || last.guess[gi] !== round.words[gi]);
-  const pool = preferred.length ? preferred : open;
+  const rightIn = (g) => (g ? open.filter((gi) => g.guess[gi] === round.words[gi]) : []);
+  const pool = [rightIn(guesses.at(-1)), rightIn(guesses[0]), open].find((list) => list.length);
   const gi = pool[Math.floor(Math.random() * pool.length)];
   const word = round.words[gi];
   const from = assignments.indexOf(word);
@@ -377,11 +376,11 @@ function checkGraph(gi) {
   const word = assignments[gi];
   if (word === round.words[gi]) {
     locked[gi] = true;
-    message = `Check: “${word}” is right for graph ${LETTERS[gi]}.`;
+    message = `Check: “${word}” is right for graph ${gi + 1}.`;
   } else {
     knownWrong[gi].add(word);
     lastWrong.add(gi);
-    message = `Check: “${word}” is not graph ${LETTERS[gi]}.`;
+    message = `Check: “${word}” is not graph ${gi + 1}.`;
   }
   render();
 }
@@ -414,10 +413,7 @@ function renderBank() {
     const at = assignments.indexOf(w);
     const isLocked = at >= 0 && locked[at];
     const b = el("button", { className: "chip", textContent: w });
-    if (at >= 0) {
-      b.classList.add(isLocked ? "locked" : "placed");
-      b.append(el("span", { className: "tag", textContent: (isLocked ? "✓ " : "→ ") + LETTERS[at] }));
-    }
+    if (at >= 0) b.classList.add(isLocked ? "locked" : "placed");
     if (w === selectedWord) b.classList.add("selected");
     b.disabled = status !== "playing" || isLocked;
     if (!b.disabled) dragSource(b, w);
@@ -441,15 +437,6 @@ function renderBank() {
 }
 
 function renderStatus() {
-  const guessesEl = $("guesses");
-  guessesEl.replaceChildren("Guesses");
-  for (let i = 0; i < rules.guesses; i++) {
-    const pip = el("span", { className: "pip" });
-    if (i < wrongGuesses) pip.classList.add("used");
-    else if (i === wrongGuesses && status === "won") pip.classList.add("win");
-    guessesEl.append(pip);
-  }
-
   const hintsEl = $("hints");
   hintsEl.replaceChildren();
   for (const h of HINT_TYPES) {
@@ -467,64 +454,84 @@ function renderStatus() {
   for (const w of round.shuffled) defsEl.append(el("dt", {}, w, starButton(w), deleteButton(w)), el("dd", {}, ...definitionText(w)));
 
   const histEl = $("history");
-  histEl.hidden = guesses.length === 0;
-  const tbody = el("tbody");
   const showLogic = rules.logic && status === "playing";
-  guesses.forEach((h, i) => {
+  const tbody = el("tbody");
+  for (let i = 0; i < rules.guesses; i++) {
+    const past = guesses[i];
     const row = el("tr", {}, el("td", { className: "n", textContent: i + 1 }));
-    const logic = showLogic ? logicCheck(h) : null;
+    if (!past) {
+      row.className = "future";
+      for (let c = 0; c < rules.n; c++) row.append(el("td", { textContent: "·" }));
+      row.append(el("td", { className: "count", textContent: "" }));
+      if (showLogic) row.append(el("td"));
+      tbody.append(row);
+      continue;
+    }
+    const logic = showLogic ? logicCheck(past) : null;
     if (logic) row.className = "logic-" + logic;
     if (status === "playing") {
       row.classList.add("loadable");
       row.title = "Click to put this guess back on the graphs";
       row.addEventListener("click", () => loadGuess(i));
     }
-    h.guess.forEach((w, gi) => {
+    past.guess.forEach((w, gi) => {
       const cell = el("td", { textContent: w });
       if (rules.feedback === "exact") cell.className = w === round.words[gi] ? "ok" : "bad";
       row.append(cell);
     });
-    row.append(el("td", { className: "count", textContent: `${h.correct} / ${rules.n}` }));
-    if (logic) row.append(el("td", { className: "logic", textContent: { fits: "✓ fits", conflicts: "✗ conflicts", open: "…" }[logic] }));
+    row.append(el("td", { className: "count", textContent: `${past.correct} / ${rules.n}` }));
+    if (logic) row.append(el("td", { className: "logic", textContent: { fits: "✓", conflicts: "✗", open: "" }[logic] }));
     tbody.append(row);
-  });
+  }
   const head = el("tr", {}, el("th", { textContent: "#" }));
-  for (let gi = 0; gi < rules.n; gi++) head.append(el("th", { textContent: LETTERS[gi] }));
+  for (let gi = 0; gi < rules.n; gi++) head.append(el("th"));
   head.append(el("th", { textContent: "Correct" }));
-  if (showLogic) head.append(el("th", { textContent: "Your arrangement", title: "Whether your current arrangement is consistent with each past result" }));
+  if (showLogic) head.append(el("th", { textContent: "Fits?", title: "Whether your current arrangement could still match this result" }));
   histEl.querySelector("table").replaceChildren(el("thead", {}, head), tbody);
 }
 
-function renderCharts() {
-  const chartsEl = $("charts");
-  chartsEl.replaceChildren();
-  chartsEl.style.setProperty("--cols", rules.n);
+function renderBoard() {
+  const board = $("board");
+  board.replaceChildren();
+  board.style.setProperty("--cols", rules.n);
   const showValues = hintOn("magnitude");
   // With "peak markers first", curves stay hidden until the first wrong guess.
   const showCurve = !rules.peakFirst || wrongGuesses > 0 || status !== "playing";
+  const cards = [], cells = [];
+
   round.words.forEach((word, gi) => {
     const placed = assignments[gi];
+    const solved = locked[gi] || status === "won";
     const card = el("div", { className: "card" });
+    const cell = el("div", { className: "slot-cell" });
     card.dataset.graph = gi;
+    cell.dataset.graph = gi;
+
+    // Starring or deleting a graph's word is only offered once the word is known.
+    if (status !== "playing" || locked[gi]) {
+      card.append(el("div", { className: "card-top" }, starButton(word), deleteButton(word)));
+    }
+    card.append(drawChart(data.series[word], showValues, showCurve));
+
     const slot = el("div", { className: "slot" + (placed ? " filled" : "") });
     const note = el("div", { className: "note" });
-
-    if (locked[gi] || status === "won") {
+    if (solved) {
       card.classList.add("correct");
+      cell.classList.add("correct");
       slot.textContent = "✓ " + word;
     } else if (status === "lost") {
-      card.classList.add(placed === word ? "correct" : "revealed");
-      slot.textContent = placed === word ? "✓ " + word : `It was: ${word}`;
+      const right = placed === word;
+      card.classList.add(right ? "correct" : "revealed");
+      cell.classList.add(right ? "correct" : "revealed");
+      slot.textContent = right ? "✓ " + word : word;
     } else {
-      if (selectedWord) card.classList.add("target");
-      if (lastWrong.has(gi)) card.classList.add("wrong");
-      slot.textContent = placed || "tap to place";
-      if (placed) {
-        dragSource(slot, placed);
-      }
+      if (selectedWord) cell.classList.add("target");
+      if (lastWrong.has(gi)) cell.classList.add("wrong");
+      slot.textContent = placed || "drop a word";
+      if (placed) dragSource(slot, placed);
       if (knownWrong[gi].size) note.append("Not: " + [...knownWrong[gi]].join(", "));
       if (checksLeft > 0 && placed) {
-        const btn = el("button", { className: "check-btn", textContent: "Check this graph" });
+        const btn = el("button", { className: "check-btn", textContent: "Check" });
         btn.addEventListener("click", (e) => {
           e.stopPropagation();
           checkGraph(gi);
@@ -532,18 +539,20 @@ function renderCharts() {
         note.append(btn);
       }
     }
+    cell.append(slot, note);
 
-    // Starring a graph's word is only offered once the word is known, so it can't leak the answer.
-    const known = status !== "playing" || locked[gi];
-    const letter = el("div", { className: "letter" }, `Graph ${LETTERS[gi]}`, known ? starButton(word) : "");
-    card.append(letter, drawChart(data.series[word], showValues, showCurve), slot, note);
-    card.addEventListener("click", () => {
+    const clicked = () => {
       if (status !== "playing" || locked[gi]) return;
       if (selectedWord) place(gi, selectedWord);
       else if (placed) unplace(placed);
-    });
-    chartsEl.append(card);
+    };
+    card.addEventListener("click", clicked);
+    cell.addEventListener("click", clicked);
+    cards.push(card);
+    cells.push(cell);
   });
+
+  board.append(...cards, ...cells);
 }
 
 function render() {
@@ -551,7 +560,7 @@ function render() {
   renderRulesSummary();
   renderBank();
   renderStatus();
-  renderCharts();
+  renderBoard();
   const full = assignments.every(Boolean);
   const repeat = status === "playing" && full && sameAsPastGuess();
   $("submit").hidden = status !== "playing";
@@ -650,12 +659,11 @@ function showTab(name) {
 }
 
 for (const b of document.querySelectorAll(".tab")) b.addEventListener("click", () => showTab(b.dataset.tab));
-$("edit-rules").addEventListener("click", () => showTab("create"));
 $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=26").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=27").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {

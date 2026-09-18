@@ -2,21 +2,22 @@
 
 Match words to their Google Books Ngram graphs.
 
-The page has three tabs:
+The game: four graphs across the top, a slot under each, and the word bank
+below. Three guesses. Each submission says only how many are right; the y-axis
+scale is revealed after one wrong guess, and after two a graph the player
+already had right is confirmed. Past guesses are colored by whether the current
+arrangement is still consistent with them.
 
-- **Play** — the game under the current rules.
-- **Create & share** — choose words per round (3–5), number of guesses, feedback
-  style (how many are right vs. which ones are right), when each hint unlocks
-  (definitions, y-axis scale, reveal one match, check one graph), and random or
-  hand-picked words. "Play these rules" applies them; the share link encodes them.
-- **Saved & deleted** — words starred with ☆, and words removed with ✕ (which
-  never appear in later rounds). Both are kept in the browser and export as text
-  files: starred words for `saved-words/`, deleted words to strip from
-  `scripts/words/`.
+Two side pages are linked discreetly in the footer:
 
-Rules live in the URL query (`n`, `g`, `fb`, `lg`, `mp`, `sh`, `h`, and `p` for hand-picked
-words), so any link reproduces a rule set. Hand-picked words only apply to the
-first round; later rounds are random.
+- **Rules & sharing** — words per round (3–5), guesses, feedback style, hint
+  timing, graph variety (R² cap), word frequency floor, opening view, and
+  hand-picked words. Every setting is encoded in a share link.
+- **Saved & deleted** — words starred with ☆, and words removed with ✕, both
+  kept in the browser and exportable as text.
+
+Rules live in the URL query (`n`, `g`, `fb`, `lg`, `mp`, `r2`, `pf`, `h`, and
+`p` for hand-picked words). Hand-picked words only apply to the first round.
 
 ## Run locally
 
