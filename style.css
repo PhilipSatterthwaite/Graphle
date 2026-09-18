@@ -363,6 +363,27 @@ button.secondary:disabled { opacity: .4; cursor: not-allowed; }
 }
 .tooltip .y { opacity: .7; }
 footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 44px 16px 28px; }
+
+/* ---- House ads ---- */
+.promos { max-width: 720px; margin: 12px auto 32px; padding-top: 28px; border-top: 1px solid var(--border); }
+.promos-label { margin: 0 0 10px; font-size: .7rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.promo-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 355px)); justify-content: center; gap: 10px; }
+.promo {
+  display: flex; align-items: center; gap: 12px; padding: 12px 14px; text-align: left;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  color: var(--text-2); text-decoration: none; font-size: .82rem; line-height: 1.35;
+  transition: border-color .2s, box-shadow .2s, transform .2s var(--ease-out);
+}
+.promo:hover { border-color: var(--border-strong); box-shadow: var(--shadow-md); transform: translateY(-1px); }
+.promo-icon { width: 36px; height: 36px; flex: none; }
+.promo-icon rect { fill: var(--well); }
+.promo-icon path { fill: none; stroke: var(--text-2); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.promo-icon path.fill { fill: var(--text-2); stroke: none; }
+.promo-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.promo-text b { font: 600 1rem var(--serif); color: var(--text); letter-spacing: -.005em; }
+.promo-go { color: var(--muted); transition: transform .2s var(--ease-out), color .2s; }
+.promo:hover .promo-go { color: var(--text); transform: translateX(3px); }
+@media (max-width: 560px) { .promo-row { grid-template-columns: 1fr; } }
 footer a { color: var(--text-2); text-underline-offset: 3px; }
 
 /* ---- Narrow screens ---- */

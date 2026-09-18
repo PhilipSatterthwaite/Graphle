@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Literata:opsz,wght@7..72,400..700&display=swap">
-  <link rel="stylesheet" href="style.css?v=33">
+  <link rel="stylesheet" href="style.css?v=34">
 </head>
 <body>
   <!-- Shared gradients for the area under each curve. -->
@@ -93,6 +93,30 @@
   </main>
 
   <footer>
+    <!-- House ads: below everything the game uses, so they never sit near the board. -->
+    <aside class="promos" aria-label="More puzzles">
+      <p class="promos-label">More puzzles</p>
+      <div class="promo-row">
+        <!-- Word Salad: hidden until its address and tagline are filled in. -->
+        <a class="promo" href="WORD_SALAD_URL" target="_blank" rel="noopener" hidden>
+          <svg class="promo-icon" viewBox="0 0 32 32" aria-hidden="true">
+            <rect width="32" height="32" rx="8"/>
+            <path d="M7 14h18a9 9 0 0 1-18 0zM12 11.5c0-2 1.2-3.5 3-4M17 11.5c.4-2.2 2-3.6 4-3.8"/>
+          </svg>
+          <span class="promo-text"><b>Word Salad</b><span>WORD_SALAD_TAGLINE</span></span>
+          <span class="promo-go" aria-hidden="true">→</span>
+        </a>
+        <a class="promo" href="https://fillmein.org" target="_blank" rel="noopener">
+          <svg class="promo-icon" viewBox="0 0 32 32" aria-hidden="true">
+            <rect width="32" height="32" rx="8"/>
+            <path d="M8 8h16v16H8zM13.3 8v16M18.7 8v16M8 13.3h16M8 18.7h16"/>
+            <path class="fill" d="M8 8h5.3v5.3H8zM18.7 18.7H24V24h-5.3z"/>
+          </svg>
+          <span class="promo-text"><b>fillmein</b><span>Make your own crosswords, with an autofill that knows real crossword fill.</span></span>
+          <span class="promo-go" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </aside>
     <nav class="tabs quiet" aria-label="Sections">
       <button class="tab active" data-tab="play" type="button">Play</button>
       <button class="tab" data-tab="create" type="button">Rules &amp; sharing</button>
@@ -103,9 +127,9 @@
   </footer>
 
   <div id="tooltip" class="tooltip" hidden></div>
-  <script src="rules.js?v=33"></script>
-  <script src="game.js?v=33"></script>
-  <script src="create.js?v=33"></script>
-  <script src="saved.js?v=33"></script>
+  <script src="rules.js?v=34"></script>
+  <script src="game.js?v=34"></script>
+  <script src="create.js?v=34"></script>
+  <script src="saved.js?v=34"></script>
 </body>
 </html>
