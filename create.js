@@ -88,6 +88,17 @@ function renderCreator() {
           renderCreator();
         }))),
     section("Word frequency", "Random rounds only draw words whose graph peaks at least this high (uses per billion words). Higher means more familiar words.", renderPeakSlider()),
+    section("Opening view", null,
+      segmented([[false, "Full curves"], [true, "Peak markers only"]], draft.peakFirst, (on) => {
+        draft.peakFirst = on;
+        renderCreator();
+      }),
+      el("p", {
+        className: "panel-hint",
+        textContent: draft.peakFirst
+          ? "The first guess sees only a dashed marker at each graph's peak year; the curves appear after one wrong guess."
+          : "Graphs show their curves from the start.",
+      })),
     section("Graph variety", "How alike two graphs in a round may look, measured as R² between their curve shapes (height ignored). Lower means more obviously different curves.", renderR2Slider()),
     section("Feedback after each guess", null,
       segmented([["count", "How many are right"], ["exact", "Which ones are right"]], draft.feedback, (fb) => {

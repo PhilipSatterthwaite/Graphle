@@ -30,7 +30,7 @@ function saveStats() {
 }
 
 function hintOn(key) {
-  if (status !== "playing" && ["definitions", "magnitude", "curve"].includes(key)) return true;
+  if (status !== "playing" && ["definitions", "magnitude"].includes(key)) return true;
   const at = rules.hints[key];
   return at !== null && wrongGuesses >= at;
 }
@@ -402,6 +402,7 @@ function renderRulesSummary() {
   if (rules.logic) parts.push("logic helper on");
   if (rules.minPeak !== DEFAULT_RULES.minPeak) parts.push(`peak ≥ ${formatPeak(rules.minPeak)}`);
   if (rules.maxR2 !== DEFAULT_RULES.maxR2) parts.push(`graphs ≤ R² ${formatR2(rules.maxR2)}`);
+  if (rules.peakFirst) parts.push("peak markers first");
   if (rules.words) parts.push(roundIndex <= 1 ? "custom puzzle" : "custom puzzle done, now random");
   $("rules-summary").textContent = parts.join(" · ");
 }
@@ -499,7 +500,8 @@ function renderCharts() {
   chartsEl.replaceChildren();
   chartsEl.style.setProperty("--cols", rules.n);
   const showValues = hintOn("magnitude");
-  const showCurve = hintOn("curve");
+  // With "peak markers first", curves stay hidden until the first wrong guess.
+  const showCurve = !rules.peakFirst || wrongGuesses > 0 || status !== "playing";
   round.words.forEach((word, gi) => {
     const placed = assignments[gi];
     const card = el("div", { className: "card" });
@@ -653,7 +655,7 @@ $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=24").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=25").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {

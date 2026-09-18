@@ -5,7 +5,6 @@ const HINT_TYPES = [
   { key: "magnitude", code: "y", label: "Y-axis scale", desc: "Shows the numbers on each graph's y-axis." },
   { key: "reveal", code: "r", label: "Reveal one match", desc: "Locks one graph's correct word in place." },
   { key: "check", code: "c", label: "Check one graph", desc: "Player picks a graph to learn if its word is right." },
-  { key: "curve", code: "l", label: "Full curves", desc: "Until this unlocks, each graph shows only a marker at its peak year." },
 ];
 
 const DEFAULT_RULES = {
@@ -14,9 +13,10 @@ const DEFAULT_RULES = {
   feedback: "count",  // "count": only how many are right; "exact": which ones are right
   logic: false,       // color past guesses by whether the current arrangement is consistent with them
   // Wrong guesses needed to unlock each hint (0 = from the start), or null for off.
-  hints: { definitions: 1, magnitude: 2, reveal: 3, check: null, curve: 0 },
+  hints: { definitions: 1, magnitude: 2, reveal: 3, check: null },
   minPeak: 50,        // random rounds only use words peaking at least this high (per billion words)
   maxR2: 0.3,         // cap on how similar any two graphs in a round may be (R², shape only)
+  peakFirst: false,   // start each round showing only a marker at each graph's peak year
   words: null,        // hand-picked words for the first round, or null for random
 };
 
@@ -59,6 +59,7 @@ function rulesFromQuery(search) {
   if (Number.isInteger(g) && g >= 1 && g <= MAX_GUESS_SETTING) r.guesses = g;
   if (p.get("fb") === "exact") r.feedback = "exact";
   if (p.get("lg") === "1") r.logic = true;
+  if (p.get("pf") === "1") r.peakFirst = true;
   const r2 = Number(p.get("r2"));
   if (R2_STEPS.includes(r2)) r.maxR2 = r2;
   const mp = Number(p.get("mp"));
@@ -88,6 +89,7 @@ function rulesToQuery(r) {
   if (r.logic) p.set("lg", "1");
   if (r.minPeak !== DEFAULT_RULES.minPeak) p.set("mp", r.minPeak);
   if (r.maxR2 !== DEFAULT_RULES.maxR2) p.set("r2", r.maxR2);
+  if (r.peakFirst) p.set("pf", "1");
   p.set("h", HINT_TYPES.filter((h) => r.hints[h.key] !== null).map((h) => h.code + r.hints[h.key]).join(","));
   if (r.words) p.set("p", encodeWords(r.words));
   return "?" + p.toString().replace(/%2C/g, ",");
