@@ -624,7 +624,8 @@ function renderBoard() {
         cell.style.setProperty("--i", gi);
         cell.style.setProperty("--len", w.length);
         if (logic) cell.classList.add("logic-" + logic);
-        if (rules.feedback === "exact") cell.classList.add(w === round.words[gi] ? "ok" : "bad");
+        // Once the round is over every past guess shows which words were right.
+        if (rules.feedback === "exact" || status !== "playing") cell.classList.add(w === round.words[gi] ? "ok" : "bad");
         if (winning) cell.classList.add("win");
         if (fresh) cell.classList.add(winning ? "celebrate" : "stamp");
         if (status === "playing") {
@@ -692,12 +693,11 @@ function renderBoard() {
     board.append(el("div", { className: "score-cell future" }));
   }
 
-  // Out of guesses: a final row gives the answers, green where the last guess had it right.
+  // Out of guesses: a final row gives the answers.
   if (status === "lost") {
     board.append(el("div", { className: "row-n" }));
     round.words.forEach((word, gi) => {
       const cell = el("div", { className: "guess-cell answer", textContent: word });
-      if (assignments[gi] === word) cell.classList.add("hit");
       if (fx.submitted !== undefined) cell.classList.add("stamp");
       cell.style.setProperty("--i", gi);
       cell.style.setProperty("--len", word.length);
