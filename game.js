@@ -599,6 +599,7 @@ function renderCards(board, showValues, showCurve) {
 function renderBoard() {
   const board = $("board");
   board.style.setProperty("--cols", rules.n);
+  document.body.dataset.cols = rules.n;   // the side ad only shows when the board leaves room for it
   const showValues = hintOn("magnitude");
   // With "peak markers first", curves stay hidden until the first wrong guess.
   const showCurve = !rules.peakFirst || wrongGuesses > 0 || status !== "playing";

@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Literata:opsz,wght@7..72,400..700&display=swap">
-  <link rel="stylesheet" href="style.css?v=35">
+  <link rel="stylesheet" href="style.css?v=36">
 </head>
 <body>
   <!-- Shared gradients for the area under each curve. -->
@@ -93,27 +93,30 @@
   </main>
 
   <footer>
-    <!-- House ads: below everything the game uses, so they never sit near the board. -->
-    <aside class="promos" aria-label="More puzzles">
-      <p class="promos-label">More puzzles</p>
-      <div class="promo-row">
-        <a class="promo" href="https://wordsalad.online" target="_blank" rel="noopener">
-          <svg class="promo-icon" viewBox="0 0 32 32" aria-hidden="true">
-            <rect width="32" height="32" rx="8"/>
-            <path d="M7 14h18a9 9 0 0 1-18 0zM12 11.5c0-2 1.2-3.5 3-4M17 11.5c.4-2.2 2-3.6 4-3.8"/>
-          </svg>
-          <span class="promo-text"><b>Word Salad</b><span>Make this challenging word puzzle one of your 5-a-day.</span></span>
-          <span class="promo-go" aria-hidden="true">→</span>
-        </a>
-        <a class="promo" href="https://fillmein.org" target="_blank" rel="noopener">
-          <svg class="promo-icon" viewBox="0 0 32 32" aria-hidden="true">
-            <rect width="32" height="32" rx="8"/>
-            <path d="M8 8h16v16H8zM13.3 8v16M18.7 8v16M8 13.3h16M8 18.7h16"/>
-            <path class="fill" d="M8 8h5.3v5.3H8zM18.7 18.7H24V24h-5.3z"/>
-          </svg>
-          <span class="promo-text"><b>fillmein</b><span>Make your own crosswords, with an autofill that knows real crossword fill.</span></span>
-          <span class="promo-go" aria-hidden="true">→</span>
-        </a>
+    <!-- Ad slots. Each shows a house banner until AdSense is switched on in ads.js,
+         which then swaps a live ad unit into the same box. Sizes are reserved up front
+         so nothing on the page jumps when an ad loads. -->
+    <aside class="ads" aria-label="Advertisements">
+      <div class="ad" data-ad="bottom">
+        <p class="ad-label">Advertisement</p>
+        <div class="ad-box">
+          <a class="house house-ws" href="https://wordsalad.online" target="_blank" rel="sponsored noopener">
+            <img class="house-logo" src="ads/wordsalad.svg" alt="" width="56" height="56">
+            <span class="house-copy"><b>Word Salad</b><span>Make this challenging word puzzle one of your 5-a-day.</span></span>
+            <span class="house-cta">Play now</span>
+          </a>
+        </div>
+      </div>
+      <!-- Moves to the right-hand rail on screens wide enough for it. -->
+      <div class="ad ad-bottom-2" data-ad="bottom-2">
+        <p class="ad-label">Advertisement</p>
+        <div class="ad-box">
+          <a class="house house-fm" href="https://fillmein.org" target="_blank" rel="sponsored noopener">
+            <img class="house-logo" src="ads/fillmein.svg" alt="" width="56" height="56">
+            <span class="house-copy"><b>fillmein</b><span>Make your own crosswords, with an autofill that knows real crossword fill.</span></span>
+            <span class="house-cta">Make a crossword</span>
+          </a>
+        </div>
       </div>
     </aside>
     <nav class="tabs quiet" aria-label="Sections">
@@ -125,10 +128,32 @@
     <p class="fine">Data: <a href="https://books.google.com/ngrams" target="_blank" rel="noopener">Google Books Ngram Viewer</a> (English corpus, smoothing 3).</p>
   </footer>
 
+  <!-- Skyscraper in the empty right margin, shown only when it can't reach the board. -->
+  <aside class="ad ad-rail" data-ad="rail" aria-label="Advertisement">
+    <p class="ad-label">Advertisement</p>
+    <div class="ad-box">
+      <a class="house house-fm house-tall" href="https://fillmein.org" target="_blank" rel="sponsored noopener">
+        <img class="house-logo" src="ads/fillmein.svg" alt="" width="64" height="64">
+        <b class="house-name">fillmein</b>
+        <span class="house-line">Make your own crosswords.</span>
+        <span class="mini-grid" aria-hidden="true">
+          <i>H</i><i>E</i><i>A</i><i>R</i><i>T</i>
+          <i>E</i><i>M</i><i>B</i><i>E</i><i>R</i>
+          <i>A</i><i>B</i><i class="pen">U</i><i>S</i><i>E</i>
+          <i>R</i><i>E</i><i>S</i><i>I</i><i>N</i>
+          <i>T</i><i>R</i><i>E</i><i>N</i><i>D</i>
+        </span>
+        <span class="house-line small">With an autofill that knows real crossword fill.</span>
+        <span class="house-cta">Make a crossword</span>
+      </a>
+    </div>
+  </aside>
+
   <div id="tooltip" class="tooltip" hidden></div>
-  <script src="rules.js?v=35"></script>
-  <script src="game.js?v=35"></script>
-  <script src="create.js?v=35"></script>
-  <script src="saved.js?v=35"></script>
+  <script src="rules.js?v=36"></script>
+  <script src="game.js?v=36"></script>
+  <script src="create.js?v=36"></script>
+  <script src="saved.js?v=36"></script>
+  <script src="ads.js?v=36"></script>
 </body>
 </html>

@@ -62,3 +62,18 @@ so browsers fetch the new versions.
 ## Deploy to GitHub Pages
 
 Push to a GitHub repo, then Settings → Pages → Deploy from branch → `main` / root.
+
+## Ads
+
+Three reserved slots, all at standard sizes and all below or beside the game, never
+between the graphs and the words:
+
+- `bottom`: 728×90 leaderboard under the game (320×100 on phones), on every page.
+- `rail`: 160×600 skyscraper in the right-hand margin, only on windows wide enough
+  that it can't reach the board (1600px for 4 words).
+- `bottom-2`: a second banner under the first, standing in for the rail on narrower
+  screens.
+
+Until AdSense is set up they show house banners for Word Salad and fillmein. To go
+live, put the publisher ID and each slot's ad-unit ID into `ads.js`. Any slot left
+blank keeps its house banner.
