@@ -111,12 +111,14 @@ h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
 /* Graphs across the top, each word slot directly beneath its graph. */
 .board {
   display: grid;
-  grid-template-columns: repeat(var(--cols, 4), minmax(130px, 1fr)) 56px;
-  gap: 8px; margin-top: 18px; align-items: stretch;
+  grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)) clamp(30px, 5vw, 56px);
+  gap: clamp(4px, 0.8vw, 8px); margin-top: 18px; align-items: stretch;
 }
+.chart-caption { display: none; font-size: .65rem; color: var(--muted); text-align: center; }
 .guess-cell {
   display: flex; align-items: center; justify-content: center; text-align: center;
-  min-height: 44px; padding: 6px 8px; border-radius: 10px;
+  min-height: 44px; padding: 6px 4px; border-radius: 10px;
+  overflow-wrap: anywhere; hyphens: auto; font-size: clamp(.72rem, 1.6vw, .95rem);
   border: 1px solid var(--border); background: var(--bg);
   color: var(--text-2); font-weight: 600; font-size: .95rem;
 }
@@ -130,15 +132,17 @@ h1 { margin: 0; font-size: 2.4rem; letter-spacing: -0.02em; }
 .guess-cell.answer { opacity: 1; color: var(--bad); border-color: var(--bad); border-style: solid; }
 .score-cell {
   display: flex; align-items: center; justify-content: center;
-  font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text-2); font-size: .9rem;
+  font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text-2);
+  font-size: clamp(.7rem, 1.5vw, .9rem);
 }
 .score-cell.head { font-weight: 600; font-size: .78rem; color: var(--muted); align-items: flex-end; padding-bottom: 8px; }
 .score-cell.future { opacity: .4; }
 .slot-cell {
-  border: 2px dashed color-mix(in srgb, var(--accent) 45%, var(--border)); border-radius: 10px; padding: 6px 8px;
+  border: 2px dashed color-mix(in srgb, var(--accent) 45%, var(--border)); border-radius: 10px; padding: 6px 4px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
   min-height: 44px; cursor: pointer; background: var(--surface);
   font-weight: 600; text-align: center;
+  overflow-wrap: anywhere; font-size: clamp(.72rem, 1.6vw, .95rem);
 }
 .slot-cell.filled { border-style: solid; }
 .slot-cell.target:hover, .slot-cell.drop-target { border-color: var(--accent); border-style: solid; }
@@ -293,3 +297,28 @@ button.secondary:disabled { opacity: .4; cursor: not-allowed; }
 .tooltip .y { color: var(--text-2); }
 footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 30px 16px 24px; }
 footer a { color: var(--text-2); }
+
+/* ---- Narrow screens ---- */
+@media (max-width: 720px) {
+  header, main, footer { padding: 0 8px; }
+  .card svg.chart { height: 96px; }
+  h1 { font-size: 1.9rem; }
+  .how { font-size: .85rem; margin: 10px auto; }
+  .board { margin-top: 12px; }
+  .card { padding: 4px; border-width: 1px; border-radius: 8px; }
+  .card svg.chart text { display: none; }   /* axis numbers are illegible this small */
+  .chart-caption { display: block; }
+  .guess-cell, .slot-cell { min-height: 38px; border-radius: 8px; font-size: .68rem; }
+  .slot-cell { border-width: 1.5px; }
+  .chip { font-size: .85rem; padding: 6px 10px; }
+  .star, .delete-word { display: none; }    /* dev tools stay out of the way on phones */
+  .words { gap: 6px; }
+  button.primary { padding: 10px 22px; }
+  .hints { justify-content: center; }
+  .hint { font-size: .72rem; }
+}
+@media (max-width: 420px) {
+  .card svg.chart { height: 86px; }
+  .guess-cell, .slot-cell { min-height: 34px; padding: 4px 2px; font-size: .62rem; letter-spacing: -.01em; }
+  .chart-caption { font-size: .6rem; }
+}

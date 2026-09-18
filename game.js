@@ -151,7 +151,7 @@ function drawChart(series, showValues, showCurve = true) {
   const x = (yr) => PAD.l + ((yr - yearStart) / (yearEnd - yearStart)) * (W - PAD.l - PAD.r);
   const y = (v) => H - PAD.b - (v / ymax) * (H - PAD.t - PAD.b);
 
-  const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, class: "chart", role: "img" });
+  const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, preserveAspectRatio: "none", class: "chart", role: "img" });
   for (let i = 0; i <= 4; i++) {
     const v = (ymax * i) / 4;
     svg.append(svgEl("line", { x1: PAD.l, x2: W - PAD.r, y1: y(v), y2: y(v), class: i ? "grid" : "axis" }));
@@ -471,6 +471,9 @@ function renderBoard() {
       card.append(el("div", { className: "card-top" }, starButton(word), deleteButton(word)));
     }
     card.append(drawChart(data.series[word], showValues, showCurve));
+    // Caption replaces the axis labels on narrow screens; it must not give away
+    // more than the axis would, so it shows the peak height only.
+    card.append(el("div", { className: "chart-caption", textContent: showValues ? `peak ${fmt(peaks[word])}` : "1800–2022" }));
     if (locked[gi] || status === "won") card.classList.add("correct");
     else if (status === "lost") card.classList.add(assignments[gi] === word ? "correct" : "revealed");
     card.addEventListener("click", () => {
@@ -660,7 +663,7 @@ $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=28").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=29").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {
