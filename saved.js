@@ -2,11 +2,63 @@
 // Stars live in this browser's localStorage; the Saved tab downloads them as a word-list file.
 
 const SAVED_KEY = "graphle-saved";
-let saved = loadSaved();  // [{ word, savedAt }]
+const DELETED_KEY = "graphle-deleted";
+let saved = loadSaved();       // [{ word, savedAt }]
+let deleted = loadDeleted();   // words banned from future rounds, kept in this browser
 
 function loadSaved() {
   try { return JSON.parse(localStorage.getItem(SAVED_KEY)) || []; }
   catch { return []; }
+}
+
+function loadDeleted() {
+  try { return new Set(JSON.parse(localStorage.getItem(DELETED_KEY)) || []); }
+  catch { return new Set(); }
+}
+
+function persistDeleted() {
+  try { localStorage.setItem(DELETED_KEY, JSON.stringify([...deleted])); } catch {}
+  updateSavedCount();
+}
+
+const isDeleted = (word) => deleted.has(word);
+
+// Drop a word from every future round. The current round keeps it unless no
+// guesses have been made, in which case the round is redrawn without it.
+function deleteWord(word) {
+  deleted.add(word);
+  saved = saved.filter((s) => s.word !== word);
+  persistDeleted();
+  persistSaved();
+  if (round.words.includes(word)) {
+    if (guesses.length === 0) {
+      newRound();
+      message = `Removed “${word}” — new round drawn.`;
+    } else {
+      message = `Removed “${word}” from future rounds.`;
+    }
+  } else {
+    message = `Removed “${word}” from future rounds.`;
+  }
+  render();
+  if (!$("saved-view").hidden) renderSaved();
+}
+
+function restoreWord(word) {
+  deleted.delete(word);
+  persistDeleted();
+  renderSaved();
+}
+
+// A small ✕ that removes the word from the word list.
+function deleteButton(word) {
+  const b = el("button", { type: "button", className: "delete-word", textContent: "✕", title: `Remove “${word}” from the word list` });
+  b.addEventListener("click", (e) => {
+    e.stopPropagation();
+    deleteWord(word);
+  });
+  b.addEventListener("pointerdown", (e) => e.stopPropagation());
+  return b;
 }
 
 function persistSaved() {
@@ -44,7 +96,13 @@ function starButton(word) {
 }
 
 function updateSavedCount() {
-  $("saved-count").textContent = saved.length ? ` (${saved.length})` : "";
+  const n = saved.length + deleted.size;
+  $("saved-count").textContent = n ? ` (${n})` : "";
+}
+
+function deletedFileText() {
+  return `# Words deleted in the browser, exported ${new Date().toISOString().slice(0, 10)}\n` +
+    [...deleted].sort().join("\n") + "\n";
 }
 
 function savedFileText() {
@@ -59,7 +117,23 @@ function savedFileText() {
   return lines.join("\n") + "\n";
 }
 
+function renderDeleted() {
+  const list = $("deleted-list");
+  list.replaceChildren();
+  $("deleted-empty").hidden = deleted.size > 0;
+  $("deleted-actions").hidden = deleted.size === 0;
+  $("deleted-total").textContent = deleted.size ? ` (${deleted.size})` : "";
+  for (const word of [...deleted].sort()) {
+    const undo = el("button", { type: "button", className: "chip small", textContent: word });
+    undo.append(el("span", { className: "tag", textContent: "put back" }));
+    undo.title = `Put “${word}” back in the word list`;
+    undo.addEventListener("click", () => restoreWord(word));
+    list.append(undo);
+  }
+}
+
 function renderSaved() {
+  renderDeleted();
   const root = $("saved-list");
   root.replaceChildren();
   $("saved-empty").hidden = saved.length > 0;
@@ -75,7 +149,7 @@ function renderSaved() {
       el("div", { className: "saved-head" }, el("b", { textContent: word }), el("span", { className: "saved-date", textContent: savedAt })),
       el("p", { className: "saved-def" }, ...(d ? [el("span", { className: "pos", textContent: d.pos }), d.text] : ["No definition available."])),
       isValidWord(word) ? drawChart(data.series[word], true) : "",
-      remove));
+      el("div", { className: "saved-foot" }, remove, deleteButton(word))));
   }
 }
 
@@ -105,3 +179,28 @@ $("saved-clear").addEventListener("click", () => {
 });
 
 updateSavedCount();
+
+$("deleted-download").addEventListener("click", () => {
+  const blob = new Blob([deletedFileText()], { type: "text/plain" });
+  const a = el("a", { href: URL.createObjectURL(blob), download: `graphle-deleted-${new Date().toISOString().slice(0, 10)}.txt` });
+  a.click();
+  URL.revokeObjectURL(a.href);
+});
+
+$("deleted-copy").addEventListener("click", async (e) => {
+  const btn = e.currentTarget;
+  try {
+    await navigator.clipboard.writeText(deletedFileText());
+    btn.textContent = "Copied!";
+  } catch {
+    btn.textContent = "Couldnt copy";
+  }
+  setTimeout(() => (btn.textContent = "Copy as text"), 1500);
+});
+
+$("deleted-restore-all").addEventListener("click", () => {
+  if (!confirm(`Put all ${deleted.size} deleted words back?`)) return;
+  deleted = new Set();
+  persistDeleted();
+  renderSaved();
+});

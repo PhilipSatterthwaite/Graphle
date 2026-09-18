@@ -9,8 +9,10 @@ The page has three tabs:
   style (how many are right vs. which ones are right), when each hint unlocks
   (definitions, y-axis scale, reveal one match, check one graph), and random or
   hand-picked words. "Play these rules" applies them; the share link encodes them.
-- **Saved** — words starred with ☆ anywhere on the site (kept in the browser),
-  exportable as a word-list file for `saved-words/`.
+- **Saved & deleted** — words starred with ☆, and words removed with ✕ (which
+  never appear in later rounds). Both are kept in the browser and export as text
+  files: starred words for `saved-words/`, deleted words to strip from
+  `scripts/words/`.
 
 Rules live in the URL query (`n`, `g`, `fb`, `lg`, `mp`, `sh`, `h`, and `p` for hand-picked
 words), so any link reproduces a rule set. Hand-picked words only apply to the

@@ -230,6 +230,11 @@ button.secondary:disabled { opacity: .4; cursor: not-allowed; }
 .definitions dt .star { margin-left: 2px; }
 .letter { display: flex; align-items: center; justify-content: space-between; }
 .preview-star { display: flex; justify-content: flex-end; margin-bottom: -18px; position: relative; }
+.delete-word { font-size: .85rem; line-height: 1; background: none; border: 0; padding: 2px 4px; color: var(--muted); cursor: pointer; }
+.delete-word:hover { color: var(--bad); }
+.deleted-list { max-width: 1000px; margin: 0 auto 24px; display: flex; flex-wrap: wrap; gap: 6px; }
+.deleted-list .chip .tag { color: var(--muted); font-weight: 600; }
+.saved-foot { display: flex; align-items: center; justify-content: flex-end; gap: 4px; }
 .saved-intro { max-width: 1000px; margin: 18px auto 12px; }
 .saved-intro h2 { margin: 0 0 4px; }
 .saved-intro p { color: var(--text-2); margin: 0 0 12px; }

@@ -80,7 +80,7 @@ function magnitudeSpread(words) {
 }
 
 function wordPool() {
-  const all = Object.keys(data.series);
+  const all = Object.keys(data.series).filter((w) => !isDeleted(w));
   const pool = all.filter((w) => peaks[w] >= rules.minPeak);
   return pool.length >= 20 ? pool : all;
 }
@@ -428,7 +428,7 @@ function renderBank() {
       selectedWord = selectedWord === w ? null : w;
       render();
     });
-    wordsEl.append(el("span", { className: "chip-wrap" }, b, starButton(w)));
+    wordsEl.append(el("span", { className: "chip-wrap" }, b, starButton(w), deleteButton(w)));
   }
 
   const sel = $("selected-def");
@@ -464,7 +464,7 @@ function renderStatus() {
   const defsEl = $("definitions");
   defsEl.hidden = !hintOn("definitions");
   defsEl.replaceChildren();
-  for (const w of round.shuffled) defsEl.append(el("dt", {}, w, starButton(w)), el("dd", {}, ...definitionText(w)));
+  for (const w of round.shuffled) defsEl.append(el("dt", {}, w, starButton(w), deleteButton(w)), el("dd", {}, ...definitionText(w)));
 
   const histEl = $("history");
   histEl.hidden = guesses.length === 0;
@@ -655,7 +655,7 @@ $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=25").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=26").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {
