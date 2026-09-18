@@ -5,32 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Graphle</title>
   <meta name="description" content="Match words to their Google Books Ngram graphs.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📈%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=30">
+  <meta name="theme-color" content="#f4f3ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f0f11" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316161a'/%3E%3Cpath d='M6 22.5c3.2 0 4.2-1.6 5.6-6.2S14 8.5 16 8.5s2.9 5.6 4.8 7 3.3-.6 5.2-3.6' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Literata:opsz,wght@7..72,400..700&display=swap">
+  <link rel="stylesheet" href="style.css?v=31">
 </head>
 <body>
-  <header>
-    <h1>Graphle</h1>
-    <p class="tagline">Match each word to its graph.</p>
-    <p class="stats">Solved <b id="score">0</b> · Streak <b id="streak">0</b></p>
+  <!-- Shared gradients for the area under each curve. -->
+  <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="area-accent" x1="0" y1="0" x2="0" y2="1"><stop class="g-accent" offset="0" stop-opacity=".22"/><stop class="g-accent" offset="1" stop-opacity="0"/></linearGradient>
+      <linearGradient id="area-good" x1="0" y1="0" x2="0" y2="1"><stop class="g-good" offset="0" stop-opacity=".22"/><stop class="g-good" offset="1" stop-opacity="0"/></linearGradient>
+      <linearGradient id="area-bad" x1="0" y1="0" x2="0" y2="1"><stop class="g-bad" offset="0" stop-opacity=".2"/><stop class="g-bad" offset="1" stop-opacity="0"/></linearGradient>
+    </defs>
+  </svg>
+
+  <header class="topbar">
+    <button id="brand" class="brand" type="button" aria-label="Graphle — back to the game">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="8"/>
+        <path d="M6 22.5c3.2 0 4.2-1.6 5.6-6.2S14 8.5 16 8.5s2.9 5.6 4.8 7 3.3-.6 5.2-3.6"/>
+      </svg>
+      <h1>Graphle</h1>
+    </button>
+    <p class="stats">
+      <span class="stat"><span class="stat-label">Solved</span><b id="score">0</b></span>
+      <span class="stat"><span class="stat-label">Streak</span><b id="streak">0</b></span>
+    </p>
   </header>
 
   <main id="play-view">
     <p class="how">Each graph shows how often a word appeared in English books, 1800–2022. Drag each word into the slot under its graph.</p>
     <div id="board" class="board"></div>
 
+    <div class="status-line">
+      <p id="selected-def" class="selected-def" hidden></p>
+      <p id="submit-note" class="submit-note" hidden></p>
+      <p id="result" class="result" aria-live="polite"></p>
+    </div>
+
     <div class="bank-bar">
       <div id="words" class="words" aria-label="Words"></div>
-      <p id="selected-def" class="selected-def"></p>
     </div>
 
     <div class="actions">
-      <button id="clear" class="secondary" type="button" disabled>Clear</button>
+      <button id="clear" class="ghost" type="button" disabled>Clear</button>
       <button id="submit" class="primary" disabled>Submit</button>
-      <button id="next" class="primary" hidden>Next round</button>
+      <button id="next" class="primary" hidden>Next round <span aria-hidden="true">→</span></button>
     </div>
-    <p id="submit-note" class="submit-note"></p>
-    <p id="result" class="result" aria-live="polite"></p>
 
     <div id="hints" class="hints"></div>
     <dl id="definitions" class="definitions" hidden></dl>
@@ -78,9 +103,9 @@
   </footer>
 
   <div id="tooltip" class="tooltip" hidden></div>
-  <script src="rules.js?v=30"></script>
-  <script src="game.js?v=30"></script>
-  <script src="create.js?v=30"></script>
-  <script src="saved.js?v=30"></script>
+  <script src="rules.js?v=31"></script>
+  <script src="game.js?v=31"></script>
+  <script src="create.js?v=31"></script>
+  <script src="saved.js?v=31"></script>
 </body>
 </html>

@@ -18,6 +18,7 @@ let checksLeft;
 let status;           // "playing" | "won" | "lost"
 let selectedWord = null;
 let message = "";
+let messageIsNews = false;   // the message outranks arrangement warnings until the player moves a word
 const stats = loadStats();
 
 function loadStats() {
@@ -155,8 +156,10 @@ function drawChart(series, showValues, showCurve = true) {
   for (let i = 0; i <= 4; i++) {
     const v = (ymax * i) / 4;
     svg.append(svgEl("line", { x1: PAD.l, x2: W - PAD.r, y1: y(v), y2: y(v), class: i ? "grid" : "axis" }));
-    const t = svgEl("text", { x: PAD.l - 6, y: y(v) + 4, "text-anchor": "end" });
-    t.textContent = showValues ? fmt(v) : i === 0 ? "0" : "?";
+    // Until the scale is revealed only the baseline is labelled.
+    if (!showValues && i) continue;
+    const t = svgEl("text", { x: PAD.l - 6, y: y(v) + 4, "text-anchor": "end", class: i ? "scale" : "" });
+    t.textContent = fmt(v);
     svg.append(t);
   }
   for (const yr of [1800, 1850, 1900, 1950, 2000]) {
@@ -173,7 +176,11 @@ function drawChart(series, showValues, showCurve = true) {
   }
 
   const d = series.map((v, i) => `${i ? "L" : "M"}${x(yearStart + i).toFixed(1)},${y(v).toFixed(1)}`).join("");
-  svg.append(svgEl("path", { d, class: "line" }));
+  const plot = svgEl("g", { class: "plot" });
+  plot.append(
+    svgEl("path", { d: `${d}L${x(yearStart + series.length - 1).toFixed(1)},${y(0)}L${x(yearStart).toFixed(1)},${y(0)}Z`, class: "area" }),
+    svgEl("path", { d, class: "line" }));
+  svg.append(plot);
 
   const cross = svgEl("line", { y1: PAD.t, y2: H - PAD.b, class: "cross", visibility: "hidden" });
   const dot = svgEl("circle", { r: 4, class: "dot", visibility: "hidden" });
@@ -185,6 +192,7 @@ function drawChart(series, showValues, showCurve = true) {
     tooltip.hidden = true;
   };
   svg.addEventListener("pointermove", (e) => {
+    if (drag?.dragging) return hide();   // a word is being carried over the graph
     const rect = svg.getBoundingClientRect();
     const px = ((e.clientX - rect.left) / rect.width) * W;
     const i = Math.round(((px - PAD.l) / (W - PAD.l - PAD.r)) * (yearEnd - yearStart));
@@ -206,6 +214,53 @@ function drawChart(series, showValues, showCurve = true) {
   return svg;
 }
 
+const ICONS = {
+  lock: "M5.5 7V5a2.5 2.5 0 0 1 5 0v2M4.5 7h7a1 1 0 0 1 1 1v4.5a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z",
+  check: "M3.5 8.5l3 3 6-7",
+};
+
+function icon(name) {
+  const svg = svgEl("svg", { viewBox: "0 0 16 16", class: "icon", "aria-hidden": "true" });
+  svg.append(svgEl("path", { d: ICONS[name] }));
+  return svg;
+}
+
+// ---- Motion -------------------------------------------------------------
+
+// Every render rebuilds the words, so movement is animated after the fact: note
+// where each word was, render, then slide it in from its old spot (FLIP).
+const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+let fx = {};            // one-shot cues for the next render: { newRound, submitted: row }
+let flipFrom = null;    // { word, rect } — where a dragged word was let go
+let shownLocked = [];   // graphs already drawn as locked, so a new lock can announce itself
+let shownHints = null;  // hints already drawn as unlocked
+
+function wordRects() {
+  const rects = new Map();
+  for (const n of document.querySelectorAll("#play-view [data-word]")) rects.set(n.dataset.word, n.getBoundingClientRect());
+  return rects;
+}
+
+function flyWords(before) {
+  const dropped = flipFrom;
+  flipFrom = null;
+  if (reducedMotion.matches) return;
+  for (const n of document.querySelectorAll("#play-view [data-word]")) {
+    const from = dropped?.word === n.dataset.word ? dropped.rect : before.get(n.dataset.word);
+    if (!from) continue;
+    const to = n.getBoundingClientRect();
+    const dx = from.left + from.width / 2 - (to.left + to.width / 2);
+    const dy = from.top + from.height / 2 - (to.top + to.height / 2);
+    if (Math.hypot(dx, dy) < 2) continue;
+    const scale = Math.min(1.08, Math.max(0.8, from.width / to.width));
+    n.classList.add("flying");
+    const flight = n.animate(
+      [{ transform: `translate(${dx}px, ${dy}px) scale(${scale})` }, { transform: "none" }],
+      { duration: 320, easing: "cubic-bezier(.2, .8, .2, 1)" });
+    flight.onfinish = flight.oncancel = () => n.classList.remove("flying");
+  }
+}
+
 // ---- Moving words -------------------------------------------------------
 
 const isLockedWord = (w) => assignments.some((a, gi) => a === w && locked[gi]);
@@ -221,6 +276,7 @@ function place(gi, word) {
   lastWrong.delete(gi);
   lastWrong.delete(from);
   selectedWord = null;
+  messageIsNews = false;
   render();
 }
 
@@ -229,6 +285,7 @@ function unplace(word) {
   if (status !== "playing" || at < 0 || locked[at]) return;
   assignments[at] = null;
   lastWrong.delete(at);
+  messageIsNews = false;
   render();
 }
 
@@ -251,6 +308,7 @@ function clearBoard() {
   assignments = assignments.map((a, gi) => (locked[gi] ? a : null));
   lastWrong.clear();
   selectedWord = null;
+  messageIsNews = false;
   render();
 }
 
@@ -262,6 +320,7 @@ function loadGuess(index) {
   assignments = guesses[index].guess.map((w, gi) => (locked[gi] ? round.words[gi] : lockedWords.includes(w) ? null : w));
   lastWrong.clear();
   selectedWord = null;
+  messageIsNews = false;
   render();
 }
 
@@ -304,13 +363,24 @@ let drag = null;
 function clearGhosts() {
   for (const g of document.querySelectorAll(".drag-ghost")) g.remove();
   for (const n of document.querySelectorAll(".dragging")) n.classList.remove("dragging");
+  markDropTarget(null);
+}
+
+// Light up what a drop would land on: the whole column (graph and open slot), or the bank.
+function markDropTarget(target) {
   for (const t of document.querySelectorAll(".drop-target")) t.classList.remove("drop-target");
+  if (target?.type === "bank") target.el.classList.add("drop-target");
+  if (target?.type === "graph") {
+    for (const n of document.querySelectorAll(`#board .card[data-graph="${target.index}"], #board .slot-cell[data-graph="${target.index}"]`)) n.classList.add("drop-target");
+  }
 }
 
 function endDrag(ev) {
   if (!drag) return;
-  const { node, word, dragging } = drag;
+  const { node, word, dragging, ghost } = drag;
   drag = null;
+  // The word settles into place from wherever it was let go.
+  if (ghost && ev?.type === "pointerup") flipFrom = { word, rect: ghost.getBoundingClientRect() };
   removeEventListener("pointermove", onDragMove, true);
   removeEventListener("pointerup", endDrag, true);
   removeEventListener("pointercancel", endDrag, true);
@@ -322,6 +392,7 @@ function endDrag(ev) {
   const target = dropTargetAt(ev.clientX, ev.clientY);
   if (target?.type === "graph") place(target.index, word);
   else if (target?.type === "bank") unplace(word);
+  if (flipFrom) render();   // nothing moved: let the word glide back to where it came from
 }
 
 function onDragMove(ev) {
@@ -338,10 +409,10 @@ function onDragMove(ev) {
   drag.ghost.style.left = ev.clientX + "px";
   drag.ghost.style.top = ev.clientY + "px";
   const target = dropTargetAt(ev.clientX, ev.clientY);
-  if (drag.hovered !== (target?.el ?? null)) {
-    drag.hovered?.classList.remove("drop-target");
-    drag.hovered = target?.el ?? null;
-    drag.hovered?.classList.add("drop-target");
+  const key = target ? target.type + (target.index ?? "") : null;
+  if (drag.hovered !== key) {
+    drag.hovered = key;
+    markDropTarget(target);
   }
 }
 
@@ -397,6 +468,7 @@ function checkGraph(gi) {
     lastWrong.add(gi);
     message = `Check: “${word}” is not graph ${gi + 1}.`;
   }
+  messageIsNews = true;
   render();
 }
 
@@ -424,11 +496,14 @@ function renderRulesSummary() {
 function renderBank() {
   const wordsEl = $("words");
   wordsEl.replaceChildren();
-  for (const w of round.shuffled) {
+  wordsEl.classList.toggle("enter", Boolean(fx.newRound));
+  wordsEl.hidden = status !== "playing";   // once the round is over the words are all on the board
+  round.shuffled.forEach((w, i) => {
     const at = assignments.indexOf(w);
     const isLocked = at >= 0 && locked[at];
     const b = el("button", { className: "chip", textContent: w });
     if (at >= 0) b.classList.add(isLocked ? "locked" : "placed");
+    else b.dataset.word = w;   // the word lives here until it's placed under a graph
     if (w === selectedWord) b.classList.add("selected");
     b.disabled = status !== "playing" || isLocked;
     if (!b.disabled) dragSource(b, w);
@@ -439,8 +514,10 @@ function renderBank() {
       selectedWord = selectedWord === w ? null : w;
       render();
     });
-    wordsEl.append(el("span", { className: "chip-wrap" }, b, starButton(w), deleteButton(w)));
-  }
+    const wrap = el("span", { className: "chip-wrap" }, b, starButton(w), deleteButton(w));
+    wrap.style.setProperty("--i", i);
+    wordsEl.append(wrap);
+  });
 
   const sel = $("selected-def");
   sel.replaceChildren();
@@ -454,14 +531,19 @@ function renderBank() {
 function renderStatus() {
   const hintsEl = $("hints");
   hintsEl.replaceChildren();
+  const nowOn = new Set();
   for (const h of HINT_TYPES) {
     const at = rules.hints[h.key];
     if (at === null) continue;
     const on = wrongGuesses >= at;
-    let text = on ? `💡 ${h.label}` : `🔒 ${h.label} ${hintTimingLabel(at)}`;
+    let text = on ? h.label : `${h.label} ${hintTimingLabel(at)}`;
     if (h.key === "check" && on) text += checksLeft ? " — tap “Check” on a graph" : " (used)";
-    hintsEl.append(el("span", { className: "hint" + (on ? " on" : ""), textContent: text }));
+    const pill = el("span", { className: "hint" + (on ? " on" : "") }, icon(on ? "check" : "lock"), text);
+    if (on) nowOn.add(h.key);
+    if (on && shownHints && !shownHints.has(h.key)) pill.classList.add("fresh");
+    hintsEl.append(pill);
   }
+  shownHints = nowOn;
 
   const defsEl = $("definitions");
   defsEl.hidden = !hintOn("definitions");
@@ -470,47 +552,81 @@ function renderStatus() {
 
 }
 
+// The graphs are built once per round and kept, so their curves don't redraw (and
+// hover, transitions and entrance animations survive) when the words move around.
+let cardsKey = null;
+let roundSerial = 0;
+
+function renderCards(board, showValues, showCurve) {
+  const key = [roundSerial, showValues, showCurve].join("|");
+  if (key !== cardsKey) {
+    const sameRound = cardsKey?.startsWith(roundSerial + "|");
+    const curveAppeared = sameRound && showCurve && cardsKey.endsWith("false");
+    cardsKey = key;
+    board.replaceChildren(el("div", { className: "row-n head" }));
+    round.words.forEach((word, gi) => {
+      const card = el("div", { className: "card" });
+      card.dataset.graph = gi;
+      card.style.setProperty("--i", gi);
+      if (!sameRound || curveAppeared) card.classList.add("enter");
+      const chart = drawChart(data.series[word], showValues, showCurve);
+      if (sameRound && showValues) for (const t of chart.querySelectorAll(".scale")) t.classList.add("labels-in");
+      // Caption replaces the axis labels on narrow screens; it must not give away
+      // more than the axis would, so it shows the peak height only.
+      card.append(chart, el("div", { className: "chart-caption", textContent: showValues ? `peak ${fmt(peaks[word])}` : "1800–2022" }));
+      card.addEventListener("click", () => {
+        if (status !== "playing" || locked[gi]) return;
+        if (selectedWord) place(gi, selectedWord);
+        else if (assignments[gi]) unplace(assignments[gi]);
+      });
+      board.append(card);
+    });
+    board.append(el("div", { className: "score-cell head" }));
+  }
+
+  round.words.forEach((word, gi) => {
+    const card = board.children[gi + 1];
+    const done = status !== "playing";
+    card.classList.toggle("target", Boolean(selectedWord) && !done && !locked[gi]);
+    card.classList.toggle("correct", locked[gi] || status === "won" || (status === "lost" && assignments[gi] === word));
+    card.classList.toggle("revealed", status === "lost" && assignments[gi] !== word);
+    if ((done || locked[gi]) && !card.querySelector(".card-top")) {
+      card.prepend(el("div", { className: "card-top" }, starButton(word), deleteButton(word)));
+    }
+  });
+}
+
 function renderBoard() {
   const board = $("board");
-  board.replaceChildren();
   board.style.setProperty("--cols", rules.n);
   const showValues = hintOn("magnitude");
   // With "peak markers first", curves stay hidden until the first wrong guess.
   const showCurve = !rules.peakFirst || wrongGuesses > 0 || status !== "playing";
 
-  // Top row: the graphs, each its own drop column.
-  round.words.forEach((word, gi) => {
-    const card = el("div", { className: "card" });
-    card.dataset.graph = gi;
-    if (status !== "playing" || locked[gi]) {
-      card.append(el("div", { className: "card-top" }, starButton(word), deleteButton(word)));
-    }
-    card.append(drawChart(data.series[word], showValues, showCurve));
-    // Caption replaces the axis labels on narrow screens; it must not give away
-    // more than the axis would, so it shows the peak height only.
-    card.append(el("div", { className: "chart-caption", textContent: showValues ? `peak ${fmt(peaks[word])}` : "1800–2022" }));
-    if (locked[gi] || status === "won") card.classList.add("correct");
-    else if (status === "lost") card.classList.add(assignments[gi] === word ? "correct" : "revealed");
-    card.addEventListener("click", () => {
-      if (status !== "playing" || locked[gi]) return;
-      if (selectedWord) place(gi, selectedWord);
-      else if (assignments[gi]) unplace(assignments[gi]);
-    });
-    board.append(card);
-  });
-  board.append(el("div", { className: "score-cell head" }));
+  // Top row: the graphs, each its own drop column. Everything after it is rebuilt.
+  renderCards(board, showValues, showCurve);
+  while (board.children.length > rules.n + 2) board.lastChild.remove();
 
   const current = guesses.length;   // the row being filled in
   for (let row = 0; row < rules.guesses; row++) {
     const past = guesses[row];
+    const live = row === current && status === "playing";
+    board.append(el("div", { className: "row-n" + (live ? " current" : past ? "" : " future"), textContent: row + 1 }));
+
     if (past) {
       // A submitted guess: words in place, colored by the logic helper, score at the end.
       const logic = rules.logic && status === "playing" ? logicCheck(past) : null;
+      const fresh = fx.submitted === row;
+      const winning = status === "won" && row === guesses.length - 1;
       past.guess.forEach((w, gi) => {
         const cell = el("div", { className: "guess-cell", textContent: w });
         cell.dataset.graph = gi;   // the whole column is a drop zone
+        cell.style.setProperty("--i", gi);
+        cell.style.setProperty("--len", w.length);
         if (logic) cell.classList.add("logic-" + logic);
         if (rules.feedback === "exact") cell.classList.add(w === round.words[gi] ? "ok" : "bad");
+        if (winning) cell.classList.add("win");
+        if (fresh) cell.classList.add(winning ? "celebrate" : "stamp");
         if (status === "playing") {
           cell.title = "Click to put this guess back on the graphs";
           cell.classList.add("loadable");
@@ -518,26 +634,33 @@ function renderBoard() {
         }
         board.append(cell);
       });
-      board.append(el("div", { className: "score-cell", textContent: `${past.correct}/${rules.n}` }));
+      board.append(el("div", { className: "score-cell" + (fresh ? " pop" : "") },
+        el("b", { textContent: past.correct }), el("span", { textContent: "/" + rules.n })));
       continue;
     }
 
-    if (row === current && status === "playing") {
+    if (live) {
       // The live row: the slots being filled.
       round.words.forEach((word, gi) => {
         const placed = assignments[gi];
         const cell = el("div", { className: "slot-cell" });
         cell.dataset.graph = gi;
+        cell.style.setProperty("--len", (locked[gi] ? word.length + 2 : placed?.length) || 8);
         if (locked[gi]) {
           cell.classList.add("correct");
-          cell.textContent = "✓ " + word;
+          if (!shownLocked[gi]) cell.classList.add("lock-in");
+          const label = el("span", { textContent: word });
+          label.dataset.word = word;
+          cell.append(icon("check"), label);
         } else {
           if (selectedWord) cell.classList.add("target");
           if (lastWrong.has(gi)) cell.classList.add("wrong");
-          cell.textContent = placed || "";
           if (placed) {
             cell.classList.add("filled");
-            dragSource(cell, placed);
+            const token = el("div", { className: "token", textContent: placed });
+            token.dataset.word = placed;
+            dragSource(token, placed);
+            cell.append(token);
           }
           if (knownWrong[gi].size) cell.title = "Not: " + [...knownWrong[gi]].join(", ");
           cell.addEventListener("click", () => {
@@ -550,6 +673,7 @@ function renderBoard() {
               e.stopPropagation();
               checkGraph(gi);
             });
+            btn.addEventListener("pointerdown", (e) => e.stopPropagation());
             cell.append(btn);
           }
         }
@@ -559,26 +683,40 @@ function renderBoard() {
       continue;
     }
 
-    // A guess that hasn't happened yet, or the answers once the round is over.
+    // A guess that hasn't happened yet.
     for (let gi = 0; gi < rules.n; gi++) {
-      const showAnswer = status === "lost" && row === current;
-      const cell = el("div", {
-        className: "guess-cell future" + (showAnswer ? " answer" : ""),
-        textContent: showAnswer ? round.words[gi] : "",
-      });
+      const cell = el("div", { className: "guess-cell future" });
       cell.dataset.graph = gi;
       board.append(cell);
     }
     board.append(el("div", { className: "score-cell future" }));
   }
+
+  // Out of guesses: a final row gives the answers, green where the last guess had it right.
+  if (status === "lost") {
+    board.append(el("div", { className: "row-n" }));
+    round.words.forEach((word, gi) => {
+      const cell = el("div", { className: "guess-cell answer", textContent: word });
+      if (assignments[gi] === word) cell.classList.add("hit");
+      if (fx.submitted !== undefined) cell.classList.add("stamp");
+      cell.style.setProperty("--i", gi);
+      cell.style.setProperty("--len", word.length);
+      board.append(cell);
+    });
+    board.append(el("div", { className: "score-cell" }));
+  }
+  shownLocked = [...locked];
 }
 
 function render() {
   if (!drag) clearGhosts();  // never leave a stranded ghost behind a re-render
+  const before = fx.newRound ? new Map() : wordRects();
   renderRulesSummary();
   renderBank();
   renderStatus();
   renderBoard();
+  flyWords(before);
+  fx = {};
   const full = assignments.every(Boolean);
   const repeat = status === "playing" && full && sameAsPastGuess();
   $("submit").hidden = status !== "playing";
@@ -586,9 +724,16 @@ function render() {
   $("clear").disabled = !assignments.some((a, gi) => a && !locked[gi]);
   $("submit").disabled = !full || repeat;
   const conflicts = rules.logic && status === "playing" ? guesses.map((h, i) => (logicCheck(h) === "conflicts" ? "#" + (i + 1) : null)).filter(Boolean) : [];
-  $("submit-note").textContent = repeat
+  const note = repeat
     ? "You already tried this exact arrangement."
     : conflicts.length ? `Heads up: this arrangement can't be right given guess ${conflicts.join(", ")}.` : "";
+  $("submit-note").textContent = note;
+  // One status line at a time: the word in hand, then a warning, then the latest result.
+  $("selected-def").hidden = !selectedWord;
+  const showNote = Boolean(note) && !(messageIsNews && message);
+  $("submit-note").hidden = Boolean(selectedWord) || !showNote;
+  $("result").hidden = Boolean(selectedWord) || showNote;
+  $("result").classList.toggle("final", status !== "playing");
   $("next").hidden = status === "playing";
   $("result").textContent = message;
   $("score").textContent = stats.score;
@@ -614,6 +759,11 @@ function newRound() {
   selectedWord = null;
   const unlocked = unlockHints();
   message = unlocked.length ? `Starting hints: ${unlocked.map((h) => h.label.toLowerCase()).join(", ")}.` : "";
+  messageIsNews = true;
+  roundSerial++;
+  shownLocked = [];
+  shownHints = null;
+  fx = { newRound: true };
   render();
 }
 
@@ -621,6 +771,8 @@ function submit() {
   const guess = [...assignments];
   const correct = guess.filter((w, gi) => w === round.words[gi]).length;
   guesses.push({ guess, correct });
+  fx = { submitted: guesses.length - 1 };
+  messageIsNews = true;
   selectedWord = null;
   tooltip.hidden = true;
 
@@ -640,7 +792,7 @@ function submit() {
     stats.score += 1;
     stats.streak += 1;
     const n = guesses.length;
-    message = `Solved in ${n} guess${n === 1 ? "" : "es"}! 🎉`;
+    message = `Solved in ${n} guess${n === 1 ? "" : "es"}.`;
   } else {
     wrongGuesses++;
     if (wrongGuesses >= rules.guesses) {
@@ -677,6 +829,7 @@ function showTab(name) {
 }
 
 for (const b of document.querySelectorAll(".tab")) b.addEventListener("click", () => showTab(b.dataset.tab));
+$("brand").addEventListener("click", () => showTab("play"));
 $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
