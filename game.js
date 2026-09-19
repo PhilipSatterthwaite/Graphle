@@ -283,6 +283,45 @@ function flyWords(before) {
   }
 }
 
+// ---- The enlarged graph (phones) ----------------------------------------
+
+const narrow = matchMedia("(max-width: 720px)");
+let zoomAt = null;   // the graph on show, or null when closed
+
+function openZoom(gi) {
+  zoomAt = gi;
+  const word = round.words[gi];
+  const known = status !== "playing" || locked[gi];
+  const showValues = hintOn("magnitude");
+  const showCurve = !rules.peakFirst || wrongGuesses > 0 || status !== "playing";
+  $("zoom-title").textContent = known ? word : `Graph ${gi + 1}`;
+  $("zoom-chart").replaceChildren(drawChart(data.series[word], showValues, showCurve));
+  $("zoom-hint").textContent = `${gi + 1} of ${rules.n} · drag across for a year`;
+  $("zoom").hidden = false;
+  document.documentElement.classList.add("zoomed");
+}
+
+function closeZoom() {
+  zoomAt = null;
+  $("zoom").hidden = true;
+  tooltip.hidden = true;
+  document.documentElement.classList.remove("zoomed");
+}
+
+const stepZoom = (by) => openZoom((zoomAt + by + rules.n) % rules.n);
+
+$("zoom-close").addEventListener("click", closeZoom);
+$("zoom-prev").addEventListener("click", () => stepZoom(-1));
+$("zoom-next").addEventListener("click", () => stepZoom(1));
+// A tap on the backdrop closes it; taps on the card itself must not.
+$("zoom").addEventListener("click", (e) => { if (e.target === $("zoom")) closeZoom(); });
+addEventListener("keydown", (e) => {
+  if (zoomAt === null) return;
+  if (e.key === "Escape") closeZoom();
+  if (e.key === "ArrowLeft") stepZoom(-1);
+  if (e.key === "ArrowRight") stepZoom(1);
+});
+
 // ---- Moving words -------------------------------------------------------
 
 const isLockedWord = (w) => assignments.some((a, gi) => a === w && locked[gi]);
@@ -597,9 +636,12 @@ function renderCards(board, showValues, showCurve) {
       // more than the axis would, so it shows the peak height only.
       card.append(chart, el("div", { className: "chart-caption" + (showValues ? " on" : ""), textContent: showValues ? `peak ${fmt(peaks[word])}` : "1800–2022" }));
       card.addEventListener("click", () => {
+        // With a word in hand, a tap on the graph still places it.
+        if (selectedWord && status === "playing" && !locked[gi]) return place(gi, selectedWord);
+        // Otherwise, on a phone, open the graph large — the only place its axis fits.
+        if (narrow.matches) return openZoom(gi);
         if (status !== "playing" || locked[gi]) return;
-        if (selectedWord) place(gi, selectedWord);
-        else if (assignments[gi]) unplace(assignments[gi]);
+        if (assignments[gi]) unplace(assignments[gi]);
       });
       board.append(card);
     });
@@ -805,6 +847,7 @@ function newRound() {
   const unlocked = unlockHints();
   message = unlocked.length ? `Starting hints: ${unlocked.map((h) => h.label.toLowerCase()).join(", ")}.` : "";
   messageIsNews = true;
+  if (zoomAt !== null) closeZoom();
   roundSerial++;
   shownLocked = [];
   shownHints = null;
@@ -865,6 +908,7 @@ function applyRules(newRules) {
 // ---- Tabs and startup ---------------------------------------------------
 
 function showTab(name) {
+  if (zoomAt !== null) closeZoom();
   for (const view of ["play", "create", "saved"]) $(view + "-view").hidden = name !== view;
   for (const b of document.querySelectorAll(".tab")) b.classList.toggle("active", b.dataset.tab === name);
   history.replaceState(null, "", location.search + (name === "play" ? "" : "#" + name));

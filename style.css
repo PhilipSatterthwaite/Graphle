@@ -390,8 +390,30 @@ button.secondary:disabled { opacity: .4; cursor: not-allowed; }
 .saved-def { margin: 0; font-size: .85rem; color: var(--text-2); }
 .saved-card .link-btn { font-size: .85rem; }
 
+/* ---- A graph opened large (phones) ---- */
+.zoom {
+  position: fixed; inset: 0; z-index: 30; display: flex; align-items: center; justify-content: center;
+  padding: 16px; background: rgba(10, 10, 12, .6); backdrop-filter: blur(2px);
+  animation: fade .2s ease both;
+}
+.zoom-card {
+  width: min(560px, 100%); background: var(--surface); border-radius: 18px; padding: 14px;
+  box-shadow: var(--shadow-lift); animation: verdict-in .25s var(--ease-out) both;
+}
+.zoom-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+.zoom-head b { font: 650 1.3rem var(--serif); letter-spacing: -.01em; }
+.zoom-chart svg.chart { width: 100%; height: auto; }
+.zoom-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 6px; }
+.zoom-hint { font-size: .76rem; color: var(--muted); font-variant-numeric: tabular-nums; text-align: center; }
+.zoom-btn {
+  font: 600 1rem var(--sans); min-width: 46px; padding: 9px 14px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--bg); color: var(--text-2); cursor: pointer;
+}
+.zoom-btn:hover { border-color: var(--border-strong); color: var(--text); }
+html.zoomed, html.zoomed body { overflow: hidden; }
+
 .tooltip {
-  position: fixed; pointer-events: none; z-index: 10;
+  position: fixed; pointer-events: none; z-index: 40;   /* above the enlarged graph */
   background: var(--ink); color: var(--on-ink);
   border-radius: 8px; padding: 5px 10px; font-size: .8rem; font-variant-numeric: tabular-nums;
   box-shadow: var(--shadow-md); white-space: nowrap;
@@ -489,6 +511,7 @@ footer a { color: var(--text-2); text-underline-offset: 3px; }
   .board { --gutter: 24px; gap: 6px 4px; }
   .card { padding: 5px 4px 3px; border-radius: 10px; margin-bottom: 2px; }
   .card svg.chart { height: 96px; }
+  .card::after { content: "⤢"; position: absolute; top: 2px; right: 5px; font-size: .68rem; color: var(--muted); }  /* tap to open it large */
   .card svg.chart text, .card svg.chart .peak-tag { display: none; }   /* illegible this small; the caption gives the peak */
   .card svg.chart .line { stroke-width: 1.75; }
   .chart-caption { display: block; }

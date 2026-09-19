@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Literata:opsz,wght@7..72,400..700&display=swap">
-  <link rel="stylesheet" href="style.css?v=38">
+  <link rel="stylesheet" href="style.css?v=39">
 </head>
 <body>
   <!-- Shared gradients for the area under each curve. -->
@@ -148,11 +148,27 @@
     </div>
   </aside>
 
+  <!-- Tapping a graph on a phone opens it here, big enough for the axis numbers. -->
+  <div id="zoom" class="zoom" hidden>
+    <div class="zoom-card" role="dialog" aria-modal="true" aria-label="Graph">
+      <div class="zoom-head">
+        <b id="zoom-title"></b>
+        <button id="zoom-close" class="zoom-btn" type="button" aria-label="Close">✕</button>
+      </div>
+      <div id="zoom-chart" class="zoom-chart"></div>
+      <div class="zoom-foot">
+        <button id="zoom-prev" class="zoom-btn" type="button" aria-label="Previous graph">←</button>
+        <span id="zoom-hint" class="zoom-hint"></span>
+        <button id="zoom-next" class="zoom-btn" type="button" aria-label="Next graph">→</button>
+      </div>
+    </div>
+  </div>
+
   <div id="tooltip" class="tooltip" hidden></div>
-  <script src="rules.js?v=38"></script>
-  <script src="game.js?v=38"></script>
-  <script src="create.js?v=38"></script>
-  <script src="saved.js?v=38"></script>
-  <script src="ads.js?v=38"></script>
+  <script src="rules.js?v=39"></script>
+  <script src="game.js?v=39"></script>
+  <script src="create.js?v=39"></script>
+  <script src="saved.js?v=39"></script>
+  <script src="ads.js?v=39"></script>
 </body>
 </html>
