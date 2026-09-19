@@ -217,6 +217,8 @@ function drawChart(series, showValues, showCurve = true) {
 const ICONS = {
   lock: "M5.5 7V5a2.5 2.5 0 0 1 5 0v2M4.5 7h7a1 1 0 0 1 1 1v4.5a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z",
   check: "M3.5 8.5l3 3 6-7",
+  cross: "M4.5 4.5l7 7M11.5 4.5l-7 7",
+  key: "M13.5 5.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM8.4 7.6 2.5 13.5M4.4 11.6l1.6 1.6M6.3 9.7l1.6 1.6",
 };
 
 function icon(name) {
@@ -588,8 +590,8 @@ function renderCards(board, showValues, showCurve) {
     const card = board.children[gi + 1];
     const done = status !== "playing";
     card.classList.toggle("target", Boolean(selectedWord) && !done && !locked[gi]);
-    card.classList.toggle("correct", locked[gi] || status === "won" || (status === "lost" && assignments[gi] === word));
-    card.classList.toggle("revealed", status === "lost" && assignments[gi] !== word);
+    // Green for a win or a graph locked mid-round; a lost round leaves every graph blue.
+    card.classList.toggle("correct", status === "won" || (status === "playing" && locked[gi]));
     if ((done || locked[gi]) && !card.querySelector(".card-top")) {
       card.prepend(el("div", { className: "card-top" }, starButton(word), deleteButton(word)));
     }
@@ -608,23 +610,31 @@ function renderBoard() {
   renderCards(board, showValues, showCurve);
   while (board.children.length > rules.n + 2) board.lastChild.remove();
 
+  // Each row below the graphs is one element spanning the board (a subgrid), so a
+  // whole row can be marked at once — the logic helper's warning band, the answer row.
   const current = guesses.length;   // the row being filled in
   for (let row = 0; row < rules.guesses; row++) {
     const past = guesses[row];
     const live = row === current && status === "playing";
-    board.append(el("div", { className: "row-n" + (live ? " current" : past ? "" : " future"), textContent: row + 1 }));
+    const line = el("div", { className: "guess-row" });
+    line.append(el("div", { className: "row-n" + (live ? " current" : past ? "" : " future"), textContent: row + 1 }));
+    board.append(line);
 
     if (past) {
-      // A submitted guess: words in place, colored by the logic helper, score at the end.
-      const logic = rules.logic && status === "playing" ? logicCheck(past) : null;
+      // A submitted guess: words in place, score at the end. If the arrangement on the
+      // board couldn't have produced this guess's score, the logic helper bands the row.
       const fresh = fx.submitted === row;
       const winning = status === "won" && row === guesses.length - 1;
+      if (rules.logic && status === "playing" && logicCheck(past) === "conflicts") {
+        line.classList.add("conflict");
+        line.title = `The words on the board can't be right: guess ${row + 1} scored ${past.correct}/${rules.n} and they don't fit that.`;
+      }
+      if (fresh && status === "lost") line.classList.add("shake");
       past.guess.forEach((w, gi) => {
         const cell = el("div", { className: "guess-cell", textContent: w });
         cell.dataset.graph = gi;   // the whole column is a drop zone
         cell.style.setProperty("--i", gi);
         cell.style.setProperty("--len", w.length);
-        if (logic) cell.classList.add("logic-" + logic);
         // Once the round is over every past guess shows which words were right.
         if (rules.feedback === "exact" || status !== "playing") cell.classList.add(w === round.words[gi] ? "ok" : "bad");
         if (winning) cell.classList.add("win");
@@ -634,9 +644,9 @@ function renderBoard() {
           cell.classList.add("loadable");
           cell.addEventListener("click", () => loadGuess(row));
         }
-        board.append(cell);
+        line.append(cell);
       });
-      board.append(el("div", { className: "score-cell" + (fresh ? " pop" : "") },
+      line.append(el("div", { className: "score-cell" + (fresh ? " pop" : "") },
         el("b", { textContent: past.correct }), el("span", { textContent: "/" + rules.n })));
       continue;
     }
@@ -679,9 +689,9 @@ function renderBoard() {
             cell.append(btn);
           }
         }
-        board.append(cell);
+        line.append(cell);
       });
-      board.append(el("div", { className: "score-cell" }));
+      line.append(el("div", { className: "score-cell" }));
       continue;
     }
 
@@ -689,22 +699,24 @@ function renderBoard() {
     for (let gi = 0; gi < rules.n; gi++) {
       const cell = el("div", { className: "guess-cell future" });
       cell.dataset.graph = gi;
-      board.append(cell);
+      line.append(cell);
     }
-    board.append(el("div", { className: "score-cell future" }));
+    line.append(el("div", { className: "score-cell future" }));
   }
 
   // Out of guesses: a final row gives the answers.
   if (status === "lost") {
-    board.append(el("div", { className: "row-n" }));
+    const line = el("div", { className: "guess-row answers" }, el("div", { className: "row-n" }, icon("key")));
+    line.firstChild.title = "The answers";
     round.words.forEach((word, gi) => {
       const cell = el("div", { className: "guess-cell answer", textContent: word });
       if (fx.submitted !== undefined) cell.classList.add("stamp");
       cell.style.setProperty("--i", gi);
       cell.style.setProperty("--len", word.length);
-      board.append(cell);
+      line.append(cell);
     });
-    board.append(el("div", { className: "score-cell" }));
+    line.append(el("div", { className: "score-cell" }));
+    board.append(line);
   }
   shownLocked = [...locked];
 }
@@ -734,11 +746,19 @@ function render() {
   const showNote = Boolean(note) && !(messageIsNews && message);
   $("submit-note").hidden = Boolean(selectedWord) || !showNote;
   $("result").hidden = Boolean(selectedWord) || showNote;
-  $("result").classList.toggle("final", status !== "playing");
   $("next").hidden = status === "playing";
-  $("result").textContent = message;
+  // The end of a round gets a verdict panel rather than a line of text.
+  if (status === "won") $("result").replaceChildren(verdict("win", "check", "Solved!", message));
+  else if (status === "lost") $("result").replaceChildren(verdict("loss", "cross", "Out of guesses", message));
+  else $("result").textContent = message;
   $("score").textContent = stats.score;
   $("streak").textContent = stats.streak;
+}
+
+function verdict(kind, iconName, title, detail) {
+  return el("div", { className: "verdict " + kind },
+    el("span", { className: "verdict-badge" }, icon(iconName)),
+    el("span", { className: "verdict-text" }, el("b", { textContent: title }), el("span", { textContent: detail })));
 }
 
 // ---- Rounds -------------------------------------------------------------
@@ -793,13 +813,13 @@ function submit() {
     stats.score += 1;
     stats.streak += 1;
     const n = guesses.length;
-    message = `Solved in ${n} guess${n === 1 ? "" : "es"}.`;
+    message = (n === 1 ? "First try" : `In ${n} guesses`) + (stats.streak > 1 ? ` · ${stats.streak} in a row` : "") + ".";
   } else {
     wrongGuesses++;
     if (wrongGuesses >= rules.guesses) {
       status = "lost";
       stats.streak = 0;
-      message = "Out of guesses — answers revealed.";
+      message = "The answers are on the bottom row, in blue.";
     } else {
       const unlocked = unlockHints();
       message = `${correct} of ${rules.n} correct.` +
