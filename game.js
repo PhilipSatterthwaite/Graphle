@@ -182,6 +182,26 @@ function drawChart(series, showValues, showCurve = true) {
     svgEl("path", { d, class: "line" }));
   svg.append(plot);
 
+  if (showValues) {
+    // Once the scale is revealed, mark the peak and write its height out beside it,
+    // with a guide back to the axis so it reads against the numbers there too.
+    const top = Math.max(...series);
+    const px = x(yearStart + series.indexOf(top)), py = y(top);
+    const label = "peak " + fmt(top);
+    const w = label.length * 6 + 14, h = 18;
+    const lx = px < (PAD.l + W - PAD.r) / 2 ? px + 9 : px - 9 - w;   // on whichever side has room
+    const ly = Math.max(PAD.t - 4, Math.min(py - h / 2, H - PAD.b - h));
+    const peak = svgEl("g", { class: "scale peak" });
+    const text = svgEl("text", { x: lx + w / 2, y: ly + h / 2 + 3.8, "text-anchor": "middle", class: "peak-text" });
+    text.textContent = label;
+    peak.append(
+      svgEl("line", { x1: PAD.l, x2: px, y1: py, y2: py, class: "peak-guide" }),
+      svgEl("circle", { cx: px, cy: py, r: 3.5, class: "peak-pt" }),
+      svgEl("rect", { x: lx, y: ly, width: w, height: h, rx: h / 2, class: "peak-tag" }),
+      text);
+    svg.append(peak);
+  }
+
   const cross = svgEl("line", { y1: PAD.t, y2: H - PAD.b, class: "cross", visibility: "hidden" });
   const dot = svgEl("circle", { r: 4, class: "dot", visibility: "hidden" });
   svg.append(cross, dot);
@@ -575,7 +595,7 @@ function renderCards(board, showValues, showCurve) {
       if (sameRound && showValues) for (const t of chart.querySelectorAll(".scale")) t.classList.add("labels-in");
       // Caption replaces the axis labels on narrow screens; it must not give away
       // more than the axis would, so it shows the peak height only.
-      card.append(chart, el("div", { className: "chart-caption", textContent: showValues ? `peak ${fmt(peaks[word])}` : "1800–2022" }));
+      card.append(chart, el("div", { className: "chart-caption" + (showValues ? " on" : ""), textContent: showValues ? `peak ${fmt(peaks[word])}` : "1800–2022" }));
       card.addEventListener("click", () => {
         if (status !== "playing" || locked[gi]) return;
         if (selectedWord) place(gi, selectedWord);
@@ -611,7 +631,7 @@ function renderBoard() {
   while (board.children.length > rules.n + 2) board.lastChild.remove();
 
   // Each row below the graphs is one element spanning the board (a subgrid), so a
-  // whole row can be marked at once — the logic helper's warning band, the answer row.
+  // whole row can be marked at once — the logic helper's bands, the answer row.
   const current = guesses.length;   // the row being filled in
   for (let row = 0; row < rules.guesses; row++) {
     const past = guesses[row];
@@ -621,13 +641,17 @@ function renderBoard() {
     board.append(line);
 
     if (past) {
-      // A submitted guess: words in place, score at the end. If the arrangement on the
-      // board couldn't have produced this guess's score, the logic helper bands the row.
+      // A submitted guess: words in place, score at the end. Once every slot is filled the
+      // logic helper bands the row green if the board fits its score, yellow if it can't.
       const fresh = fx.submitted === row;
       const winning = status === "won" && row === guesses.length - 1;
-      if (rules.logic && status === "playing" && logicCheck(past) === "conflicts") {
+      const logic = rules.logic && status === "playing" ? logicCheck(past) : null;
+      if (logic === "conflicts") {
         line.classList.add("conflict");
         line.title = `The words on the board can't be right: guess ${row + 1} scored ${past.correct}/${rules.n} and they don't fit that.`;
+      } else if (logic === "fits") {
+        line.classList.add("fits");
+        line.title = `The words on the board fit guess ${row + 1}'s score of ${past.correct}/${rules.n}.`;
       }
       if (fresh && status === "lost") line.classList.add("shake");
       past.guess.forEach((w, gi) => {
