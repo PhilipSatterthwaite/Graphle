@@ -813,12 +813,54 @@ function render() {
   $("submit-note").hidden = Boolean(selectedWord) || !showNote;
   $("result").hidden = Boolean(selectedWord) || showNote;
   $("next").hidden = status === "playing";
+  $("share").hidden = status === "playing";
   // The end of a round gets a verdict panel rather than a line of text.
   if (status === "won") $("result").replaceChildren(verdict("win", "check", "Solved!", message));
   else if (status === "lost") $("result").replaceChildren(verdict("loss", "cross", "Out of guesses", message));
   else $("result").textContent = message;
   $("score").textContent = stats.score;
   $("streak").textContent = stats.streak;
+}
+
+// ---- Sharing -------------------------------------------------------------
+
+// A spoiler-free summary: one row per guess (green where a word was right, red where
+// it wasn't), a blue row for the answers if the round was lost, and a link to this
+// same puzzle so whoever gets it can play the same graphs.
+function shareText() {
+  const rows = guesses.map((g) => g.guess.map((w, gi) => (w === round.words[gi] ? "🟩" : "🟥")).join(""));
+  if (status === "lost") rows.push("🟦".repeat(rules.n));
+  const score = status === "won" ? guesses.length : "X";
+  const link = location.origin + location.pathname + rulesToQuery({ ...rules, words: [...round.words] });
+  return [`Graphle ${score}/${rules.guesses}`, ...rows, link].join("\n");
+}
+
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    // Older browsers, or a page without clipboard permission: copy from a hidden field.
+    const area = el("textarea", { value: text });
+    area.style.cssText = "position:fixed;opacity:0";
+    document.body.append(area);
+    area.select();
+    const ok = document.execCommand("copy");
+    area.remove();
+    return ok;
+  }
+}
+
+async function shareResults() {
+  const button = $("share");
+  const ok = await copyText(shareText());
+  button.textContent = ok ? "Copied!" : "Couldn't copy";
+  button.classList.toggle("done", ok);
+  clearTimeout(button.reset);
+  button.reset = setTimeout(() => {
+    button.textContent = "Share results";
+    button.classList.remove("done");
+  }, 1800);
 }
 
 function verdict(kind, iconName, title, detail) {
@@ -922,6 +964,7 @@ $("brand").addEventListener("click", () => showTab("play"));
 $("submit").addEventListener("click", submit);
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
+$("share").addEventListener("click", shareResults);
 
 Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=30").then((r) => r.json())))
   .then(([ngrams, defs]) => {
