@@ -11,6 +11,7 @@ let round;            // { words: graph order, shuffled: bank order }
 let assignments;      // graph index -> word | null
 let locked;           // graph index -> true once known correct (feedback, reveal, or check)
 let knownWrong;       // graph index -> Set of words known not to belong there
+let given;            // graph index -> guess number from which the reveal hint supplied its word, or null
 let lastWrong;        // graph indices marked wrong by the latest feedback or check
 let guesses;          // [{ guess: [word by graph index], correct: number }]
 let wrongGuesses;
@@ -514,6 +515,7 @@ function revealMatch() {
   if (from >= 0 && from !== gi) assignments[from] = assignments[gi];
   assignments[gi] = word;
   locked[gi] = true;
+  given[gi] = guesses.length;   // the next guess onward has this word handed to it
   lastWrong.delete(gi);
 }
 
@@ -825,11 +827,12 @@ function render() {
 // ---- Sharing -------------------------------------------------------------
 
 // A spoiler-free summary: one row per guess (green where a word was right, red where
-// it wasn't), a blue row for the answers if the round was lost, and a link to this
+// it wasn't, blue where the reveal hint had handed the word over), and a link to this
 // same puzzle so whoever gets it can play the same graphs.
 function shareText() {
-  const rows = guesses.map((g) => g.guess.map((w, gi) => (w === round.words[gi] ? "🟩" : "🟥")).join(""));
-  if (status === "lost") rows.push("🟦".repeat(rules.n));
+  const square = (w, gi, row) =>
+    given[gi] !== null && row >= given[gi] ? "🟦" : w === round.words[gi] ? "🟩" : "🟥";
+  const rows = guesses.map((g, row) => g.guess.map((w, gi) => square(w, gi, row)).join(""));
   const score = status === "won" ? guesses.length : "X";
   const link = location.origin + location.pathname + rulesToQuery({ ...rules, words: [...round.words] });
   return [`Graphle ${score}/${rules.guesses}`, ...rows, link].join("\n");
@@ -880,6 +883,7 @@ function newRound() {
   assignments = words.map(() => null);
   locked = words.map(() => false);
   knownWrong = words.map(() => new Set());
+  given = words.map(() => null);
   lastWrong = new Set();
   guesses = [];
   wrongGuesses = 0;
