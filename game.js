@@ -827,11 +827,11 @@ function render() {
 // ---- Sharing -------------------------------------------------------------
 
 // A spoiler-free summary: one row per guess (green where a word was right, red where
-// it wasn't, blue where the reveal hint had handed the word over), and a link to this
+// it wasn't, purple where the reveal hint had handed the word over), and a link to this
 // same puzzle so whoever gets it can play the same graphs.
 function shareText() {
   const square = (w, gi, row) =>
-    given[gi] !== null && row >= given[gi] ? "🟦" : w === round.words[gi] ? "🟩" : "🟥";
+    given[gi] !== null && row >= given[gi] ? "🟪" : w === round.words[gi] ? "🟩" : "🟥";
   const rows = guesses.map((g, row) => g.guess.map((w, gi) => square(w, gi, row)).join(""));
   const score = status === "won" ? guesses.length : "X";
   const link = location.origin + location.pathname + rulesToQuery({ ...rules, words: [...round.words] });
