@@ -966,6 +966,16 @@ function showTab(name) {
 for (const b of document.querySelectorAll(".tab")) b.addEventListener("click", () => showTab(b.dataset.tab));
 $("brand").addEventListener("click", () => showTab("play"));
 $("submit").addEventListener("click", submit);
+// Space submits the guess, or starts the next round once one is over. It stays out of
+// the way when the player is typing, or on a control that space would work itself.
+addEventListener("keydown", (e) => {
+  if (e.code !== "Space" || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (zoomAt !== null || $("play-view").hidden) return;
+  if (e.target.closest?.("button, input, textarea, select, [contenteditable]")) return;
+  e.preventDefault();   // no page scroll
+  if (status !== "playing") newRound();
+  else if (!$("submit").disabled) submit();
+});
 $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 $("share").addEventListener("click", shareResults);
