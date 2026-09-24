@@ -955,10 +955,11 @@ function applyRules(newRules) {
 
 function showTab(name) {
   if (zoomAt !== null) closeZoom();
-  for (const view of ["play", "create", "saved"]) $(view + "-view").hidden = name !== view;
+  for (const view of ["play", "create", "pick", "saved"]) $(view + "-view").hidden = name !== view;
   for (const b of document.querySelectorAll(".tab")) b.classList.toggle("active", b.dataset.tab === name);
   history.replaceState(null, "", location.search + (name === "play" ? "" : "#" + name));
   if (name === "create") openCreator(rules);
+  if (name === "pick") openPicker();
   if (name === "saved") renderSaved();
   window.scrollTo(0, 0);
 }
@@ -990,7 +991,7 @@ Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "
     data = ngrams;
     definitions = defs;
     newRound();
-    showTab(["#create", "#saved"].includes(location.hash) ? location.hash.slice(1) : "play");
+    showTab(["#create", "#pick", "#saved"].includes(location.hash) ? location.hash.slice(1) : "play");
   })
   .catch((err) => {
     console.error(err);

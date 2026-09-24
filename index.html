@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Literata:opsz,wght@7..72,400..700&display=swap">
-  <link rel="stylesheet" href="style.css?v=44">
+  <link rel="stylesheet" href="style.css?v=47">
 </head>
 <body>
   <!-- Shared gradients for the area under each curve. -->
@@ -64,6 +64,33 @@
   <main id="create-view" hidden>
     <div id="creator" class="creator"></div>
     <datalist id="word-list"></datalist>
+  </main>
+
+  <main id="pick-view" hidden>
+    <div class="pick-top">
+      <div class="pick-tray-row">
+        <div id="pick-tray" class="pick-tray"></div>
+        <div class="pick-tray-side">
+          <p id="pick-count" class="pick-count"></p>
+          <button id="pick-play" class="primary" type="button" disabled>Play these words</button>
+          <div class="pick-tray-buttons">
+            <button id="pick-copy" class="secondary" type="button" disabled>Copy link</button>
+            <button id="pick-clear" class="link-btn" type="button" disabled>Clear</button>
+          </div>
+        </div>
+      </div>
+      <div class="pick-bar">
+        <input id="pick-search" class="pick-input" type="search" placeholder="Search words and definitions" autocomplete="off" spellcheck="false" aria-label="Search words">
+        <div id="pick-sort" class="segmented" role="group" aria-label="Sort">
+          <button class="seg active" data-sort="peak" type="button">Most common</button>
+          <button class="seg" data-sort="az" type="button">A–Z</button>
+          <button class="seg" data-sort="random" type="button">Shuffle</button>
+        </div>
+        <span id="pick-total" class="pick-total"></span>
+      </div>
+    </div>
+    <div id="pick-grid" class="pick-grid"></div>
+    <p id="pick-more" class="pick-more">Loading more…</p>
   </main>
 
   <main id="saved-view" hidden>
@@ -122,6 +149,7 @@
     <nav class="tabs quiet" aria-label="Sections">
       <button class="tab active" data-tab="play" type="button">Play</button>
       <button class="tab" data-tab="create" type="button">Rules &amp; sharing</button>
+      <button class="tab" data-tab="pick" type="button">Pick words</button>
       <button class="tab" data-tab="saved" type="button">Saved &amp; deleted<span id="saved-count"></span></button>
     </nav>
     <p class="fine"><span id="rules-summary"></span></p>
@@ -166,10 +194,11 @@
   </div>
 
   <div id="tooltip" class="tooltip" hidden></div>
-  <script src="rules.js?v=44"></script>
-  <script src="game.js?v=44"></script>
-  <script src="create.js?v=44"></script>
-  <script src="saved.js?v=44"></script>
-  <script src="ads.js?v=44"></script>
+  <script src="rules.js?v=47"></script>
+  <script src="game.js?v=47"></script>
+  <script src="create.js?v=47"></script>
+  <script src="saved.js?v=47"></script>
+  <script src="pick.js?v=47"></script>
+  <script src="ads.js?v=47"></script>
 </body>
 </html>

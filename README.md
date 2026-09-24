@@ -77,3 +77,11 @@ between the graphs and the words:
 Until AdSense is set up they show house banners for Word Salad and fillmein. To go
 live, put the publisher ID and each slot's ad-unit ID into `ads.js`. Any slot left
 blank keeps its house banner.
+
+## Pick words
+
+A third side page for building a round by eye: scroll the whole word list as
+graphs, search words and definitions, sort by how common a word is (or A–Z, or
+shuffled), and click graphs to fill the tray at the top. Once it holds a full
+round, play those words or copy a link to them. Cards load a page at a time as
+you scroll, so the several thousand graphs don't all render at once.
