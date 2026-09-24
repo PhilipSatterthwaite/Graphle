@@ -1,0 +1,176 @@
+# A second sweep of familiar vocabulary, this time including common abstract nouns.
+ability | noun | The power or skill to do something.
+aboard | adverb | On or into a ship, train or aircraft.
+abroad | adverb | In or to a foreign country.
+absence | noun | The state of being away.
+absent | adjective | Not present.
+absolute | adjective | Complete and without limit.
+absorb | verb | To soak up; to take in fully.
+abundance | noun | A very large quantity.
+accent | noun | A way of pronouncing typical of a region; stress on a syllable.
+accept | verb | To agree to receive or take.
+access | noun | The right or means of entering.
+accident | noun | An unexpected event causing damage or injury.
+account | noun | A record of money; a description of events.
+accuracy | noun | Freedom from error.
+accurate | adjective | Correct in every detail.
+accuse | verb | To charge someone with a fault or crime.
+achieve | verb | To succeed in doing something.
+acquire | verb | To come to have something.
+action | noun | The doing of something; a deed.
+active | adjective | Busy and energetic; in operation.
+activity | noun | Something done; the state of being busy.
+actual | adjective | Existing in fact.
+addition | noun | The act of adding; something added.
+address | noun | The details of where someone lives; a formal speech.
+adequate | adjective | Enough for the purpose.
+adjective | noun | A word describing a noun.
+admission | noun | Entry to a place; a confession.
+adopt | verb | To take a child into one's family; to take up a practice.
+adverb | noun | A word that modifies a verb or adjective.
+advance | verb | To move forward; to lend money ahead of time.
+advantage | noun | A condition giving a better chance of success.
+adventure | noun | An exciting or risky undertaking.
+advertise | verb | To make known publicly to encourage sales.
+afraid | adjective | Frightened.
+afternoon | noun | The time between noon and evening.
+afterward | adverb | At a later time.
+again | adverb | Once more.
+agency | noun | A business acting for others; the power to act.
+aggressive | adjective | Ready to attack or confront.
+agreement | noun | An arrangement accepted by all sides.
+ahead | adverb | In front; in advance.
+aircraft | noun | A machine that flies.
+airlift | noun | The transport of supplies by air.
+aisle | noun | A passage between rows of seats.
+alcohol | noun | The intoxicating substance in beer, wine and spirits.
+algebra | noun | The branch of mathematics using letters for numbers.
+alike | adjective | Similar to one another.
+alongside | preposition | Close to the side of.
+alphabet | noun | The letters of a language in their fixed order.
+already | adverb | Before now or before a given time.
+alternate | verb | To take turns one after the other.
+although | conjunction | In spite of the fact that.
+altitude | noun | Height above sea level.
+amateur | noun | A person who does something for love, not payment.
+amazement | noun | Great surprise.
+amazing | adjective | Causing great surprise or wonder.
+ambition | noun | A strong desire to achieve something.
+amount | noun | A quantity of something.
+amusement | noun | The feeling of being entertained.
+ancestor | noun | A person from whom one is descended.
+ancient | adjective | Belonging to the distant past.
+animal | noun | A living creature that moves and feeds.
+announce | verb | To make known publicly.
+annual | adjective | Happening once a year.
+another | adjective | One more; a different one.
+answer | noun | A reply to a question.
+anxious | adjective | Worried about what may happen.
+anybody | pronoun | Any person at all.
+anything | pronoun | A thing of any kind.
+anywhere | adverb | In or to any place.
+apartment | noun | A set of rooms forming a home.
+apparatus | noun | Equipment for a particular purpose.
+apparent | adjective | Clearly seen; seeming rather than real.
+appeal | noun | An earnest request; a request to reconsider a decision.
+appear | verb | To come into sight; to seem.
+appetite | noun | A desire for food.
+applause | noun | Clapping in approval.
+appoint | verb | To choose someone for a position.
+approach | verb | To come nearer to.
+approval | noun | The belief that something is good; official permission.
+aquarium | noun | A tank of water for keeping fish.
+arctic | adjective | Of the far north; extremely cold.
+argument | noun | A disagreement; a reason given for a view.
+arrange | verb | To put in order; to plan.
+arrest | verb | To seize someone by legal authority.
+arrival | noun | The act of reaching a place.
+arrive | verb | To reach a destination.
+article | noun | A piece of writing; a particular item.
+artist | noun | A person who makes art.
+artistic | adjective | Showing skill and taste in art.
+ashamed | adjective | Feeling shame or guilt.
+asleep | adjective | Sleeping.
+aspect | noun | A particular part or feature; an appearance.
+assault | noun | A violent attack.
+assemble | verb | To gather together; to put parts together.
+assist | verb | To help.
+assistant | noun | A person who helps another in their work.
+associate | verb | To connect in the mind; a colleague.
+assume | verb | To suppose without proof; to take on a role.
+athlete | noun | A person trained in sports.
+athletic | adjective | Physically strong and active.
+atomic | adjective | Of atoms; using nuclear energy.
+attach | verb | To fasten one thing to another.
+attack | noun | An aggressive action against someone.
+attempt | noun | An effort to do something.
+attend | verb | To be present at; to give care to.
+attention | noun | Careful thought or notice.
+attitude | noun | A settled way of thinking.
+attract | verb | To draw towards; to arouse interest.
+audience | noun | The people watching or listening to a performance.
+august | adjective | Inspiring respect and admiration.
+author | noun | The writer of a book.
+authority | noun | The power to give orders; an expert.
+automatic | adjective | Working by itself without direct control.
+autumn | noun | The season between summer and winter.
+auxiliary | adjective | Giving extra support or help.
+available | adjective | Able to be used or obtained.
+average | noun | The usual amount; the sum divided by the number.
+awareness | noun | Knowledge that something exists.
+awkward | adjective | Clumsy; causing embarrassment.
+bakery | noun | A place where bread and cakes are made.
+balance | noun | An even distribution of weight; the remainder of an account.
+balcony | noun | A platform projecting from a wall; upper seats in a theatre.
+ballet | noun | A formal style of dance performed to music.
+ballot | noun | A vote recorded on paper.
+banana | noun | A long curved yellow fruit.
+barber | noun | A person who cuts men's hair.
+barren | adjective | Unable to produce plants or young.
+barrier | noun | A fence or obstacle blocking the way.
+basket | noun | A container woven from cane or wire.
+bathroom | noun | A room with a bath or shower.
+battle | noun | A fight between armed forces.
+beauty | noun | The quality of being pleasing to look at.
+beaver | noun | A gnawing animal that builds dams.
+bedroom | noun | A room for sleeping in.
+beetle | noun | An insect with hard wing cases.
+before | preposition | Earlier than; in front of.
+begin | verb | To start.
+behave | verb | To act in a particular way.
+behavior | noun | The way a person or animal acts.
+behind | preposition | At the back of.
+belief | noun | An acceptance that something is true.
+believe | verb | To accept as true.
+belong | verb | To be the property of; to be a member.
+beloved | adjective | Dearly loved.
+below | preposition | At a lower level than.
+beneath | preposition | Underneath.
+benefit | noun | An advantage gained from something.
+beside | preposition | At the side of.
+betray | verb | To be disloyal to; to reveal a secret.
+better | adjective | Of higher quality; improved in health.
+between | preposition | In the space or time separating two things.
+beyond | preposition | On the far side of; past the limits of.
+billion | noun | A thousand million.
+biology | noun | The study of living things.
+biscuit | noun | A small crisp baked cake.
+bitter | adjective | Sharp and unpleasant in taste; resentful.
+blanket | noun | A thick cloth used as a bed covering.
+blessing | noun | God's favour; a thing one is grateful for.
+blossom | noun | The flowers of a tree.
+bloody | adjective | Covered with blood; marked by killing.
+border | noun | The line dividing two countries; an edge.
+borrow | verb | To take something with the intention of returning it.
+boundary | noun | A line marking the limit of an area.
+bouquet | noun | A bunch of flowers; the scent of a wine.
+bracelet | noun | An ornamental band worn on the wrist.
+breakfast | noun | The first meal of the day.
+breathe | verb | To take air into the lungs and let it out.
+brilliant | adjective | Very bright; exceptionally clever.
+broadcast | verb | To send out a programme by radio or television.
+brother | noun | A male sibling.
+builder | noun | A person who constructs buildings.
+burrow | noun | A hole dug by an animal as a home.
+business | noun | Trade and commerce; a firm; one's concern.
+button | noun | A small disc fastening clothing; a control that is pressed.

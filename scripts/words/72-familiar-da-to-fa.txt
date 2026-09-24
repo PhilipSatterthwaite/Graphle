@@ -1,0 +1,204 @@
+damage | noun | Physical harm reducing value or usefulness.
+danger | noun | The possibility of harm.
+darkness | noun | The absence of light.
+darling | noun | A much-loved person.
+daughter | noun | A female child in relation to her parents.
+daylight | noun | The natural light of day.
+daytime | noun | The hours of light between dawn and dusk.
+deacon | noun | An assistant to a priest or minister.
+debate | noun | A formal discussion of opposing views.
+decade | noun | A period of ten years.
+decide | verb | To make a choice after thought.
+decision | noun | A conclusion reached after consideration.
+declare | verb | To state formally and clearly.
+decorate | verb | To make more attractive by adding things.
+decrease | verb | To become smaller in size or number.
+defeat | noun | The state of being beaten.
+defend | verb | To protect from attack.
+define | verb | To state the exact meaning of.
+degree | noun | A unit of temperature or angle; a university award.
+delay | noun | A period of waiting before something happens.
+delicate | adjective | Finely made and easily damaged.
+delicious | adjective | Highly pleasing to taste.
+delight | noun | Great pleasure.
+deliver | verb | To take goods to a place; to give birth.
+demand | noun | An insistent request; the desire of buyers for goods.
+density | noun | The degree to which something is packed together.
+dental | adjective | Of the teeth.
+depart | verb | To leave, especially on a journey.
+depend | verb | To be determined by; to rely on.
+deposit | noun | A sum paid in part; a layer laid down naturally.
+descent | noun | A downward movement; family origin.
+describe | verb | To give an account of in words.
+desert | noun | A dry barren region; to abandon.
+deserve | verb | To be worthy of.
+design | noun | A plan or drawing; the arrangement of parts.
+desire | noun | A strong wish.
+despair | noun | Complete loss of hope.
+desperate | adjective | Without hope and ready to do anything.
+dessert | noun | The sweet course at the end of a meal.
+destroy | verb | To ruin completely.
+detain | verb | To keep someone in custody or delay them.
+determine | verb | To settle or decide; to find out exactly.
+detonate | verb | To set off an explosion.
+develop | verb | To grow or cause to grow; to build on land.
+device | noun | A thing made for a particular purpose.
+diagonal | adjective | Running slantwise between corners.
+diagram | noun | A simple drawing explaining something.
+diameter | noun | A straight line through the centre of a circle.
+diamond | noun | A very hard precious stone; a rhombus.
+dinner | noun | The main meal of the day.
+direct | adjective | Going straight without turning aside.
+direction | noun | The course something moves along; guidance.
+director | noun | A person who manages a company or film.
+disagree | verb | To hold a different opinion.
+disappear | verb | To pass out of sight.
+disarm | verb | To take weapons away; to reduce armed forces.
+disaster | noun | A sudden event causing great damage.
+discover | verb | To find something for the first time.
+discovery | noun | The finding of something not known before.
+discuss | verb | To talk about something in detail.
+disease | noun | An illness of body or mind.
+disgrace | noun | Loss of respect through wrongdoing.
+disguise | noun | A change of appearance to hide identity.
+dislike | verb | To find unpleasant.
+dismiss | verb | To send away; to reject from consideration.
+display | noun | An arrangement put out to be seen.
+dispute | noun | A disagreement or argument.
+dissolve | verb | To become absorbed into a liquid; to bring to an end.
+distance | noun | The space between two points.
+distant | adjective | Far away in space or time.
+distinct | adjective | Clearly different; easily perceived.
+distress | noun | Extreme anxiety or suffering.
+district | noun | An area of a town or country.
+divide | verb | To separate into parts.
+divine | adjective | Of or from a god.
+division | noun | The act of dividing; a section of an organization.
+divorce | noun | The legal ending of a marriage.
+doctor | noun | A person qualified to treat the sick.
+document | noun | A paper giving information or proof.
+dollar | noun | The unit of money in the United States and elsewhere.
+domestic | adjective | Of the home; of one's own country.
+dominant | adjective | Most important or powerful.
+donkey | noun | An animal like a small horse with long ears.
+doorbell | noun | A bell at a door rung by callers.
+doorstep | noun | The step in front of a door.
+doorway | noun | The opening filled by a door.
+double | adjective | Twice as much; consisting of two parts.
+doubtful | adjective | Uncertain; open to question.
+dragon | noun | A mythical fire-breathing reptile.
+dramatic | adjective | Sudden and striking; of the theatre.
+dreadful | adjective | Extremely bad or unpleasant.
+drudgery | noun | Hard dull work.
+dweller | noun | A person who lives in a particular place.
+eastern | adjective | Situated in or facing the east.
+economic | adjective | Concerning trade, industry and money.
+economy | noun | A country's system of money and trade; careful use.
+education | noun | The process of teaching and learning.
+effect | noun | A result; an impression made.
+effective | adjective | Producing the result intended.
+efficient | adjective | Working well without waste.
+effort | noun | A vigorous attempt; energy spent.
+eight | noun | The number after seven.
+eighteen | noun | The number after seventeen.
+eighth | adjective | Next after the seventh.
+eighty | noun | The number after seventy-nine.
+elastic | adjective | Able to stretch and return to shape.
+eldest | adjective | Oldest of three or more.
+elect | verb | To choose by voting.
+election | noun | The choosing of representatives by vote.
+elegant | adjective | Graceful and stylish.
+element | noun | A basic part; a substance of one kind of atom.
+elephant | noun | A very large animal with a trunk and tusks.
+elevation | noun | Height above a level; a raising up.
+eleven | noun | The number after ten.
+eliminate | verb | To remove or get rid of.
+elsewhere | adverb | In or to another place.
+embroidery | noun | Decorative needlework on cloth.
+emerge | verb | To come out into view.
+emergency | noun | A sudden situation needing immediate action.
+emotion | noun | A strong feeling such as joy or fear.
+emperor | noun | The ruler of an empire.
+emphasis | noun | Special importance given to something.
+empire | noun | A group of countries under one ruler.
+employ | verb | To give work to; to make use of.
+enable | verb | To make something possible.
+encounter | noun | An unexpected meeting.
+encourage | verb | To give support and confidence to.
+endless | adjective | Having no end.
+endure | verb | To suffer patiently; to last.
+energetic | adjective | Full of energy.
+energy | noun | The strength to be active; power from fuel.
+engage | verb | To occupy or attract; to enter into combat.
+engine | noun | A machine that converts energy into motion.
+enormous | adjective | Very large indeed.
+enough | adjective | As much as is needed.
+entertain | verb | To amuse; to receive guests.
+entire | adjective | Whole and complete.
+entrance | noun | A door or way in; the act of entering.
+envelope | noun | A paper cover for a letter.
+equality | noun | The state of being equal.
+equation | noun | A mathematical statement that two amounts are equal.
+equipment | noun | The tools needed for a purpose.
+erosion | noun | The gradual wearing away of land.
+escape | verb | To get free from confinement.
+essential | adjective | Absolutely necessary.
+establish | verb | To set up on a firm basis.
+estimate | noun | A rough calculation.
+ethnic | adjective | Relating to a people with a shared culture.
+evaporate | verb | To turn from liquid into vapour.
+everybody | pronoun | Every person.
+everyday | adjective | Ordinary and usual.
+everyone | pronoun | Every person.
+evidence | noun | Facts supporting a belief or verdict.
+examine | verb | To inspect closely; to test knowledge.
+example | noun | A thing typical of its kind; a model.
+excellent | adjective | Extremely good.
+except | preposition | Not including.
+exception | noun | A case that does not follow the rule.
+excess | noun | An amount beyond what is needed.
+exchange | verb | To give one thing and receive another.
+excite | verb | To rouse strong feeling in.
+excuse | noun | A reason given to explain a fault.
+execute | verb | To carry out a plan; to put to death.
+executive | noun | A senior manager; the branch that governs.
+exercise | noun | Physical activity for health; a task set for practice.
+exhaust | verb | To use up completely; to tire out.
+exhibit | verb | To show publicly.
+existence | noun | The fact of being.
+exotic | adjective | From a distant country; strikingly unusual.
+expand | verb | To become larger.
+expect | verb | To think something will happen.
+expensive | adjective | Costing a lot.
+expert | noun | A person with great knowledge of a subject.
+explain | verb | To make clear by describing.
+explode | verb | To burst violently.
+explore | verb | To travel through in order to learn about.
+explosion | noun | A violent bursting with noise.
+export | verb | To send goods abroad for sale.
+express | verb | To put into words; fast and direct.
+extend | verb | To make longer or larger.
+extent | noun | The size or scope of something.
+external | adjective | On the outside.
+extinct | adjective | No longer in existence.
+extract | verb | To take out by effort.
+extreme | adjective | Reaching the highest degree.
+fabric | noun | Cloth; the basic structure of something.
+factor | noun | A cause contributing to a result; a number that divides exactly.
+failure | noun | The state of not succeeding.
+faithful | adjective | Loyal and true.
+family | noun | Parents and their children; a group of related things.
+famous | adjective | Known to very many people.
+fantastic | adjective | Excellent; strange and fanciful.
+farewell | noun | An act of parting; a goodbye.
+farmhouse | noun | The main house on a farm.
+fashion | noun | The prevailing style of dress; a manner of doing something.
+fasten | verb | To fix or close securely.
+father | noun | A male parent.
+fatigue | noun | Extreme tiredness.
+favorite | noun | The one liked best.
+feather | noun | One of the light growths covering a bird.
+feature | noun | A distinctive part or quality; a full-length film.
+federal | adjective | Of a union of states with a central government.
+fellow | noun | A companion; a member of a learned society.
+female | adjective | Of the sex that bears young.

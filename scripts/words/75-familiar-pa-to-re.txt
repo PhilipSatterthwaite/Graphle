@@ -1,0 +1,212 @@
+package | noun | A parcel; a set of things offered together.
+paddle | noun | A short oar used with both hands.
+palace | noun | The official home of a monarch or bishop.
+parachute | noun | A canopy that slows a fall through the air.
+paragraph | noun | A section of writing beginning on a new line.
+parallel | adjective | Side by side and always the same distance apart.
+parasite | noun | An organism living on another at its expense.
+pardon | verb | To forgive; the official release of an offender.
+parent | noun | A mother or father.
+partial | adjective | Incomplete; favouring one side.
+particle | noun | A very small piece of matter.
+partner | noun | A person sharing a business or activity.
+passion | noun | Very strong feeling; intense enthusiasm.
+pasture | noun | Grassland used for grazing.
+patience | noun | The ability to wait or endure calmly.
+patient | noun | A person receiving medical treatment.
+pattern | noun | A repeated decorative design; a model to copy.
+pavement | noun | A paved path beside a road.
+payment | noun | Money given in return for something.
+peaceful | adjective | Free from disturbance; not violent.
+peasant | noun | A poor farmer of low social rank.
+pebble | noun | A small smooth stone.
+pencil | noun | An instrument of wood and graphite for writing.
+peninsula | noun | Land almost surrounded by water.
+people | noun | Human beings in general; the members of a nation.
+pepper | noun | A hot-tasting spice; a sweet or hot vegetable.
+percent | noun | A part in every hundred.
+perfect | adjective | Having no faults.
+perform | verb | To carry out a task; to present an entertainment.
+perfume | noun | A fragrant liquid worn on the skin.
+perhaps | adverb | Possibly.
+period | noun | A length of time; a full stop.
+permanent | adjective | Lasting indefinitely.
+person | noun | A human being.
+personal | adjective | Belonging to a particular person; private.
+persuade | verb | To make someone agree by giving reasons.
+petal | noun | One of the coloured parts of a flower.
+phrase | noun | A small group of words; a short musical passage.
+physical | adjective | Of the body; of matter.
+picture | noun | A painting, drawing or photograph.
+pillar | noun | A tall upright post supporting a structure.
+pillow | noun | A cushion supporting the head in bed.
+plaster | noun | A paste that hardens on walls; a dressing for wounds.
+plastic | noun | A light synthetic material that can be moulded.
+playful | adjective | Fond of games and fun.
+pleasant | adjective | Giving a sense of enjoyment.
+please | verb | To give satisfaction to.
+pleasure | noun | A feeling of happy satisfaction.
+plenty | noun | A large or sufficient amount.
+plunge | verb | To fall or dive suddenly.
+plural | adjective | Of more than one in number.
+pocket | noun | A small bag sewn into clothing.
+poetic | adjective | Of or like poetry.
+police | noun | The civil force keeping public order.
+policy | noun | A course of action adopted by a body; an insurance contract.
+polish | verb | To rub to make smooth and shiny.
+polite | adjective | Showing good manners.
+political | adjective | Concerning government and public affairs.
+pollen | noun | Fine powder produced by flowers.
+pollute | verb | To make dirty or harmful with waste.
+portion | noun | A part of a whole; a helping of food.
+position | noun | A place where something is; a job; a point of view.
+positive | adjective | Certain; constructive; greater than zero.
+possess | verb | To have as belonging to one.
+possible | adjective | Able to happen or be done.
+potential | noun | Latent qualities that may be developed.
+poverty | noun | The state of being very poor.
+powder | noun | Fine dry particles of a solid.
+powerful | adjective | Having great strength or influence.
+practical | adjective | Concerned with doing rather than theory.
+practice | noun | Repeated exercise to gain skill; the usual way of doing things.
+praise | noun | Warm approval expressed in words.
+precise | adjective | Exact and accurate.
+predict | verb | To say what will happen.
+prefer | verb | To like one thing better than another.
+pregnant | adjective | Carrying a developing child.
+prepare | verb | To make ready.
+presence | noun | The state of being in a place; an impressive manner.
+present | noun | A gift; the time now; being in a place.
+preserve | verb | To keep from harm or decay.
+president | noun | The elected head of a republic or organization.
+pressure | noun | Continuous force on a surface; urgent demands.
+pretend | verb | To behave as though something is true when it is not.
+pretty | adjective | Attractive in a delicate way.
+prevent | verb | To stop something from happening.
+priest | noun | A person ordained to perform religious rites.
+primary | adjective | First in order or importance.
+primitive | adjective | Of an early stage of development; simple and crude.
+prince | noun | A son of a monarch; a ruler of a small state.
+principal | adjective | Most important; the head of a school.
+principle | noun | A basic truth or rule of conduct.
+prison | noun | A building where criminals are confined.
+private | adjective | Belonging to one person; not public.
+probable | adjective | Likely to happen or be true.
+problem | noun | A difficulty needing a solution.
+procedure | noun | An established way of doing something.
+proceed | verb | To go on with an action.
+process | noun | A series of steps towards a result.
+produce | verb | To make or bring forth.
+product | noun | A thing made for sale; the result of multiplying.
+professor | noun | A university teacher of the highest rank.
+profit | noun | Money gained in business after costs.
+program | noun | A plan of events; instructions for a computer.
+progress | noun | Forward movement; improvement.
+prohibit | verb | To forbid by law or rule.
+project | noun | A planned piece of work.
+prominent | adjective | Sticking out; important and well known.
+promise | noun | An assurance that one will do something.
+proper | adjective | Correct or suitable; respectable.
+property | noun | A thing owned; land and buildings; a quality of a substance.
+propose | verb | To put forward a plan; to offer marriage.
+prospect | noun | The possibility of a future event; a wide view.
+protect | verb | To keep safe from harm.
+protest | noun | A statement or action showing objection.
+provide | verb | To make available for use.
+puberty | noun | The stage at which a person becomes able to reproduce.
+public | adjective | Open to all people; of the community.
+publish | verb | To issue a book or paper for sale.
+punish | verb | To make someone suffer for an offence.
+puppet | noun | A figure moved by strings or a hand.
+purchase | verb | To buy.
+purple | adjective | Of a colour between red and blue.
+pursuit | noun | The act of chasing; an activity taken up.
+puzzle | noun | A game or problem testing ingenuity.
+quality | noun | The standard of something; a distinctive feature.
+quantity | noun | An amount or number.
+question | noun | A sentence asking for information.
+quotation | noun | A passage repeated from elsewhere; a stated price.
+rabbit | noun | A burrowing animal with long ears.
+racial | adjective | Concerning race or ethnic groups.
+racket | noun | A loud noise; a bat with strings; a dishonest scheme.
+radiation | noun | Energy sent out as waves or particles.
+raindrop | noun | A single drop of rain.
+rainfall | noun | The amount of rain that falls.
+raisin | noun | A dried grape.
+random | adjective | Made or done without method.
+rather | adverb | To a certain extent; preferably.
+rational | adjective | Based on reason.
+reaction | noun | A response to something; a chemical change.
+reality | noun | The state of things as they are.
+realize | verb | To become fully aware of; to make real.
+reason | noun | A cause or explanation; the power to think.
+recall | verb | To remember; to order the return of.
+receive | verb | To be given or paid something.
+recent | adjective | Happening not long ago.
+recipe | noun | Instructions for preparing a dish.
+recognize | verb | To know again from previous experience.
+record | noun | An account kept for evidence; a disc of recorded sound.
+recover | verb | To get back; to return to health.
+recovery | noun | A return to health or to a former state.
+rectangle | noun | A four-sided figure with right angles.
+reduce | verb | To make smaller or less.
+reference | noun | A mention of a source; a testimonial.
+reflect | verb | To throw back light; to think deeply.
+reform | noun | A change made to improve something.
+refuge | noun | A place of shelter from danger.
+refuse | verb | To say one will not do something; waste matter.
+region | noun | An area of a country or the world.
+register | noun | An official list; to enter a name in it.
+regret | noun | Sadness about something one has done.
+relate | verb | To tell a story; to connect one thing with another.
+relation | noun | A connection between things; a member of a family.
+relative | noun | A member of one's family; considered in comparison.
+release | verb | To set free; to issue to the public.
+reliable | adjective | Able to be trusted.
+relief | noun | The easing of pain or worry; help given to those in need.
+relieve | verb | To lessen pain or trouble; to take over a duty.
+religion | noun | Belief in and worship of a god.
+religious | adjective | Believing in and practising a religion.
+remain | verb | To stay in the same place or condition.
+remark | noun | A spoken or written comment.
+remember | verb | To keep in mind or call back to mind.
+remind | verb | To cause someone to remember.
+remote | adjective | Far away; slight in degree.
+remove | verb | To take away from a place.
+renewal | noun | The act of making new or extending again.
+repair | verb | To mend something broken.
+repeat | verb | To say or do again.
+replace | verb | To put back; to take the place of.
+report | noun | An account of events; a loud bang.
+represent | verb | To act on behalf of; to stand for.
+reproduce | verb | To make a copy; to produce young.
+reptile | noun | A cold-blooded animal with scales, such as a snake.
+republic | noun | A state whose head is elected, not a monarch.
+require | verb | To need for a purpose.
+rescue | verb | To save from danger.
+research | noun | Careful study to discover facts.
+resemble | verb | To look or be like.
+reserve | verb | To keep back for later use; a protected area.
+reside | verb | To live in a place.
+residence | noun | A person's home; the state of living somewhere.
+resign | verb | To give up a job or position.
+resist | verb | To oppose or withstand.
+resort | noun | A holiday town; a course turned to for help.
+resource | noun | A supply that can be drawn on.
+respect | noun | Admiration for someone's qualities.
+respond | verb | To answer or react.
+response | noun | An answer or reaction.
+restless | adjective | Unable to rest or keep still.
+restore | verb | To bring back to a former state.
+result | noun | An outcome caused by something.
+retain | verb | To keep in place or possession.
+retire | verb | To stop working at the end of a career.
+retreat | verb | To withdraw from a difficult position.
+return | verb | To come back; to give back.
+reveal | verb | To make known something hidden.
+reverse | verb | To turn the other way round; to go backwards.
+review | noun | A critical account of a book or film; a fresh look at something.
+revolt | noun | A rising against authority.
+revolve | verb | To turn round a centre.
+reward | noun | Something given in return for service or merit.
+rhythm | noun | A regular repeated pattern of sound or movement.

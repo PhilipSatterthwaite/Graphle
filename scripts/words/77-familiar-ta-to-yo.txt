@@ -1,0 +1,174 @@
+tailgate | noun | The hinged flap at the back of a vehicle.
+talent | noun | A natural ability to do something well.
+tangle | noun | A confused mass of threads or hair.
+target | noun | An object aimed at; a goal to be reached.
+teacher | noun | A person who teaches.
+teamwork | noun | Combined effort by a group.
+technical | adjective | Concerning the practical side of a craft or science.
+technique | noun | A way of carrying out a skilled task.
+teller | noun | A bank clerk who handles money; a person who tells.
+temper | noun | A tendency to become angry; a state of mind.
+temple | noun | A building for worship; the flat side of the forehead.
+temporary | adjective | Lasting only for a limited time.
+tendency | noun | An inclination to act in a certain way.
+tennis | noun | A game played with rackets over a net.
+tension | noun | The state of being stretched; mental strain.
+terminal | noun | A building for travellers; an end point.
+terrible | adjective | Extremely bad; causing terror.
+terrific | adjective | Excellent; very great.
+territory | noun | An area of land under a ruler or claimed by an animal.
+terror | noun | Extreme fear.
+textbook | noun | A book used for study.
+texture | noun | The feel or appearance of a surface.
+theater | noun | A building where plays are performed.
+theory | noun | An explanation of facts; ideas as opposed to practice.
+therapist | noun | A person trained to treat illness or distress.
+therefore | adverb | For that reason.
+thickness | noun | The distance between opposite surfaces.
+thirsty | adjective | Feeling a need to drink.
+thirteen | noun | The number after twelve.
+thirty | noun | The number after twenty-nine.
+thorough | adjective | Complete in every detail.
+though | conjunction | Despite the fact that.
+thought | noun | An idea; the act of thinking.
+thousand | noun | Ten hundred.
+thread | noun | A thin strand of cotton or silk.
+threat | noun | A statement of intent to harm; a danger.
+threaten | verb | To state an intention to harm; to be a danger to.
+thrill | noun | A sudden feeling of excitement.
+throat | noun | The passage from the mouth to the stomach and lungs.
+through | preposition | From one side to the other of.
+thrust | verb | To push suddenly and hard.
+thunder | noun | The loud noise following lightning.
+ticket | noun | A printed slip giving entry or travel.
+timber | noun | Wood prepared for building.
+tissue | noun | Material of cells in a body; thin soft paper.
+titanium | noun | A strong light silvery metal.
+tobacco | noun | Dried leaves smoked in cigarettes and pipes.
+together | adverb | With one another.
+toilet | noun | A bowl for waste; the room containing it.
+tomorrow | noun | The day after today.
+tongue | noun | The muscular organ in the mouth; a language.
+tonight | noun | The night of the present day.
+topple | verb | To fall over; to overthrow.
+touchdown | noun | The landing of an aircraft; a score in American football.
+toughen | verb | To make stronger or more resilient.
+toward | preposition | In the direction of.
+tradition | noun | A custom passed down through generations.
+traffic | noun | Vehicles moving on a road; illegal trade.
+tragic | adjective | Causing great sadness; of tragedy.
+transfer | verb | To move from one place to another.
+translate | verb | To put words into another language.
+transport | verb | To carry from one place to another.
+travel | verb | To make a journey.
+treasure | noun | Valuables such as gold and jewels.
+treatment | noun | The way someone is dealt with; medical care.
+trembling | adjective | Shaking slightly.
+triangle | noun | A figure with three sides.
+tribal | adjective | Of a tribe.
+tricky | adjective | Requiring care and skill; crafty.
+trouble | noun | Difficulty or problems.
+tropical | adjective | Of the hot regions near the equator.
+truthful | adjective | Habitually telling the truth.
+tunnel | noun | An underground passage.
+turbulence | noun | Violent unsteady movement of air or water.
+turtle | noun | A reptile with a shell that lives in water.
+twelve | noun | The number after eleven.
+twentieth | adjective | Next after the nineteenth.
+twenty | noun | The number after nineteen.
+typical | adjective | Showing the usual qualities of its kind.
+ultimate | adjective | Final; the very best.
+unable | adjective | Not having the power to do something.
+uncertain | adjective | Not known or reliable; hesitant.
+uncover | verb | To remove a cover; to reveal.
+underwear | noun | Clothes worn next to the skin under others.
+uneasy | adjective | Anxious and troubled.
+uneven | adjective | Not level or smooth; not equal.
+unhappy | adjective | Not happy.
+unique | adjective | Being the only one of its kind.
+universal | adjective | Affecting or done by all.
+universe | noun | All existing matter and space.
+unkind | adjective | Harsh or cruel.
+unknown | adjective | Not known or identified.
+unless | conjunction | Except if.
+unload | verb | To take goods off a vehicle.
+untidy | adjective | Not arranged neatly.
+unusual | adjective | Not commonly occurring.
+upkeep | noun | The cost and work of keeping something in repair.
+upright | adjective | Standing vertical; honest.
+upside | noun | The upper side; a positive aspect.
+upstream | adverb | Against the current of a river.
+upward | adverb | Towards a higher place.
+urgent | adjective | Needing immediate attention.
+useful | adjective | Able to be used for a purpose.
+useless | adjective | Serving no purpose.
+vacant | adjective | Empty and available; showing no interest.
+valley | noun | Low land between hills.
+valuable | adjective | Worth a lot of money; very useful.
+vanish | verb | To disappear suddenly.
+variable | adjective | Able to change; a quantity that varies.
+variation | noun | A change or slight difference.
+variety | noun | A range of different things; a kind.
+various | adjective | Of several different kinds.
+vegetable | noun | A plant used as food.
+vegetarian | noun | A person who does not eat meat.
+vehicle | noun | A machine for carrying people or goods.
+velocity | noun | Speed in a given direction.
+version | noun | A particular form of something.
+vertical | adjective | Upright; at right angles to the horizon.
+vibrate | verb | To move rapidly to and fro.
+vicious | adjective | Cruel and violent.
+victim | noun | A person harmed by a crime or accident.
+victory | noun | Success in a battle or contest.
+vigorous | adjective | Strong and energetic.
+village | noun | A small settlement in the country.
+vinegar | noun | A sour liquid used to flavour and preserve food.
+violate | verb | To break a rule or treat with disrespect.
+violence | noun | Behaviour intended to hurt or damage.
+violent | adjective | Using physical force to harm.
+visible | adjective | Able to be seen.
+vision | noun | The ability to see; an imagined future; something seen in a dream.
+visitor | noun | A person who visits.
+visual | adjective | Relating to sight.
+volcanic | adjective | Of or produced by a volcano.
+volume | noun | The amount of space something fills; loudness; a book.
+wander | verb | To walk about without a fixed course.
+warmth | noun | Moderate heat; friendliness.
+warrior | noun | A person experienced in fighting.
+wasteland | noun | Barren or unused land.
+watery | adjective | Containing too much water; thin and weak.
+wealth | noun | A great amount of money and possessions.
+wealthy | adjective | Having much money.
+weapon | noun | A thing used to inflict harm.
+weather | noun | The state of the air at a time and place.
+weekend | noun | Saturday and Sunday.
+weight | noun | How heavy something is.
+welcome | verb | To greet someone gladly.
+western | adjective | Situated in or facing the west.
+whatever | pronoun | Anything at all that.
+whenever | adverb | At whatever time.
+whereas | conjunction | While on the contrary.
+wherever | adverb | In or to whatever place.
+whisper | verb | To speak very softly.
+wildlife | noun | Wild animals and plants.
+willow | noun | A tree with slender leaves growing near water.
+window | noun | An opening in a wall fitted with glass.
+winner | noun | The person who wins.
+winter | noun | The coldest season of the year.
+withdraw | verb | To take back or remove; to leave.
+within | preposition | Inside.
+without | preposition | Not having; outside of.
+witness | noun | A person who sees an event or gives evidence.
+wolves | noun | More than one wolf.
+wonder | noun | A feeling of surprise and admiration.
+wonderful | adjective | Extremely good.
+wooden | adjective | Made of wood; stiff and awkward.
+woodland | noun | Land covered with trees.
+woolen | adjective | Made of wool.
+worried | adjective | Anxious about something.
+worthy | adjective | Deserving respect or a particular treatment.
+wrapping | noun | Paper or material used to cover something.
+wriggle | verb | To twist and turn with short movements.
+yellow | adjective | Of the colour of butter or lemons.
+yesterday | noun | The day before today.
+younger | adjective | Less old than another.

@@ -1,0 +1,217 @@
+ringworm | noun | A skin infection causing round itchy patches.
+riverbank | noun | The land at the edge of a river.
+roadblock | noun | A barrier set across a road; an obstacle to progress.
+robber | noun | A person who steals by force.
+routine | noun | A regular way of doing things.
+rubber | noun | An elastic substance made from latex.
+rubbish | noun | Waste material; nonsense.
+rural | adjective | Of the countryside.
+safety | noun | Freedom from danger.
+salary | noun | A fixed regular payment for work.
+sample | noun | A small part taken to show what the whole is like.
+sandal | noun | A light shoe with straps.
+sandstone | noun | A rock formed from compressed sand.
+sandwich | noun | Two slices of bread with a filling.
+sarcasm | noun | Mocking remarks meant to wound.
+satisfy | verb | To meet a need or expectation.
+savage | adjective | Fierce and violent; uncivilized.
+scarce | adjective | In short supply.
+scatter | verb | To throw in various directions.
+scenery | noun | The natural features of a landscape; stage sets.
+schedule | noun | A plan of times for events.
+scheme | noun | A plan of action; a plot.
+scholar | noun | A learned person; a pupil holding a scholarship.
+school | noun | A place of education for children.
+science | noun | The study of the physical world by observation and test.
+scoreboard | noun | A board showing the score in a game.
+scrape | verb | To rub with something sharp to clean or damage.
+scream | noun | A loud piercing cry.
+screen | noun | A surface for showing pictures; a partition.
+script | noun | The written text of a play or film; handwriting.
+search | verb | To look thoroughly for something.
+seashell | noun | The shell of a sea creature.
+seaside | noun | The coast, especially as a holiday place.
+season | noun | One of the four divisions of the year; to add flavour.
+seaweed | noun | Plants growing in the sea.
+second | noun | A sixtieth of a minute; next after the first.
+secret | noun | Something kept from others' knowledge.
+section | noun | A part cut off or separated; a division.
+secure | adjective | Safe and firmly fixed.
+security | noun | Safety from danger; measures taken to ensure it.
+seldom | adverb | Not often.
+select | verb | To choose carefully.
+selection | noun | The act of choosing; a range chosen.
+selfish | adjective | Concerned only with one's own advantage.
+senior | adjective | Older or of higher rank.
+sensation | noun | A physical feeling; great excitement.
+sensible | adjective | Showing good judgement.
+sensitive | adjective | Quick to feel or respond; easily offended.
+sentence | noun | A set of words making a statement; a court's punishment.
+separate | verb | To divide; not joined together.
+sequence | noun | A set of things following in order.
+serious | adjective | Solemn; needing careful thought; severe.
+serpent | noun | A large snake.
+service | noun | Work done for others; a religious ceremony.
+session | noun | A period given to an activity.
+settle | verb | To make a home; to resolve; to come to rest.
+seventeen | noun | The number after sixteen.
+seventh | adjective | Next after the sixth.
+seventy | noun | The number after sixty-nine.
+several | adjective | More than two but not many.
+severe | adjective | Very great and unpleasant; strict.
+shadow | noun | A dark shape cast by something blocking light.
+shaggy | adjective | Covered with long untidy hair.
+shallow | adjective | Of little depth.
+shelter | noun | A structure giving protection.
+shield | noun | A broad piece of armour carried for protection.
+shiver | verb | To tremble with cold or fear.
+shore | noun | The land along the edge of a sea or lake.
+shorten | verb | To make less long.
+shrill | adjective | High-pitched and piercing.
+shrink | verb | To become smaller.
+shrub | noun | A woody plant smaller than a tree.
+sickness | noun | The state of being ill.
+signal | noun | A sign giving information or an order.
+signature | noun | A person's name written by themselves.
+silence | noun | Complete absence of sound.
+silent | adjective | Making no sound.
+silver | noun | A shiny white precious metal.
+similar | adjective | Resembling but not identical.
+simple | adjective | Easily done or understood; plain.
+single | adjective | Only one; unmarried.
+sister | noun | A female sibling.
+situation | noun | The state of affairs at a time and place.
+sixteen | noun | The number after fifteen.
+sketch | noun | A rough drawing; a short comic scene.
+skiing | noun | The sport of travelling on snow on skis.
+skinny | adjective | Very thin.
+sleeve | noun | The part of a garment covering the arm.
+slender | adjective | Gracefully thin.
+slight | adjective | Small in degree; slim and delicate.
+slippery | adjective | Difficult to hold or stand on.
+smooth | adjective | Having an even surface; free from difficulty.
+social | adjective | Concerning society; enjoying company.
+society | noun | People living together in a community; an organized group.
+sodium | noun | A soft metal found in common salt.
+soldier | noun | A person serving in an army.
+solemn | adjective | Formal and dignified; serious.
+solution | noun | The answer to a problem; a liquid mixture.
+somebody | pronoun | Some person.
+someday | adverb | At an unspecified time in the future.
+somehow | adverb | In some way not known.
+someone | pronoun | Some person.
+something | pronoun | A thing not specified.
+sometime | adverb | At some unspecified time.
+somewhat | adverb | To a moderate extent.
+somewhere | adverb | In or to some place.
+sorrow | noun | Deep sadness.
+source | noun | The place something comes from.
+southeast | noun | The direction between south and east.
+southern | adjective | Situated in or facing the south.
+special | adjective | Better or different from what is usual.
+specific | adjective | Clearly defined; of one particular thing.
+spectrum | noun | The band of colours in light; a range of values.
+speech | noun | The act of speaking; a formal talk.
+sphere | noun | A perfectly round solid; an area of activity.
+spider | noun | An eight-legged creature that spins webs.
+spiral | noun | A curve winding round a centre.
+spirit | noun | The non-physical part of a person; strong liquor; mood.
+spiritual | adjective | Of the spirit rather than the body.
+splash | verb | To scatter liquid about.
+splendid | adjective | Magnificent; very good.
+sponge | noun | A soft absorbent mass used for washing.
+spread | verb | To open out; to extend over an area.
+spring | noun | The season after winter; a coil; a source of water.
+sprinkle | verb | To scatter small drops or particles.
+square | noun | A four-sided figure with equal sides; an open public space.
+squeak | noun | A short high-pitched sound.
+squeeze | verb | To press firmly from opposite sides.
+squint | verb | To look with partly closed eyes.
+squirrel | noun | A bushy-tailed rodent that lives in trees.
+stable | adjective | Firmly fixed; a building for horses.
+staircase | noun | A flight of stairs and its supports.
+standard | noun | A level of quality; a flag.
+stardom | noun | The state of being a famous performer.
+startle | verb | To surprise suddenly.
+starve | verb | To suffer or die from lack of food.
+statement | noun | A definite expression in speech or writing.
+static | adjective | Not moving; electrical charge at rest.
+station | noun | A stopping place for trains; a place of duty.
+statue | noun | A carved or cast figure of a person or animal.
+status | noun | Social or professional standing; current state.
+steady | adjective | Firmly fixed; regular and even.
+stillness | noun | The absence of movement or sound.
+stitch | noun | A single loop of thread in sewing.
+stockpile | noun | A large store kept for future use.
+stomach | noun | The organ where food is digested.
+storage | noun | The keeping of things until needed.
+stormy | adjective | Marked by storms; full of angry feeling.
+straight | adjective | Without a bend or curve; honest.
+strain | noun | Force pulling something; stress; a variety of plant or germ.
+strange | adjective | Unusual or surprising; unfamiliar.
+stranger | noun | A person one does not know.
+streak | noun | A long thin mark; a spell of luck.
+stream | noun | A small river; a continuous flow.
+street | noun | A public road in a town lined with buildings.
+strength | noun | The quality of being strong.
+stress | noun | Mental strain; emphasis; force on a body.
+stretch | verb | To pull out to greater length.
+strict | adjective | Demanding obedience to rules.
+stride | noun | A long step in walking.
+strife | noun | Angry conflict.
+string | noun | Thin cord; a length of wire on an instrument.
+stripe | noun | A long narrow band of colour.
+stroll | noun | A leisurely walk.
+strong | adjective | Having great power or force.
+structure | noun | The way parts are arranged; a building.
+struggle | verb | To make forceful efforts against difficulty.
+stubborn | adjective | Refusing to change one's mind.
+student | noun | A person studying at a school or college.
+stupid | adjective | Lacking intelligence or good sense.
+sturdy | adjective | Strongly built.
+subject | noun | A topic; a person under a ruler; the doer in a sentence.
+substance | noun | Matter of a particular kind; the essence of something.
+subtle | adjective | Fine and delicate; not obvious.
+subtract | verb | To take one number away from another.
+succeed | verb | To achieve an aim; to come next in order.
+success | noun | The achieving of an aim.
+sudden | adjective | Happening quickly and without warning.
+suffer | verb | To undergo pain or hardship.
+suggest | verb | To put forward for consideration.
+suitable | adjective | Right for the purpose or occasion.
+summary | noun | A brief statement of the main points.
+summer | noun | The warmest season of the year.
+summit | noun | The top of a mountain; a meeting of heads of state.
+sunlight | noun | Light from the sun.
+sunrise | noun | The rising of the sun in the morning.
+sunset | noun | The setting of the sun in the evening.
+sunshine | noun | Direct light and warmth from the sun.
+superior | adjective | Higher in rank or quality.
+supper | noun | An evening meal.
+support | verb | To hold up; to give help or approval to.
+suppose | verb | To think something likely; to assume.
+supreme | adjective | Highest in rank or importance.
+surface | noun | The outside or top layer of something.
+surgery | noun | Medical treatment by operation; a doctor's consulting room.
+surname | noun | A family name.
+surprise | noun | An unexpected event; the feeling it causes.
+surrender | verb | To give oneself up to an enemy.
+surround | verb | To be all round something.
+survey | noun | A general view or examination; a measuring of land.
+survival | noun | The state of continuing to live.
+survive | verb | To remain alive through danger.
+suspect | verb | To believe something without proof.
+suspend | verb | To hang; to stop for a time.
+suspense | noun | Anxious uncertainty about what will happen.
+swallow | verb | To cause food to pass down the throat; a small bird.
+sweater | noun | A knitted garment for the upper body.
+sweeten | verb | To make sweeter.
+swimmer | noun | A person who swims.
+switch | noun | A device for turning power on and off; a change.
+syllable | noun | A unit of sound forming part of a word.
+symbol | noun | A mark or object standing for something else.
+symmetry | noun | Exact correspondence of parts on either side.
+sympathy | noun | Understanding of another's feelings.
+synonym | noun | A word with the same meaning as another.
+synthetic | adjective | Made by chemical synthesis rather than natural.
+system | noun | A set of connected parts working together.

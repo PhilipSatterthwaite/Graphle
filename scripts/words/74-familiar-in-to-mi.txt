@@ -1,0 +1,199 @@
+invasion | noun | An entry by an army into another country.
+invent | verb | To create something that did not exist before.
+invention | noun | A thing newly devised; the act of inventing.
+inventor | noun | A person who invents things.
+invest | verb | To put money into something to earn a return.
+invisible | adjective | Unable to be seen.
+invite | verb | To ask someone to come or take part.
+involve | verb | To include as a necessary part; to draw in.
+island | noun | Land surrounded by water.
+isolated | adjective | Far from other places or people.
+isolation | noun | The state of being apart from others.
+italic | adjective | Of sloping type used for emphasis.
+itchy | adjective | Having an irritating feeling on the skin.
+jacket | noun | A short coat; an outer covering.
+jagged | adjective | With rough uneven edges.
+jealous | adjective | Resentful of another's advantages.
+jelly | noun | A soft set food made with gelatin or fruit.
+jewelry | noun | Ornaments such as rings and necklaces.
+journey | noun | A trip from one place to another.
+jolly | adjective | Cheerful and good-humoured.
+jumper | noun | A knitted upper garment; one who jumps.
+jungle | noun | Dense tropical forest.
+junior | adjective | Younger or of lower rank.
+justice | noun | Fair treatment; the administration of law.
+kidney | noun | Either of the organs that filter waste from blood.
+kindness | noun | The quality of being generous and considerate.
+kitchen | noun | A room where food is prepared.
+kitten | noun | A young cat.
+knitting | noun | Fabric made by looping yarn; the making of it.
+knives | noun | More than one knife.
+knowledge | noun | Facts and skills gained by experience or study.
+ladder | noun | A set of rungs between two uprights for climbing.
+landscape | noun | The visible features of an area of land.
+language | noun | The system of words a people use.
+latitude | noun | Distance north or south of the equator; freedom to act.
+laugh | verb | To make the sounds that express amusement.
+laughter | noun | The sound of laughing.
+launch | verb | To set a boat in the water; to start something new.
+laundry | noun | Clothes to be washed; a place where washing is done.
+lawyer | noun | A person qualified to advise on the law.
+league | noun | A group of teams that compete; an alliance.
+leather | noun | Animal skin prepared for use.
+legend | noun | A traditional story; an inscription on a map.
+length | noun | The measurement from end to end.
+lesson | noun | A period of teaching; something learned from experience.
+letter | noun | A written message sent by post; a symbol of the alphabet.
+liberty | noun | Freedom from control.
+library | noun | A collection of books, or the building holding it.
+lifetime | noun | The length of a life.
+lipstick | noun | A cosmetic stick for colouring the lips.
+liquid | noun | A substance that flows freely, like water.
+listen | verb | To pay attention to sound.
+literary | adjective | Concerning literature.
+litter | noun | Rubbish left lying about; young animals born together.
+little | adjective | Small in size or amount.
+lizard | noun | A reptile with four legs and a long tail.
+locate | verb | To find the position of.
+location | noun | A particular place.
+logical | adjective | Following sound reasoning.
+loosen | verb | To make less tight.
+loyalty | noun | Faithfulness to a person or cause.
+luckily | adverb | By good fortune.
+luxury | noun | Great comfort at great cost.
+machine | noun | A device with moving parts that does work.
+machinery | noun | Machines collectively; the working parts.
+magician | noun | A person who performs magic tricks.
+magnetic | adjective | Able to attract iron; strongly attractive.
+magnify | verb | To make something look larger.
+maiden | noun | A young unmarried woman; a first of its kind.
+mainland | noun | The principal land mass of a country.
+maintain | verb | To keep in good condition; to assert.
+majority | noun | The greater number; the winning margin in a vote.
+mammal | noun | A warm-blooded animal that feeds its young on milk.
+manage | verb | To be in charge of; to succeed in doing.
+mankind | noun | Human beings as a whole.
+manner | noun | The way something is done; a person's bearing.
+mantle | noun | A loose cloak; a layer of the earth.
+marine | adjective | Of the sea; a soldier serving at sea.
+market | noun | A place where goods are sold; demand for a product.
+marriage | noun | The union of two people as partners in life.
+material | noun | The substance from which something is made; cloth.
+matter | noun | Physical substance; a subject of concern.
+mature | adjective | Fully grown or developed.
+maximum | noun | The greatest possible amount.
+meantime | noun | The period between two events.
+measure | verb | To find the size or amount of something.
+medical | adjective | Concerning the treatment of illness.
+medicine | noun | A substance taken to treat illness; the science of healing.
+medieval | adjective | Of the Middle Ages.
+medium | noun | A means of communication; a middle quality.
+melody | noun | A tune.
+member | noun | A person belonging to a group.
+membrane | noun | A thin layer of tissue lining or covering.
+memory | noun | The ability to remember; something remembered.
+mental | adjective | Of the mind.
+mention | verb | To refer to briefly.
+menu | noun | A list of dishes; a list of computer options.
+merchant | noun | A person who trades in goods.
+message | noun | A piece of information sent to someone.
+metallic | adjective | Of or like metal.
+method | noun | A way of doing something.
+middle | noun | The point equally distant from the ends.
+midnight | noun | Twelve o'clock at night.
+migration | noun | The seasonal movement of animals; the movement of people.
+military | adjective | Of soldiers and armed forces.
+million | noun | A thousand thousand.
+mineral | noun | A solid substance occurring naturally in the earth.
+minister | noun | A senior member of a government; a member of the clergy.
+minimum | noun | The least possible amount.
+minute | noun | Sixty seconds; extremely small.
+miracle | noun | An event that seems to break the laws of nature.
+mirror | noun | A glass surface that reflects an image.
+mischief | noun | Playful misbehaviour; harm done.
+miserable | adjective | Extremely unhappy; causing discomfort.
+misery | noun | Great unhappiness or suffering.
+missile | noun | A weapon fired or thrown at a target.
+mission | noun | An important assignment; a journey with a purpose.
+mistake | noun | An error in action or judgement.
+mixture | noun | A combination of different things.
+moderate | adjective | Average in amount; avoiding extremes.
+modern | adjective | Of the present or recent times.
+moisture | noun | Small amounts of water in the air or a surface.
+moment | noun | A very brief period of time.
+monkey | noun | A long-tailed primate that climbs trees.
+monster | noun | A large frightening imaginary creature.
+morning | noun | The part of the day before noon.
+motion | noun | Movement; a proposal put to a meeting.
+motivation | noun | The reason for acting in a certain way.
+mountain | noun | A very high hill.
+movement | noun | An act of moving; a group working for a cause.
+murder | noun | The unlawful killing of a person on purpose.
+muscle | noun | Tissue in the body that contracts to produce movement.
+museum | noun | A building where objects of interest are displayed.
+musician | noun | A person who plays or writes music.
+mustache | noun | Hair grown on the upper lip.
+mutual | adjective | Felt or done by each towards the other.
+mystery | noun | Something difficult to understand or explain.
+narrow | adjective | Small in width.
+nation | noun | A country and its people.
+national | adjective | Of a whole nation.
+native | adjective | Born in a place; naturally occurring there.
+nature | noun | The physical world; the basic character of something.
+necessary | adjective | Needed to achieve a result.
+necklace | noun | An ornamental chain worn round the neck.
+nectar | noun | The sweet liquid of flowers; a delicious drink.
+needle | noun | A thin pointed tool for sewing or injecting.
+negative | adjective | Expressing refusal; less than zero.
+neighbor | noun | A person living next door or nearby.
+nephew | noun | The son of one's brother or sister.
+nervous | adjective | Easily frightened; of the nerves.
+neutral | adjective | Taking no side; having no strong colour or charge.
+nickel | noun | A silvery metal; a five-cent coin.
+nightlife | noun | Entertainment available at night.
+nineteen | noun | The number after eighteen.
+ninety | noun | The number after eighty-nine.
+nitrogen | noun | A gas making up most of the air.
+nobody | pronoun | No person.
+normal | adjective | Usual and expected.
+northeast | noun | The direction between north and east.
+northern | adjective | Situated in or facing the north.
+nonsense | noun | Words or ideas that make no sense.
+notebook | noun | A book of blank pages for notes; a small computer.
+nothing | pronoun | Not anything.
+notice | noun | A printed announcement; attention given.
+notion | noun | An idea or belief.
+nowadays | adverb | At the present time.
+nowhere | adverb | In or to no place.
+nucleus | noun | The central part of an atom or cell.
+nuisance | noun | A person or thing causing trouble.
+number | noun | A figure used in counting.
+numerous | adjective | Great in number.
+object | noun | A material thing; an aim; to express opposition.
+objective | noun | A goal; not influenced by personal feeling.
+observe | verb | To watch carefully; to remark.
+obtain | verb | To get or acquire.
+obvious | adjective | Easily seen or understood.
+occasion | noun | A particular time or event.
+occupy | verb | To live in; to take control of; to keep busy.
+office | noun | A room where business is done; a position of authority.
+official | noun | A person holding public office; authorized.
+omelette | noun | Beaten eggs cooked flat in a pan.
+opinion | noun | A view held about something.
+opponent | noun | A person on the other side in a contest.
+opposite | adjective | Facing; entirely different.
+orange | noun | A round citrus fruit; a colour between red and yellow.
+ordinary | adjective | Usual, with nothing special about it.
+organism | noun | An individual living thing.
+organize | verb | To arrange in order; to make plans for.
+origin | noun | The point where something begins.
+original | adjective | Existing from the start; new and inventive.
+otherwise | adverb | In other circumstances; in a different way.
+outcome | noun | The result of an event.
+outfit | noun | A set of clothes worn together; a group working together.
+outline | noun | A line marking the shape of something; a summary.
+outside | noun | The external side or surface.
+overhead | adverb | Above one's head; the running costs of a business.
+overnight | adverb | For or during the night.
+ownership | noun | The state of owning something.
+oxygen | noun | The gas in air that living things need to breathe.

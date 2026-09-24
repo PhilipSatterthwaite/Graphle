@@ -1,0 +1,208 @@
+fertile | adjective | Able to produce crops or young in abundance.
+fiction | noun | Writing about imagined people and events.
+fiend | noun | A cruel or wicked person; a devil.
+fierce | adjective | Violent and aggressive.
+fiery | adjective | Consisting of fire; passionate.
+fifteen | noun | The number after fourteen.
+figure | noun | A number; a shape; a person's bodily form.
+finance | noun | The management of money.
+financial | adjective | Concerning money.
+finger | noun | One of the four slender digits of the hand.
+finish | verb | To bring to an end.
+firework | noun | A device that burns to make a display of light.
+firmament | noun | The sky seen as a vault above the earth.
+fisherman | noun | A person who catches fish.
+fitting | adjective | Suitable; a small part used in assembly.
+flavor | noun | The taste of a food or drink.
+flight | noun | The act of flying; a journey by air; an escape.
+flirt | verb | To behave playfully as though attracted to someone.
+floodlight | noun | A lamp throwing a broad beam over an area.
+fluid | noun | A substance that flows, such as liquid or gas.
+follow | verb | To go after; to obey or understand.
+follower | noun | A person who supports or comes after another.
+foolish | adjective | Lacking good sense.
+football | noun | A game played with a ball by two teams; the ball itself.
+footstep | noun | The sound or mark of a step in walking.
+forbid | verb | To order someone not to do something.
+forehead | noun | The part of the face above the eyebrows.
+foreign | adjective | Belonging to another country.
+forest | noun | A large area covered with trees.
+foretell | verb | To predict what will happen.
+forever | adverb | For all future time.
+forget | verb | To fail to remember.
+forgive | verb | To stop feeling angry about a wrong.
+formal | adjective | Following accepted rules; official.
+formation | noun | The act of forming; an arrangement.
+formula | noun | A rule expressed in symbols; a fixed recipe.
+fortunate | adjective | Lucky.
+fortune | noun | A large amount of money; chance or luck.
+forward | adverb | Towards the front.
+fountain | noun | A jet of water made to rise into the air.
+fourteen | noun | The number after thirteen.
+fourth | adjective | Next after the third.
+fraction | noun | A part of a whole; a number less than one.
+fragment | noun | A small piece broken off.
+framework | noun | A supporting structure; a basic plan.
+freedom | noun | The state of being free.
+freeze | verb | To turn to ice; to become motionless.
+frequency | noun | How often something happens; the rate of a wave.
+frequent | adjective | Happening often.
+friction | noun | The resistance of surfaces rubbing; disagreement.
+friend | noun | A person one likes and knows well.
+fright | noun | A sudden intense fear.
+frighten | verb | To make afraid.
+frozen | adjective | Turned to ice; preserved by cold.
+function | noun | The purpose something serves; a formal event.
+funeral | noun | A ceremony for burying or burning the dead.
+furious | adjective | Extremely angry.
+furnish | verb | To provide with furniture or supplies.
+furniture | noun | Chairs, tables, beds and the like.
+further | adverb | At a greater distance; in addition.
+future | noun | The time still to come.
+gallery | noun | A room for showing art; an upper floor of seats.
+gallon | noun | A measure of liquid of eight pints.
+gallop | noun | A horse's fastest pace.
+garage | noun | A building for keeping a car; a place for repairs.
+garbage | noun | Household waste.
+garden | noun | Ground where flowers and vegetables are grown.
+gather | verb | To bring or come together.
+general | adjective | Affecting all; not specialized; a senior officer.
+generous | adjective | Willing to give freely.
+gentle | adjective | Mild and kind; not rough.
+genuine | adjective | Real, not false.
+geography | noun | The study of the earth's surface and its peoples.
+gesture | noun | A movement of the hand or head expressing meaning.
+giraffe | noun | A tall African animal with a very long neck.
+glance | noun | A quick look.
+gland | noun | An organ that makes and releases substances in the body.
+glimpse | noun | A brief incomplete view.
+global | adjective | Concerning the whole world.
+gloom | noun | Partial darkness; low spirits.
+glorious | adjective | Having great beauty or fame.
+goddess | noun | A female deity.
+godfather | noun | A man who sponsors a child at baptism.
+golden | adjective | Made of or coloured like gold.
+goodbye | noun | A parting word.
+goodness | noun | The quality of being good.
+govern | verb | To rule or control a country.
+governor | noun | The official ruling a state or institution.
+graceful | adjective | Moving with elegance.
+gradual | adjective | Happening slowly by degrees.
+grandma | noun | A grandmother.
+grape | noun | A small juicy fruit growing in bunches on a vine.
+grassy | adjective | Covered with grass.
+grateful | adjective | Thankful for kindness received.
+gravel | noun | Small stones used for paths and roads.
+gravity | noun | The force pulling bodies towards the earth; seriousness.
+grease | noun | Thick oily matter used as a lubricant.
+greasy | adjective | Covered with or full of grease.
+greedy | adjective | Wanting more than one needs.
+greeting | noun | A word or gesture of welcome.
+ground | noun | The solid surface of the earth; a reason.
+growth | noun | The process of growing; an increase.
+guarantee | noun | A promise that something will be done or is sound.
+guilty | adjective | Having done wrong; feeling shame.
+guitar | noun | A stringed instrument played by plucking.
+gunman | noun | A man armed with a gun.
+gutter | noun | A channel at a roadside or roof edge for water.
+hammer | noun | A tool with a heavy head for driving nails.
+handful | noun | As much as the hand can hold; a small number.
+handle | noun | The part by which a thing is held.
+handsome | adjective | Good-looking, especially of a man; generous in size.
+happen | verb | To take place.
+harbor | noun | A sheltered place where ships anchor.
+harmful | adjective | Causing damage or injury.
+harmless | adjective | Not able to cause harm.
+harmony | noun | Agreement; notes sounded together pleasingly.
+hardship | noun | Severe suffering or difficulty.
+headlight | noun | A powerful lamp at the front of a vehicle.
+headset | noun | Earphones with a microphone.
+health | noun | The condition of the body or mind.
+healthy | adjective | In good health; good for you.
+hearty | adjective | Warm and enthusiastic; large and satisfying.
+heath | noun | Open uncultivated land with low shrubs.
+heaven | noun | The dwelling place of God; a state of bliss.
+height | noun | The measurement from base to top.
+helmet | noun | A hard hat protecting the head.
+heritage | noun | Traditions and buildings passed down from the past.
+heroic | adjective | Very brave.
+heroine | noun | A woman admired for her courage; the chief female character.
+hesitate | verb | To pause before acting through doubt.
+hiccough | noun | A sharp involuntary gulp of the breath.
+hidden | adjective | Kept out of sight.
+highway | noun | A main public road.
+hillside | noun | The sloping side of a hill.
+hippo | noun | A large African river mammal.
+historic | adjective | Famous or important in history.
+history | noun | The study of past events; a record of the past.
+hollow | adjective | Having a hole or empty space inside.
+honest | adjective | Truthful and fair.
+honeybee | noun | A bee that makes honey.
+hopeless | adjective | Without hope; very bad at something.
+horrible | adjective | Causing horror; very unpleasant.
+horror | noun | Intense fear or disgust.
+horseback | noun | The back of a horse, as a place to ride.
+hospital | noun | A place where the sick are treated.
+hostage | noun | A person held to force others to meet demands.
+hostile | adjective | Unfriendly; of an enemy.
+household | noun | The people living together in one house.
+however | adverb | Nevertheless; in whatever way.
+humble | adjective | Modest; of low rank.
+humorous | adjective | Causing amusement.
+hundred | noun | The number ten times ten.
+hungry | adjective | Feeling the need for food.
+husband | noun | A married man in relation to his wife.
+icicle | noun | A hanging spike of ice.
+identical | adjective | Exactly alike.
+identify | verb | To recognize and name.
+identity | noun | Who or what a person or thing is.
+ignorant | adjective | Lacking knowledge.
+ignore | verb | To take no notice of.
+illness | noun | A disease or period of being unwell.
+imaginary | adjective | Existing only in the mind.
+imagine | verb | To form a picture in the mind.
+imitate | verb | To copy the way something is done.
+immediate | adjective | Happening at once; nearest in relation.
+immense | adjective | Extremely large.
+impact | noun | The striking of one body against another; a strong effect.
+impatient | adjective | Unwilling to wait.
+import | verb | To bring goods in from abroad.
+important | adjective | Of great significance or value.
+improve | verb | To make or become better.
+incident | noun | An event, especially an unpleasant one.
+include | verb | To have as part of a whole.
+income | noun | Money received regularly from work or investment.
+increase | verb | To become greater in size or number.
+indeed | adverb | In truth; used to emphasize a statement.
+indicate | verb | To point out or show.
+industry | noun | The making of goods in factories; hard work.
+infant | noun | A very young child.
+infect | verb | To pass a disease to.
+infection | noun | Disease caused by germs entering the body.
+infinite | adjective | Without limit or end.
+influence | noun | The power to affect how others act or think.
+inform | verb | To tell someone facts.
+injure | verb | To do physical harm to.
+injury | noun | Physical harm or damage.
+innocent | adjective | Not guilty; free from knowledge of evil.
+insane | adjective | Seriously mentally ill; extremely foolish.
+insect | noun | A small six-legged animal with a body in three parts.
+inside | noun | The inner part of something.
+insist | verb | To demand something firmly.
+inspect | verb | To look at closely for faults.
+instance | noun | An example of something.
+instant | noun | A moment of time; happening at once.
+instead | adverb | In place of something else.
+instinct | noun | An inborn tendency to behave in a certain way.
+insult | noun | A remark meant to offend.
+insure | verb | To protect against loss by paying a premium.
+intend | verb | To have as a plan.
+intense | adjective | Very great in strength or degree.
+intent | noun | A firm purpose.
+interest | noun | The wish to know about something; a charge for borrowing.
+interior | noun | The inner part of something.
+internal | adjective | Inside; within a body or country.
+interpret | verb | To explain the meaning of; to translate speech.
+interval | noun | A gap in time or space; a break in a performance.
+introduce | verb | To make known by name; to bring in for the first time.
+invade | verb | To enter a country by force.
