@@ -122,6 +122,7 @@ svg.chart .grid { stroke: var(--grid); stroke-width: 1; vector-effect: non-scali
 svg.chart .axis { stroke: var(--border-strong); stroke-width: 1; vector-effect: non-scaling-stroke; }
 svg.chart .line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke; transition: stroke .4s; transition-delay: inherit; }
 svg.chart .area { fill: url(#area-accent); stroke: none; }
+svg.chart .plot { transform-box: fill-box; transform-origin: bottom; }
 svg.chart .peak-mark { stroke: var(--accent); stroke-width: 2; stroke-dasharray: 4 4; vector-effect: non-scaling-stroke; }
 svg.chart .peak-dot { fill: var(--accent); }
 svg.chart .cross { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; }
@@ -291,12 +292,16 @@ button.ghost:disabled { opacity: .35; cursor: default; }
 @keyframes invite { 50% { background-color: color-mix(in srgb, var(--accent) 9%, transparent); } }
 @keyframes lock-in { 0% { transform: scale(.92); } 60% { transform: scale(1.04); } }
 @keyframes fade { from { opacity: 0; } }
+@keyframes resize { from { transform: scaleY(var(--unscaled, 1)); } }
 @keyframes verdict-in { from { opacity: 0; transform: scale(.85); } }
 @keyframes shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
 
 .card.enter { animation: rise .5s var(--ease-out) both; animation-delay: calc(var(--i, 0) * 70ms); }
 .card.enter .plot { animation: wipe 1s cubic-bezier(.45, 0, .2, 1) both; animation-delay: calc(var(--i, 0) * 110ms + 180ms); }
 .card .labels-in { animation: fade .6s ease both; }
+/* On reveal, each curve settles from its old full height to the share its peak earns. */
+.card svg.chart.resize .plot { animation: resize .9s var(--ease-out) both; }
+.card svg.chart.resize .peak, .card svg.chart.resize .grid, .card svg.chart.resize .scale { animation: fade .9s ease both; }
 .words.enter .chip-wrap { animation: rise .45s var(--ease-out) both; animation-delay: calc(var(--i, 0) * 50ms + 350ms); }
 .guess-cell.stamp { animation: stamp .35s var(--ease-out) both; animation-delay: calc(var(--i, 0) * 45ms); }
 .score-cell.pop b, .score-cell.pop span { display: inline-block; }

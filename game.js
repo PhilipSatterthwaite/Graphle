@@ -147,13 +147,19 @@ function svgEl(tag, attrs) {
   return node;
 }
 
-function drawChart(series, showValues, showCurve = true) {
+function drawChart(series, showValues, showCurve = true, fill = null) {
   const { yearStart, yearEnd } = data;
-  const ymax = niceMax(Math.max(...series) || 1);
+  const top = Math.max(...series) || 1;
+  const ymax = niceMax(top);
+  // "fill" is the share of the plot this word's peak should take up, so graphs side by
+  // side can be compared by height; the axis is squashed to match. Without it the chart
+  // simply uses its own full axis, as a graph shown on its own should.
+  const plotH = (H - PAD.t - PAD.b) * (fill === null ? 1 : fill * (ymax / top));
   const x = (yr) => PAD.l + ((yr - yearStart) / (yearEnd - yearStart)) * (W - PAD.l - PAD.r);
-  const y = (v) => H - PAD.b - (v / ymax) * (H - PAD.t - PAD.b);
+  const y = (v) => H - PAD.b - (v / ymax) * plotH;
 
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, preserveAspectRatio: "none", class: "chart", role: "img" });
+  svg.style.setProperty("--unscaled", ((H - PAD.t - PAD.b) / plotH).toFixed(3));   // where the curve grows from
   for (let i = 0; i <= 4; i++) {
     const v = (ymax * i) / 4;
     svg.append(svgEl("line", { x1: PAD.l, x2: W - PAD.r, y1: y(v), y2: y(v), class: i ? "grid" : "axis" }));
@@ -186,7 +192,6 @@ function drawChart(series, showValues, showCurve = true) {
   if (showValues) {
     // Once the scale is revealed, mark the peak and write its height out beside it,
     // with a guide back to the axis so it reads against the numbers there too.
-    const top = Math.max(...series);
     const px = x(yearStart + series.indexOf(top)), py = y(top);
     const label = "peak " + fmt(top);
     const w = label.length * 6 + 14, h = 18;
@@ -322,6 +327,16 @@ addEventListener("keydown", (e) => {
   if (e.key === "ArrowLeft") stepZoom(-1);
   if (e.key === "ArrowRight") stepZoom(1);
 });
+
+// How tall to draw each graph once the scale is revealed, relative to the others in
+// the round. Log spacing, because a round's peaks can span a thousandfold.
+function magnitudeFill(word) {
+  const list = round.words.map((w) => peaks[w]);
+  const hi = Math.max(...list), lo = Math.min(...list);
+  if (hi / lo < 1.2) return 0.75;
+  const t = (Math.log(peaks[word]) - Math.log(lo)) / (Math.log(hi) - Math.log(lo));
+  return 0.3 + 0.45 * t;
+}
 
 // ---- Moving words -------------------------------------------------------
 
@@ -632,8 +647,11 @@ function renderCards(board, showValues, showCurve) {
       card.dataset.graph = gi;
       card.style.setProperty("--i", gi);
       if (!sameRound || curveAppeared) card.classList.add("enter");
-      const chart = drawChart(data.series[word], showValues, showCurve);
-      if (sameRound && showValues) for (const t of chart.querySelectorAll(".scale")) t.classList.add("labels-in");
+      const chart = drawChart(data.series[word], showValues, showCurve, showValues ? magnitudeFill(word) : null);
+      if (sameRound && showValues) {
+        for (const t of chart.querySelectorAll(".scale")) t.classList.add("labels-in");
+        chart.classList.add("resize");   // settle from full height to this word's share
+      }
       // Caption replaces the axis labels on narrow screens; it must not give away
       // more than the axis would, so it shows the peak height only.
       card.append(chart, el("div", { className: "chart-caption" + (showValues ? " on" : ""), textContent: showValues ? `peak ${fmt(peaks[word])}` : "1800–2022" }));
