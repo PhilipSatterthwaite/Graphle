@@ -1,0 +1,192 @@
+poem | noun | A piece of writing in verse.
+poet | noun | A writer of poems.
+point | noun | A sharp end; a particular place or moment; a mark of score.
+polar | adjective | Of or near the North or South Pole.
+pole | noun | A long slender rod; either end of the earth's axis.
+pond | noun | A small area of still water.
+pony | noun | A horse of a small breed.
+pool | noun | A small body of still water; a shared fund.
+poor | adjective | Having little money; of low quality.
+porch | noun | A covered shelter at the entrance of a building.
+pork | noun | The meat of a pig.
+port | noun | A harbour town; the left side of a ship; a sweet wine.
+pose | verb | To hold a position for a picture; to present a question.
+post | noun | An upright support; the mail; a job.
+pot | noun | A rounded container for cooking or plants.
+pound | noun | A unit of weight; the British unit of money.
+pour | verb | To make a liquid flow from a container.
+power | noun | The ability to act or control; energy supplied.
+pray | verb | To speak to a god in worship or request.
+press | verb | To push steadily; the newspapers as a group.
+prey | noun | An animal hunted by another.
+price | noun | The amount of money asked for something.
+pride | noun | Satisfaction in one's achievements; excessive self-regard.
+prime | adjective | Of the first importance or best quality.
+print | verb | To produce text or pictures on paper by machine.
+prism | noun | A glass solid that splits light into colours.
+prize | noun | A reward for winning.
+proof | noun | Evidence that establishes a fact.
+proud | adjective | Feeling pride; having self-respect.
+prove | verb | To show that something is true.
+pub | noun | A house licensed to sell beer and other drinks.
+puff | noun | A short burst of breath, wind or smoke.
+pull | verb | To draw something towards oneself.
+pulse | noun | The beating of blood in the arteries; a regular throb.
+pump | noun | A machine that moves liquid or air.
+pupil | noun | A person being taught; the dark centre of the eye.
+puppy | noun | A young dog.
+pure | adjective | Free from anything that spoils or dilutes.
+purse | noun | A small bag for money.
+push | verb | To press so as to move something away.
+queen | noun | A female monarch, or a king's wife.
+queue | noun | A line of people waiting their turn.
+quick | adjective | Moving or happening fast.
+quiet | adjective | Making little or no noise.
+quit | verb | To stop or leave something.
+quiver | verb | To tremble slightly; a case for arrows.
+quiz | noun | A test of knowledge, often for fun.
+race | noun | A contest of speed; a group of people with shared descent.
+rack | noun | A framework for holding things.
+raft | noun | A flat floating structure of logs or planks.
+rag | noun | A piece of old cloth.
+rage | noun | Violent uncontrollable anger.
+raid | noun | A sudden attack or search.
+rail | noun | A bar of metal or wood; a railway.
+rain | noun | Water falling in drops from clouds.
+raise | verb | To lift up; to bring up children.
+rake | noun | A toothed tool for gathering leaves.
+rally | noun | A large public meeting; a recovery after decline.
+range | noun | The extent between limits; a line of mountains; a cooking stove.
+rank | noun | A position in a hierarchy; a row.
+rapid | adjective | Happening very quickly.
+rare | adjective | Uncommon; lightly cooked.
+rasp | noun | A coarse file; a harsh grating sound.
+rat | noun | A long-tailed rodent larger than a mouse.
+rate | noun | A measure or charge reckoned against something else.
+ratio | noun | The relation between two amounts.
+ray | noun | A narrow beam of light; a flat sea fish.
+reach | verb | To stretch out to touch; to arrive at.
+react | verb | To respond to something.
+read | verb | To take in the meaning of written words.
+ready | adjective | Prepared for action.
+real | adjective | Actually existing; genuine.
+rear | noun | The back part; to bring up young.
+red | adjective | Of the colour of blood.
+reed | noun | A tall grass of wet ground; a vibrating strip in an instrument.
+refer | verb | To mention; to send on for help or decision.
+reign | noun | The period during which a monarch rules.
+rein | noun | A strap for guiding a horse.
+relax | verb | To become less tense.
+relay | noun | A race with team members in turn; a device passing on a signal.
+rely | verb | To depend on with confidence.
+rent | noun | A payment made for the use of property.
+reply | noun | An answer.
+rest | noun | A period of ease; the remainder.
+rib | noun | One of the curved bones of the chest.
+rice | noun | A grain grown in flooded fields and eaten widely.
+rich | adjective | Having much money; full of a quality.
+ride | verb | To sit on and control a horse or bicycle.
+ridge | noun | A long narrow raised strip of land or roof.
+right | adjective | Correct; on the side opposite the left.
+rigid | adjective | Stiff and unbending.
+ring | noun | A circular band worn on a finger; the sound of a bell.
+rink | noun | An enclosed area of ice for skating.
+ripe | adjective | Fully grown and ready to eat.
+rise | verb | To move upward; to get up.
+risk | noun | The chance of loss or harm.
+rival | noun | A person competing with another.
+river | noun | A large natural stream of water.
+road | noun | A wide way for vehicles between places.
+roam | verb | To wander without a fixed purpose.
+roar | noun | A loud deep sound like that of a lion.
+roast | verb | To cook by dry heat in an oven or over a fire.
+rob | verb | To take property from someone unlawfully.
+robe | noun | A long loose outer garment.
+rock | noun | Hard stone; a large stone; a style of music.
+rocky | adjective | Full of rocks; unsteady.
+rod | noun | A thin straight bar.
+role | noun | A part played by an actor; a function.
+roll | verb | To move by turning over; a small loaf.
+roof | noun | The covering on top of a building.
+room | noun | A space enclosed by walls; available space.
+root | noun | The part of a plant below ground; an origin.
+rope | noun | Thick strong cord.
+rose | noun | A prickly bush with fragrant flowers.
+rosy | adjective | Pink and healthy; promising.
+rough | adjective | Uneven to the touch; not gentle.
+round | adjective | Shaped like a circle or ball.
+route | noun | The way taken from one place to another.
+row | noun | A line of things side by side; a noisy quarrel.
+royal | adjective | Belonging to a king or queen.
+rub | verb | To move something to and fro against a surface.
+rude | adjective | Offensively impolite.
+rug | noun | A small thick floor mat.
+ruin | noun | Destruction; the remains of a fallen building.
+rule | noun | A statement of what is allowed; government.
+run | verb | To move fast on foot.
+rush | verb | To move with urgent haste.
+rust | noun | The reddish coating on iron exposed to damp.
+rusty | adjective | Covered with rust; out of practice.
+sack | noun | A large bag of coarse material.
+safe | adjective | Free from danger; a strong box for valuables.
+sail | noun | A sheet of cloth that catches the wind to drive a boat.
+salad | noun | A cold dish of raw vegetables.
+sale | noun | The exchange of goods for money; a period of reduced prices.
+salt | noun | A white crystalline substance used to season food.
+salty | adjective | Tasting of salt.
+sand | noun | Fine grains of worn rock found on beaches.
+sandy | adjective | Covered with sand; of a light yellowish brown.
+sauce | noun | A liquid served with food to add flavour.
+save | verb | To rescue; to keep for later use.
+scale | noun | A series of marks for measuring; a small plate on a fish.
+scare | verb | To frighten.
+scarf | noun | A length of cloth worn round the neck.
+scary | adjective | Frightening.
+scene | noun | A place where something happens; a part of a play.
+scent | noun | A pleasant smell; a trail of odour.
+score | noun | The points made in a game; written music.
+scout | noun | A person sent to gather information.
+scrap | noun | A small piece left over; waste metal.
+screw | noun | A metal pin with a spiral thread.
+scrub | verb | To rub hard to clean.
+sea | noun | The salt water covering most of the earth.
+seal | noun | A sea mammal with flippers; a fastening that closes tightly.
+seam | noun | A line where two edges are sewn together.
+seat | noun | A thing made for sitting on.
+seed | noun | The part of a plant from which a new one grows.
+seek | verb | To try to find.
+seize | verb | To take hold of suddenly and firmly.
+self | noun | A person's own nature or identity.
+sell | verb | To give something in exchange for money.
+sense | noun | A faculty such as sight or smell; good judgement.
+serve | verb | To provide food or a service to someone.
+seven | noun | The number after six.
+sew | verb | To join cloth with needle and thread.
+shade | noun | Slight darkness cast by something blocking light.
+shaft | noun | A long narrow handle or pole; a vertical passage.
+shake | verb | To move quickly to and fro.
+shame | noun | Distress at having done wrong.
+shape | noun | The outward form of something.
+share | verb | To divide between people; a part of a company owned.
+shark | noun | A large predatory sea fish.
+sharp | adjective | Having a fine edge; quick to notice.
+shed | noun | A simple wooden building for storage.
+sheep | noun | A farm animal kept for wool and meat.
+sheet | noun | A large piece of cloth for a bed; a flat piece of paper.
+shelf | noun | A flat board fixed to a wall for holding things.
+shell | noun | The hard outer covering of a nut, egg or sea creature.
+shift | noun | A change of position; a period of work.
+shin | noun | The front of the leg below the knee.
+shine | verb | To give out light; to polish.
+shiny | adjective | Reflecting light brightly.
+ship | noun | A large vessel for travelling on the sea.
+shirt | noun | A garment for the upper body with a collar.
+shock | noun | A sudden upsetting surprise; a jolt of electricity.
+shoe | noun | An outer covering for the foot.
+shoot | verb | To fire a weapon; to grow rapidly.
+shop | noun | A building where goods are sold.
+short | adjective | Of small length or height; brief.
+shout | verb | To speak very loudly.
+show | verb | To let something be seen; a performance.
+shred | noun | A narrow strip torn from something.
+shut | verb | To close.

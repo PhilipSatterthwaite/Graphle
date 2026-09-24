@@ -1,0 +1,151 @@
+sick | adjective | Unwell; feeling the urge to vomit.
+side | noun | A surface or edge bounding something; one of two opposing groups.
+sigh | noun | A long deep breath expressing feeling.
+sight | noun | The ability to see; something worth seeing.
+sign | noun | A board giving information; an indication.
+silicon | noun | The element used to make computer chips.
+silk | noun | A fine soft cloth made by silkworms.
+silly | adjective | Foolish or lacking sense.
+sing | verb | To make musical sounds with the voice.
+sink | verb | To go down below a surface; a basin with a drain.
+site | noun | A place where something is located or built.
+six | noun | The number after five.
+sixth | adjective | Next after the fifth.
+sixty | noun | The number after fifty-nine.
+size | noun | How large or small something is.
+skate | verb | To glide on ice or wheels.
+skid | verb | To slide sideways out of control.
+skill | noun | The ability to do something well.
+skin | noun | The outer covering of a body.
+skip | verb | To move with light hops; to leave out.
+skull | noun | The bony frame of the head.
+sky | noun | The space above the earth seen from the ground.
+slap | verb | To strike with the open hand.
+slave | noun | A person owned by another and forced to work.
+sled | noun | A vehicle on runners for travelling on snow.
+sleek | adjective | Smooth and glossy.
+sleep | verb | To rest with the eyes closed and mind unconscious.
+sleuth | noun | A detective.
+slice | noun | A thin flat piece cut from something.
+slim | adjective | Gracefully thin; small in amount.
+slip | verb | To slide accidentally; a small piece of paper.
+slit | noun | A long narrow cut or opening.
+slope | noun | A surface with one end higher than the other.
+slot | noun | A narrow opening for inserting something.
+slow | adjective | Moving or acting without speed.
+small | adjective | Little in size or amount.
+smart | adjective | Clever; neat and stylish.
+smash | verb | To break violently into pieces.
+smell | noun | The quality perceived by the nose.
+smile | noun | A pleased expression with upturned mouth.
+smoke | noun | The grey cloud given off by burning.
+snack | noun | A small quick meal.
+snake | noun | A long legless reptile.
+snap | verb | To break suddenly with a sharp sound.
+sneak | verb | To move quietly and secretly.
+snow | noun | Frozen water falling as soft white flakes.
+snowy | adjective | Covered with snow.
+soak | verb | To make thoroughly wet.
+sob | verb | To weep with gasping breaths.
+sock | noun | A knitted covering for the foot.
+soda | noun | A fizzy drink; a compound of sodium.
+soft | adjective | Yielding to touch; not loud.
+soil | noun | The top layer of earth in which plants grow.
+sole | noun | The underside of a foot or shoe; a flat fish.
+solid | adjective | Firm and stable in shape.
+solo | noun | A performance by one person alone.
+solve | verb | To find the answer to a problem.
+son | noun | A male child in relation to his parents.
+song | noun | A short piece of music with words.
+soon | adverb | In a short time from now.
+soot | noun | Black powder left by smoke.
+sore | adjective | Painful when touched.
+sorry | adjective | Feeling regret or sympathy.
+sort | noun | A kind or type; to arrange in order.
+soul | noun | The spiritual part of a person.
+sound | noun | Vibrations heard by the ear; in good condition.
+soup | noun | A liquid food made by boiling ingredients.
+sour | adjective | Having a sharp acid taste.
+south | noun | The direction opposite north.
+space | noun | An empty area; the region beyond the atmosphere.
+span | noun | The full extent from end to end.
+spare | adjective | Kept in reserve; thin.
+spark | noun | A small fiery particle.
+speak | verb | To say words aloud.
+spear | noun | A weapon with a long shaft and pointed head.
+speed | noun | The rate at which something moves.
+spell | verb | To name the letters of a word; a period of time; a charm.
+spend | verb | To pay out money; to pass time.
+spill | verb | To let liquid fall out of a container.
+spin | verb | To turn round quickly; to draw out thread.
+spine | noun | The backbone; a sharp thorn.
+spit | verb | To eject saliva from the mouth.
+spite | noun | The desire to hurt or annoy.
+split | verb | To break along a line; to divide.
+spoil | verb | To damage; to treat a child too indulgently.
+spoon | noun | A shallow bowl on a handle for eating.
+sport | noun | A game involving physical effort and skill.
+spot | noun | A small round mark; a particular place.
+spray | noun | Liquid blown in tiny drops.
+stack | noun | A neat pile.
+staff | noun | The people who work for an organization; a long stick.
+stage | noun | A raised platform for performing; a point in a process.
+stair | noun | One of a set of steps between floors.
+stalk | noun | The stem of a plant; to follow secretly.
+stall | noun | A stand for selling goods; a compartment for an animal.
+stamp | noun | A small printed label showing postage is paid.
+stand | verb | To be upright on the feet.
+star | noun | A distant sun seen at night; a leading performer.
+stare | verb | To look fixedly at something.
+stark | adjective | Severe and bare; complete.
+start | verb | To begin.
+state | noun | A condition; a country or its government.
+stay | verb | To remain in a place.
+steak | noun | A thick slice of meat or fish.
+steal | verb | To take without permission.
+steam | noun | The vapour given off by boiling water.
+steel | noun | A hard alloy of iron and carbon.
+steep | adjective | Rising or falling sharply.
+steer | verb | To guide the course of a vehicle or boat.
+stem | noun | The main stalk of a plant.
+step | noun | A movement of the foot in walking; a stair.
+stern | adjective | Serious and severe; the back of a ship.
+stick | noun | A thin piece of wood; to fix in place.
+stiff | adjective | Not easily bent.
+still | adjective | Not moving; even now.
+sting | verb | To wound with a sharp point, as a bee does.
+stir | verb | To move a liquid round with a spoon.
+stock | noun | A supply kept for use; shares in a company.
+stone | noun | A piece of rock; the hard seed of some fruits.
+stool | noun | A seat without a back.
+stoop | verb | To bend the body forward and down.
+stop | verb | To bring to an end; to cease moving.
+store | noun | A shop; a supply kept for later.
+story | noun | An account of events, real or invented.
+stout | adjective | Rather fat; sturdy; a dark beer.
+stove | noun | An apparatus for cooking or heating.
+strap | noun | A strip of leather or cloth for fastening.
+stray | verb | To wander from the right place.
+strip | noun | A long narrow piece; to remove covering.
+stud | noun | A small knob; horses kept for breeding.
+study | verb | To learn about a subject by reading and thought.
+stuff | noun | Material or things in general.
+stump | noun | The part of a tree left after felling.
+stun | verb | To knock senseless; to astonish.
+stunt | noun | A daring feat performed for show.
+style | noun | A manner of doing something; elegance.
+sugar | noun | A sweet substance obtained from cane or beet.
+suit | noun | A jacket and trousers of the same cloth; a court case.
+sum | noun | A total; an arithmetic problem.
+sun | noun | The star that gives the earth light and heat.
+sunny | adjective | Bright with sunshine; cheerful.
+super | adjective | Excellent or very good.
+sure | adjective | Certain of something.
+surf | noun | Waves breaking on the shore.
+swan | noun | A large white waterbird with a long neck.
+swear | verb | To make a solemn promise; to use bad language.
+sweep | verb | To clean a floor with a brush.
+sweet | adjective | Tasting of sugar; pleasing.
+swift | adjective | Moving very fast.
+swim | verb | To move through water using the limbs.
+sword | noun | A weapon with a long blade and a hilt.

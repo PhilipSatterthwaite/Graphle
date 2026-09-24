@@ -985,7 +985,7 @@ $("clear").addEventListener("click", clearBoard);
 $("next").addEventListener("click", newRound);
 $("share").addEventListener("click", shareResults);
 
-Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=50").then((r) => r.json())))
+Promise.all(["data/ngrams.json", "data/definitions.json"].map((u) => fetch(u + "?v=51").then((r) => r.json())))
   .then(([ngrams, defs]) => {
     // Series are stored as a peak plus percentages of it; expand to values.
     for (const [w, { max, q }] of Object.entries(ngrams.series)) {

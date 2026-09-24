@@ -1,0 +1,189 @@
+board | noun | A flat piece of wood; a group that manages an organization.
+boat | noun | A small vessel for travelling on water.
+body | noun | The physical structure of a person or animal.
+boil | verb | To heat a liquid until it bubbles.
+bold | adjective | Confident and daring; strongly marked.
+bomb | noun | A container of explosive designed to blow up.
+bond | noun | A tie between people; a certificate of debt.
+bone | noun | A hard piece of the skeleton.
+bonus | noun | An extra payment or benefit.
+book | noun | A set of printed pages bound together.
+boom | noun | A deep resonant sound; a period of rapid growth.
+boot | noun | A sturdy shoe covering the ankle.
+bore | verb | To make a hole; to make someone weary.
+bosom | noun | A person's chest, especially a woman's breasts.
+boss | noun | A person in charge of workers.
+bottle | noun | A narrow-necked container for liquid.
+bottom | noun | The lowest part of something.
+bounce | verb | To spring back after hitting a surface.
+bound | verb | To leap; to form the limit of.
+bow | noun | A weapon for shooting arrows; a knot with loops.
+bowl | noun | A round deep dish.
+box | noun | A container with flat sides and a lid.
+boxer | noun | A person who fights with the fists as a sport.
+boy | noun | A male child.
+brain | noun | The organ inside the skull that controls the body.
+brake | noun | A device for slowing or stopping a vehicle.
+branch | noun | A limb of a tree; a local office of a firm.
+brand | noun | A maker's name on goods; a mark burned into hide.
+brass | noun | A yellow alloy of copper and zinc.
+brave | adjective | Ready to face danger or pain.
+bread | noun | A baked food made from flour and water.
+break | verb | To separate into pieces; to fail to keep a rule.
+breast | noun | Either of the two soft parts on a woman's chest.
+breath | noun | Air taken into and let out of the lungs.
+breeze | noun | A gentle wind.
+brick | noun | A block of baked clay used in building.
+bride | noun | A woman on her wedding day.
+bridge | noun | A structure carrying a road over an obstacle.
+brief | adjective | Lasting only a short time.
+bright | adjective | Giving out much light; clever.
+bring | verb | To carry something to a place.
+broad | adjective | Wide from side to side.
+brook | noun | A small stream.
+brown | adjective | Of the colour of earth or wood.
+brush | noun | A tool of bristles for cleaning or painting.
+bubble | noun | A thin sphere of liquid enclosing air.
+bud | noun | A small swelling on a plant that becomes a flower.
+budget | noun | A plan for spending money.
+bug | noun | An insect; a fault in a machine or program.
+build | verb | To make something by putting parts together.
+bulb | noun | A rounded root; the glass part of a lamp.
+bulk | noun | The greater part; large size.
+bull | noun | An uncastrated male of cattle.
+bullet | noun | A small metal projectile fired from a gun.
+bump | noun | A light blow; a raised swelling.
+bunch | noun | A number of things growing or held together.
+bundle | noun | A collection of things tied together.
+bunk | noun | A narrow shelf-like bed.
+bunny | noun | A child's word for a rabbit.
+burden | noun | A heavy load; a duty hard to bear.
+burn | verb | To be on fire, or to destroy with fire.
+burp | verb | To let out wind from the stomach noisily.
+burst | verb | To break open suddenly.
+bury | verb | To put underground, especially a body.
+bus | noun | A large road vehicle carrying many passengers.
+bush | noun | A shrub with many stems; wild uncleared country.
+busy | adjective | Occupied with work.
+buy | verb | To get something by paying for it.
+buzz | noun | A low humming sound, as of a bee.
+cab | noun | A taxi; the driver's compartment of a lorry.
+cable | noun | A thick rope or bundle of wires.
+cage | noun | An enclosure of bars for keeping animals.
+cake | noun | A sweet baked food made from batter.
+calcium | noun | A metallic element found in bone and chalk.
+calf | noun | A young cow; the fleshy back of the lower leg.
+call | verb | To shout to someone; to telephone.
+calm | adjective | Free from disturbance or wind.
+camel | noun | A desert animal with one or two humps.
+camera | noun | A device for taking photographs.
+camp | noun | A place with tents or huts for temporary stay.
+can | noun | A metal container for food or drink.
+candle | noun | A stick of wax with a wick for giving light.
+cane | noun | A walking stick; the stem of a tall grass.
+cannon | noun | A large heavy gun mounted on a carriage.
+cap | noun | A soft flat hat; a lid or cover.
+car | noun | A motor vehicle for a few passengers.
+card | noun | A piece of stiff paper used for writing or games.
+care | noun | Attention to safety; the provision of help.
+cargo | noun | Goods carried by a ship or aircraft.
+carp | noun | A freshwater fish often kept in ponds.
+carpet | noun | A thick woven floor covering.
+carry | verb | To take something from one place to another.
+cart | noun | A small wheeled vehicle pulled or pushed.
+case | noun | A container; an instance of something; a lawsuit.
+cash | noun | Money in coins and notes.
+cast | verb | To throw; to shape metal in a mould.
+cat | noun | A small furry animal kept as a pet.
+catch | verb | To take hold of something moving.
+cause | noun | A thing that makes something happen; a principle fought for.
+cave | noun | A hollow space in rock or underground.
+cell | noun | A small room in a prison; the smallest unit of life.
+cent | noun | A coin worth a hundredth of a dollar.
+chain | noun | A series of connected metal links.
+chair | noun | A seat with a back for one person.
+chalk | noun | Soft white limestone used for writing.
+charm | noun | The power to please; a small ornament said to bring luck.
+chart | noun | A sheet of information in tables or graphs; a sea map.
+chase | verb | To run after in order to catch.
+cheap | adjective | Costing little; of poor quality.
+check | verb | To examine for accuracy; to stop or restrain.
+cheek | noun | The side of the face below the eye.
+cheer | verb | To shout in praise or encouragement.
+chest | noun | The front of the body between neck and stomach; a large box.
+chew | verb | To grind food between the teeth.
+chief | noun | A leader or head of a group.
+child | noun | A young human being.
+chill | noun | A feeling of cold; a brief illness from cold.
+chin | noun | The front of the jaw below the mouth.
+chip | noun | A small broken piece; a tiny wafer of circuitry.
+chop | verb | To cut with a heavy blow.
+chord | noun | Several musical notes sounded together.
+city | noun | A large important town.
+civil | adjective | Of ordinary citizens; polite.
+claim | noun | A demand for something as a right.
+clam | noun | A shellfish with a hinged shell.
+class | noun | A group of pupils; a rank in society; a category.
+claw | noun | A curved nail on an animal's foot.
+clay | noun | Sticky earth used for pottery and bricks.
+clean | adjective | Free from dirt.
+clear | adjective | Easy to see through or understand.
+click | noun | A short sharp sound; a press of a mouse button.
+cliff | noun | A steep rock face, especially by the sea.
+climb | verb | To go up something using effort.
+clip | noun | A fastener that grips; a short extract of film.
+cloak | noun | A loose sleeveless outer garment.
+clock | noun | A device showing the time.
+close | verb | To shut; to bring to an end.
+cloth | noun | Woven material.
+cloud | noun | A mass of water droplets floating in the sky.
+club | noun | A society of members; a heavy stick.
+clue | noun | A piece of evidence that helps solve a puzzle.
+coal | noun | A black rock burned as fuel.
+coast | noun | The land beside the sea.
+coat | noun | An outer garment with sleeves; a covering layer.
+code | noun | A system of signals or rules; program instructions.
+coil | noun | Something wound into rings.
+coin | noun | A piece of metal money.
+cold | adjective | Of low temperature.
+color | noun | The quality of light seen as red, blue and so on.
+colt | noun | A young male horse.
+comb | noun | A toothed strip for tidying hair.
+comic | adjective | Causing laughter.
+cone | noun | A solid tapering to a point; the fruit of a pine.
+cook | verb | To prepare food with heat.
+copy | noun | A thing made to be the same as another.
+coral | noun | A hard substance built by sea creatures in warm water.
+cord | noun | Thin rope; an insulated electrical cable.
+core | noun | The central part of something.
+cork | noun | The bark of an oak used to stop bottles.
+corn | noun | Grain such as wheat or maize.
+cost | noun | The amount to be paid for something.
+cough | verb | To expel air from the lungs with a sharp sound.
+count | verb | To find the number of things.
+court | noun | A place where legal cases are heard; an enclosed yard.
+cover | verb | To place something over; to deal with a topic.
+cow | noun | A fully grown female of cattle.
+crab | noun | A shellfish with pincers that walks sideways.
+crack | noun | A narrow split; a sudden sharp sound.
+craft | noun | A skilled trade; a boat or aircraft.
+cram | verb | To force too much into a space; to study hurriedly.
+crash | noun | A violent collision; a sudden failure.
+crawl | verb | To move on hands and knees.
+crazy | adjective | Mad, or wildly foolish.
+cream | noun | The fatty part of milk; a pale yellowish white.
+creek | noun | A small stream or narrow inlet.
+creep | verb | To move slowly and quietly.
+crest | noun | The top of a hill or wave; a tuft on a bird's head.
+crew | noun | The people who work a ship or aircraft.
+crime | noun | An act punishable by law.
+crisp | adjective | Firm and dry, breaking easily.
+crop | noun | Plants grown for food; a season's yield.
+cross | noun | An upright with a bar across it; a mark of two lines.
+crowd | noun | A large group of people gathered together.
+crown | noun | The headdress of a monarch; the top of the head.
+crude | adjective | Rough and unrefined.
+cruel | adjective | Willing to cause pain to others.
+crush | verb | To press hard enough to break or flatten.
+crust | noun | The hard outer layer of bread or the earth.
+cry | verb | To shed tears; to call out loudly.

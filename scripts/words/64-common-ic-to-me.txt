@@ -1,0 +1,152 @@
+ice | noun | Frozen water.
+idea | noun | A thought or plan formed in the mind.
+ideal | adjective | Perfect of its kind.
+idle | adjective | Not working or in use.
+ill | adjective | Not in good health.
+image | noun | A picture or likeness; a reputation.
+inch | noun | A unit of length, a twelfth of a foot.
+index | noun | An alphabetical list at the back of a book; a measure.
+ink | noun | Coloured liquid used for writing and printing.
+inn | noun | A small hotel serving food and drink.
+inner | adjective | Situated inside.
+iodine | noun | A dark element used as an antiseptic.
+issue | noun | A matter in dispute; one number of a magazine.
+item | noun | A single article in a list or collection.
+jail | noun | A place where people are locked up.
+jam | noun | A sweet spread of boiled fruit; a blockage.
+jar | noun | A wide-mouthed glass container.
+jaw | noun | Either of the bones framing the mouth.
+jet | noun | A stream of liquid or gas; an aircraft with jet engines.
+jewel | noun | A precious stone.
+job | noun | Paid work; a task.
+join | verb | To link together; to become a member.
+joint | noun | A place where two parts meet; a cut of meat.
+joke | noun | Something said to cause laughter.
+judge | noun | An official who decides cases in court.
+jug | noun | A container with a handle and lip for pouring.
+juice | noun | The liquid from fruit or vegetables.
+jump | verb | To push off the ground into the air.
+jury | noun | A group sworn to give a verdict in a trial.
+keen | adjective | Eager; sharp in edge or mind.
+keep | verb | To retain possession of; to continue.
+key | noun | A shaped metal piece for opening a lock; a button.
+kick | verb | To strike with the foot.
+kid | noun | A child; a young goat.
+kill | verb | To cause the death of.
+kind | adjective | Considerate and generous.
+king | noun | A male monarch.
+kiss | verb | To touch with the lips in affection.
+kit | noun | A set of tools or parts for a task.
+knee | noun | The joint between the thigh and lower leg.
+knife | noun | A tool with a blade for cutting.
+knit | verb | To make fabric by looping yarn with needles.
+knob | noun | A rounded handle or control.
+knock | verb | To strike a surface to make a noise.
+knot | noun | A fastening made by tying; a hard lump in wood.
+know | verb | To have information or understanding.
+label | noun | A slip attached to something giving information.
+labor | noun | Work, especially hard physical work; childbirth.
+lace | noun | A delicate openwork fabric; a cord for shoes.
+lack | noun | The absence of something needed.
+lady | noun | A woman, especially one of good manners or rank.
+lair | noun | The resting place of a wild animal.
+lake | noun | A large body of water surrounded by land.
+lamb | noun | A young sheep.
+lamp | noun | A device giving light.
+land | noun | The solid part of the earth's surface; a country.
+lane | noun | A narrow road; a division of a carriageway.
+large | adjective | Of considerable size.
+last | adjective | Coming after all others; most recent.
+late | adjective | After the expected time; recently dead.
+law | noun | A rule made by a government; a principle of science.
+lawn | noun | An area of mown grass.
+layer | noun | A sheet of material lying over another.
+lazy | adjective | Unwilling to work.
+lead | verb | To go in front and guide; a heavy soft metal.
+leaf | noun | A flat green part of a plant; a page.
+leak | noun | An unintended escape of liquid or information.
+lean | verb | To slope from the upright; thin and without fat.
+leap | verb | To jump a long way.
+learn | verb | To gain knowledge or skill.
+leave | verb | To go away from; to let remain.
+ledge | noun | A narrow shelf or projection.
+leg | noun | A limb on which a body walks and stands.
+legal | adjective | Allowed by law; concerning the law.
+lend | verb | To give for temporary use.
+lens | noun | A curved piece of glass that bends light.
+level | noun | A height or standard; flat and even.
+liar | noun | A person who tells lies.
+lick | verb | To pass the tongue over.
+lid | noun | A removable cover for a container.
+life | noun | The state of being alive; the span of a living thing.
+lift | verb | To raise to a higher position.
+light | noun | What makes things visible; not heavy.
+limb | noun | An arm, leg or large branch.
+lime | noun | A green citrus fruit; a white mineral used in building.
+limit | noun | A point beyond which something may not go.
+line | noun | A long narrow mark; a row; a cord.
+link | noun | A connection between two things.
+lion | noun | A large wild cat of Africa with a maned male.
+lip | noun | Either of the two fleshy edges of the mouth.
+list | noun | A number of items written one after another.
+liter | noun | A metric unit of volume.
+lithium | noun | A light metal used in batteries and medicine.
+live | verb | To be alive; to make one's home somewhere.
+load | noun | A weight carried; an amount transported.
+loaf | noun | A shaped mass of bread.
+loan | noun | A sum of money lent.
+local | adjective | Belonging to a particular small area.
+lock | noun | A fastening opened with a key; a canal chamber.
+lodge | noun | A small house at the gates of an estate.
+lofty | adjective | Very tall; noble or haughty.
+log | noun | A cut length of tree trunk; a record of a voyage.
+long | adjective | Measuring a great distance or time.
+look | verb | To direct the eyes towards something.
+loop | noun | A shape produced by a curve crossing itself.
+loose | adjective | Not firmly fixed; not tight.
+lord | noun | A nobleman; a master or ruler.
+lose | verb | To be deprived of; to be beaten.
+loss | noun | The fact of losing something.
+loud | adjective | Making a lot of noise.
+love | noun | Deep affection.
+loyal | adjective | Faithful to a person or cause.
+luck | noun | Success or failure apparently by chance.
+lump | noun | A compact mass; a swelling.
+lunar | adjective | Of or relating to the moon.
+lunch | noun | A meal eaten in the middle of the day.
+lung | noun | Either of the two organs used in breathing.
+magic | noun | The apparent use of supernatural power; conjuring.
+magnesium | noun | A light silvery metal that burns with a bright flame.
+maid | noun | A female servant.
+mail | noun | Letters and parcels sent by post.
+main | adjective | Chief in size or importance.
+major | adjective | Greater in importance; an army rank.
+make | verb | To bring something into being.
+male | noun | A person or animal of the sex that fathers young.
+mane | noun | The long hair on a horse's or lion's neck.
+map | noun | A drawing of an area showing its features.
+march | verb | To walk with regular steps, as soldiers.
+mare | noun | A female horse.
+mark | noun | A visible sign on a surface; a grade for work.
+marry | verb | To take as husband or wife.
+mask | noun | A covering for the face.
+mass | noun | A large quantity; the amount of matter in a body.
+mast | noun | A tall upright pole carrying sails or aerials.
+mat | noun | A piece of coarse material laid on a floor.
+match | noun | A contest; a stick that lights on striking.
+mate | noun | A companion; a breeding partner.
+math | noun | The study of numbers, shapes and quantities.
+meal | noun | Food eaten at one sitting; coarsely ground grain.
+mean | verb | To intend or signify; unkind.
+meat | noun | Animal flesh used as food.
+medal | noun | A metal disc given for achievement.
+media | noun | The press and broadcasters taken together.
+meet | verb | To come into the presence of; to satisfy a need.
+melt | verb | To become liquid through heat.
+menace | noun | A person or thing likely to cause harm.
+mend | verb | To repair something broken.
+mercy | noun | Kindness shown to an offender or enemy.
+merry | adjective | Cheerful and lively.
+mess | noun | An untidy state; a soldiers' dining room.
+metal | noun | A hard shiny material that conducts heat and electricity.
+meter | noun | A device that measures use; a metric unit of length.

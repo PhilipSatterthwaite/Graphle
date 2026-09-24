@@ -1,0 +1,218 @@
+table | noun | A piece of furniture with a flat top on legs.
+tail | noun | The hindmost part of an animal.
+take | verb | To lay hold of; to carry with one.
+tale | noun | A story.
+talk | verb | To speak to someone.
+tall | adjective | Of more than average height.
+tame | adjective | Made gentle and no longer wild.
+tank | noun | A large container for liquid; an armoured vehicle.
+tap | noun | A valve controlling the flow of liquid; a light knock.
+tape | noun | A narrow strip of material, often sticky.
+tart | noun | An open pastry case with a filling; sharp in taste.
+task | noun | A piece of work to be done.
+taste | noun | The flavour of something; judgement in style.
+tasty | adjective | Pleasant to eat.
+taxi | noun | A car hired with a driver.
+tea | noun | A drink made by infusing dried leaves.
+teach | verb | To help someone learn.
+team | noun | A group playing or working together.
+tear | noun | A drop of liquid from the eye; to pull apart.
+tease | verb | To make fun of someone playfully.
+teeth | noun | The hard white parts in the mouth used for biting.
+tell | verb | To give information to someone in words.
+tempo | noun | The speed at which music is played.
+ten | noun | The number after nine.
+tend | verb | To be inclined to; to look after.
+tense | adjective | Stretched tight; nervous.
+tenth | adjective | Next after the ninth.
+term | noun | A word for a thing; a fixed period.
+test | noun | An examination of ability or quality.
+text | noun | Written words; a message sent by phone.
+thank | verb | To express gratitude.
+theme | noun | The subject running through a work.
+thick | adjective | Of great depth between opposite surfaces; dense.
+thin | adjective | Having little depth; not fat.
+thing | noun | An object or matter of any kind.
+think | verb | To use the mind to form ideas.
+third | adjective | Next after the second.
+thorn | noun | A sharp point growing on a plant.
+three | noun | The number after two.
+throw | verb | To send through the air with the hand.
+thud | noun | A dull heavy sound.
+thumb | noun | The short thick digit of the hand.
+thump | verb | To strike heavily.
+tick | noun | A light repeated click; a small blood-sucking creature.
+tidal | adjective | Of or caused by the tides.
+tide | noun | The regular rise and fall of the sea.
+tidy | adjective | Arranged neatly.
+tiger | noun | A large striped wild cat of Asia.
+tight | adjective | Firmly fixed; fitting closely.
+tile | noun | A thin slab used to cover roofs, floors or walls.
+tilt | verb | To move into a sloping position.
+time | noun | The passing of hours and years; a particular point in it.
+timid | adjective | Lacking courage or confidence.
+tingle | verb | To feel a slight prickling sensation.
+tiny | adjective | Very small.
+tip | noun | The pointed end; a small gift of money; a useful hint.
+tire | verb | To become weary; a rubber ring on a wheel.
+title | noun | The name of a book or work; a rank of honour.
+toast | noun | Bread browned by heat; a call to drink in honour.
+today | noun | This present day.
+toe | noun | One of the five digits of the foot.
+toll | noun | A charge for using a road or bridge; the sound of a bell.
+ton | noun | A unit of weight of 2240 pounds.
+tone | noun | The quality of a sound or colour; a manner of speaking.
+tool | noun | An implement used to carry out work.
+tooth | noun | One of the hard parts in the mouth used for chewing.
+topic | noun | A subject of discussion.
+torch | noun | A burning stick carried as a light; a hand lamp.
+toss | verb | To throw lightly.
+total | noun | The whole amount.
+touch | verb | To put the hand on something; to affect emotionally.
+tough | adjective | Strong and hard to break; difficult.
+tour | noun | A journey visiting several places.
+towel | noun | A cloth for drying.
+tower | noun | A tall narrow building or part of one.
+town | noun | A settlement larger than a village.
+toy | noun | An object for a child to play with.
+trace | noun | A mark left behind; a very small amount.
+track | noun | A rough path; a railway line; a recorded song.
+trade | noun | The buying and selling of goods; a skilled occupation.
+trail | noun | A track left by a person or animal; a path.
+train | noun | Carriages pulled by a locomotive; to teach a skill.
+trap | noun | A device for catching animals; a trick.
+tray | noun | A flat board with a rim for carrying things.
+treat | verb | To behave towards; to give medical care; a special pleasure.
+tree | noun | A tall plant with a trunk and branches.
+trend | noun | A general direction of change; a current fashion.
+trial | noun | A test; the hearing of a case in court.
+tribe | noun | A group of families sharing descent and customs.
+trick | noun | A clever act meant to deceive or amuse.
+trim | verb | To cut away untidy parts.
+trip | noun | A journey; a stumble.
+troop | noun | A group of soldiers or scouts.
+truck | noun | A large road vehicle for goods.
+true | adjective | In accordance with fact; loyal.
+trunk | noun | The stem of a tree; a large travelling chest; an elephant's nose.
+truth | noun | That which is true.
+try | verb | To make an attempt.
+tube | noun | A long hollow cylinder.
+tune | noun | A melody.
+turn | verb | To move round a point; to change direction.
+tusk | noun | A long pointed tooth projecting from the mouth.
+twice | adverb | Two times.
+twig | noun | A small thin branch.
+twin | noun | One of two children born at the same birth.
+twist | verb | To turn by bending or winding.
+type | noun | A kind or category; printed letters.
+ugly | adjective | Unpleasant to look at.
+uncle | noun | The brother of one's parent.
+union | noun | The joining of things; an organized body of workers.
+unit | noun | A single thing or group regarded as complete.
+unity | noun | The state of being joined as a whole.
+upper | adjective | Higher in position or rank.
+upset | verb | To disturb or distress; to knock over.
+urban | adjective | Of or in a town or city.
+urge | verb | To press someone strongly to do something.
+usual | adjective | Happening most of the time.
+utter | verb | To say aloud; complete or absolute.
+vague | adjective | Not clearly expressed or seen.
+vain | adjective | Too proud of oneself; useless.
+value | noun | The worth of something.
+valve | noun | A device controlling the flow through a pipe.
+van | noun | A covered vehicle for carrying goods.
+vapor | noun | Moisture suspended in the air.
+vary | verb | To differ or change.
+vast | adjective | Very great in size.
+vein | noun | A tube carrying blood to the heart; a seam of ore.
+vent | noun | An opening allowing air or gas to escape.
+verb | noun | A word describing an action or state.
+verse | noun | Writing arranged in lines with rhythm; a stanza.
+vest | noun | An undershirt; a waistcoat.
+vet | noun | A doctor who treats animals.
+veto | noun | The power to reject a decision.
+vice | noun | A bad habit or immoral conduct; a gripping tool.
+video | noun | A recording of moving pictures.
+view | noun | What can be seen from a place; an opinion.
+vine | noun | A climbing plant, especially one bearing grapes.
+visit | verb | To go to see a person or place.
+vital | adjective | Absolutely necessary; full of life.
+vivid | adjective | Bright and intense; clear in the mind.
+vocal | adjective | Of the voice; outspoken.
+voice | noun | The sound made in speaking or singing.
+vote | noun | A formal choice made in an election.
+vowel | noun | A speech sound made without blocking the breath.
+wage | noun | Payment for work, usually by the hour or week.
+waist | noun | The narrow part of the body above the hips.
+wait | verb | To stay until something happens.
+wake | verb | To stop sleeping; the track left by a ship.
+walk | verb | To move on foot at a moderate pace.
+wall | noun | An upright structure enclosing or dividing a space.
+want | verb | To wish for something.
+war | noun | Armed fighting between countries or groups.
+warm | adjective | Moderately hot; friendly.
+warn | verb | To tell of a danger ahead.
+wash | verb | To clean with water.
+waste | noun | Material thrown away; careless use.
+watch | verb | To look at for a time; a small timepiece.
+water | noun | The clear liquid that falls as rain.
+wave | noun | A ridge moving across water; a movement of the hand.
+weak | adjective | Lacking strength.
+wear | verb | To have clothing on the body; to damage by use.
+weave | verb | To make cloth by interlacing threads.
+weed | noun | A wild plant growing where it is not wanted.
+week | noun | A period of seven days.
+weep | verb | To shed tears.
+weigh | verb | To find how heavy something is.
+weld | verb | To join metal by heating.
+west | noun | The direction in which the sun sets.
+whale | noun | A very large sea mammal.
+wheel | noun | A circular object that turns on an axle.
+whip | noun | A lash on a handle used for driving animals.
+white | adjective | Of the colour of snow.
+wide | adjective | Of great extent from side to side.
+widow | noun | A woman whose husband has died.
+width | noun | The measurement from side to side.
+wife | noun | A married woman in relation to her husband.
+wild | adjective | Living in nature, not tamed; uncontrolled.
+win | verb | To be successful in a contest.
+wind | noun | Air moving across the land; to turn a handle.
+windy | adjective | Marked by strong wind.
+wine | noun | An alcoholic drink made from grapes.
+wing | noun | A limb or surface that gives flight.
+wink | verb | To close and open one eye quickly.
+wipe | verb | To clean or dry by rubbing.
+wire | noun | A thin flexible thread of metal.
+wise | adjective | Having good judgement from experience.
+wish | noun | A desire for something.
+wit | noun | Clever humour; intelligence.
+witch | noun | A woman said to have magic powers.
+wolf | noun | A wild animal of the dog family that hunts in packs.
+woman | noun | An adult female person.
+wood | noun | The hard substance of a tree; a small forest.
+wool | noun | The soft coat of a sheep, spun into yarn.
+word | noun | A single unit of language.
+work | noun | Effort directed at a purpose; employment.
+world | noun | The earth and all the people on it.
+worm | noun | A long soft creature without limbs.
+worry | verb | To feel anxious about something.
+worth | noun | Value or usefulness.
+wound | noun | An injury breaking the skin.
+wrap | verb | To cover by folding something round.
+wreck | noun | The remains of something destroyed.
+wrist | noun | The joint between the hand and the arm.
+write | verb | To form letters and words on a surface.
+wrong | adjective | Not correct; morally bad.
+yacht | noun | A light sailing or motor boat used for pleasure.
+yard | noun | A unit of three feet; an enclosed area by a building.
+yarn | noun | Spun thread; a long story.
+year | noun | The time the earth takes to orbit the sun.
+yell | verb | To shout loudly.
+yield | verb | To give way; to produce a crop or profit.
+yolk | noun | The yellow part of an egg.
+youth | noun | The time of being young; a young person.
+zero | noun | The figure nothing.
+zest | noun | Great enthusiasm; the outer peel of citrus fruit.
+zip | noun | A fastener with interlocking teeth; energy.
+zone | noun | An area set apart by some quality.
+zoo | noun | A park where wild animals are kept for display.
