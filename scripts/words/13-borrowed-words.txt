@@ -21,7 +21,6 @@ diva | noun | A celebrated female opera singer; a self-important person.
 dossier | noun | A collection of documents about a particular person or subject.
 elan | noun | Energy, style, and enthusiasm.
 emigre | noun | A person who has left their own country, typically for political reasons.
-ennui | noun | Listlessness and dissatisfaction arising from boredom.
 entourage | noun | A group of people attending or surrounding an important person.
 entrepreneur | noun | A person who sets up a business, taking on financial risks.
 faux | adjective | Made in imitation; artificial.
@@ -76,7 +75,6 @@ rapport | noun | A close and harmonious relationship.
 rendezvous | noun | A meeting at an agreed time and place.
 repartee | noun | Conversation marked by quick, witty comments or replies.
 risque | adjective | Slightly indecent or liable to shock.
-robot | noun | A machine capable of carrying out complex actions automatically.
 rodeo | noun | An exhibition of cowboys' skills in riding and roping.
 sabotage | verb | To deliberately destroy or obstruct something.
 safari | noun | An expedition to observe or hunt animals in their natural habitat.
@@ -97,4 +95,3 @@ vigilante | noun | A member of a self-appointed group of citizens who punish cri
 virtuoso | noun | A person highly skilled in music or another artistic pursuit.
 vodka | noun | A clear alcoholic spirit of Russian origin.
 wunderkind | noun | A person who achieves great success when relatively young.
-

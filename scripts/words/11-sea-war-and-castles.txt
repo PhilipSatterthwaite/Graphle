@@ -54,7 +54,6 @@ gladiator | noun | A man trained to fight in ancient Roman arenas.
 grapeshot | noun | Ammunition of small iron balls fired together from a cannon.
 grenade | noun | A small bomb thrown by hand.
 halberd | noun | A combined spear and battle-axe.
-hammock | noun | A bed of canvas or rope netting suspended at both ends.
 harpoon | noun | A barbed spearlike missile used for catching whales.
 helmsman | noun | A person who steers a ship or boat.
 jousting | noun | Combat on horseback between two knights with lances.
@@ -120,4 +119,3 @@ warhorse | noun | A horse ridden in battle; a veteran soldier or politician.
 warship | noun | A ship equipped with weapons for war.
 whaler | noun | A whaling ship; a seaman engaged in whaling.
 yardarm | noun | The outer extremity of a ship's yard.
-

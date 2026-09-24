@@ -39,7 +39,6 @@ chauffeur | noun | A person employed to drive a private car.
 chemise | noun | A loose shirtlike undergarment or dress.
 chiffonier | noun | A tall chest of drawers.
 clogs | noun | Shoes with a thick wooden sole.
-cobbler | noun | A person who mends shoes.
 coiffure | noun | A person's hairstyle, typically an elaborate one.
 colander | noun | A perforated bowl used to strain food.
 concierge | noun | A hotel employee who assists guests; a caretaker of an apartment building.
@@ -165,4 +164,3 @@ wheelwright | noun | A person who makes or repairs wooden wheels.
 wig | noun | A covering for the head made of real or artificial hair.
 windbreaker | noun | A wind-resistant jacket.
 wristband | noun | A band worn around the wrist.
-

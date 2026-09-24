@@ -1,0 +1,59 @@
+# Words present across two centuries whose use spikes around particular wars,
+# from Napoleonic sieges through the trenches, the blitz, the cold war and after.
+bayonet | noun | A blade fixed to the muzzle of a rifle for close fighting.
+artillery | noun | Large mounted guns used in warfare.
+battalion | noun | A large body of troops, part of a regiment.
+fortification | noun | A wall, tower or earthwork built to defend a place.
+siege | noun | A military operation surrounding a place to force surrender.
+ironclad | noun | A nineteenth-century warship clad in iron plate.
+trench | noun | A long ditch dug by soldiers as shelter from fire.
+shrapnel | noun | Fragments thrown out by an exploding shell.
+howitzer | noun | A short gun that fires shells on a high arc.
+mobilization | noun | The calling up of troops and resources for war.
+reparations | noun | Payments made by a defeated country for war damage.
+disarmament | noun | The reduction or removal of a country's weapons.
+appeasement | noun | Giving in to an aggressor's demands to avoid war.
+blitz | noun | A sudden intense bombing attack.
+rationing | noun | The controlled sharing out of scarce food or fuel.
+evacuee | noun | A person moved from a danger zone to somewhere safer.
+internment | noun | Imprisonment without trial, especially in wartime.
+foxhole | noun | A pit dug by a soldier for cover.
+incendiary | noun | A bomb designed to start fires.
+convoy | noun | A group of ships or vehicles travelling together for safety.
+espionage | noun | The practice of spying to obtain secret information.
+partisan | noun | A member of an armed group fighting an occupying force.
+guerrilla | noun | A fighter in a small independent band making surprise attacks.
+insurgency | noun | An armed uprising against a government.
+militia | noun | A fighting force raised from the civilian population.
+airfield | noun | A place where military aircraft take off and land.
+bomber | noun | An aircraft built to drop bombs.
+fighter | noun | A fast aircraft built to attack other aircraft.
+flak | noun | Anti-aircraft fire; hostile criticism.
+napalm | noun | A jellied petrol used in fire bombs.
+shellshock | noun | Trauma caused by prolonged exposure to combat.
+veteran | noun | A person who has served in the armed forces.
+casualty | noun | A person killed or injured in a war or accident.
+ceasefire | noun | An agreed halt to fighting.
+armament | noun | Military weapons and equipment.
+ordnance | noun | Mounted guns, and military supplies generally.
+musketry | noun | The firing of muskets, or the skill of doing so.
+sentry | noun | A soldier posted to keep watch.
+courier | noun | A messenger carrying letters or parcels.
+dispatch | noun | An official message, especially a military report.
+recruit | noun | A newly enlisted soldier or member.
+deserter | noun | A soldier who abandons their post without leave.
+truce | noun | A temporary pause in fighting.
+treaty | noun | A formal agreement between states.
+annexation | noun | The taking of territory into another state.
+occupation | noun | Control of a territory by a foreign army.
+resistance | noun | Organized opposition to an occupying power.
+collaborator | noun | Someone who cooperates with an occupying enemy.
+atrocity | noun | An act of shocking cruelty.
+refugee | noun | A person who has fled war or persecution.
+offensive | noun | A large planned attack.
+salvo | noun | A number of guns fired at once.
+volley | noun | A number of shots fired together.
+barrage | noun | A heavy curtain of artillery fire.
+quarter | noun | Mercy shown to a defeated enemy; lodgings for troops.
+ambush | noun | A surprise attack from a hidden position.
+strategist | noun | A person skilled in planning campaigns.

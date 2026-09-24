@@ -22,7 +22,6 @@ boneheaded | adjective | Stupid.
 brawny | adjective | Physically strong; muscular.
 breezy | adjective | Pleasantly windy; relaxed and informally cheerful.
 brittle | adjective | Hard but liable to break easily.
-bubbly | adjective | Full of bubbles; cheerful and high-spirited.
 bulbous | adjective | Round or bulging in shape.
 cavernous | adjective | Like a cavern in size, shape, or atmosphere.
 chintzy | adjective | Decorated with chintz; cheap and tasteless.
@@ -33,7 +32,6 @@ clammy | adjective | Unpleasantly damp and sticky.
 clunky | adjective | Solid, heavy, and old-fashioned; awkward.
 cockeyed | adjective | Crooked or askew; absurd.
 colossal | adjective | Extremely large or great.
-cranky | adjective | Ill-tempered; irritable.
 creaky | adjective | Making a creaking sound; old and in poor condition.
 crotchety | adjective | Irritable.
 cushy | adjective | Undemanding, easy, or secure.
@@ -59,7 +57,6 @@ fiendish | adjective | Extremely cruel; extremely difficult.
 fishy | adjective | Of or like fish; arousing suspicion.
 flaky | adjective | Breaking into flakes; unreliable or eccentric.
 flashy | adjective | Ostentatiously attractive or impressive.
-floppy | adjective | Tending to hang or move loosely.
 fluffy | adjective | Soft and light, like fluff.
 foppish | adjective | Excessively concerned with one's clothes and appearance.
 freaky | adjective | Very odd or strange.
@@ -84,7 +81,6 @@ gullible | adjective | Easily persuaded to believe something; credulous.
 gutsy | adjective | Showing courage, determination, and spirit.
 hapless | adjective | Unfortunate.
 hardscrabble | adjective | Involving hard work and struggle, especially to make a living.
-harebrained | adjective | Rash; ill-judged.
 hectic | adjective | Full of incessant or frantic activity.
 hefty | adjective | Large, heavy, and powerful.
 hoary | adjective | Grayish white; old and trite.
@@ -146,7 +142,6 @@ sleazy | adjective | Sordid, corrupt, or immoral.
 slimy | adjective | Covered with slime; disgustingly dishonest or flattering.
 sloppy | adjective | Careless and unsystematic; wet or liquid.
 snappy | adjective | Irritable; neat and elegant; quick.
-snazzy | adjective | Stylish and attractive.
 snobbish | adjective | Having the character of a snob.
 soggy | adjective | Wet and soft.
 spindly | adjective | Long or tall and thin.
@@ -157,7 +152,6 @@ starchy | adjective | Containing starch; stiff and formal.
 stodgy | adjective | Heavy and filling; dull and uninspired.
 stuffy | adjective | Lacking fresh air; conventional and narrow-minded.
 sulky | adjective | Morose, resentful, or bad-tempered.
-swanky | adjective | Stylishly luxurious and expensive.
 tacky | adjective | Showing poor taste and quality; slightly sticky.
 tetchy | adjective | Bad-tempered and irritable.
 threadbare | adjective | Thin and tattered with age; hackneyed.
@@ -182,4 +176,3 @@ wobbly | adjective | Tending to move unsteadily from side to side.
 woozy | adjective | Unsteady, dizzy, or dazed.
 yucky | adjective | Messy or disgusting.
 zesty | adjective | Having a strong, pleasant, and somewhat spicy flavor.
-

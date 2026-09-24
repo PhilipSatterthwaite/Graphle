@@ -1,0 +1,41 @@
+# Old words with recent surges, and newer ones with steep late climbs.
+network | noun | A system of connected people, places or machines.
+trending | adjective | Rising quickly in popularity or discussion.
+subscriber | noun | A person signed up to receive something regularly.
+platform | noun | A raised surface; a service hosting others' content.
+venture | noun | A risky undertaking; investment in new companies.
+offshoring | noun | The moving of work to another country.
+logistics | noun | The organizing of supply and transport.
+supply | noun | An amount available; the providing of goods.
+telecommute | verb | To work from home using a network connection.
+gig | noun | A single paid engagement, especially short-term work.
+wellness | noun | The active pursuit of good health.
+mindfulness | noun | Calm attention to the present moment.
+therapy | noun | Treatment intended to relieve illness or distress.
+resilience | noun | The ability to recover from setbacks.
+empathy | noun | The ability to share another's feelings.
+diversity | noun | The presence of varied kinds, especially of people.
+inclusion | noun | The practice of involving people who might be left out.
+accessibility | noun | The quality of being usable by everyone.
+sustainable | adjective | Able to continue without exhausting resources.
+renewable | adjective | Naturally replenished, as wind or solar power.
+electric | adjective | Worked by electricity; thrilling.
+hybrid | noun | Something of mixed origin; a car with two power sources.
+charger | noun | A device that refills a battery.
+drone | noun | An unpiloted aircraft; a low continuous sound.
+wearable | adjective | Able to be worn, as a device on the body.
+console | noun | A control panel; a machine for playing games.
+remake | noun | A new version of an earlier film.
+merchandise | noun | Goods sold, especially those tied to a film or team.
+sponsorship | noun | Financial support given in return for promotion.
+endorsement | noun | A public statement of approval, often paid.
+analytics | noun | The systematic study of data.
+metrics | noun | Measures used to judge performance.
+dashboard | noun | A panel of instruments or figures.
+iteration | noun | A repeated cycle of improvement.
+workflow | noun | The sequence of steps in a piece of work.
+onboarding | noun | The bringing of a new person into an organization.
+telework | noun | Work done away from the office over a network.
+megacity | noun | A city of many millions of people.
+smoking | noun | The habit of drawing in tobacco smoke.
+vaping | noun | The inhaling of vapour from an electronic device.

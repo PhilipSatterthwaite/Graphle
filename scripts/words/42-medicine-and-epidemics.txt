@@ -1,0 +1,40 @@
+# Diseases, cures and treatments: most have been named for centuries, and each has
+# its own era of alarm or enthusiasm.
+consumption | noun | An old name for tuberculosis; the using up of goods.
+whooping | adjective | Describing a cough that ends in a loud gasp.
+contagion | noun | The spreading of disease by contact.
+sanitation | noun | Arrangements for clean water and the removal of waste.
+vaccination | noun | Protection against disease by inoculation.
+inoculation | noun | The introduction of a substance to build immunity.
+antiseptic | noun | A substance that stops wounds becoming infected.
+morphine | noun | A strong painkiller made from opium.
+sulfonamide | noun | An early class of antibacterial drug.
+sepsis | noun | A dangerous reaction to infection in the blood.
+amputation | noun | The surgical removal of a limb.
+transfusion | noun | The transfer of blood from one person to another.
+transplant | noun | The moving of an organ from one body to another.
+scalpel | noun | A small sharp knife used in surgery.
+forceps | noun | Pincers used in surgery or delivery.
+poultice | noun | A soft heated dressing laid on a sore place.
+liniment | noun | A liquid rubbed on the skin to ease pain.
+tonic | noun | A medicine said to restore strength.
+purgative | noun | A medicine that empties the bowels.
+infirmary | noun | A hospital, or a room for the sick.
+dispensary | noun | A place where medicines are given out.
+nurse | noun | A person trained to care for the sick.
+physician | noun | A doctor of medicine.
+diagnosis | noun | The identifying of an illness from its signs.
+prognosis | noun | A forecast of how an illness will proceed.
+symptom | noun | A sign of illness felt by the patient.
+convalescence | noun | The time of recovery after illness.
+hygiene | noun | Practices that keep people clean and healthy.
+disinfectant | noun | A substance that destroys germs on surfaces.
+radiography | noun | The taking of pictures with X-rays.
+chemotherapy | noun | The treatment of disease, especially cancer, with drugs.
+radiotherapy | noun | The treatment of disease with radiation.
+neurosis | noun | A mild mental disorder marked by anxiety.
+sedative | noun | A drug that calms or induces sleep.
+stimulant | noun | A drug that raises alertness or energy.
+narcotic | noun | A drug that dulls pain and brings drowsiness.
+opiate | noun | A drug derived from opium.
+epidemiology | noun | The study of how disease spreads through populations.

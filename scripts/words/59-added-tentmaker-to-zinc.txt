@@ -1,0 +1,127 @@
+tentmaker | noun | A person who makes tents.
+terrace | noun | A raised level space; a row of joined houses.
+testament | noun | A will; a statement of belief or proof.
+textile | noun | Cloth, especially woven fabric.
+thatch | noun | A roof covering of straw or reeds.
+thicket | noun | A dense growth of shrubs and small trees.
+thoroughfare | noun | A road open at both ends for through traffic.
+threshing | noun | The beating of grain to separate it from the husk.
+thrift | noun | Careful management of money.
+throne | noun | The ceremonial seat of a monarch.
+tiller | noun | A lever for turning a boat's rudder; one who tills soil.
+timepiece | noun | A clock or watch.
+timetable | noun | A list of times at which events or services happen.
+tinsmith | noun | A worker who makes and mends things of tin.
+tintype | noun | An early photograph made on a thin iron plate.
+tithe | noun | A tenth of produce or income paid to the church.
+tobacconist | noun | A dealer in tobacco.
+tollgate | noun | A barrier where a road toll is collected.
+tombstone | noun | A stone marking a grave.
+topsail | noun | A sail set above the lowest sail on a mast.
+torchlight | noun | The light of a burning torch.
+tortoiseshell | noun | The mottled shell of a turtle, used for combs and frames.
+tourniquet | noun | A tight band applied to stop bleeding.
+towpath | noun | A path beside a canal for horses towing boats.
+township | noun | A small town or an administrative division.
+toyshop | noun | A shop selling toys.
+tract | noun | A stretch of land; a short pamphlet on religion or politics.
+tragedian | noun | An actor in or writer of tragedies.
+transcript | noun | A written copy of spoken words or a record.
+transom | noun | A crossbar above a door; the flat stern of a boat.
+trawler | noun | A fishing boat that drags a net.
+trellis | noun | A light frame of crossing strips for climbing plants.
+trestle | noun | A braced frame used as a support.
+triage | noun | The sorting of casualties by urgency of treatment.
+tribunal | noun | A body appointed to judge a particular matter.
+tributary | noun | A stream flowing into a larger river.
+triumph | noun | A great victory or achievement.
+trooper | noun | A cavalry soldier; a state police officer.
+trumpet | noun | A brass instrument with a bright piercing tone.
+trundle | verb | To move heavily and slowly on wheels.
+trustee | noun | A person holding property for the benefit of another.
+tumbler | noun | A flat-bottomed drinking glass; an acrobat.
+tunic | noun | A loose garment reaching to the knees; a uniform jacket.
+turnkey | noun | A jailer who keeps the keys.
+tutelage | noun | Guardianship, or instruction by a tutor.
+twine | noun | Strong thread or string of twisted strands.
+ulster | noun | A long loose overcoat of heavy cloth.
+umpire | noun | An official who enforces the rules in a game.
+undercarriage | noun | The wheels and struts a vehicle or aircraft rests on.
+underground | noun | An urban railway below the streets; a secret movement.
+undergrowth | noun | Shrubs and plants growing beneath trees.
+underling | noun | A subordinate of low rank.
+underwriter | noun | A person who accepts an insurance risk.
+uniform | noun | Clothing of a standard design worn by a group.
+university | noun | An institution of higher learning granting degrees.
+uprising | noun | An act of rebellion against authority.
+urbanization | noun | The growth of towns and cities.
+usher | noun | A person who shows people to their seats.
+utensil | noun | A tool or container, especially for the kitchen.
+vagrancy | noun | The state of wandering without a settled home.
+valise | noun | A small travelling bag.
+valuation | noun | An estimate of what something is worth.
+vanguard | noun | The leading part of an advancing force or movement.
+varnish | noun | A clear coating that dries hard and glossy.
+vaulting | noun | Arched work forming a roof; the act of leaping over.
+vendor | noun | A person who sells something.
+ventilation | noun | The supplying of fresh air to a room.
+veranda | noun | A roofed platform along the side of a house.
+vestry | noun | A room in a church where robes are kept.
+viceroy | noun | A ruler governing a colony on behalf of a monarch.
+vignette | noun | A brief descriptive sketch; a small decorative design.
+villa | noun | A large country house or a detached suburban one.
+villager | noun | A person who lives in a village.
+vindication | noun | Proof that someone was right after being doubted.
+vineyard | noun | A plantation of grapevines.
+violinist | noun | A person who plays the violin.
+viscount | noun | A nobleman ranking below an earl.
+visitation | noun | An official visit of inspection; an affliction seen as divine.
+vocation | noun | A strong calling to a particular kind of work.
+volunteer | noun | A person who offers to do something without pay.
+voter | noun | A person entitled to vote, or one who votes.
+voucher | noun | A ticket that can be exchanged for goods or services.
+vulcanization | noun | The hardening of rubber by treating it with sulphur.
+wadding | noun | Soft material used for padding or stuffing.
+wager | noun | A bet.
+wagonette | noun | A light four-wheeled carriage with side seats.
+waiter | noun | A person who serves food at table.
+wallet | noun | A folding case for money and cards.
+warden | noun | A person in charge of an institution or duty.
+wardroom | noun | The mess cabin of a warship's officers.
+warfare | noun | The waging of war.
+warrant | noun | A document authorizing an arrest or search.
+washhouse | noun | A building where laundry is done.
+watchman | noun | A man employed to guard a building at night.
+waterfront | noun | The part of a town beside a harbour or river.
+watermill | noun | A mill driven by a water wheel.
+waterwheel | noun | A wheel turned by flowing water to drive machinery.
+waxworks | noun | An exhibition of wax figures.
+wayfarer | noun | A person travelling on foot.
+weathervane | noun | A pointer on a roof showing wind direction.
+weaver | noun | A person who makes cloth on a loom.
+wharfage | noun | The use of a wharf, and the charge for it.
+wheat | noun | The cereal grain from which flour is made.
+wheelhouse | noun | The shelter on a boat where the steering wheel is.
+whistle | noun | A device that makes a shrill sound when blown.
+whitewash | noun | A cheap white lime paint; a covering up of faults.
+wholesaler | noun | A firm selling goods in bulk to retailers.
+widower | noun | A man whose wife has died.
+wigmaker | noun | A person who makes wigs.
+windlass | noun | A winch for hauling or lifting.
+windowpane | noun | A sheet of glass in a window.
+winery | noun | A place where wine is made.
+winnow | verb | To blow the chaff from grain; to sift out the best.
+woodshed | noun | A shed for storing firewood.
+workhouse | noun | An institution where the poor did work for board.
+workmanship | noun | The skill shown in making something.
+wreath | noun | A ring of flowers or leaves laid in tribute.
+wrestler | noun | A person who takes part in wrestling.
+writ | noun | A formal written order from a court.
+yardstick | noun | A measuring stick a yard long; a standard of comparison.
+yearbook | noun | An annual volume recording a year's events.
+yoke | noun | A wooden bar joining two oxen; a burden of servitude.
+zealotry | noun | Excessive enthusiasm for a cause.
+zinc | noun | A bluish-white metal used to coat iron against rust.
+centennial | noun | A hundredth anniversary and its celebration.
+satchel | noun | A shoulder bag, often for carrying schoolbooks.
+starch | noun | A carbohydrate in bread and potatoes; a stiffener for cloth.

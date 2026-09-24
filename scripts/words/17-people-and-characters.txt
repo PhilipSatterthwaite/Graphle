@@ -54,7 +54,6 @@ doorman | noun | A man employed to stand at the entrance to a building.
 dowager | noun | A widow holding a title or property derived from her late husband.
 drifter | noun | A person who moves aimlessly from place to place.
 drummer | noun | A person who plays a drum; a traveling salesman (dated).
-dynamo | noun | An extremely energetic person.
 eavesdropper | noun | A person who secretly listens to a conversation.
 escapologist | noun | An entertainer who specializes in escaping from confinement.
 evangelist | noun | A person who seeks to convert others to Christianity; a zealous advocate.
@@ -163,4 +162,3 @@ whiz | noun | A person who is extremely clever at something.
 windbag | noun | A person who talks at length but says little of value.
 wiseacre | noun | A person with an affectation of wisdom or knowledge.
 wrangler | noun | A person in charge of horses or other livestock on a ranch.
-

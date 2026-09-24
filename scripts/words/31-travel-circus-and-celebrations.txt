@@ -97,4 +97,3 @@ vacation | noun | An extended period of recreation away from home.
 voyage | noun | A long journey by sea or in space.
 wedding | noun | A marriage ceremony.
 yuletide | noun | The Christmas season.
-

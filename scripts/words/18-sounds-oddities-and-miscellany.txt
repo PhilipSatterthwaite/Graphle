@@ -77,7 +77,6 @@ scribble | verb | To write or draw carelessly or hurriedly.
 shazam | exclamation | Used to introduce an extraordinary deed or transformation.
 shipshape | adjective | In good order; trim and neat.
 shuttlecock | noun | A feathered cone struck with rackets in badminton.
-slapdash | adjective | Done too hurriedly and carelessly.
 snapdragon | noun | A plant with flowers that open like a mouth when squeezed.
 snickerdoodle | noun | A cookie rolled in cinnamon sugar.
 snowball | noun | A ball of packed snow; to increase rapidly.
@@ -103,4 +102,3 @@ woebegone | adjective | Sad or miserable in appearance.
 yippee | exclamation | Expressing wild excitement or delight.
 zigzag | noun | A line or course with abrupt alternate right and left turns.
 zippy | adjective | Bright, fresh, or lively; fast or speedy.
-

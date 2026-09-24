@@ -1,0 +1,33 @@
+# Household things and habits whose heyday is visible from the graph alone.
+parlor | noun | A sitting room for receiving visitors.
+pantry | noun | A small room for storing food.
+larder | noun | A cool cupboard or room for keeping food.
+hearth | noun | The floor of a fireplace, and the home it stands for.
+chimney | noun | A flue carrying smoke out of a building.
+lamplight | noun | Light given by a lamp.
+paraffin | noun | A waxy or oily substance from petroleum.
+washstand | noun | A stand holding a basin and jug for washing.
+plumbing | noun | The pipes and fittings that carry water.
+waterworks | noun | The plant that supplies a town with water.
+boardinghouse | noun | A house where lodgers pay for room and meals.
+lodger | noun | A person renting a room in someone's house.
+servant | noun | A person employed in a household.
+grocer | noun | A shopkeeper selling food and household items.
+chandler | noun | A dealer in candles, oil and ship's supplies.
+draper | noun | A dealer in cloth and dry goods.
+catalogue | noun | A list of goods offered for sale.
+refrigerator | noun | A cooled cabinet for keeping food fresh.
+wallpaper | noun | Paper pasted on walls as decoration.
+sideboard | noun | A long low cupboard for dishes and linen.
+antimacassar | noun | A cloth protecting the back of a chair from hair oil.
+bustle | noun | A pad worn to fill out the back of a skirt; busy movement.
+frock | noun | A woman's or girl's dress.
+spectacles | noun | Glasses worn to help sight.
+handkerchief | noun | A small square of cloth for wiping the nose.
+snuffbox | noun | A small box for powdered tobacco.
+cigarette | noun | A thin roll of tobacco for smoking.
+pipe | noun | A tube for smoking tobacco; a tube carrying liquid.
+ballpoint | noun | A pen writing with a tiny rolling ball.
+blotter | noun | A pad of paper for soaking up surplus ink.
+ledger | noun | A book in which accounts are kept.
+ferryboat | noun | A boat carrying people across water on a fixed route.

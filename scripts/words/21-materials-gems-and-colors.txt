@@ -52,7 +52,6 @@ furlong | noun | An eighth of a mile.
 fustians | noun | Thick durable twilled cloths.
 gabardine | noun | A smooth durable twill-woven cloth.
 garnet | noun | A precious stone of deep red; a dark red color.
-gingham | noun | Lightweight plain-woven cotton cloth with a checked pattern.
 gossamers | noun | Fine, filmy substances like cobwebs.
 granite | noun | A very hard, granular igneous rock.
 graphite | noun | A gray form of carbon used as pencil lead.
@@ -63,7 +62,6 @@ hemp | noun | The cannabis plant, especially grown for its fiber.
 indigo | noun | A tropical plant yielding dark blue dye; a dark blue color.
 iridescent | adjective | Showing luminous colors that seem to change when seen from different angles.
 ivory | noun | The hard creamy-white substance of elephant tusks; its color.
-jade | noun | A hard, typically green stone used for ornaments.
 jasper | noun | An opaque reddish-brown variety of chalcedony.
 jersey | noun | A knitted garment; a soft knitted fabric.
 jute | noun | Rough fiber from a plant, used for sacking and rope.
@@ -136,4 +134,3 @@ vinyl | noun | Synthetic resin or plastic; phonograph records collectively.
 viscose | noun | A viscous solution of cellulose used to make rayon.
 wolfram | noun | Tungsten or its ore.
 wicker | noun | Pliable twigs plaited to make items such as furniture and baskets.
-

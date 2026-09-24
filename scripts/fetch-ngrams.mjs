@@ -4,8 +4,9 @@
 // The Ngram endpoint has no CORS headers, so the browser can't call it from
 // github.io; the game reads these static files instead.
 //
-// Raw responses are cached in scripts/.ngram-cache.json (gitignored), so
-// re-runs only fetch words that are new.
+// Counts are case-insensitive: "jazz (All)" sums jazz, Jazz and JAZZ, which is what a
+// player means by a word. Raw responses are cached in scripts/.ngram-ci-cache.json
+// (gitignored), so re-runs only fetch words that are new.
 //
 // Usage: node scripts/fetch-ngrams.mjs
 import { readFile, writeFile, readdir } from "node:fs/promises";
@@ -41,7 +42,7 @@ for (const file of (await readdir(path("scripts/words/"))).filter((f) => f.endsW
 }
 
 let cache = {};
-try { cache = JSON.parse(await readFile(path("scripts/.ngram-cache.json"), "utf8")); } catch {}
+try { cache = JSON.parse(await readFile(path("scripts/.ngram-ci-cache.json"), "utf8")); } catch {}
 
 // Fetch uncached words.
 const todo = [...entries.keys()].filter((w) => !(w in cache));
@@ -56,12 +57,15 @@ for (let i = 0; i < todo.length; i += BATCH) {
       year_end: YEAR_END,
       corpus: CORPUS,
       smoothing: SMOOTHING,
+      case_insensitive: "true",
     });
   for (let attempt = 0; ; attempt++) {
     const res = await fetch(url).catch((e) => ({ ok: false, status: e.message }));
     if (res.ok) {
       const byWord = new Map((await res.json()).map((r) => [r.ngram, r.timeseries]));
-      for (const w of batch) cache[w] = byWord.get(w) ?? null;
+      // The combined series is returned as "word (All)"; a word with only one casing
+      // in the corpus comes back under its own name instead.
+      for (const w of batch) cache[w] = byWord.get(`${w} (All)`) ?? byWord.get(w) ?? null;
       break;
     }
     if (attempt === 5) throw new Error(`Giving up after HTTP ${res.status}`);
@@ -70,10 +74,10 @@ for (let i = 0; i < todo.length; i += BATCH) {
     await sleep(wait);
   }
   process.stdout.write(`\r${Math.min(i + BATCH, todo.length)}/${todo.length}`);
-  if ((i / BATCH) % 10 === 9) await writeFile(path("scripts/.ngram-cache.json"), JSON.stringify(cache));
+  if ((i / BATCH) % 10 === 9) await writeFile(path("scripts/.ngram-ci-cache.json"), JSON.stringify(cache));
   await sleep(1000);
 }
-await writeFile(path("scripts/.ngram-cache.json"), JSON.stringify(cache));
+await writeFile(path("scripts/.ngram-ci-cache.json"), JSON.stringify(cache));
 
 // Build outputs. Each series is stored as its peak (per billion words) plus
 // integer percentages of that peak, which keeps the file small.

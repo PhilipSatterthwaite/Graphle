@@ -20,7 +20,6 @@ brainstorm | noun | A spontaneous group discussion to produce ideas; a sudden cl
 breakthrough | noun | A sudden, dramatic, and important discovery or development.
 brinkmanship | noun | Pushing dangerous events to the brink of disaster to achieve an advantage.
 buzzword | noun | A word or phrase that is fashionable at a particular time.
-cahoots | noun | Colluding or conspiring together secretly.
 catchphrase | noun | A well-known sentence or phrase associated with a particular person.
 catnip | noun | A plant with a scent attractive to cats; something very appealing.
 checkmate | noun | A position in chess in which a king is trapped; a final defeat.
@@ -38,7 +37,6 @@ dealbreaker | noun | A factor or issue that would cause someone to abandon a dea
 dilemma | noun | A situation requiring a choice between equally undesirable alternatives.
 doghouse | noun | A dog's kennel; a state of disgrace.
 domino | noun | Any of 28 small oblong pieces marked with dots.
-doohickey | noun | A small object whose name one does not know.
 downfall | noun | A loss of power, prosperity, or status.
 dragnet | noun | A net drawn through water; a systematic search for criminals.
 dreamland | noun | An imagined and unrealistically ideal world.
@@ -69,7 +67,6 @@ hindsight | noun | Understanding of a situation after it has happened.
 hotbed | noun | An environment promoting the growth of something undesirable.
 hotchpotch | noun | A confused mixture (British).
 jackpot | noun | A large cash prize in a game or lottery.
-jigsaw | noun | A puzzle of irregular interlocking pieces.
 keepsake | noun | A small item kept in memory of the person who gave it.
 keystone | noun | A central stone at the summit of an arch; the central principle of a system.
 landmark | noun | An object or feature easily seen and recognized from a distance; an important event.
@@ -79,7 +76,6 @@ loophole | noun | An ambiguity or inadequacy in a law or rules that allows evasi
 makeover | noun | A complete transformation of appearance.
 masterpiece | noun | A work of outstanding artistry, skill, or workmanship.
 mayhem | noun | Violent or damaging disorder; chaos.
-milestone | noun | An action or event marking a significant change or stage.
 mindset | noun | The established set of attitudes held by someone.
 moonshine | noun | Illicitly distilled liquor; foolish talk or ideas.
 nightfall | noun | The onset of night; dusk.
@@ -87,7 +83,6 @@ nitpick | verb | To look for small or unimportant errors.
 noose | noun | A loop with a running knot that tightens as the rope is pulled.
 offshoot | noun | A side shoot on a plant; a thing that develops from something else.
 overdrive | noun | A state of great activity; a gear in a vehicle.
-pandemonium | noun | Wild and noisy disorder or confusion.
 pathfinder | noun | A person who goes ahead and discovers a path.
 peephole | noun | A small hole that may be looked through.
 pigeonhole | noun | A small compartment in a desk for letters; a category.
@@ -97,7 +92,6 @@ powerhouse | noun | A person or thing having great energy or power.
 quandary | noun | A state of perplexity or uncertainty over what to do.
 rattletrap | noun | An old rickety vehicle.
 riddle | noun | A question or statement intentionally phrased to require ingenuity to answer.
-rigmarole | noun | A lengthy and complicated procedure.
 scapegoat | noun | A person who is blamed for the wrongdoings of others.
 setback | noun | A reversal or check in progress.
 showdown | noun | A final test or confrontation intended to settle a dispute.
@@ -113,7 +107,6 @@ stranglehold | noun | Complete or overwhelming control.
 sweatshop | noun | A factory where workers are employed for long hours at low wages.
 teardrop | noun | A single tear.
 timeline | noun | A graphic representation of the passage of time.
-tinderbox | noun | A box of tinder; a volatile situation.
 touchstone | noun | A standard or criterion by which something is judged.
 trademark | noun | A symbol or word legally registered to represent a company or product.
 trapdoor | noun | A hinged or removable panel in a floor, ceiling, or roof.
@@ -129,4 +122,3 @@ windfall | noun | A piece of unexpected good fortune; fruit blown down by the wi
 wisecrack | noun | A witty remark or joke.
 wonderland | noun | A land or place full of wonderful things.
 workhorse | noun | A horse used for work; a person or machine that dependably performs hard work.
-

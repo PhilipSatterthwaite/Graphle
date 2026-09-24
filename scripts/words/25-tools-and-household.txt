@@ -64,7 +64,6 @@ pitchfork | noun | A farm tool with a long handle and prongs for lifting hay.
 plunger | noun | A part that moves up and down; a device for clearing blocked drains.
 pliers | noun | Pincers with parallel flat jaws for gripping small objects.
 pocketknife | noun | A knife with a folding blade.
-potpourri | noun | A mixture of dried petals and spices placed in a bowl to perfume a room.
 quill | noun | A pen made from a main wing or tail feather.
 razor | noun | An instrument with a sharp blade used for shaving.
 saltshaker | noun | A container for salt with a perforated top.
@@ -90,7 +89,6 @@ toaster | noun | An electrical device for making toast.
 toothbrush | noun | A small brush for cleaning the teeth.
 trowel | noun | A small hand tool with a flat blade for spreading mortar or digging.
 tweezers | noun | A small instrument like a pair of pincers for plucking hairs.
-typewriter | noun | A machine with keys for producing print-like characters.
 vase | noun | A decorative container used as an ornament or for displaying flowers.
 washbasin | noun | A basin used for washing one's hands and face.
 wastebasket | noun | A basket for waste paper.
@@ -99,4 +97,3 @@ whetstone | noun | A stone used for sharpening blades.
 whisk | noun | A utensil for whipping eggs or cream.
 wok | noun | A bowl-shaped frying pan used in Chinese cooking.
 wrench | noun | A tool for gripping and turning nuts and bolts; a sudden twisting pull.
-

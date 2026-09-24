@@ -1,0 +1,28 @@
+# Things that arrived, boomed and often faded: each should rise sharply in its decade.
+ironworks | noun | A factory where iron is smelted and shaped.
+colliery | noun | A coal mine and the buildings around it.
+computer | noun | A machine that stores and processes information.
+microcomputer | noun | A small computer built around a single chip.
+automation | noun | The replacement of human work by machines.
+assembly | noun | A gathering of people; the fitting together of parts.
+mechanization | noun | The introduction of machinery into work.
+standardization | noun | The making of things to one agreed pattern.
+patent | noun | A right granted to an inventor to exclude others.
+prototype | noun | A first working model of something new.
+apprentice | noun | A young person learning a trade under an employer.
+artisan | noun | A skilled worker who makes things by hand.
+foreman | noun | A worker in charge of others on a job.
+factory | noun | A building where goods are manufactured.
+mill | noun | A building fitted with machinery for grinding or weaving.
+spindle | noun | A rod on which thread is wound in spinning.
+shuttle | noun | The part of a loom that carries the weft to and fro.
+forge | noun | A blacksmith's hearth and workshop.
+magneto | noun | A small generator that supplies a spark to an engine.
+biplane | noun | An aeroplane with two sets of wings.
+rocketry | noun | The science of building and firing rockets.
+spacecraft | noun | A vehicle designed to travel beyond the atmosphere.
+refrigeration | noun | The keeping of things cold by machine.
+mimeograph | noun | A machine that copies pages from a stencil.
+slide | noun | A smooth surface for sliding; a photograph on film.
+photograph | noun | A picture made with a camera.
+projector | noun | A machine that throws an image onto a screen.

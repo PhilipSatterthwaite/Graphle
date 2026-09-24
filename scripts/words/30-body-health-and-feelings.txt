@@ -109,4 +109,3 @@ whiplash | noun | An injury caused by a severe jerk to the head; a lash of a whi
 wisdom | noun | The quality of having experience, knowledge, and good judgment.
 wrinkle | noun | A slight line or fold in the skin or fabric.
 yawn | verb | To involuntarily open one's mouth wide and inhale deeply from tiredness.
-

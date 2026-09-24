@@ -6,8 +6,6 @@ backyard | noun | A yard at the back of a house.
 bathtub | noun | A tub for bathing in.
 bedtime | noun | The usual time when someone goes to bed.
 bib | noun | A piece of cloth fastened under a child's chin to keep clothes clean.
-bicker | verb | To argue about petty matters.
-bogeyman | noun | An imaginary evil spirit used to frighten children.
 buggy | noun | A small horse-drawn carriage; a pushchair; adjective: full of bugs.
 carriage | noun | A four-wheeled horse-drawn vehicle; a baby buggy.
 chores | noun | Routine tasks, especially household ones.

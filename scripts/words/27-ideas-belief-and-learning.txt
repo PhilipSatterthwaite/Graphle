@@ -116,4 +116,3 @@ vicar | noun | A priest in charge of a parish.
 worship | noun | The feeling or expression of reverence and adoration for a deity.
 zen | noun | A school of Buddhism emphasizing meditation; calm and relaxed.
 zodiac | noun | A belt of the heavens divided into twelve astrological signs.
-

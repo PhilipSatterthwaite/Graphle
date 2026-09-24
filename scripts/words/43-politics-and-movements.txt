@@ -1,0 +1,50 @@
+# Political language: old words that flare up in the decade their argument was loudest.
+abolition | noun | The ending of a practice, especially slavery.
+emancipation | noun | The setting free of a person or group.
+tariff | noun | A tax charged on imported goods.
+protectionism | noun | The shielding of home industry by taxes on imports.
+laissez | adjective | Describing a policy of leaving business alone.
+trust | noun | A group of firms acting together; confidence in someone.
+strike | noun | A refusal to work, used to press a demand.
+picket | noun | A worker stationed outside to discourage strike-breaking.
+lockout | noun | An employer's closing of a workplace against workers.
+unionism | noun | Support for organized labour, or for a political union.
+syndicalism | noun | A movement to put industry in the hands of unions.
+soviet | noun | An elected council in the former Soviet Union.
+nihilist | noun | A person who rejects established beliefs and morals.
+dictatorship | noun | Rule by a single unchallenged leader.
+plebiscite | noun | A direct vote by the people on a single question.
+referendum | noun | A public vote on one question.
+constituency | noun | The voters of a district, or the district itself.
+caucus | noun | A meeting of party members to choose candidates.
+patronage | noun | The handing out of jobs and favours by those in power.
+reformer | noun | A person working to improve a system.
+decolonization | noun | The withdrawal of colonial rule.
+nationalism | noun | Strong identification with one's own nation.
+separatism | noun | Support for breaking away from a larger state.
+federalism | noun | A system dividing power between central and local government.
+isolationism | noun | A policy of staying out of other countries' affairs.
+appeaser | noun | Someone who yields to an aggressor to keep peace.
+pacifism | noun | Opposition to war on principle.
+conscientious | adjective | Guided by conscience, as in refusing military service.
+propagandist | noun | A person who spreads a one-sided message.
+censorship | noun | The suppression of speech or writing.
+sedition | noun | Speech or action inciting rebellion against the state.
+subversion | noun | The attempt to undermine authority from within.
+deterrence | noun | The prevention of attack by threat of retaliation.
+segregation | noun | The enforced separation of racial groups.
+desegregation | noun | The ending of enforced racial separation.
+integration | noun | The bringing together of separated groups.
+demonstration | noun | A public gathering in protest or support.
+riot | noun | A violent disturbance by a crowd.
+insurrection | noun | A rising against authority.
+revolution | noun | The overthrow of a government or an established order.
+manifesto | noun | A public declaration of aims.
+electorate | noun | All the people entitled to vote.
+incumbent | noun | The current holder of an office.
+coalition | noun | A temporary alliance of parties or states.
+welfare | noun | State support for people in need.
+pension | noun | A regular payment made to a retired person.
+austerity | noun | Hard economic conditions imposed by policy.
+privatization | noun | The transfer of public bodies into private hands.
+nationalization | noun | The taking of industry into state ownership.

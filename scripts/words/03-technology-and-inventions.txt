@@ -101,7 +101,6 @@ semaphore | noun | A system of signaling using flags or mechanical arms.
 sextant | noun | An instrument for measuring angular distances for navigation.
 smartphone | noun | A mobile phone that performs many functions of a computer.
 smartwatch | noun | A wristwatch with computing capabilities.
-software | noun | The programs used by a computer.
 sonar | noun | A system for detecting objects underwater by sound pulses.
 spreadsheet | noun | A computer program for organizing and calculating data in tables.
 stereoscope | noun | A device for viewing pairs of photographs as a single 3D image.
@@ -145,4 +144,3 @@ wireless | noun | A radio (dated); using radio or microwaves rather than wires.
 wristwatch | noun | A watch worn on a strap around the wrist.
 xerox | verb | To photocopy.
 zoetrope | noun | A cylindrical toy that creates an illusion of motion from a sequence of pictures.
-

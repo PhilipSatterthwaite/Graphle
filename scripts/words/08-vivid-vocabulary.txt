@@ -248,4 +248,3 @@ wistful | adjective | Having a feeling of vague or regretful longing.
 xenophobia | noun | Dislike of or prejudice against people from other countries.
 zealot | noun | A person who is fanatical in pursuit of their ideals.
 zenith | noun | The time at which something is most powerful or successful.
-

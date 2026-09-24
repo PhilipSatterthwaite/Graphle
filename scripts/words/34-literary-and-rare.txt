@@ -6,9 +6,7 @@ adamant | adjective | Refusing to be persuaded or change one's mind.
 afoot | adverb | In preparation or progress; happening.
 agley | adverb | Askew; awry (Scottish).
 alight | adjective | On fire; verb: to descend from a vehicle.
-amok | adverb | In a frenzied, uncontrolled state.
 anodyne | adjective | Not likely to cause offense; bland.
-apropos | adverb | By the way; incidentally.
 arrant | adjective | Complete, utter.
 ashore | adverb | To or on the shore.
 aslant | adverb | At a slant.
@@ -142,4 +140,3 @@ whilst | conjunction | While (chiefly British).
 winsome | adjective | Attractive or appealing in a fresh, innocent way.
 xanthic | adjective | Yellowish.
 zephyr | noun | A soft gentle breeze.
-

@@ -6,7 +6,6 @@ aerosol | noun | A substance enclosed under pressure and released as a fine spra
 ammeter | noun | An instrument for measuring electric current.
 analog | adjective | Relating to information represented by a continuously variable quantity.
 backup | noun | A copy of computer data taken and stored elsewhere.
-bandwagon | noun | An activity or cause that has suddenly become fashionable.
 barcode | noun | A machine-readable code of numbers and parallel lines.
 battery | noun | A container of cells in which chemical energy is converted into electricity.
 biofuel | noun | A fuel derived from living matter.
@@ -107,4 +106,3 @@ wattage | noun | An amount of electrical power expressed in watts.
 wavelength | noun | The distance between successive crests of a wave; a person's way of thinking.
 widget | noun | A small gadget or mechanical device; a component of a user interface.
 workbench | noun | A bench at which carpentry or other mechanical work is done.
-

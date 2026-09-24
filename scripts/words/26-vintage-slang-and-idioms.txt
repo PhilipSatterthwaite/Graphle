@@ -23,7 +23,6 @@ chuffed | adjective | Very pleased (British).
 clobber | verb | To hit someone hard; noun: clothing and belongings (British).
 cockney | noun | A native of East London; the dialect spoken there.
 cool | adjective | Fashionably attractive or impressive.
-cooties | noun | Imaginary germs.
 crackers | adjective | Crazy (British); noun: thin crisp biscuits.
 cranky | adjective | Ill-tempered; irritable.
 crummy | adjective | Bad, unpleasant, or of poor quality.
@@ -56,7 +55,6 @@ hooch | noun | Alcoholic liquor, especially inferior or illicit whiskey.
 hoodoo | noun | A run of bad luck; folk magic.
 hornswoggled | adjective | Swindled or cheated.
 jake | adjective | All right; satisfactory (dated slang).
-jalopy | noun | An old car in a dilapidated condition.
 jeepers | exclamation | Expressing surprise or alarm.
 jive | noun | A lively style of dance; deceptive or worthless talk.
 joe | noun | Coffee; an ordinary man.
@@ -110,4 +108,3 @@ wicked | adjective | Evil; excellent (slang).
 wiseguy | noun | A person who makes sarcastic remarks; a member of the Mafia.
 yegg | noun | A burglar or safecracker.
 zoot | noun | Part of "zoot suit": a man's suit with high-waisted trousers and a long coat.
-

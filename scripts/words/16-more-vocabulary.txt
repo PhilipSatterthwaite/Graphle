@@ -25,10 +25,8 @@ berserk | adjective | Out of control with anger or excitement; wild or frenzied.
 bespoke | adjective | Made for a particular customer or user.
 bewildered | adjective | Perplexed and confused.
 bigot | noun | A person who is intolerant toward those holding different opinions.
-bluster | verb | To talk in a loud, aggressive, or indignant way with little effect.
 boisterous | adjective | Noisy, energetic, and cheerful; rowdy.
 boorish | adjective | Rough and bad-mannered; coarse.
-bravado | noun | A bold manner intended to impress or intimidate.
 brazen | adjective | Bold and without shame.
 bumbling | adjective | Acting in a confused or ineffective way.
 burly | adjective | Large and strong; heavily built.
@@ -96,7 +94,6 @@ heinous | adjective | Utterly odious or wicked.
 hodgepodge | noun | A confused mixture.
 hoodwink | verb | To deceive or trick.
 humdrum | adjective | Lacking excitement or variety; boring.
-hunky | adjective | (Of a man) ruggedly attractive.
 idyllic | adjective | Extremely happy, peaceful, or picturesque.
 immaculate | adjective | Perfectly clean, neat, or tidy.
 impish | adjective | Inclined to do slightly naughty things for fun; mischievous.
@@ -174,7 +171,6 @@ spunky | adjective | Courageous and determined.
 squeamish | adjective | Easily made to feel sick or disgusted.
 sultry | adjective | Hot and humid; displaying passionate sensuality.
 surly | adjective | Bad-tempered and unfriendly.
-swanky | adjective | Stylishly luxurious and expensive.
 tawdry | adjective | Showy but cheap and of poor quality.
 tedious | adjective | Too long, slow, or dull; tiresome.
 testy | adjective | Easily irritated; impatient.
@@ -186,9 +182,7 @@ unkempt | adjective | Having an untidy or disheveled appearance.
 unruly | adjective | Disorderly and disruptive; not amenable to discipline.
 vexed | adjective | Annoyed, frustrated, or worried; much debated.
 vivacious | adjective | Attractively lively and animated.
-wacky | adjective | Funny or amusing in a slightly odd or peculiar way.
 wily | adjective | Skilled at gaining an advantage, especially deceitfully.
 wretched | adjective | In a very unhappy or unfortunate state.
 zealous | adjective | Having or showing great energy or enthusiasm.
 zestful | adjective | Characterized by great enthusiasm and energy.
-

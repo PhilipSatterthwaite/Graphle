@@ -1,0 +1,36 @@
+# Ideas and discoveries: words that existed quietly, then became the argument of a decade.
+natural | adjective | Existing in nature, not made or caused by people.
+heredity | noun | The passing of traits from parents to offspring.
+mutation | noun | A change in genetic material.
+famine | noun | An extreme shortage of food.
+pesticide | noun | A chemical used to kill pests.
+irrigation | noun | The supplying of water to land for crops.
+conservation | noun | The protection of nature or resources.
+pollution | noun | The fouling of air, water or land.
+emission | noun | Something sent out, especially gas into the air.
+carbon | noun | The element at the base of all living matter.
+recycling | noun | The reuse of materials from waste.
+sustainability | noun | The use of resources in a way that can continue.
+ecosystem | noun | A community of organisms and its environment.
+extinction | noun | The dying out of a species.
+radioactivity | noun | The giving off of radiation by unstable atoms.
+uranium | noun | A heavy radioactive metal used as nuclear fuel.
+plutonium | noun | A radioactive metal made in reactors and used in weapons.
+fission | noun | The splitting of an atomic nucleus, releasing energy.
+fusion | noun | The joining of nuclei, releasing energy.
+spectroscopy | noun | The study of how matter absorbs and emits light.
+electricity | noun | The flow of charge used to light and power things.
+magnetism | noun | The force by which certain bodies attract iron.
+gravitation | noun | The attraction between bodies with mass.
+oxidation | noun | Combination with oxygen, as in rusting.
+crystallography | noun | The study of the arrangement of atoms in crystals.
+expedition | noun | A journey made for exploration or research.
+naturalist | noun | A person who studies plants and animals.
+specimen | noun | An example collected for study.
+herbarium | noun | A collection of dried plants for study.
+taxonomy | noun | The classification of living things.
+excavation | noun | The digging out of a site or material.
+philology | noun | The study of language in written historical sources.
+statistics | noun | The collection and analysis of numerical data.
+probability | noun | The likelihood that something will happen.
+logarithm | noun | The power to which a base must be raised to give a number.

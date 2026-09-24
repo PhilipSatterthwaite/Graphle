@@ -2,7 +2,6 @@
 # word | part of speech | definition
 abdicate | verb | To renounce one's throne; to fail to fulfill a duty.
 amble | verb | To walk or move at a slow, relaxed pace.
-badger | verb | To repeatedly and annoyingly ask someone to do something.
 barge | verb | To move forcefully or roughly.
 bedazzle | verb | To greatly impress with brilliance or skill.
 belch | verb | To emit wind noisily from the stomach through the mouth.
@@ -46,7 +45,6 @@ gawk | verb | To stare openly and stupidly.
 gesticulate | verb | To use dramatic gestures instead of or in addition to speech.
 gobble | verb | To eat hurriedly and noisily; to make the sound of a turkey.
 goof | verb | To make a mistake; to spend time idly.
-gorge | verb | To eat a large amount greedily.
 grovel | verb | To act obsequiously to obtain forgiveness or favor.
 grumble | verb | To complain in a bad-tempered way.
 guffaw | verb | To laugh loudly and boisterously.
@@ -96,7 +94,6 @@ scoff | verb | To speak about something in a scornfully derisive way; to eat gre
 scramble | verb | To make one's way quickly or awkwardly; to mix up.
 scrounge | verb | To seek to obtain something at the expense or through the generosity of others.
 scurry | verb | To move hurriedly with short quick steps.
-shimmy | verb | To move swiftly and effortlessly; to shake the body.
 shirk | verb | To avoid or neglect a duty or responsibility.
 skulk | verb | To keep out of sight, typically with a sinister motive.
 slather | verb | To spread or smear a substance thickly or liberally.
@@ -129,4 +126,3 @@ wiggle | verb | To move with short quick irregular movements.
 wrangle | verb | To have a long, complicated dispute; to herd livestock.
 yank | verb | To pull with a jerk.
 yelp | verb | To utter a short sharp cry, especially of pain or alarm.
-
